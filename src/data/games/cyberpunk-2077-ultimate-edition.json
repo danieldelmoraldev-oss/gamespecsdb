@@ -37,5 +37,36 @@
     ],
     "switch1SizeGB": null,
     "developer": "CD PROJEKT RED"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "preset": "Quality",
+        "resolution": "720p–1080p (DLSS to 1080p)",
+        "fps": 30
+      },
+      {
+        "play": "tv",
+        "preset": "Performance",
+        "resolution": "540p–1080p (DLSS to 1080p)",
+        "fps": 40
+      },
+      {
+        "play": "handheld",
+        "preset": "Quality",
+        "resolution": "450p–810p (DLSS)",
+        "fps": 30
+      },
+      {
+        "play": "handheld",
+        "preset": "Performance",
+        "resolution": "360p–720p (DLSS to 720p)",
+        "fps": 40
+      }
+    ],
+    "note": "The Phantom Liberty expansion drops frames more often.",
+    "source": "https://nintendoeverything.com/cyberpunk-2077-switch-2-frame-rate-resolution/",
+    "checked": "2026-09-23"
   }
 }

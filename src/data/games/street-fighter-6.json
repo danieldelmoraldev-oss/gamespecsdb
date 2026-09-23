@@ -42,5 +42,22 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "1080p (DLSS from 540p)",
+        "fps": 60
+      },
+      {
+        "play": "handheld",
+        "resolution": "720p (DLSS from 360p)",
+        "fps": 60
+      }
+    ],
+    "note": "60 FPS in fights; World Tour mode runs at 30–60 FPS.",
+    "source": "https://nintendoeverything.com/street-fighter-6-frame-rate-resolution/",
+    "checked": "2026-09-23"
   }
 }

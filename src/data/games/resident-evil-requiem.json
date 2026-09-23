@@ -39,5 +39,22 @@
     ],
     "switch1SizeGB": null,
     "developer": "CAPCOM CO., LTD."
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "About 540p internal (DLSS)",
+        "fps": 60
+      },
+      {
+        "play": "handheld",
+        "resolution": "About 360p internal",
+        "fps": 60
+      }
+    ],
+    "note": "Targets 60 FPS but often runs in the 40s and 50s, with lows of 30 FPS docked and 25 FPS handheld.",
+    "source": "https://nintendoeverything.com/resident-evil-requiem-frame-rate-resolution/",
+    "checked": "2026-09-23"
   }
 }

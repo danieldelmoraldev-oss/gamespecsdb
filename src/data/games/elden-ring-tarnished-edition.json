@@ -41,5 +41,22 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "720p–1080p (dynamic)",
+        "fps": 40
+      },
+      {
+        "play": "handheld",
+        "resolution": "432p–864p (dynamic)",
+        "fps": 40
+      }
+    ],
+    "note": "Capped at 40 FPS but usually runs at 30–35 FPS, with dips to 25 more often in handheld.",
+    "source": "https://nintendoeverything.com/elden-ring-nintendo-switch-2-tech-analysis-including-frame-rate-and-resolution/",
+    "checked": "2026-09-23"
   }
 }

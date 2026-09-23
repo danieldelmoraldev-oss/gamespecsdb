@@ -44,5 +44,22 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "1080p–1152p (dynamic)",
+        "fps": 60
+      },
+      {
+        "play": "handheld",
+        "resolution": "720p–1080p (dynamic, usually 900p)",
+        "fps": 60
+      }
+    ],
+    "note": "Frame rate drops more in City Trial and multiplayer.",
+    "source": "https://nintendoeverything.com/kirby-air-riders-tech-analysis-including-frame-rate-and-resolution/",
+    "checked": "2026-09-23"
   }
 }

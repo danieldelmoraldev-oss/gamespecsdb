@@ -1,0 +1,39 @@
+{
+  "title": "The Walking Dead: Streets of Survival",
+  "publisher": "Trailmark Games",
+  "releaseDate": "2026-09-18",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 2.2,
+    "source": "https://www.nintendo.com/us/store/products/the-walking-dead-streets-of-survival-switch-2/",
+    "checked": "2026-09-23"
+  },
+  "physical": {
+    "format": "game-key-card",
+    "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
+    "checked": "2026-09-23"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/the-walking-dead-streets-of-survival-switch-2/",
+    "priceUSD": 19.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Dutch",
+      "Latin American Spanish",
+      "Canadian French",
+      "Brazilian Portuguese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": "Odaclick Game Studio"
+  }
+}

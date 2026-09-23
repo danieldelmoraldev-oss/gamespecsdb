@@ -1,0 +1,46 @@
+{
+  "title": "Farming Simulator: Signature Edition",
+  "publisher": "GIANTS Software",
+  "releaseDate": "2025-12-09",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 22.5,
+    "source": "https://www.nintendo.com/us/store/products/farming-simulator-signature-edition-switch-2/",
+    "checked": "2026-09-23"
+  },
+  "physical": {
+    "format": "game-key-card",
+    "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
+    "checked": "2026-09-23"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/farming-simulator-signature-edition-switch-2/",
+    "priceUSD": 59.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "Japanese",
+      "British English",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Dutch",
+      "Portuguese",
+      "Russian",
+      "Simplified Chinese",
+      "Latin American Spanish",
+      "Canadian French",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": ""
+  }
+}

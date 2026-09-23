@@ -1,0 +1,37 @@
+{
+  "title": "High On Life 2",
+  "publisher": "Squanch Games",
+  "releaseDate": "2026-07-01",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 39.4,
+    "source": "https://www.nintendo.com/us/store/products/high-on-life-2-switch-2/",
+    "checked": "2026-09-23"
+  },
+  "physical": {
+    "format": "game-key-card",
+    "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
+    "checked": "2026-09-23"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/high-on-life-2-switch-2/",
+    "priceUSD": 39.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "French",
+      "German",
+      "Italian",
+      "Simplified Chinese",
+      "Latin American Spanish",
+      "Brazilian Portuguese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": "Squanch Games, Inc."
+  }
+}

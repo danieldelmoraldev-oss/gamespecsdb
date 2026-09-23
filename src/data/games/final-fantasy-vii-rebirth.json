@@ -34,5 +34,21 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "540p–1080p (DLSS to 1080p)",
+        "fps": 30
+      },
+      {
+        "play": "handheld",
+        "resolution": "380p–756p (dynamic)",
+        "fps": 30
+      }
+    ],
+    "source": "https://nintendoeverything.com/final-fantasy-7-rebirth-nintendo-switch-2-frame-rate-resolution/",
+    "checked": "2026-09-23"
   }
 }

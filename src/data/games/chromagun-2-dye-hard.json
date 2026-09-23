@@ -1,0 +1,43 @@
+{
+  "title": "ChromaGun 2: Dye Hard",
+  "publisher": "PM Studios",
+  "releaseDate": "2026-02-12",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 9.9,
+    "source": "https://www.nintendo.com/us/store/products/chromagun-2-dye-hard-switch-2/",
+    "checked": "2026-09-23"
+  },
+  "physical": {
+    "format": "full-cartridge",
+    "source": "https://www.nintendolife.com/guides/every-nintendo-switch-2-physical-release-with-the-full-game-on-the-cart",
+    "checked": "2026-09-23"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/chromagun-2-dye-hard-switch-2/",
+    "priceUSD": 19.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "Japanese",
+      "British English",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Dutch",
+      "Russian",
+      "Simplified Chinese",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": ""
+  }
+}

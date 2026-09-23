@@ -30,7 +30,7 @@ const playerBits = e && [
   e.players.online && `${e.players.online} online`,
 ].filter(Boolean);
 const hasPerf = Boolean(perf?.modes.length);
-const PLAY_LABEL = { tv: 'TV mode', handheld: 'Handheld mode' } as const;
+const PLAY_LABEL = { tv: 'TV mode', handheld: 'Handheld mode', all: 'TV and handheld' } as const;
 const modeLabel = (m: NonNullable<typeof perf>['modes'][number]) => `${PLAY_LABEL[m.play]}${m.preset ? ` (${m.preset})` : ''}`;
 const modeSpec = (m: NonNullable<typeof perf>['modes'][number]) =>
   [m.resolution, m.fps && `${m.fps} FPS`].filter(Boolean).join(' · ');
@@ -58,11 +58,11 @@ const faqs = [
 if (perf?.modes.some((m) => m.fps)) {
   const parts = perf.modes
     .filter((m) => m.fps)
-    .map((m) => `${m.fps} FPS in ${modeLabel(m).replace('mode (', 'mode, ').replace(')', ' preset')}${m.resolution ? ` at ${m.resolution}` : ''}`);
+    .map((m) => `${m.fps} FPS in ${modeLabel(m).replace('mode (', 'mode, ').replace(')', ' preset')}${m.resolution ? ` at ${m.resolution.replace(/^(Up to|About)/, (w) => w.toLowerCase())}` : ''}`);
   const top = Math.max(...perf.modes.map((m) => m.fps ?? 0));
   faqs.push({
     q: `Does ${name} run at ${top >= 120 ? '120' : '60'} FPS on Switch 2?`,
-    a: `${name} targets ${parts.join('; ')}.${perf.note ? ` ${perf.note}` : ''}`,
+    a: `${top >= 60 ? 'Yes.' : 'No.'} ${name} targets ${parts.join('; ')}.${perf.note ? ` ${perf.note}` : ''}`,
   });
 }
 if (d.upgrade) {

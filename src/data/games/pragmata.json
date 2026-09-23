@@ -39,5 +39,20 @@
     ],
     "switch1SizeGB": null,
     "developer": "CAPCOM CO., LTD."
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "1080p output (about 540p internal)"
+      },
+      {
+        "play": "handheld",
+        "resolution": "About 360p internal"
+      }
+    ],
+    "note": "Unlocked frame rate: 30–40 FPS in dense exteriors, mostly in the 50s indoors.",
+    "source": "https://nintendoeverything.com/?p=911726",
+    "checked": "2026-09-23"
   }
 }

@@ -37,7 +37,7 @@ const games = defineCollection({
         modes: z
           .array(
             z.object({
-              play: z.enum(['tv', 'handheld']),
+              play: z.enum(['tv', 'handheld', 'all']), // all = same in TV and handheld mode
               preset: z.string().optional(), // e.g. "Quality", "Performance"
               resolution: z.string().optional(),
               fps: z.number().optional(),

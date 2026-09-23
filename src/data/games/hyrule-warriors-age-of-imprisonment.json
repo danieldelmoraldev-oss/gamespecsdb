@@ -40,5 +40,22 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "720p–900p (dynamic)",
+        "fps": 60
+      },
+      {
+        "play": "handheld",
+        "resolution": "468p–648p (dynamic)",
+        "fps": 60
+      }
+    ],
+    "note": "Occasional dips to about 50 FPS; split-screen co-op runs at 30 FPS.",
+    "source": "https://nintendoeverything.com/hyrule-warriors-age-of-imprisonment-frame-rate-resolution/",
+    "checked": "2026-09-23"
   }
 }

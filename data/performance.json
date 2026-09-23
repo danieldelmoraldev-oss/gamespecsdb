@@ -1,61 +1,331 @@
 {
+ "cyberpunk-2077-ultimate-edition": {
+  "modes": [
+   {
+    "play": "tv",
+    "preset": "Quality",
+    "resolution": "720p–1080p (DLSS to 1080p)",
+    "fps": 30
+   },
+   {
+    "play": "tv",
+    "preset": "Performance",
+    "resolution": "540p–1080p (DLSS to 1080p)",
+    "fps": 40
+   },
+   {
+    "play": "handheld",
+    "preset": "Quality",
+    "resolution": "450p–810p (DLSS)",
+    "fps": 30
+   },
+   {
+    "play": "handheld",
+    "preset": "Performance",
+    "resolution": "360p–720p (DLSS to 720p)",
+    "fps": 40
+   }
+  ],
+  "note": "The Phantom Liberty expansion drops frames more often.",
+  "source": "https://nintendoeverything.com/cyberpunk-2077-switch-2-frame-rate-resolution/",
+  "checked": "2026-09-23"
+ },
  "donkey-kong-bananza": {
   "modes": [
-   {"play": "tv", "resolution": "1080p–1200p (dynamic)", "fps": 60},
-   {"play": "handheld", "resolution": "1080p", "fps": 60}
+   {
+    "play": "tv",
+    "resolution": "1080p–1200p (dynamic)",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "1080p",
+    "fps": 60
+   }
   ],
   "note": "60 FPS is the target; Digital Foundry measured drops in some scenes.",
   "source": "https://nintendoeverything.com/donkey-kong-bananza-frame-rate-and-resolution/",
   "checked": "2026-09-23"
  },
+ "elden-ring-tarnished-edition": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "720p–1080p (dynamic)",
+    "fps": 40
+   },
+   {
+    "play": "handheld",
+    "resolution": "432p–864p (dynamic)",
+    "fps": 40
+   }
+  ],
+  "note": "Capped at 40 FPS but usually runs at 30–35 FPS, with dips to 25 more often in handheld.",
+  "source": "https://nintendoeverything.com/elden-ring-nintendo-switch-2-tech-analysis-including-frame-rate-and-resolution/",
+  "checked": "2026-09-23"
+ },
+ "final-fantasy-vii-rebirth": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "540p–1080p (DLSS to 1080p)",
+    "fps": 30
+   },
+   {
+    "play": "handheld",
+    "resolution": "380p–756p (dynamic)",
+    "fps": 30
+   }
+  ],
+  "source": "https://nintendoeverything.com/final-fantasy-7-rebirth-nintendo-switch-2-frame-rate-resolution/",
+  "checked": "2026-09-23"
+ },
+ "final-fantasy-vii-remake-intergrade": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "1080p",
+    "fps": 30
+   },
+   {
+    "play": "handheld",
+    "resolution": "About 720p (DLSS to 1080p)",
+    "fps": 30
+   }
+  ],
+  "source": "https://nintendoeverything.com/final-fantasy-7-remake-intergrade-switch-2-frame-rate-resolution/",
+  "checked": "2026-09-23"
+ },
  "hades-ii-nintendo-switch-2-edition": {
   "modes": [
-   {"play": "tv", "resolution": "1080p", "fps": 120},
-   {"play": "handheld", "resolution": "1080p", "fps": 60}
+   {
+    "play": "tv",
+    "resolution": "1080p",
+    "fps": 120
+   },
+   {
+    "play": "handheld",
+    "resolution": "1080p",
+    "fps": 60
+   }
   ],
   "source": "https://www.rpgsite.net/feature/18485-hades-2-switch-2-vs-steam-deck-recommended-settings-120-fps-pc-full-release-1-0",
   "checked": "2026-09-23"
  },
+ "hollow-knight-silksong-nintendo-switch-2-edition": {
+  "modes": [
+   {
+    "play": "tv",
+    "preset": "120 Hz",
+    "fps": 120
+   }
+  ],
+  "note": "Needs a 120 Hz TV; resolution is reduced in this mode.",
+  "source": "https://www.nintendolife.com/news/2025/08/hollow-knight-silksong-offers-buttery-smooth-performance-on-switch-2",
+  "checked": "2026-09-23"
+ },
+ "hyrule-warriors-age-of-imprisonment": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "720p–900p (dynamic)",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "468p–648p (dynamic)",
+    "fps": 60
+   }
+  ],
+  "note": "Occasional dips to about 50 FPS; split-screen co-op runs at 30 FPS.",
+  "source": "https://nintendoeverything.com/hyrule-warriors-age-of-imprisonment-frame-rate-resolution/",
+  "checked": "2026-09-23"
+ },
+ "kirby-air-riders": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "1080p–1152p (dynamic)",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "720p–1080p (dynamic, usually 900p)",
+    "fps": 60
+   }
+  ],
+  "note": "Frame rate drops more in City Trial and multiplayer.",
+  "source": "https://nintendoeverything.com/kirby-air-riders-tech-analysis-including-frame-rate-and-resolution/",
+  "checked": "2026-09-23"
+ },
  "mario-kart-world": {
   "modes": [
-   {"play": "tv", "resolution": "1440p", "fps": 60},
-   {"play": "handheld", "resolution": "1080p", "fps": 60}
+   {
+    "play": "tv",
+    "resolution": "1440p",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "1080p",
+    "fps": 60
+   }
   ],
   "source": "https://www.nintendolife.com/news/2025/06/digital-foundry-delivers-its-mario-kart-world-tech-review-nintendos-artistry-stands-out-the-most-here",
   "checked": "2026-09-23"
  },
  "metroid-prime-4-beyond-nintendo-switch-2-edition": {
   "modes": [
-   {"play": "tv", "preset": "Quality", "resolution": "4K", "fps": 60},
-   {"play": "tv", "preset": "Performance", "resolution": "1080p", "fps": 120},
-   {"play": "handheld", "preset": "Quality", "resolution": "1080p", "fps": 60},
-   {"play": "handheld", "preset": "Performance", "resolution": "720p", "fps": 120}
+   {
+    "play": "tv",
+    "preset": "Quality",
+    "resolution": "4K",
+    "fps": 60
+   },
+   {
+    "play": "tv",
+    "preset": "Performance",
+    "resolution": "1080p",
+    "fps": 120
+   },
+   {
+    "play": "handheld",
+    "preset": "Quality",
+    "resolution": "1080p",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "preset": "Performance",
+    "resolution": "720p",
+    "fps": 120
+   }
   ],
   "source": "https://comicbook.com/gaming/news/metroid-prime-4s-quality-performance-modes-on-switch-2-explained/",
   "checked": "2026-09-23"
  },
  "pokemon-legends-z-a-nintendo-switch-2-edition": {
   "modes": [
-   {"play": "tv", "resolution": "Up to 4K", "fps": 60},
-   {"play": "handheld", "resolution": "1080p"}
+   {
+    "play": "tv",
+    "resolution": "Up to 4K",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "1080p"
+   }
   ],
   "source": "https://kotaku.com/pokemon-legends-za-switch-2-comparison-framerate-upgrade-2000635404",
   "checked": "2026-09-23"
  },
+ "pragmata": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "1080p output (about 540p internal)"
+   },
+   {
+    "play": "handheld",
+    "resolution": "About 360p internal"
+   }
+  ],
+  "note": "Unlocked frame rate: 30–40 FPS in dense exteriors, mostly in the 50s indoors.",
+  "source": "https://nintendoeverything.com/?p=911726",
+  "checked": "2026-09-23"
+ },
+ "resident-evil-requiem": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "About 540p internal (DLSS)",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "About 360p internal",
+    "fps": 60
+   }
+  ],
+  "note": "Targets 60 FPS but often runs in the 40s and 50s, with lows of 30 FPS docked and 25 FPS handheld.",
+  "source": "https://nintendoeverything.com/resident-evil-requiem-frame-rate-resolution/",
+  "checked": "2026-09-23"
+ },
+ "sonic-racing-crossworlds-nintendo-switch-2-edition": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "1440p",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "1080p",
+    "fps": 60
+   }
+  ],
+  "note": "4-player split-screen runs at 30 FPS.",
+  "source": "https://nintendoeverything.com/sonic-racing-crossworlds-frame-rate-resolution-switch-2/",
+  "checked": "2026-09-23"
+ },
+ "street-fighter-6": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "1080p (DLSS from 540p)",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "720p (DLSS from 360p)",
+    "fps": 60
+   }
+  ],
+  "note": "60 FPS in fights; World Tour mode runs at 30–60 FPS.",
+  "source": "https://nintendoeverything.com/street-fighter-6-frame-rate-resolution/",
+  "checked": "2026-09-23"
+ },
  "the-legend-of-zelda-breath-of-the-wild-nintendo-switch-2-edition": {
   "modes": [
-   {"play": "tv", "resolution": "Up to 1440p (dynamic)", "fps": 60},
-   {"play": "handheld", "resolution": "648p–1080p (dynamic)", "fps": 60}
+   {
+    "play": "tv",
+    "resolution": "Up to 1440p (dynamic)",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "648p–1080p (dynamic)",
+    "fps": 60
+   }
   ],
   "source": "https://nintendoeverything.com/zelda-breath-of-the-wild-and-tears-of-the-kingdom-nintendo-switch-2-frame-rate-resolution/",
   "checked": "2026-09-23"
  },
  "the-legend-of-zelda-tears-of-the-kingdom-nintendo-switch-2-edition": {
   "modes": [
-   {"play": "tv", "resolution": "Up to 1440p (dynamic)", "fps": 60},
-   {"play": "handheld", "resolution": "648p–1080p (dynamic)", "fps": 60}
+   {
+    "play": "tv",
+    "resolution": "Up to 1440p (dynamic)",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "648p–1080p (dynamic)",
+    "fps": 60
+   }
   ],
   "source": "https://nintendoeverything.com/zelda-breath-of-the-wild-and-tears-of-the-kingdom-nintendo-switch-2-frame-rate-resolution/",
+  "checked": "2026-09-23"
+ },
+ "xenoblade-chronicles-x-definitive-edition-nintendo-switch-2-edition": {
+  "modes": [
+   {
+    "play": "all",
+    "resolution": "Up to 4K",
+    "fps": 60
+   }
+  ],
+  "source": "https://nintendoeverything.com/xenoblade-chronicles-x-definitive-edition-nintendo-switch-2-edition-revealed-60-fps-4k/",
   "checked": "2026-09-23"
  }
 }
