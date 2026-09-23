@@ -1,0 +1,13 @@
+---
+import type { Game } from '../lib/games';
+interface Props { format: Game['data']['physical']['format'] }
+const { format } = Astro.props;
+const map = {
+  'full-cartridge': { cls: 'full', label: 'Full cartridge' },
+  'game-key-card': { cls: 'key', label: 'Game-Key Card' },
+  'digital-only': { cls: 'digital', label: 'Digital only' },
+  unknown: { cls: '', label: 'Format unconfirmed' },
+} as const;
+const { cls, label } = map[format];
+---
+<span class={`badge ${cls}`}>{label}</span>

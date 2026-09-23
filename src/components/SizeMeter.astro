@@ -1,0 +1,6 @@
+---
+// Share of the Switch 2's 256 GB internal storage.
+interface Props { gb: number }
+const pct = Math.max(2, Math.min(100, (Astro.props.gb / 256) * 100));
+---
+<div class="meter" role="presentation"><span style={`width:${pct.toFixed(1)}%`}></span></div>

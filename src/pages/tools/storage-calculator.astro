@@ -1,64 +1,80 @@
 ---
 import Base from '../../layouts/Base.astro';
 import AdSlot from '../../components/AdSlot.astro';
-import { allGames } from '../../lib/games';
-const games = (await allGames()).map((g) => ({ id: g.id, title: g.data.title, gb: g.data.fileSize.currentGB }));
+import FormatBadge from '../../components/FormatBadge.astro';
+import { allGames, formatGB, shortTitle } from '../../lib/games';
+const games = (await allGames()).sort((a, b) => shortTitle(a.data.title).localeCompare(shortTitle(b.data.title)));
 ---
-<Base title="Switch 2 storage calculator: how many games fit?" description="Pick your Switch 2 games and a microSD Express card size to see how much storage you need and how many games fit.">
+<Base title="Switch 2 storage calculator: how many games fit?" description="Tick your Switch 2 games and pick a microSD Express card size to see how much storage you need and how many games fit.">
   <h1>Switch 2 storage calculator</h1>
-  <p class="lead">Tick the games you want installed and pick a microSD Express card. The Switch 2 has 256 GB of internal storage; the system reserves part of it, so leave some margin.</p>
+  <p class="lead">Tick the games you want installed and choose a microSD Express card. The Switch 2 has 256 GB of internal storage, and the system uses part of it, so leave a little margin.</p>
 
-  <label for="card"><strong>microSD Express card</strong></label>
-  <select id="card">
-    <option value="0">No card (internal storage only)</option>
-    <option value="128">128 GB card</option>
-    <option value="256" selected>256 GB card</option>
-    <option value="512">512 GB card</option>
-    <option value="1024">1 TB card</option>
-    <option value="2048">2 TB card</option>
-  </select>
-
-  <div class="answer" aria-live="polite">
-    <p><strong id="used">0 GB</strong> selected of <strong id="total">512 GB</strong> total.</p>
-    <p id="verdict" class="muted">Select games below.</p>
+  <div class="calc-controls">
+    <label>microSD Express card
+      <select id="card">
+        <option value="0">No card (internal only)</option>
+        <option value="128">128 GB card</option>
+        <option value="256" selected>256 GB card</option>
+        <option value="512">512 GB card</option>
+        <option value="1024">1 TB card</option>
+        <option value="2048">2 TB card</option>
+      </select>
+    </label>
+    <button type="button" class="chip" id="clear">Clear selection</button>
   </div>
 
-  <AdSlot />
+  <div class="panel calc-summary" aria-live="polite">
+    <div class="big"><span id="used">0 GB</span> of <span id="total">512 GB</span></div>
+    <div class="meter"><span id="bar" style="width:0%"></span></div>
+    <div id="verdict" class="muted">Tick the games below.</div>
+  </div>
 
-  <input type="search" id="filter" placeholder="Filter games" aria-label="Filter games" />
+  <div class="toolbar">
+    <label class="sr-only" for="filter">Filter games</label>
+    <input type="search" id="filter" placeholder="Filter games" />
+  </div>
   <div class="table-scroll">
     <table id="games">
-      <thead><tr><th>Install</th><th>Game</th><th>Size</th></tr></thead>
+      <thead><tr><th class="pick"><span class="sr-only">Install</span></th><th>Game</th><th class="hide-sm">Physical format</th><th class="num">Size</th></tr></thead>
       <tbody>
         {games.map((g) => (
-          <tr data-search={g.title.toLowerCase()}>
-            <td><input type="checkbox" value={g.gb} aria-label={`Install ${g.title}`} /></td>
-            <td><a href={`/games/${g.id}/`}>{g.title}</a></td>
-            <td>{g.gb < 1 ? `${Math.round(g.gb * 1024)} MB` : `${g.gb.toFixed(1)} GB`}</td>
+          <tr data-search={shortTitle(g.data.title).toLowerCase()}>
+            <td class="pick"><input type="checkbox" value={g.data.fileSize.currentGB} aria-label={`Install ${shortTitle(g.data.title)}`} /></td>
+            <td><a href={`/games/${g.id}/`}>{shortTitle(g.data.title)}</a></td>
+            <td class="hide-sm"><FormatBadge format={g.data.physical.format} /></td>
+            <td class="num">{formatGB(g.data.fileSize.currentGB)}</td>
           </tr>
         ))}
       </tbody>
     </table>
   </div>
+  <p class="small muted">Full-cartridge games run from the card, so only their updates and saves use storage. Game-Key Card games need the full download. <a href="/guides/how-much-storage-does-switch-2-have/">More about Switch 2 storage</a>.</p>
+
+  <AdSlot />
 
   <script>
     const INTERNAL = 256;
     const card = document.getElementById('card') as HTMLSelectElement;
     const boxes = Array.from(document.querySelectorAll<HTMLInputElement>('#games input[type=checkbox]'));
+    const bar = document.getElementById('bar')!;
     const fmt = (gb: number) => (gb >= 1024 ? `${(gb / 1024).toFixed(2)} TB` : `${gb.toFixed(1)} GB`);
     function update() {
       const total = INTERNAL + Number(card.value);
-      const used = boxes.filter((b) => b.checked).reduce((s, b) => s + Number(b.value), 0);
+      const picked = boxes.filter((b) => b.checked);
+      const used = picked.reduce((s, b) => s + Number(b.value), 0);
       document.getElementById('used')!.textContent = fmt(used);
       document.getElementById('total')!.textContent = fmt(total);
+      bar.style.width = `${Math.min(100, (used / total) * 100)}%`;
+      bar.classList.toggle('over', used > total);
       const free = total - used;
       document.getElementById('verdict')!.textContent =
-        used === 0 ? 'Select games below.'
-        : free >= 0 ? `Everything fits, with ${fmt(free)} to spare.`
+        picked.length === 0 ? 'Tick the games below.'
+        : free >= 0 ? `${picked.length} game${picked.length > 1 ? 's' : ''} fit, with ${fmt(free)} to spare.`
         : `You are ${fmt(-free)} short. Pick a bigger card or fewer games.`;
     }
     card.addEventListener('change', update);
     boxes.forEach((b) => b.addEventListener('change', update));
+    document.getElementById('clear')!.addEventListener('click', () => { boxes.forEach((b) => (b.checked = false)); update(); });
     const filter = document.getElementById('filter') as HTMLInputElement;
     filter.addEventListener('input', () => {
       const q = filter.value.trim().toLowerCase();

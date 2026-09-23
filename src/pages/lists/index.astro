@@ -1,17 +1,19 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
 import { allGames } from '../../lib/games';
 import { LISTS } from '../../lib/lists';
 const games = await allGames();
+const lists = LISTS.map((l) => ({ ...l, count: games.filter(l.filter).length })).filter((l) => l.count > 0);
 ---
-<Base title="Switch 2 game lists" description="Lists of Switch 2 games by cartridge format, frame rate, file size and upgrade type.">
+<Base title="Switch 2 game lists" description="Switch 2 games grouped by cartridge format, frame rate, file size and upgrade price. Every list is built from sourced data.">
   <h1>Switch 2 game lists</h1>
-  <p class="lead">Every list is generated from the same sourced data as the game pages.</p>
+  <p class="lead">Every list is generated from the same sourced data as the game pages, so it updates as soon as a game is added or corrected.</p>
   <div class="grid">
-    {LISTS.filter((l) => games.some(l.filter)).map((l) => (
-      <a class="card" href={`/lists/${l.slug}/`}>
-        <strong>{l.title}</strong>
-        <span class="muted small">{games.filter(l.filter).length} games</span>
+    {lists.map((l) => (
+      <a class="card link-card" href={`/lists/${l.slug}/`}>
+        <span class="icon"><Icon name={l.icon} /></span>
+        <span><span class="title">{l.title}</span><br /><span class="count">{l.count} games</span></span>
       </a>
     ))}
   </div>

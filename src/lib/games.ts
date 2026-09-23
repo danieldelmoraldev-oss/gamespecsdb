@@ -51,3 +51,7 @@ export function shortTitle(title: string): string {
 export function isUpcoming(iso: string): boolean {
   return iso > new Date().toISOString().slice(0, 10);
 }
+
+export function maxFps(game: Game): number {
+  return Math.max(0, ...(game.data.performance?.modes ?? []).map((m) => m.fps ?? 0));
+}

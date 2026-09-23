@@ -2,21 +2,42 @@
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import AdSlot from '../../components/AdSlot.astro';
+import Icon from '../../components/Icon.astro';
+import { SITE } from '../../site';
 import { formatDate } from '../../lib/games';
 
 export async function getStaticPaths() {
   const guides = await getCollection('guides');
-  return guides.map((guide) => ({ params: { slug: guide.id }, props: { guide } }));
+  return guides.map((guide) => ({ params: { slug: guide.id }, props: { guide, guides } }));
 }
-const { guide } = Astro.props as { guide: CollectionEntry<'guides'> };
+const { guide, guides } = Astro.props as { guide: CollectionEntry<'guides'>; guides: CollectionEntry<'guides'>[] };
 const { Content } = await render(guide);
+const more = guides.filter((g) => g.id !== guide.id);
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: guide.data.title,
+  description: guide.data.description,
+  dateModified: guide.data.updated,
+  author: { '@type': 'Person', name: SITE.owner },
+  publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url },
+};
 ---
-<Base title={guide.data.title} description={guide.data.description}>
+<Base title={guide.data.title} description={guide.data.description} jsonLd={jsonLd}>
   <div class="breadcrumbs"><a href="/guides/">Guides</a> › {guide.data.title}</div>
   <article class="prose">
     <h1>{guide.data.title}</h1>
-    <p class="small muted">Updated {formatDate(guide.data.updated)}</p>
+    <p class="small muted">By {SITE.owner} · Updated {formatDate(guide.data.updated)}</p>
     <Content />
   </article>
   <AdSlot />
+  <div class="section-head"><h2>More guides</h2></div>
+  <div class="grid">
+    {more.map((g) => (
+      <a class="card link-card" href={`/guides/${g.id}/`}>
+        <span class="icon"><Icon name="book" /></span>
+        <span class="title">{g.data.title}</span>
+      </a>
+    ))}
+  </div>
 </Base>

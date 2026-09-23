@@ -1,0 +1,21 @@
+---
+import FormatBadge from './FormatBadge.astro';
+import SizeMeter from './SizeMeter.astro';
+import { formatGB, maxFps, shortTitle, type Game } from '../lib/games';
+interface Props { game: Game }
+const { game } = Astro.props;
+const d = game.data;
+const fps = maxFps(game);
+---
+<a class="card" href={`/games/${game.id}/`}>
+  <span class="title">{shortTitle(d.title)}</span>
+  <div class="badges">
+    <FormatBadge format={d.physical.format} />
+    {fps > 0 && <span class="badge brand">{fps} FPS</span>}
+    {d.kind === 'edition' && <span class="badge">Switch 2 Edition</span>}
+  </div>
+  <div>
+    <div class="meta"><span>{d.fileSize.estimate ? 'Est. size' : 'File size'}</span><span class="size">{formatGB(d.fileSize.currentGB)}</span></div>
+    <SizeMeter gb={d.fileSize.currentGB} />
+  </div>
+</a>

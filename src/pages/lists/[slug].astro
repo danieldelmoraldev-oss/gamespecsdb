@@ -1,7 +1,11 @@
 ---
 import Base from '../../layouts/Base.astro';
 import AdSlot from '../../components/AdSlot.astro';
-import { allGames, FORMAT_LABEL, formatGB } from '../../lib/games';
+import FormatBadge from '../../components/FormatBadge.astro';
+import SizeMeter from '../../components/SizeMeter.astro';
+import Icon from '../../components/Icon.astro';
+import { SITE } from '../../site';
+import { allGames, formatGB, maxFps, shortTitle } from '../../lib/games';
 import { LISTS, type ListDef } from '../../lib/lists';
 
 export async function getStaticPaths() {
@@ -9,32 +13,58 @@ export async function getStaticPaths() {
   const games = await allGames();
   return LISTS.filter((l) => games.some(l.filter)).map((list) => ({ params: { slug: list.slug }, props: { slug: list.slug } }));
 }
+const all = await allGames();
 const list = LISTS.find((l) => l.slug === Astro.props.slug) as ListDef;
-let games = (await allGames()).filter(list.filter);
+let games = all.filter(list.filter);
 if (list.sort) games = games.sort(list.sort);
+const showFps = list.slug.includes('fps');
+const showUpgrade = list.slug === 'switch-2-edition-upgrades';
+const others = LISTS.filter((l) => l.slug !== list.slug && all.some(l.filter));
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: list.title,
+  numberOfItems: games.length,
+  itemListElement: games.slice(0, 50).map((g, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE.url}/games/${g.id}/`, name: shortTitle(g.data.title) })),
+};
 ---
-<Base title={list.title} description={`${list.description} ${games.length} games, each with a source.`}>
+<Base title={list.title} description={`${list.description} ${games.length} games, each with a source.`} jsonLd={jsonLd}>
   <div class="breadcrumbs"><a href="/lists/">Lists</a> › {list.title}</div>
   <h1>{list.title}</h1>
-  <p class="lead">{list.description}</p>
-  {games.length === 0 ? (
-    <p>No confirmed games yet. This list updates as soon as a game is confirmed.</p>
-  ) : (
-    <div class="table-scroll">
-      <table>
-        <thead><tr><th>#</th><th>Game</th><th>File size</th><th>Physical format</th></tr></thead>
-        <tbody>
-          {games.map((g, i) => (
-            <tr>
-              <td>{i + 1}</td>
-              <td><a href={`/games/${g.id}/`}>{g.data.title}</a></td>
-              <td>{formatGB(g.data.fileSize.currentGB)}</td>
-              <td>{FORMAT_LABEL[g.data.physical.format]}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-  )}
+  <p class="lead">{list.description} {games.length} games so far.</p>
+  <div class="table-scroll">
+    <table>
+      <thead>
+        <tr>
+          <th class="rank">#</th><th>Game</th><th class="hide-sm">Physical format</th>
+          {showFps && <th class="num">Max FPS</th>}
+          {showUpgrade && <th class="num">Upgrade</th>}
+          <th class="num">File size</th>
+        </tr>
+      </thead>
+      <tbody>
+        {games.map((g, i) => (
+          <tr>
+            <td class="rank">{i + 1}</td>
+            <td><a href={`/games/${g.id}/`}>{shortTitle(g.data.title)}</a></td>
+            <td class="hide-sm"><FormatBadge format={g.data.physical.format} /></td>
+            {showFps && <td class="num">{maxFps(g)}</td>}
+            {showUpgrade && <td class="num">{g.data.upgrade ? (g.data.upgrade.priceUSD === 0 ? 'Free' : `$${g.data.upgrade.priceUSD.toFixed(2)}`) : '—'}</td>}
+            <td class="num">{formatGB(g.data.fileSize.currentGB)}{g.data.fileSize.estimate && '*'}<SizeMeter gb={g.data.fileSize.currentGB} /></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  {games.some((g) => g.data.fileSize.estimate) && <p class="small muted">* Estimated size for games not released yet.</p>}
   <AdSlot />
+  <div class="section-head"><h2>More lists</h2></div>
+  <div class="grid">
+    {others.map((l) => (
+      <a class="card link-card" href={`/lists/${l.slug}/`}>
+        <span class="icon"><Icon name={l.icon} /></span>
+        <span class="title">{l.title}</span>
+      </a>
+    ))}
+  </div>
 </Base>

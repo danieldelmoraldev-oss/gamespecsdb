@@ -1,0 +1,48 @@
+---
+import Icon from './Icon.astro';
+import { formatGB, shortTitle, type Game } from '../lib/games';
+interface Props { games: Game[]; placeholder?: string }
+const { games, placeholder = 'Search a Switch 2 game…' } = Astro.props;
+const index = games.map((g) => ({ t: shortTitle(g.data.title), u: `/games/${g.id}/`, s: formatGB(g.data.fileSize.currentGB) }));
+---
+<div class="searchbox" data-searchbox>
+  <label class="sr-only" for="game-search">Search a game</label>
+  <span class="glass"><Icon name="search" /></span>
+  <input id="game-search" type="search" autocomplete="off" placeholder={placeholder} role="combobox" aria-expanded="false" aria-controls="game-search-results" />
+  <ul id="game-search-results" role="listbox" hidden></ul>
+  <script type="application/json" data-index set:html={JSON.stringify(index)} />
+</div>
+<script>
+  const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+  const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  document.querySelectorAll<HTMLElement>('[data-searchbox]').forEach((box) => {
+    const input = box.querySelector('input')!;
+    const list = box.querySelector('ul')!;
+    const index: { t: string; u: string; s: string }[] = JSON.parse(box.querySelector('[data-index]')!.textContent!);
+    let active = -1;
+    const items = () => Array.from(list.querySelectorAll('a'));
+    const close = () => { list.hidden = true; input.setAttribute('aria-expanded', 'false'); active = -1; };
+    const render = () => {
+      const q = norm(input.value.trim());
+      if (!q) return close();
+      const words = q.split(/\s+/);
+      const hits = index.filter((g) => words.every((w) => norm(g.t).includes(w))).slice(0, 8);
+      list.innerHTML = hits.length
+        ? hits.map((g) => `<li><a role="option" href="${g.u}"><span>${esc(g.t)}</span><span class="muted">${g.s}</span></a></li>`).join('')
+        : `<li><a role="option" href="/search/?q=${encodeURIComponent(input.value)}"><span>Search the whole site for “${esc(input.value)}”</span></a></li>`;
+      list.hidden = false;
+      input.setAttribute('aria-expanded', 'true');
+      active = -1;
+    };
+    const mark = () => items().forEach((a, i) => a.setAttribute('aria-selected', String(i === active)));
+    input.addEventListener('input', render);
+    input.addEventListener('keydown', (e) => {
+      const links = items();
+      if (e.key === 'ArrowDown') { e.preventDefault(); active = Math.min(active + 1, links.length - 1); mark(); }
+      else if (e.key === 'ArrowUp') { e.preventDefault(); active = Math.max(active - 1, 0); mark(); }
+      else if (e.key === 'Enter') { const a = links[Math.max(active, 0)]; if (a) { e.preventDefault(); location.href = a.href; } }
+      else if (e.key === 'Escape') close();
+    });
+    document.addEventListener('click', (e) => { if (!box.contains(e.target as Node)) close(); });
+  });
+</script>

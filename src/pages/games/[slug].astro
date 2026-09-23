@@ -1,8 +1,12 @@
 ---
 import Base from '../../layouts/Base.astro';
 import AdSlot from '../../components/AdSlot.astro';
+import GameCard from '../../components/GameCard.astro';
+import FormatBadge from '../../components/FormatBadge.astro';
+import SizeMeter from '../../components/SizeMeter.astro';
+import Icon from '../../components/Icon.astro';
 import { SITE } from '../../site';
-import { allGames, FORMAT_LABEL, KIND_LABEL, formatGB, formatDate, lastChecked, shortTitle, isUpcoming, type Game } from '../../lib/games';
+import { allGames, FORMAT_LABEL, KIND_LABEL, formatGB, formatDate, lastChecked, shortTitle, isUpcoming, maxFps, type Game } from '../../lib/games';
 import { LISTS } from '../../lib/lists';
 
 export async function getStaticPaths() {
@@ -69,7 +73,19 @@ if (d.upgrade) {
 }
 
 const inLists = LISTS.filter((l) => l.filter(game) && !l.sort);
-const samePublisher = games.filter((g) => g.data.publisher === d.publisher && g.id !== game.id).slice(0, 6);
+const samePublisher = games.filter((g) => g.data.publisher === d.publisher && g.id !== game.id).slice(0, 4);
+// Games of a similar size keep people browsing (and comparing) instead of leaving.
+const similarSize = games
+  .filter((g) => g.id !== game.id && !samePublisher.includes(g))
+  .sort((a, b) => Math.abs(a.data.fileSize.currentGB - d.fileSize.currentGB) - Math.abs(b.data.fileSize.currentGB - d.fileSize.currentGB))
+  .slice(0, 4);
+const topFps = maxFps(game);
+const FORMAT_HINT: Record<typeof d.physical.format, string> = {
+  'full-cartridge': 'Plays from the cartridge, no full download needed',
+  'game-key-card': 'The cartridge only unlocks a download',
+  'digital-only': 'No physical release',
+  unknown: 'Not confirmed yet',
+};
 
 const title = `${name} ${d.kind === 'edition' ? 'Switch 2 Edition' : 'Switch 2'} ${hasPerf ? 'file size, Game-Key Card and FPS' : 'file size and Game-Key Card'}`;
 const description = `${name} ${d.fileSize.estimate ? "is expected to take" : "takes"} ${formatGB(d.fileSize.currentGB)} on Switch 2. ${FORMAT_LABEL[d.physical.format]}. Sourced specs, last checked ${formatDate(checked)}.`;
@@ -95,69 +111,113 @@ const jsonLd = [
 ];
 ---
 <Base title={title} description={description} jsonLd={jsonLd}>
-  <div class="breadcrumbs"><a href="/games/">Games</a> › {d.title}</div>
-  <h1>{name}{d.kind === 'edition' ? ' (Switch 2 Edition)' : ''} on Switch 2: {topics}</h1>
+  <div class="breadcrumbs"><a href="/games/">Games</a> › {name}</div>
+  <div class="game-head">
+    <h1>{name}{d.kind === 'edition' ? ' (Switch 2 Edition)' : ''} on Switch 2: {topics}</h1>
+    <div class="badges">
+      <FormatBadge format={d.physical.format} />
+      {topFps > 0 && <span class="badge brand">Up to {topFps} FPS</span>}
+      {d.kind === 'edition' && <span class="badge">Switch 2 Edition</span>}
+      {upcoming && <span class="badge digital">Coming {formatDate(d.releaseDate)}</span>}
+    </div>
+  </div>
   <p class="lead">{lead}</p>
 
-  <div class="answer">
-    <p><strong>File size:</strong> {formatGB(d.fileSize.currentGB)}{d.fileSize.estimate && ' (estimate before release)'} ({share}% of the {INTERNAL_GB} GB internal storage).</p>
-    <p><strong>Physical format:</strong> {FORMAT_LABEL[d.physical.format]}.</p>
-    <p class="small muted">Last checked {formatDate(checked)}.</p>
+  <div class="tiles">
+    <div class="tile">
+      <div class="label">{d.fileSize.estimate ? 'Estimated size' : 'File size'}</div>
+      <div class="value">{formatGB(d.fileSize.currentGB)}</div>
+      <SizeMeter gb={d.fileSize.currentGB} />
+      <div class="hint">{share}% of the {INTERNAL_GB} GB internal storage</div>
+    </div>
+    <div class="tile">
+      <div class="label">Physical release</div>
+      <div class="value sm">{FORMAT_LABEL[d.physical.format]}</div>
+      <div class="hint">{FORMAT_HINT[d.physical.format]}</div>
+    </div>
+    {topFps > 0 && (
+      <div class="tile">
+        <div class="label">Frame rate</div>
+        <div class="value">Up to {topFps} FPS</div>
+        <div class="hint">See modes below</div>
+      </div>
+    )}
+    {d.upgrade && (
+      <div class="tile">
+        <div class="label">Switch 2 upgrade</div>
+        <div class="value">{d.upgrade.priceUSD === 0 ? 'Free' : `$${d.upgrade.priceUSD.toFixed(2)}`}</div>
+        <div class="hint">If you own the Switch 1 game</div>
+      </div>
+    )}
   </div>
+  <p class="small muted">Last checked {formatDate(checked)} · every figure links to its source</p>
 
-  <h2>Specs</h2>
-  <div class="table-scroll">
-    <table class="specs">
-      <tbody>
-        <tr><th>{d.fileSize.estimate ? 'File size (estimated)' : 'File size (current)'}</th><td>{formatGB(d.fileSize.currentGB)} <a class="small" href={d.fileSize.source} rel="nofollow noopener">source</a></td></tr>
-        {d.fileSize.launchGB && <tr><th>File size at launch</th><td>{formatGB(d.fileSize.launchGB)}</td></tr>}
-        <tr><th>Physical format</th><td>{FORMAT_LABEL[d.physical.format]}{d.physical.note && <span class="muted"> — {d.physical.note}</span>} <a class="small" href={d.physical.source} rel="nofollow noopener">source</a></td></tr>
-        <tr><th>Type</th><td>{KIND_LABEL[d.kind]}</td></tr>
-        {perf?.modes.map((m) => (
-          <tr><th>{modeLabel(m)}</th><td>{modeSpec(m)} <a class="small" href={perf.source} rel="nofollow noopener">source</a></td></tr>
+  <div class="layout-2">
+    <div>
+      <h2>Specs</h2>
+      <div class="table-scroll">
+        <table class="specs">
+          <tbody>
+            <tr><th>{d.fileSize.estimate ? 'File size (estimated)' : 'File size (current)'}</th><td>{formatGB(d.fileSize.currentGB)}<a class="src" href={d.fileSize.source} rel="nofollow noopener">source</a></td></tr>
+            {d.fileSize.launchGB && <tr><th>File size at launch</th><td>{formatGB(d.fileSize.launchGB)}</td></tr>}
+            <tr><th>Physical format</th><td>{FORMAT_LABEL[d.physical.format]}{d.physical.note && <span class="muted"> ({d.physical.note})</span>}<a class="src" href={d.physical.source} rel="nofollow noopener">source</a></td></tr>
+            <tr><th>Type</th><td>{KIND_LABEL[d.kind]}</td></tr>
+            {perf?.modes.map((m) => (
+              <tr><th>{modeLabel(m)}</th><td>{modeSpec(m)}<a class="src" href={perf.source} rel="nofollow noopener">source</a></td></tr>
+            ))}
+            {perf?.note && <tr><th>Performance note</th><td>{perf.note}</td></tr>}
+            {d.upgrade && <tr><th>Switch 2 Edition upgrade</th><td>{d.upgrade.priceUSD === 0 ? 'Free' : `$${d.upgrade.priceUSD.toFixed(2)}`}<a class="src" href={d.upgrade.source} rel="nofollow noopener">source</a></td></tr>}
+            {e?.switch1SizeGB && <tr><th>Switch 1 version size</th><td>{formatGB(e.switch1SizeGB)}</td></tr>}
+            {e?.priceUSD != null && <tr><th>US eShop price</th><td>${e.priceUSD.toFixed(2)}</td></tr>}
+            {e && e.playModes.length > 0 && <tr><th>Play modes</th><td>{e.playModes.join(', ')}</td></tr>}
+            {playerBits && playerBits.length > 0 && <tr><th>Multiplayer</th><td>Up to {playerBits.join(' · ')}</td></tr>}
+            {e && e.languages.length > 0 && <tr><th>Languages ({e.languages.length})</th><td>{e.languages.join(', ')}</td></tr>}
+            <tr><th>Publisher</th><td>{d.publisher}</td></tr>
+            {e?.developer && e.developer !== d.publisher && <tr><th>Developer</th><td>{e.developer}</td></tr>}
+            <tr><th>Release date</th><td>{formatDate(d.releaseDate)}</td></tr>
+            {d.genres.length > 0 && <tr><th>Genre</th><td>{d.genres.join(', ')}</td></tr>}
+          </tbody>
+        </table>
+      </div>
+
+      <AdSlot />
+
+      <h2>Questions</h2>
+      <div class="faq">
+        {faqs.map((f) => (
+          <section>
+            <h3>{f.q}</h3>
+            <p>{f.a}</p>
+          </section>
         ))}
-        {perf?.note && <tr><th>Performance note</th><td>{perf.note}</td></tr>}
-        {d.upgrade && <tr><th>Switch 2 Edition upgrade</th><td>{d.upgrade.priceUSD === 0 ? 'Free' : `$${d.upgrade.priceUSD.toFixed(2)}`} <a class="small" href={d.upgrade.source} rel="nofollow noopener">source</a></td></tr>}
-        {e?.switch1SizeGB && <tr><th>Switch 1 version size</th><td>{formatGB(e.switch1SizeGB)}</td></tr>}
-        {e?.priceUSD != null && <tr><th>US eShop price</th><td>${e.priceUSD.toFixed(2)}</td></tr>}
-        {e && e.playModes.length > 0 && <tr><th>Play modes</th><td>{e.playModes.join(', ')}</td></tr>}
-        {playerBits && playerBits.length > 0 && <tr><th>Multiplayer</th><td>Up to {playerBits.join(' · ')}</td></tr>}
-        {e && e.languages.length > 0 && <tr><th>Languages</th><td>{e.languages.join(', ')}</td></tr>}
-        <tr><th>Publisher</th><td>{d.publisher}</td></tr>
-        {e?.developer && e.developer !== d.publisher && <tr><th>Developer</th><td>{e.developer}</td></tr>}
-        <tr><th>Release date</th><td>{formatDate(d.releaseDate)}</td></tr>
-        {d.genres.length > 0 && <tr><th>Genre</th><td>{d.genres.join(', ')}</td></tr>}
-      </tbody>
-    </table>
+      </div>
+    </div>
+
+    <aside class="panel aside-box">
+      <h2>Will it fit?</h2>
+      <p class="small muted">Add {name} and your other games to see if they fit on 256 GB or a microSD Express card.</p>
+      <p><a href="/tools/storage-calculator/"><Icon name="storage" size={16} /> Open the storage calculator</a></p>
+      {inLists.length > 0 && (
+        <>
+          <h2>Appears in</h2>
+          <ul>{inLists.map((l) => <li><a href={`/lists/${l.slug}/`}>{l.title}</a></li>)}</ul>
+        </>
+      )}
+      <h2>Learn more</h2>
+      <ul>
+        <li><a href="/guides/what-is-a-game-key-card/">What is a Game-Key Card?</a></li>
+        <li><a href="/guides/switch-2-microsd-express-cards/">microSD Express cards</a></li>
+      </ul>
+    </aside>
   </div>
-
-  <AdSlot />
-
-  <h2>Questions</h2>
-  {faqs.map((f) => (
-    <section>
-      <h3>{f.q}</h3>
-      <p>{f.a}</p>
-    </section>
-  ))}
-
-  {inLists.length > 0 && (
-    <>
-      <h2>Appears in</h2>
-      <ul>{inLists.map((l) => <li><a href={`/lists/${l.slug}/`}>{l.title}</a></li>)}</ul>
-    </>
-  )}
 
   {samePublisher.length > 0 && (
     <>
-      <h2>More from {d.publisher}</h2>
-      <div class="grid">
-        {samePublisher.map((g) => (
-          <a class="card" href={`/games/${g.id}/`}><strong>{g.data.title}</strong><span class="muted small">{formatGB(g.data.fileSize.currentGB)}</span></a>
-        ))}
-      </div>
+      <div class="section-head"><h2>More from {d.publisher}</h2></div>
+      <div class="grid games">{samePublisher.map((g) => <GameCard game={g} />)}</div>
     </>
   )}
 
-  <p class="small muted">Sizes change with updates. <a href="/tools/storage-calculator/">Check how many games fit on your Switch 2</a>.</p>
+  <div class="section-head"><h2>Games of a similar size</h2><a href="/lists/largest-games/">Size ranking</a></div>
+  <div class="grid games">{similarSize.map((g) => <GameCard game={g} />)}</div>
 </Base>

@@ -1,46 +1,87 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { allGames, FORMAT_LABEL, formatGB } from '../../lib/games';
+import FormatBadge from '../../components/FormatBadge.astro';
+import SizeMeter from '../../components/SizeMeter.astro';
+import { allGames, formatGB, isUpcoming, maxFps, shortTitle } from '../../lib/games';
 const games = await allGames();
+const filters = [
+  { id: 'all', label: 'All' },
+  { id: 'full-cartridge', label: 'Full cartridge' },
+  { id: 'game-key-card', label: 'Game-Key Card' },
+  { id: 'edition', label: 'Switch 2 Editions' },
+  { id: 'upcoming', label: 'Coming soon' },
+];
 ---
-<Base title="All Switch 2 games: file sizes and cartridge formats" description={`File size, Game-Key Card status and release date for ${games.length} Nintendo Switch 2 games, with sources.`}>
+<Base title="All Switch 2 games: file sizes and cartridge formats" description={`File size, Game-Key Card status and frame rate for ${games.length} Nintendo Switch 2 games, with sources. Filter and sort the full list.`}>
   <h1>All Switch 2 games</h1>
-  <p class="lead">{games.length} games with their download size and physical format. Type to filter, click a header to sort.</p>
-  <input type="search" id="filter" placeholder="Filter by title or publisher" aria-label="Filter games" />
+  <p class="lead">{games.length} games with their download size and physical format. Filter, search, or click a column to sort.</p>
+
+  <div class="toolbar">
+    <label class="sr-only" for="filter">Filter by title or publisher</label>
+    <input type="search" id="filter" placeholder="Filter by title or publisher" />
+    <div class="chips" role="group" aria-label="Show">
+      {filters.map((f, i) => <button class="chip" type="button" data-filter={f.id} aria-pressed={i === 0 ? 'true' : 'false'}>{f.label}</button>)}
+    </div>
+  </div>
+  <p class="small muted" id="count" aria-live="polite">{games.length} games</p>
+
   <div class="table-scroll">
     <table id="games">
       <thead>
-        <tr><th data-sort="text">Game</th><th data-sort="num">File size</th><th data-sort="text">Physical format</th><th data-sort="text">Publisher</th></tr>
+        <tr>
+          <th data-sort="text">Game</th>
+          <th class="hide-sm">Physical format</th>
+          <th class="hide-sm num" data-sort="num">FPS</th>
+          <th class="num" data-sort="num">File size</th>
+        </tr>
       </thead>
       <tbody>
-        {games.map((g) => (
-          <tr data-search={`${g.data.title} ${g.data.publisher}`.toLowerCase()}>
-            <td><a href={`/games/${g.id}/`}>{g.data.title}</a></td>
-            <td data-value={g.data.fileSize.currentGB}>{formatGB(g.data.fileSize.currentGB)}</td>
-            <td>{FORMAT_LABEL[g.data.physical.format]}</td>
-            <td>{g.data.publisher}</td>
-          </tr>
-        ))}
+        {games.map((g) => {
+          const fps = maxFps(g);
+          const tags = [g.data.physical.format, g.data.kind === 'edition' ? 'edition' : '', isUpcoming(g.data.releaseDate) ? 'upcoming' : ''].join(' ');
+          return (
+            <tr data-search={`${shortTitle(g.data.title)} ${g.data.publisher}`.toLowerCase()} data-tags={tags}>
+              <td data-value={shortTitle(g.data.title).toLowerCase()}><a href={`/games/${g.id}/`}>{shortTitle(g.data.title)}</a><div class="small muted">{g.data.publisher}</div></td>
+              <td class="hide-sm"><FormatBadge format={g.data.physical.format} /></td>
+              <td class="hide-sm num" data-value={fps}>{fps > 0 ? fps : '—'}</td>
+              <td class="num" data-value={g.data.fileSize.currentGB}>{formatGB(g.data.fileSize.currentGB)}{g.data.fileSize.estimate && '*'}<SizeMeter gb={g.data.fileSize.currentGB} /></td>
+            </tr>
+          );
+        })}
       </tbody>
     </table>
   </div>
+  <p class="small muted">* Estimated size for games not released yet.</p>
+
   <script>
     const input = document.getElementById('filter') as HTMLInputElement;
     const tbody = document.querySelector('#games tbody')!;
+    const count = document.getElementById('count')!;
+    const chips = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-filter]'));
     const rows = () => Array.from(tbody.querySelectorAll('tr')) as HTMLTableRowElement[];
-    input.addEventListener('input', () => {
+    let tag = 'all';
+    function apply() {
       const q = input.value.trim().toLowerCase();
-      for (const r of rows()) r.hidden = q !== '' && !r.dataset.search!.includes(q);
-    });
-    document.querySelectorAll<HTMLTableCellElement>('#games th').forEach((th, col) => {
-      let asc = true;
-      th.style.cursor = 'pointer';
+      let n = 0;
+      for (const r of rows()) {
+        const show = (q === '' || r.dataset.search!.includes(q)) && (tag === 'all' || r.dataset.tags!.split(' ').includes(tag));
+        r.hidden = !show;
+        if (show) n++;
+      }
+      count.textContent = `${n} games`;
+    }
+    input.addEventListener('input', apply);
+    chips.forEach((c) => c.addEventListener('click', () => {
+      tag = c.dataset.filter!;
+      chips.forEach((x) => x.setAttribute('aria-pressed', String(x === c)));
+      apply();
+    }));
+    document.querySelectorAll<HTMLTableCellElement>('#games th[data-sort]').forEach((th) => {
+      let asc = th.dataset.sort === 'text';
       th.addEventListener('click', () => {
+        const col = th.cellIndex;
         const numeric = th.dataset.sort === 'num';
-        const key = (r: HTMLTableRowElement) => {
-          const cell = r.cells[col];
-          return numeric ? Number(cell.dataset.value) : cell.textContent!.trim().toLowerCase();
-        };
+        const key = (r: HTMLTableRowElement) => (numeric ? Number(r.cells[col].dataset.value) : r.cells[col].dataset.value ?? '');
         const sorted = rows().sort((a, b) => {
           const x = key(a), y = key(b);
           return (x < y ? -1 : x > y ? 1 : 0) * (asc ? 1 : -1);

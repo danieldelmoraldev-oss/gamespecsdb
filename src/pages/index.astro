@@ -1,41 +1,96 @@
 ---
+import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
+import GameCard from '../components/GameCard.astro';
+import SearchBox from '../components/SearchBox.astro';
+import SizeMeter from '../components/SizeMeter.astro';
+import FormatBadge from '../components/FormatBadge.astro';
+import Icon from '../components/Icon.astro';
 import { SITE } from '../site';
-import { allGames, formatGB, lastChecked } from '../lib/games';
+import { allGames, formatGB, isUpcoming, shortTitle } from '../lib/games';
 import { LISTS } from '../lib/lists';
+
 const games = await allGames();
-const recent = [...games].sort((a, b) => lastChecked(b).localeCompare(lastChecked(a))).slice(0, 12);
-const jsonLd = { '@context': 'https://schema.org', '@type': 'WebSite', name: SITE.name, url: SITE.url };
+const guides = (await getCollection('guides')).sort((a, b) => a.data.title.localeCompare(b.data.title));
+const upcoming = games.filter((g) => isUpcoming(g.data.releaseDate)).sort((a, b) => a.data.releaseDate.localeCompare(b.data.releaseDate));
+const released = games.filter((g) => !isUpcoming(g.data.releaseDate)).sort((a, b) => b.data.releaseDate.localeCompare(a.data.releaseDate));
+const biggest = [...games].sort((a, b) => b.data.fileSize.currentGB - a.data.fileSize.currentGB).slice(0, 5);
+const lists = LISTS.map((l) => ({ ...l, count: games.filter(l.filter).length })).filter((l) => l.count > 0);
+const count = (f: string) => games.filter((g) => g.data.physical.format === f).length;
+const stats = [
+  { n: games.length, label: 'games tracked' },
+  { n: count('game-key-card'), label: 'Game-Key Cards' },
+  { n: count('full-cartridge'), label: 'full cartridges' },
+  { n: games.filter((g) => g.data.upgrade).length, label: 'upgrade prices' },
+];
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: SITE.name,
+  url: SITE.url,
+  potentialAction: { '@type': 'SearchAction', target: `${SITE.url}/search/?q={query}`, 'query-input': 'required name=query' },
+};
 ---
-<Base title={SITE.name} description={SITE.tagline} jsonLd={jsonLd}>
-  <h1>Switch 2 game specs, with sources</h1>
-  <p class="lead">{SITE.tagline} {games.length} games so far, every number linked to where it came from.</p>
+<Base title={SITE.name} description={`How much space each Nintendo Switch 2 game needs, whether the box has the full game or a Game-Key Card, and how it runs. ${games.length} games, every figure sourced.`} jsonLd={jsonLd}>
+  <section class="hero">
+    <p class="eyebrow">Nintendo Switch 2 game database</p>
+    <h1>Switch 2 game sizes, cartridges and FPS, with sources</h1>
+    <p class="lead">Check how much space a game needs, whether the box holds the full game or just a Game-Key Card, and how it runs, before you buy.</p>
+    <SearchBox games={games} />
+    <div class="stats">
+      {stats.map((s) => <div class="stat"><strong>{s.n}</strong><span>{s.label}</span></div>)}
+    </div>
+  </section>
 
-  <form action="/games/" method="get" onsubmit="return false">
-    <input type="search" id="q" placeholder="Search a game…" aria-label="Search a game" list="titles" />
-    <datalist id="titles">{games.map((g) => <option value={g.data.title} data-href={`/games/${g.id}/`} />)}</datalist>
-  </form>
+  {upcoming.length > 0 && (
+    <>
+      <div class="section-head"><h2>Coming soon</h2><a href="/games/">All games</a></div>
+      <div class="grid games limit-sm">{upcoming.slice(0, 8).map((g) => <GameCard game={g} />)}</div>
+    </>
+  )}
 
-  <h2>Popular lists</h2>
+  <div class="section-head"><h2>Latest releases</h2><a href="/games/">All games</a></div>
+  <div class="grid games limit-sm">{released.slice(0, 8).map((g) => <GameCard game={g} />)}</div>
+
+  <div class="section-head"><h2>Popular lists</h2><a href="/lists/">All lists</a></div>
   <div class="grid">
-    {LISTS.filter((l) => games.some(l.filter)).slice(0, 6).map((l) => <a class="card" href={`/lists/${l.slug}/`}><strong>{l.title}</strong></a>)}
-  </div>
-
-  <h2>Recently checked</h2>
-  <div class="grid">
-    {recent.map((g) => (
-      <a class="card" href={`/games/${g.id}/`}><strong>{g.data.title}</strong><span class="muted small">{formatGB(g.data.fileSize.currentGB)}</span></a>
+    {lists.map((l) => (
+      <a class="card link-card" href={`/lists/${l.slug}/`}>
+        <span class="icon"><Icon name={l.icon} /></span>
+        <span><span class="title">{l.title}</span><br /><span class="count">{l.count} games</span></span>
+      </a>
     ))}
   </div>
 
-  <h2>Tools</h2>
-  <p><a href="/tools/storage-calculator/">Storage calculator</a>: see how many games fit on your Switch 2 and microSD Express card.</p>
+  <div class="section-head"><h2>Biggest downloads</h2><a href="/lists/largest-games/">Full ranking</a></div>
+  <div class="table-scroll">
+    <table>
+      <tbody>
+        {biggest.map((g, i) => (
+          <tr>
+            <td class="rank">{i + 1}</td>
+            <td><a href={`/games/${g.id}/`}>{shortTitle(g.data.title)}</a></td>
+            <td class="hide-sm"><FormatBadge format={g.data.physical.format} /></td>
+            <td class="num">{formatGB(g.data.fileSize.currentGB)}<SizeMeter gb={g.data.fileSize.currentGB} /></td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
 
-  <script>
-    const q = document.getElementById('q') as HTMLInputElement;
-    q.addEventListener('change', () => {
-      const opt = Array.from(document.querySelectorAll<HTMLOptionElement>('#titles option')).find((o) => o.value === q.value);
-      if (opt?.dataset.href) location.href = opt.dataset.href;
-    });
-  </script>
+  <div class="section-head"><h2>Will it fit?</h2></div>
+  <a class="card link-card panel" href="/tools/storage-calculator/">
+    <span class="icon"><Icon name="storage" /></span>
+    <span><span class="title">Storage calculator</span><br /><span class="count">Tick the games you want installed and see if they fit on the 256 GB internal storage or a microSD Express card.</span></span>
+  </a>
+
+  <div class="section-head"><h2>Guides</h2><a href="/guides/">All guides</a></div>
+  <div class="grid">
+    {guides.map((g) => (
+      <a class="card link-card" href={`/guides/${g.id}/`}>
+        <span class="icon"><Icon name="book" /></span>
+        <span class="title">{g.data.title}</span>
+      </a>
+    ))}
+  </div>
 </Base>

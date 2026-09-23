@@ -3,12 +3,18 @@ import Base from '../layouts/Base.astro';
 ---
 <Base title="Search" description="Search every Switch 2 game, list and guide on GameSpecsDB." noindex>
   <h1>Search</h1>
+  <p class="lead">Search game pages, lists and guides.</p>
   <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
   <div id="search"></div>
   <script is:inline src="/pagefind/pagefind-ui.js"></script>
   <script is:inline>
     window.addEventListener('DOMContentLoaded', () => {
-      new PagefindUI({ element: '#search', showSubResults: false, showImages: false });
+      const ui = new PagefindUI({ element: '#search', showSubResults: false, showImages: false });
+      const q = new URLSearchParams(location.search).get('q');
+      if (q) ui.triggerSearch(q);
     });
   </script>
+  <style is:global>
+    #search { --pagefind-ui-primary: var(--brand); --pagefind-ui-text: var(--text); --pagefind-ui-background: var(--surface); --pagefind-ui-border: var(--border); --pagefind-ui-tag: var(--surface-2); --pagefind-ui-font: inherit; }
+  </style>
 </Base>
