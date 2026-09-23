@@ -49,5 +49,21 @@
     "priceUSD": 4.99,
     "source": "https://www.nintendo.com/us/store/products/animal-crossing-new-horizons-nintendo-switch-2-edition-upgrade-pack-switch-2/",
     "checked": "2026-09-23"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "4K",
+        "fps": 30
+      },
+      {
+        "play": "handheld",
+        "resolution": "1080p",
+        "fps": 30
+      }
+    ],
+    "source": "https://nintendoeverything.com/video-animal-crossing-new-horizons-nintendo-switch-2-edition-vs-switch-comparison/",
+    "checked": "2026-09-23"
   }
 }

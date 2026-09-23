@@ -46,7 +46,7 @@ export const LISTS: ListDef[] = [
     icon: 'up',
     title: 'The biggest Switch 2 games by file size',
     description: 'Switch 2 games ranked by current download size, largest first.',
-    filter: () => true,
+    filter: (g) => g.data.kind !== 'free-update',
     sort: bySizeDesc,
   },
   {
@@ -54,7 +54,7 @@ export const LISTS: ListDef[] = [
     icon: 'down',
     title: 'The smallest Switch 2 games by file size',
     description: 'Switch 2 games ranked by current download size, smallest first.',
-    filter: () => true,
+    filter: (g) => g.data.kind !== 'free-update',
     sort: bySizeAsc,
   },
   {
@@ -68,7 +68,7 @@ export const LISTS: ListDef[] = [
     slug: 'free-switch-2-updates',
     icon: 'arrow',
     title: 'Switch 1 games with a free Switch 2 update',
-    description: 'Switch 1 games that run better on Switch 2 thanks to a free patch.',
+    description: 'Switch 1 games that Nintendo improved for Switch 2 with a free update: better frame rate, resolution or HDR, at no cost.',
     filter: (g) => g.data.kind === 'free-update',
   },
 ];

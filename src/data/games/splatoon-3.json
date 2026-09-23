@@ -1,0 +1,49 @@
+{
+  "title": "Splatoon 3",
+  "publisher": "Nintendo",
+  "releaseDate": "2022-09-09",
+  "kind": "free-update",
+  "fileSize": {
+    "currentGB": 9.9,
+    "source": "https://www.nintendo.com/us/store/products/splatoon-3-switch/",
+    "checked": "2026-09-23"
+  },
+  "physical": {
+    "format": "switch-1-cartridge",
+    "source": "https://www.nintendolife.com/guides/all-nintendo-switch-2-edition-games-upgrade-packs-and-free-performance-updates",
+    "checked": "2026-09-23"
+  },
+  "upgrade": {
+    "priceUSD": 0,
+    "source": "https://www.nintendolife.com/guides/all-nintendo-switch-2-edition-games-upgrade-packs-and-free-performance-updates",
+    "checked": "2026-09-23"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/splatoon-3-switch/",
+    "priceUSD": 59.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "local": 8,
+      "online": 8
+    },
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Dutch",
+      "Russian",
+      "Simplified Chinese",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": "Nintendo"
+  }
+}

@@ -140,7 +140,7 @@ def fetch(keys, cache, review):
             continue
         if not new:
             continue
-        g = game_file(key.removesuffix('-switch-2'))
+        g = game_file(eshop.slugify(key))
         prev = g['fileSize']['currentGB'] if g else None
         if prev and new['sizeGB'] and not new['sizeIsEstimate'] and not g['fileSize'].get('estimate'):
             if new['sizeGB'] < 0.3 * prev or new['sizeGB'] < 0.3:
@@ -176,10 +176,10 @@ def main():
     cache = json.loads(eshop.CACHE.read_text()) if eshop.CACHE.exists() else {}
     soon = (TODAY - dt.timedelta(days=45)).isoformat()
     todo = []
-    for slug in physical:
+    for slug, entry in physical.items():
         g = game_file(slug)
         if full or g is None or g['releaseDate'] >= soon or g['fileSize'].get('estimate'):
-            todo.append(slug + '-switch-2')
+            todo.append(entry.get('eshopKey', slug + '-switch-2'))
     changed = fetch(sorted(set(todo)), cache, review)
     if not dry:
         eshop.CACHE.write_text(json.dumps(cache, indent=1, ensure_ascii=False))

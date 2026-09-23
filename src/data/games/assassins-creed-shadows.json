@@ -38,5 +38,22 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "About 648p (DLSS)",
+        "fps": 30
+      },
+      {
+        "play": "handheld",
+        "resolution": "About 480p (DLSS)",
+        "fps": 30
+      }
+    ],
+    "note": "Dips in dense areas such as Kyoto; handheld holds up better thanks to VRR.",
+    "source": "https://nintendoeverything.com/assassins-creed-shadows-nintendo-switch-2-tech-analysis-including-frame-rate-and-resolution/",
+    "checked": "2026-09-23"
   }
 }

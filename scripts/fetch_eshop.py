@@ -52,13 +52,15 @@ def parse(key, html):
     if p.get('dlcType') or (p.get('topLevelCategory') or {}).get('code') != 'GAMES':
         return None
     roms = {r['platform']: r for r in (p.get('softwareDetails') or {}).get('romSizes') or []}
-    s2 = roms.get('BEE') or {}
+    # BEE = Switch 2, HAC = Switch 1. Switch 1 products (free-update games) use the HAC size.
+    switch2 = key.endswith('-switch-2')
+    s2 = roms.get('BEE' if switch2 else 'HAC') or {}
     # Before release the eShop only has an estimate; totalRomSize is then a tiny
     # preload stub (Monster Hunter Wilds: 0.2 GB total vs 39.1 GB estimated).
     upcoming = 'Coming soon' in (p.get('availability') or []) or (p.get('releaseDate') or '')[:10] > dt.date.today().isoformat()
     estimate = upcoming or not s2.get('totalRomSize')
     size = s2.get('estimatedRomSize') if estimate else s2.get('totalRomSize')
-    s1 = (roms.get('HAC') or {}).get('totalRomSize')
+    s1 = (roms.get('HAC') or {}).get('totalRomSize') if switch2 else None
     price = next((v for k, v in p.items() if k.startswith('prices(')), None) or {}
     players = p.get('numberOfPlayers') or {}
     return {
@@ -120,7 +122,8 @@ def cmd_upgrades():
 
 
 def slugify(key):
-    return re.sub(r'-switch-2$', '', key)
+    """eShop key -> page slug: 'mario-kart-world-switch-2' and 'super-mario-odyssey-switch' lose the platform."""
+    return re.sub(r'-switch(-2)?$', '', key)
 
 
 def cmd_sync():

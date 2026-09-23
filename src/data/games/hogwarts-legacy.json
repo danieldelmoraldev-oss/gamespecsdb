@@ -38,5 +38,22 @@
     ],
     "switch1SizeGB": null,
     "developer": "Avalanche Software"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "720p (DLSS to 1080p)",
+        "fps": 30
+      },
+      {
+        "play": "handheld",
+        "resolution": "540p (DLSS to 1080p)",
+        "fps": 30
+      }
+    ],
+    "note": "Generally holds 30 FPS with brief dips.",
+    "source": "https://nintendoeverything.com/hogwarts-legacy-frame-rate-resolution-switch-2/",
+    "checked": "2026-09-23"
   }
 }

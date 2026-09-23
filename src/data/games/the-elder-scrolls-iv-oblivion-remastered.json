@@ -35,5 +35,21 @@
     ],
     "switch1SizeGB": null,
     "developer": "Bethesda Game Studios"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "1080p (DLSS)",
+        "fps": 30
+      },
+      {
+        "play": "handheld",
+        "resolution": "900p (DLSS)",
+        "fps": 30
+      }
+    ],
+    "source": "https://nintendoeverything.com/the-elder-scrolls-4-oblivion-remastered-details-frame-rate-and-resolution-for-nintendo-switch-2-dlss-support-mouse-controls-more/",
+    "checked": "2026-09-23"
   }
 }

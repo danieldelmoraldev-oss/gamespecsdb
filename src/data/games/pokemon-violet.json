@@ -1,0 +1,61 @@
+{
+  "title": "Pokémon Violet",
+  "publisher": "Nintendo",
+  "releaseDate": "2022-11-18",
+  "kind": "free-update",
+  "fileSize": {
+    "currentGB": 9.9,
+    "source": "https://www.nintendo.com/us/store/products/pokemon-violet-switch/",
+    "checked": "2026-09-23"
+  },
+  "physical": {
+    "format": "switch-1-cartridge",
+    "source": "https://www.nintendolife.com/guides/all-nintendo-switch-2-edition-games-upgrade-packs-and-free-performance-updates",
+    "checked": "2026-09-23"
+  },
+  "upgrade": {
+    "priceUSD": 0,
+    "source": "https://www.nintendolife.com/guides/all-nintendo-switch-2-edition-games-upgrade-packs-and-free-performance-updates",
+    "checked": "2026-09-23"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "1080p",
+        "fps": 60
+      },
+      {
+        "play": "handheld",
+        "resolution": "About 648p (dynamic)",
+        "fps": 60
+      }
+    ],
+    "note": "Usually 60 FPS with the free Switch 2 update, with occasional drops in traversal and some battle moves.",
+    "source": "https://nintendoeverything.com/pokemon-scarlet-violet-switch-2-technical-improvements/",
+    "checked": "2026-09-23"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/pokemon-violet-switch/",
+    "priceUSD": 59.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Simplified Chinese",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": "GAME FREAK inc."
+  }
+}

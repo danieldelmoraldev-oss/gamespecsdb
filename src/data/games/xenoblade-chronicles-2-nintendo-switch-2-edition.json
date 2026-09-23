@@ -43,5 +43,22 @@
     "priceUSD": 9.99,
     "source": "https://www.nintendo.com/us/store/products/xenoblade-chronicles-2-nintendo-switch-2-edition-upgrade-pack-switch-2/",
     "checked": "2026-09-23"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "About 720p internal (upscaled)",
+        "fps": 60
+      },
+      {
+        "play": "handheld",
+        "resolution": "About 468p internal (upscaled to 1080p)",
+        "fps": 60
+      }
+    ],
+    "note": "Mostly 60 FPS, with dropped frames in traversal, effects-heavy moments and cutscenes.",
+    "source": "https://nintendoeverything.com/xenoblade-chronicles-2-nintendo-switch-2-tech-analysis-including-frame-rate-and-resolution-switch-1-comparison/",
+    "checked": "2026-09-23"
   }
 }

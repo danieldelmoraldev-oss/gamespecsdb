@@ -13,8 +13,8 @@ import { LISTS } from '../lib/lists';
 const games = await allGames();
 const guides = (await getCollection('guides')).sort((a, b) => a.data.title.localeCompare(b.data.title));
 const upcoming = games.filter((g) => isUpcoming(g.data.releaseDate)).sort((a, b) => a.data.releaseDate.localeCompare(b.data.releaseDate));
-const released = games.filter((g) => !isUpcoming(g.data.releaseDate)).sort((a, b) => b.data.releaseDate.localeCompare(a.data.releaseDate));
-const biggest = [...games].sort((a, b) => b.data.fileSize.currentGB - a.data.fileSize.currentGB).slice(0, 5);
+const released = games.filter((g) => !isUpcoming(g.data.releaseDate) && g.data.kind !== 'free-update').sort((a, b) => b.data.releaseDate.localeCompare(a.data.releaseDate));
+const biggest = games.filter((g) => g.data.kind !== 'free-update').sort((a, b) => b.data.fileSize.currentGB - a.data.fileSize.currentGB).slice(0, 5);
 const lists = LISTS.map((l) => ({ ...l, count: games.filter(l.filter).length })).filter((l) => l.count > 0);
 const count = (f: string) => games.filter((g) => g.data.physical.format === f).length;
 const stats = [

@@ -28,7 +28,7 @@ const games = defineCollection({
       ...sourced,
     }),
     physical: z.object({
-      format: z.enum(['full-cartridge', 'game-key-card', 'digital-only', 'unknown']),
+      format: z.enum(['full-cartridge', 'game-key-card', 'digital-only', 'switch-1-cartridge', 'unknown']),
       note: z.string().optional(),
       ...sourced,
     }),

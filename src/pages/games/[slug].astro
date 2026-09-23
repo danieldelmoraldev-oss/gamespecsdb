@@ -34,7 +34,9 @@ const PLAY_LABEL = { tv: 'TV mode', handheld: 'Handheld mode', all: 'TV and hand
 const modeLabel = (m: NonNullable<typeof perf>['modes'][number]) => `${PLAY_LABEL[m.play]}${m.preset ? ` (${m.preset})` : ''}`;
 const modeSpec = (m: NonNullable<typeof perf>['modes'][number]) =>
   [m.resolution, m.fps && `${m.fps} FPS`].filter(Boolean).join(' · ');
-const topics = hasPerf ? 'file size, cartridge and performance' : 'file size and cartridge format';
+const topics = d.kind === 'free-update'
+  ? (hasPerf ? 'free upgrade, file size and performance' : 'free upgrade and file size')
+  : hasPerf ? 'file size, cartridge and performance' : 'file size and cartridge format';
 const lead = d.summary ?? [
   `${d.title} is published by ${d.publisher} and ${upcoming ? 'is due out on' : 'came out on'} ${formatDate(d.releaseDate)}.`,
   playerBits && playerBits.length > 0 ? `Multiplayer: up to ${playerBits.join(', ')}.` : '',
@@ -45,6 +47,7 @@ const formatAnswer: Record<typeof d.physical.format, string> = {
   'full-cartridge': `The physical release of ${name} has the full game on the cartridge, so you can play it without downloading the game first.`,
   'game-key-card': `The physical release of ${name} is a Game-Key Card: the cartridge only unlocks a ${formatGB(d.fileSize.currentGB)} download, so you need an internet connection and free storage to play it.`,
   'digital-only': `${name} is only sold digitally, so it always needs ${formatGB(d.fileSize.currentGB)} of free storage.`,
+  'switch-1-cartridge': `${name} is a Switch 1 game, so it is sold on a regular Switch 1 cartridge, not a Game-Key Card. The cartridge works in a Switch 2.`,
   unknown: `We have not confirmed yet whether the physical release of ${name} is a full cartridge or a Game-Key Card.`,
 };
 
@@ -65,7 +68,12 @@ if (perf?.modes.some((m) => m.fps)) {
     a: `${top >= 60 ? 'Yes.' : 'No.'} ${name} targets ${parts.join('; ')}.${perf.note ? ` ${perf.note}` : ''}`,
   });
 }
-if (d.upgrade) {
+if (d.kind === 'free-update') {
+  faqs.push({
+    q: `Is there a free Switch 2 upgrade for ${name}?`,
+    a: `Yes. ${name} is a Switch 1 game that received a free update for Switch 2. You do not need to buy anything: update the game on your Switch 2 to get the improvements.`,
+  });
+} else if (d.upgrade) {
   faqs.push({
     q: `How much is the ${name} Nintendo Switch 2 Edition upgrade?`,
     a: d.upgrade.priceUSD === 0 ? 'The upgrade is free.' : `The upgrade costs $${d.upgrade.priceUSD.toFixed(2)} in the US eShop.`,
@@ -84,10 +92,13 @@ const FORMAT_HINT: Record<typeof d.physical.format, string> = {
   'full-cartridge': 'Plays from the cartridge, no full download needed',
   'game-key-card': 'The cartridge only unlocks a download',
   'digital-only': 'No physical release',
+  'switch-1-cartridge': 'Switch 1 game card; works in a Switch 2',
   unknown: 'Not confirmed yet',
 };
 
-const title = `${name} ${d.kind === 'edition' ? 'Switch 2 Edition' : 'Switch 2'} ${hasPerf ? 'file size, Game-Key Card and FPS' : 'file size and Game-Key Card'}`;
+const title = d.kind === 'free-update'
+  ? `${name} on Switch 2: ${hasPerf ? 'free upgrade, file size and FPS' : 'free upgrade and file size'}`
+  : `${name} ${d.kind === 'edition' ? 'Switch 2 Edition' : 'Switch 2'} ${hasPerf ? 'file size, Game-Key Card and FPS' : 'file size and Game-Key Card'}`;
 const description = `${name} ${d.fileSize.estimate ? "is expected to take" : "takes"} ${formatGB(d.fileSize.currentGB)} on Switch 2. ${FORMAT_LABEL[d.physical.format]}. Sourced specs, last checked ${formatDate(checked)}.`;
 const jsonLd = [
   {
@@ -125,7 +136,7 @@ const jsonLd = [
 
   <div class="tiles">
     <div class="tile">
-      <div class="label">{d.fileSize.estimate ? 'Estimated size' : 'File size'}</div>
+      <div class="label">{d.fileSize.estimate ? 'Estimated size' : d.kind === 'free-update' ? 'File size (Switch 1 game)' : 'File size'}</div>
       <div class="value">{formatGB(d.fileSize.currentGB)}</div>
       <SizeMeter gb={d.fileSize.currentGB} />
       <div class="hint">{share}% of the {INTERNAL_GB} GB internal storage</div>
@@ -146,7 +157,7 @@ const jsonLd = [
       <div class="tile">
         <div class="label">Switch 2 upgrade</div>
         <div class="value">{d.upgrade.priceUSD === 0 ? 'Free' : `$${d.upgrade.priceUSD.toFixed(2)}`}</div>
-        <div class="hint">If you own the Switch 1 game</div>
+        <div class="hint">{d.kind === 'free-update' ? 'Free update for the Switch 1 game' : 'If you own the Switch 1 game'}</div>
       </div>
     )}
   </div>
@@ -166,7 +177,7 @@ const jsonLd = [
               <tr><th>{modeLabel(m)}</th><td>{modeSpec(m)}<a class="src" href={perf.source} rel="nofollow noopener">source</a></td></tr>
             ))}
             {perf?.note && <tr><th>Performance note</th><td>{perf.note}</td></tr>}
-            {d.upgrade && <tr><th>Switch 2 Edition upgrade</th><td>{d.upgrade.priceUSD === 0 ? 'Free' : `$${d.upgrade.priceUSD.toFixed(2)}`}<a class="src" href={d.upgrade.source} rel="nofollow noopener">source</a></td></tr>}
+            {d.upgrade && <tr><th>{d.kind === 'free-update' ? 'Switch 2 update' : 'Switch 2 Edition upgrade'}</th><td>{d.upgrade.priceUSD === 0 ? 'Free' : `$${d.upgrade.priceUSD.toFixed(2)}`}<a class="src" href={d.upgrade.source} rel="nofollow noopener">source</a></td></tr>}
             {e?.switch1SizeGB && <tr><th>Switch 1 version size</th><td>{formatGB(e.switch1SizeGB)}</td></tr>}
             {e?.priceUSD != null && <tr><th>US eShop price</th><td>${e.priceUSD.toFixed(2)}</td></tr>}
             {e && e.playModes.length > 0 && <tr><th>Play modes</th><td>{e.playModes.join(', ')}</td></tr>}

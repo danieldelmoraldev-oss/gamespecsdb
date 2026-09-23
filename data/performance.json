@@ -1,4 +1,37 @@
 {
+ "animal-crossing-new-horizons-nintendo-switch-2-edition": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "4K",
+    "fps": 30
+   },
+   {
+    "play": "handheld",
+    "resolution": "1080p",
+    "fps": 30
+   }
+  ],
+  "source": "https://nintendoeverything.com/video-animal-crossing-new-horizons-nintendo-switch-2-edition-vs-switch-comparison/",
+  "checked": "2026-09-23"
+ },
+ "assassins-creed-shadows": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "About 648p (DLSS)",
+    "fps": 30
+   },
+   {
+    "play": "handheld",
+    "resolution": "About 480p (DLSS)",
+    "fps": 30
+   }
+  ],
+  "note": "Dips in dense areas such as Kyoto; handheld holds up better thanks to VRR.",
+  "source": "https://nintendoeverything.com/assassins-creed-shadows-nintendo-switch-2-tech-analysis-including-frame-rate-and-resolution/",
+  "checked": "2026-09-23"
+ },
  "cyberpunk-2077-ultimate-edition": {
   "modes": [
    {
@@ -112,6 +145,23 @@
   "source": "https://www.rpgsite.net/feature/18485-hades-2-switch-2-vs-steam-deck-recommended-settings-120-fps-pc-full-release-1-0",
   "checked": "2026-09-23"
  },
+ "hogwarts-legacy": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "720p (DLSS to 1080p)",
+    "fps": 30
+   },
+   {
+    "play": "handheld",
+    "resolution": "540p (DLSS to 1080p)",
+    "fps": 30
+   }
+  ],
+  "note": "Generally holds 30 FPS with brief dips.",
+  "source": "https://nintendoeverything.com/hogwarts-legacy-frame-rate-resolution-switch-2/",
+  "checked": "2026-09-23"
+ },
  "hollow-knight-silksong-nintendo-switch-2-edition": {
   "modes": [
    {
@@ -141,6 +191,22 @@
   "source": "https://nintendoeverything.com/hyrule-warriors-age-of-imprisonment-frame-rate-resolution/",
   "checked": "2026-09-23"
  },
+ "indiana-jones-and-the-great-circle": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "1080p (dynamic, DLSS)",
+    "fps": 30
+   },
+   {
+    "play": "handheld",
+    "resolution": "720p (dynamic, DLSS)",
+    "fps": 30
+   }
+  ],
+  "source": "https://nintendoeverything.com/indiana-jones-and-the-great-circle-nintendo-switch-2-tech-specs-dlss/",
+  "checked": "2026-09-23"
+ },
  "kirby-air-riders": {
   "modes": [
    {
@@ -156,6 +222,17 @@
   ],
   "note": "Frame rate drops more in City Trial and multiplayer.",
   "source": "https://nintendoeverything.com/kirby-air-riders-tech-analysis-including-frame-rate-and-resolution/",
+  "checked": "2026-09-23"
+ },
+ "kirby-and-the-forgotten-land-nintendo-switch-2-edition-plus-star-crossed-world": {
+  "modes": [
+   {
+    "play": "all",
+    "fps": 60
+   }
+  ],
+  "note": "Up from 30 FPS on Switch 1, with higher resolution in both modes.",
+  "source": "https://nintendoeverything.com/video-kirby-and-the-forgotten-land-nintendo-switch-2-vs-switch-comparison/",
   "checked": "2026-09-23"
  },
  "mario-kart-world": {
@@ -217,6 +294,40 @@
    }
   ],
   "source": "https://kotaku.com/pokemon-legends-za-switch-2-comparison-framerate-upgrade-2000635404",
+  "checked": "2026-09-23"
+ },
+ "pokemon-scarlet": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "1080p",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "About 648p (dynamic)",
+    "fps": 60
+   }
+  ],
+  "note": "Usually 60 FPS with the free Switch 2 update, with occasional drops in traversal and some battle moves.",
+  "source": "https://nintendoeverything.com/pokemon-scarlet-violet-switch-2-technical-improvements/",
+  "checked": "2026-09-23"
+ },
+ "pokemon-violet": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "1080p",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "About 648p (dynamic)",
+    "fps": 60
+   }
+  ],
+  "note": "Usually 60 FPS with the free Switch 2 update, with occasional drops in traversal and some battle moves.",
+  "source": "https://nintendoeverything.com/pokemon-scarlet-violet-switch-2-technical-improvements/",
   "checked": "2026-09-23"
  },
  "pragmata": {
@@ -285,6 +396,38 @@
   "source": "https://nintendoeverything.com/street-fighter-6-frame-rate-resolution/",
   "checked": "2026-09-23"
  },
+ "super-mario-bros-wonder-nintendo-switch-2-edition-plus-meetup-in-bellabel-park": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "4K",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "1080p",
+    "fps": 60
+   }
+  ],
+  "source": "https://nintendoeverything.com/video-super-mario-bros-wonder-nintendo-switch-2-vs-switch-graphics-comparison/",
+  "checked": "2026-09-23"
+ },
+ "the-elder-scrolls-iv-oblivion-remastered": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "1080p (DLSS)",
+    "fps": 30
+   },
+   {
+    "play": "handheld",
+    "resolution": "900p (DLSS)",
+    "fps": 30
+   }
+  ],
+  "source": "https://nintendoeverything.com/the-elder-scrolls-4-oblivion-remastered-details-frame-rate-and-resolution-for-nintendo-switch-2-dlss-support-mouse-controls-more/",
+  "checked": "2026-09-23"
+ },
  "the-legend-of-zelda-breath-of-the-wild-nintendo-switch-2-edition": {
   "modes": [
    {
@@ -315,6 +458,23 @@
    }
   ],
   "source": "https://nintendoeverything.com/zelda-breath-of-the-wild-and-tears-of-the-kingdom-nintendo-switch-2-frame-rate-resolution/",
+  "checked": "2026-09-23"
+ },
+ "xenoblade-chronicles-2-nintendo-switch-2-edition": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "About 720p internal (upscaled)",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "About 468p internal (upscaled to 1080p)",
+    "fps": 60
+   }
+  ],
+  "note": "Mostly 60 FPS, with dropped frames in traversal, effects-heavy moments and cutscenes.",
+  "source": "https://nintendoeverything.com/xenoblade-chronicles-2-nintendo-switch-2-tech-analysis-including-frame-rate-and-resolution-switch-1-comparison/",
   "checked": "2026-09-23"
  },
  "xenoblade-chronicles-x-definitive-edition-nintendo-switch-2-edition": {

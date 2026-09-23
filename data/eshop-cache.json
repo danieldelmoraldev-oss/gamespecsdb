@@ -4958,5 +4958,591 @@
    "American English"
   ],
   "checked": "2026-09-23"
+ },
+ "arms-switch": {
+  "key": "arms-switch",
+  "url": "https://www.nintendo.com/us/store/products/arms-switch/",
+  "title": "ARMS",
+  "publisher": "Nintendo",
+  "developer": "",
+  "releaseDate": "2017-06-16",
+  "isUpgrade": false,
+  "sizeGB": 3.2,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 59.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 4,
+   "local": 4,
+   "online": 4
+  },
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Dutch",
+   "Russian",
+   "Latin American Spanish",
+   "Canadian French",
+   "American English"
+  ],
+  "checked": "2026-09-23"
+ },
+ "big-brain-academy-brain-vs-brain-switch": {
+  "key": "big-brain-academy-brain-vs-brain-switch",
+  "url": "https://www.nintendo.com/us/store/products/big-brain-academy-brain-vs-brain-switch/",
+  "title": "Big Brain Academy: Brain vs. Brain",
+  "publisher": "Nintendo",
+  "developer": "Nintendo",
+  "releaseDate": "2021-12-03",
+  "isUpgrade": false,
+  "sizeGB": 0.7,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 29.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 4
+  },
+  "languages": [
+   "Japanese",
+   "British English",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Dutch",
+   "Russian",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Canadian French",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-23"
+ },
+ "captain-toad-treasure-tracker-switch": {
+  "key": "captain-toad-treasure-tracker-switch",
+  "url": "https://www.nintendo.com/us/store/products/captain-toad-treasure-tracker-switch/",
+  "title": "Captain Toad: Treasure Tracker",
+  "publisher": "Nintendo",
+  "developer": "",
+  "releaseDate": "2018-07-13",
+  "isUpgrade": false,
+  "sizeGB": 1.6,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 39.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 2
+  },
+  "languages": [
+   "Japanese",
+   "British English",
+   "French",
+   "German",
+   "Spanish",
+   "Dutch",
+   "Latin American Spanish",
+   "Canadian French",
+   "American English"
+  ],
+  "checked": "2026-09-23"
+ },
+ "clubhouse-games-51-worldwide-classics-switch": {
+  "key": "clubhouse-games-51-worldwide-classics-switch",
+  "url": "https://www.nintendo.com/us/store/products/clubhouse-games-51-worldwide-classics-switch/",
+  "title": "Clubhouse Games: 51 Worldwide Classics",
+  "publisher": "Nintendo",
+  "developer": "",
+  "releaseDate": "2020-06-05",
+  "isUpgrade": false,
+  "sizeGB": 2.5,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 39.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 4,
+   "local": 4,
+   "online": 4
+  },
+  "languages": [
+   "Japanese",
+   "British English",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Dutch",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Canadian French",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-23"
+ },
+ "donkey-kong-country-returns-hd-switch": {
+  "key": "donkey-kong-country-returns-hd-switch",
+  "url": "https://www.nintendo.com/us/store/products/donkey-kong-country-returns-hd-switch/",
+  "title": "Donkey Kong Country Returns HD",
+  "publisher": "Nintendo",
+  "developer": "",
+  "releaseDate": "2025-01-16",
+  "isUpgrade": false,
+  "sizeGB": 12.1,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 59.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 2
+  },
+  "languages": [
+   "Japanese",
+   "British English",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Dutch",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Canadian French",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-23"
+ },
+ "game-builder-garage-switch": {
+  "key": "game-builder-garage-switch",
+  "url": "https://www.nintendo.com/us/store/products/game-builder-garage-switch/",
+  "title": "Game Builder Garage",
+  "publisher": "Nintendo",
+  "developer": "",
+  "releaseDate": "2021-06-11",
+  "isUpgrade": false,
+  "sizeGB": 1.0,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 29.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "local": 8
+  },
+  "languages": [
+   "Japanese",
+   "British English",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Dutch",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Canadian French",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-23"
+ },
+ "mario-kart-8-deluxe-switch": {
+  "key": "mario-kart-8-deluxe-switch",
+  "url": "https://www.nintendo.com/us/store/products/mario-kart-8-deluxe-switch/",
+  "title": "Mario Kart 8 Deluxe",
+  "publisher": "Nintendo",
+  "developer": "",
+  "releaseDate": "2017-04-28",
+  "isUpgrade": false,
+  "sizeGB": 11.3,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 59.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 4,
+   "local": 8,
+   "online": 12
+  },
+  "languages": [
+   "Japanese",
+   "British English",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Dutch",
+   "Portuguese",
+   "Russian",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Canadian French",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-23"
+ },
+ "new-super-mario-bros-u-deluxe-switch": {
+  "key": "new-super-mario-bros-u-deluxe-switch",
+  "url": "https://www.nintendo.com/us/store/products/new-super-mario-bros-u-deluxe-switch/",
+  "title": "New Super Mario Bros. U Deluxe",
+  "publisher": "Nintendo",
+  "developer": "",
+  "releaseDate": "2019-01-11",
+  "isUpgrade": false,
+  "sizeGB": 2.5,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 59.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 4
+  },
+  "languages": [
+   "Japanese",
+   "British English",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Dutch",
+   "Portuguese",
+   "Russian",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Canadian French",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-23"
+ },
+ "pikmin-3-deluxe-switch": {
+  "key": "pikmin-3-deluxe-switch",
+  "url": "https://www.nintendo.com/us/store/products/pikmin-3-deluxe-switch/",
+  "title": "Pikmin 3 Deluxe",
+  "publisher": "Nintendo",
+  "developer": "",
+  "releaseDate": "2020-10-30",
+  "isUpgrade": false,
+  "sizeGB": 6.5,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 59.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 2
+  },
+  "languages": [
+   "Japanese",
+   "British English",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Canadian French",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-23"
+ },
+ "pokemon-scarlet-switch": {
+  "key": "pokemon-scarlet-switch",
+  "url": "https://www.nintendo.com/us/store/products/pokemon-scarlet-switch/",
+  "title": "Pokémon Scarlet",
+  "publisher": "Nintendo",
+  "developer": "GAME FREAK inc.",
+  "releaseDate": "2022-11-18",
+  "isUpgrade": false,
+  "sizeGB": 9.9,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 59.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {},
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Simplified Chinese",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-23"
+ },
+ "pokemon-violet-switch": {
+  "key": "pokemon-violet-switch",
+  "url": "https://www.nintendo.com/us/store/products/pokemon-violet-switch/",
+  "title": "Pokémon Violet",
+  "publisher": "Nintendo",
+  "developer": "GAME FREAK inc.",
+  "releaseDate": "2022-11-18",
+  "isUpgrade": false,
+  "sizeGB": 9.9,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 59.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {},
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Simplified Chinese",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-23"
+ },
+ "splatoon-3-switch": {
+  "key": "splatoon-3-switch",
+  "url": "https://www.nintendo.com/us/store/products/splatoon-3-switch/",
+  "title": "Splatoon 3",
+  "publisher": "Nintendo",
+  "developer": "Nintendo",
+  "releaseDate": "2022-09-09",
+  "isUpgrade": false,
+  "sizeGB": 9.9,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 59.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "local": 8,
+   "online": 8
+  },
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Dutch",
+   "Russian",
+   "Simplified Chinese",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-23"
+ },
+ "super-mario-3d-world-plus-bowsers-fury-switch": {
+  "key": "super-mario-3d-world-plus-bowsers-fury-switch",
+  "url": "https://www.nintendo.com/us/store/products/super-mario-3d-world-plus-bowsers-fury-switch/",
+  "title": "Super Mario 3D World + Bowser’s Fury",
+  "publisher": "Nintendo",
+  "developer": "",
+  "releaseDate": "2021-02-12",
+  "isUpgrade": false,
+  "sizeGB": 3.0,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 59.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 4,
+   "local": 4,
+   "online": 4
+  },
+  "languages": [
+   "Japanese",
+   "British English",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Dutch",
+   "Portuguese",
+   "Russian",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Canadian French",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-23"
+ },
+ "super-mario-odyssey-switch": {
+  "key": "super-mario-odyssey-switch",
+  "url": "https://www.nintendo.com/us/store/products/super-mario-odyssey-switch/",
+  "title": "Super Mario Odyssey",
+  "publisher": "Nintendo",
+  "developer": "Nintendo",
+  "releaseDate": "2017-10-27",
+  "isUpgrade": false,
+  "sizeGB": 5.6,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 59.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 2
+  },
+  "languages": [
+   "Japanese",
+   "British English",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Dutch",
+   "Russian",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Canadian French",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-23"
+ },
+ "the-legend-of-zelda-echoes-of-wisdom-switch": {
+  "key": "the-legend-of-zelda-echoes-of-wisdom-switch",
+  "url": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-echoes-of-wisdom-switch/",
+  "title": "The Legend of Zelda: Echoes of Wisdom",
+  "publisher": "Nintendo",
+  "developer": "",
+  "releaseDate": "2024-09-26",
+  "isUpgrade": false,
+  "sizeGB": 5.6,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 59.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {},
+  "languages": [
+   "Japanese",
+   "British English",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Dutch",
+   "Russian",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Canadian French",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-23"
+ },
+ "the-legend-of-zelda-links-awakening-switch": {
+  "key": "the-legend-of-zelda-links-awakening-switch",
+  "url": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-links-awakening-switch/",
+  "title": "The Legend of Zelda: Link’s Awakening",
+  "publisher": "Nintendo",
+  "developer": "",
+  "releaseDate": "2019-09-20",
+  "isUpgrade": false,
+  "sizeGB": 5.9,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 59.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {},
+  "languages": [
+   "Japanese",
+   "British English",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Dutch",
+   "Russian",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Canadian French",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-23"
  }
 }

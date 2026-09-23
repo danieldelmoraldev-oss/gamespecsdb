@@ -13,6 +13,7 @@ const fps = maxFps(game);
     <FormatBadge format={d.physical.format} />
     {fps > 0 && <span class="badge brand">{fps} FPS</span>}
     {d.kind === 'edition' && <span class="badge">Switch 2 Edition</span>}
+    {d.kind === 'free-update' && <span class="badge brand">Free Switch 2 update</span>}
   </div>
   <div>
     <div class="meta"><span>{d.fileSize.estimate ? 'Est. size' : 'File size'}</span><span class="size">{formatGB(d.fileSize.currentGB)}</span></div>

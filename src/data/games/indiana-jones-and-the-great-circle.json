@@ -39,5 +39,21 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "1080p (dynamic, DLSS)",
+        "fps": 30
+      },
+      {
+        "play": "handheld",
+        "resolution": "720p (dynamic, DLSS)",
+        "fps": 30
+      }
+    ],
+    "source": "https://nintendoeverything.com/indiana-jones-and-the-great-circle-nintendo-switch-2-tech-specs-dlss/",
+    "checked": "2026-09-23"
   }
 }
