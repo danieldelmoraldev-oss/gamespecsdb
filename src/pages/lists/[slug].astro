@@ -1,0 +1,40 @@
+---
+import Base from '../../layouts/Base.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { allGames, FORMAT_LABEL, formatGB } from '../../lib/games';
+import { LISTS, type ListDef } from '../../lib/lists';
+
+export async function getStaticPaths() {
+  // Empty lists would be thin pages; they appear once a game qualifies.
+  const games = await allGames();
+  return LISTS.filter((l) => games.some(l.filter)).map((list) => ({ params: { slug: list.slug }, props: { slug: list.slug } }));
+}
+const list = LISTS.find((l) => l.slug === Astro.props.slug) as ListDef;
+let games = (await allGames()).filter(list.filter);
+if (list.sort) games = games.sort(list.sort);
+---
+<Base title={list.title} description={`${list.description} ${games.length} games, each with a source.`}>
+  <div class="breadcrumbs"><a href="/lists/">Lists</a> › {list.title}</div>
+  <h1>{list.title}</h1>
+  <p class="lead">{list.description}</p>
+  {games.length === 0 ? (
+    <p>No confirmed games yet. This list updates as soon as a game is confirmed.</p>
+  ) : (
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>#</th><th>Game</th><th>File size</th><th>Physical format</th></tr></thead>
+        <tbody>
+          {games.map((g, i) => (
+            <tr>
+              <td>{i + 1}</td>
+              <td><a href={`/games/${g.id}/`}>{g.data.title}</a></td>
+              <td>{formatGB(g.data.fileSize.currentGB)}</td>
+              <td>{FORMAT_LABEL[g.data.physical.format]}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )}
+  <AdSlot />
+</Base>

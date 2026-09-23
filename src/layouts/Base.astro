@@ -1,0 +1,67 @@
+---
+import '../styles/global.css';
+import { SITE } from '../site';
+
+interface Props {
+  title: string;
+  description: string;
+  jsonLd?: object | object[];
+  noindex?: boolean;
+}
+const { title, description, jsonLd, noindex = false } = Astro.props;
+const canonical = new URL(Astro.url.pathname, SITE.url).href;
+const fullTitle = title === SITE.name ? title : `${title} | ${SITE.name}`;
+const year = new Date().getFullYear();
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <meta name="robots" content="max-image-preview:large" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+    {SITE.adsenseClient && (
+      <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClient}`} crossorigin="anonymous"></script>
+    )}
+  </head>
+  <body>
+    <header class="site">
+      <div class="wrap">
+        <a class="logo" href="/">GameSpecs<span>DB</span></a>
+        <nav class="main" aria-label="Main">
+          <a href="/games/">All games</a>
+          <a href="/lists/">Lists</a>
+          <a href="/tools/storage-calculator/">Storage calculator</a>
+          <a href="/guides/">Guides</a>
+          <a href="/search/">Search</a>
+        </nav>
+      </div>
+    </header>
+    <main class="wrap" data-pagefind-body>
+      <slot />
+    </main>
+    <footer class="site">
+      <div class="wrap">
+        <nav aria-label="Footer">
+          <a href="/about/">About</a>
+          <a href="/contact/">Contact</a>
+          <a href="/privacy/">Privacy</a>
+          <a href="/cookies/">Cookies</a>
+          <a href="/legal-notice/">Legal notice</a>
+        </nav>
+        <p>© {year} {SITE.name}. Independent fan resource, not affiliated with Nintendo. Every figure links to its source.</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+{
+  "title": "Hades II – Nintendo Switch 2 Edition",
+  "publisher": "Supergiant Games",
+  "releaseDate": "2025-09-25",
+  "kind": "edition",
+  "fileSize": {
+    "currentGB": 10.8,
+    "source": "https://www.nintendo.com/us/store/products/hades-ii-nintendo-switch-2-edition-switch-2/",
+    "checked": "2026-09-23"
+  },
+  "physical": {
+    "format": "full-cartridge",
+    "source": "https://www.nintendolife.com/guides/every-nintendo-switch-2-physical-release-with-the-full-game-on-the-cart",
+    "checked": "2026-09-23"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/hades-ii-nintendo-switch-2-edition-switch-2/",
+    "priceUSD": 29.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Russian",
+      "Simplified Chinese",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": 7.0,
+    "developer": "Supergiant Games"
+  }
+}

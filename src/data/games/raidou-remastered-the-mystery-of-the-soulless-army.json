@@ -1,0 +1,36 @@
+{
+  "title": "RAIDOU Remastered: The Mystery of the Soulless Army",
+  "publisher": "SEGA",
+  "releaseDate": "2025-06-19",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 12.8,
+    "source": "https://www.nintendo.com/us/store/products/raidou-remastered-the-mystery-of-the-soulless-army-switch-2/",
+    "checked": "2026-09-23"
+  },
+  "physical": {
+    "format": "game-key-card",
+    "source": "https://www.destructoid.com/all-switch-2-game-key-card-titles-listed/",
+    "checked": "2026-09-23",
+    "note": "Confirmed for the Western physical release"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/raidou-remastered-the-mystery-of-the-soulless-army-switch-2/",
+    "priceUSD": 49.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": "ATLUS"
+  }
+}

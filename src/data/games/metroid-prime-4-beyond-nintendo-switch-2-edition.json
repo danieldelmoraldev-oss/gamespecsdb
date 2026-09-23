@@ -1,0 +1,44 @@
+{
+  "title": "Metroid Prime 4: Beyond – Nintendo Switch 2 Edition",
+  "publisher": "Nintendo",
+  "releaseDate": "2025-12-04",
+  "kind": "edition",
+  "fileSize": {
+    "currentGB": 27.7,
+    "source": "https://www.nintendo.com/us/store/products/metroid-prime-4-beyond-nintendo-switch-2-edition-switch-2/",
+    "checked": "2026-09-23"
+  },
+  "physical": {
+    "format": "full-cartridge",
+    "source": "https://www.nintendolife.com/guides/every-nintendo-switch-2-physical-release-with-the-full-game-on-the-cart",
+    "checked": "2026-09-23"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/metroid-prime-4-beyond-nintendo-switch-2-edition-switch-2/",
+    "priceUSD": 69.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "Japanese",
+      "British English",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Dutch",
+      "Simplified Chinese",
+      "Latin American Spanish",
+      "Canadian French",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": 26.3,
+    "developer": ""
+  }
+}

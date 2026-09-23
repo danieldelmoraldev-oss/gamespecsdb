@@ -1,0 +1,13 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+const guides = (await getCollection('guides')).sort((a, b) => a.data.title.localeCompare(b.data.title));
+---
+<Base title="Switch 2 guides" description="Plain-English guides to Switch 2 storage, Game-Key Cards and upgrades.">
+  <h1>Guides</h1>
+  <div class="grid">
+    {guides.map((g) => (
+      <a class="card" href={`/guides/${g.id}/`}><strong>{g.data.title}</strong><span class="muted small">{g.data.description}</span></a>
+    ))}
+  </div>
+</Base>

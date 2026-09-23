@@ -1,0 +1,18 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allGames } from '../../lib/games';
+import { LISTS } from '../../lib/lists';
+const games = await allGames();
+---
+<Base title="Switch 2 game lists" description="Lists of Switch 2 games by cartridge format, frame rate, file size and upgrade type.">
+  <h1>Switch 2 game lists</h1>
+  <p class="lead">Every list is generated from the same sourced data as the game pages.</p>
+  <div class="grid">
+    {LISTS.filter((l) => games.some(l.filter)).map((l) => (
+      <a class="card" href={`/lists/${l.slug}/`}>
+        <strong>{l.title}</strong>
+        <span class="muted small">{games.filter(l.filter).length} games</span>
+      </a>
+    ))}
+  </div>
+</Base>

@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../site';
+---
+<Base title="About" description={`Who runs ${SITE.name} and how the data is collected and checked.`}>
+  <article class="prose">
+    <h1>About {SITE.name}</h1>
+    <p>{SITE.name} is an independent reference for Nintendo Switch 2 owners who want quick, sourced answers: how much space a game needs, whether the box has the full game on the cartridge, and how it runs.</p>
+    <h2>How the data is collected</h2>
+    <ul>
+      <li>File sizes and prices come from the official Nintendo eShop listing of each game.</li>
+      <li>Cartridge formats come from publisher announcements and the box itself, cross-checked with major Nintendo news sites.</li>
+      <li>Performance figures come from official announcements and independent technical analyses.</li>
+    </ul>
+    <p>Every figure links to its source and shows when it was last checked. When a fact is not confirmed, the page says "Unknown" instead of guessing.</p>
+    <h2>Who runs it</h2>
+    <p>{SITE.name} is run by {SITE.owner}. Found a wrong number? Write to <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a> and it will be fixed.</p>
+    <p class="small muted">{SITE.name} is not affiliated with, endorsed or sponsored by Nintendo. Nintendo Switch 2 is a trademark of Nintendo.</p>
+  </article>
+</Base>

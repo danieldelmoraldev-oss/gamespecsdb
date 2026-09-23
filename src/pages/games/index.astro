@@ -1,0 +1,53 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allGames, FORMAT_LABEL, formatGB } from '../../lib/games';
+const games = await allGames();
+---
+<Base title="All Switch 2 games: file sizes and cartridge formats" description={`File size, Game-Key Card status and release date for ${games.length} Nintendo Switch 2 games, with sources.`}>
+  <h1>All Switch 2 games</h1>
+  <p class="lead">{games.length} games with their download size and physical format. Type to filter, click a header to sort.</p>
+  <input type="search" id="filter" placeholder="Filter by title or publisher" aria-label="Filter games" />
+  <div class="table-scroll">
+    <table id="games">
+      <thead>
+        <tr><th data-sort="text">Game</th><th data-sort="num">File size</th><th data-sort="text">Physical format</th><th data-sort="text">Publisher</th></tr>
+      </thead>
+      <tbody>
+        {games.map((g) => (
+          <tr data-search={`${g.data.title} ${g.data.publisher}`.toLowerCase()}>
+            <td><a href={`/games/${g.id}/`}>{g.data.title}</a></td>
+            <td data-value={g.data.fileSize.currentGB}>{formatGB(g.data.fileSize.currentGB)}</td>
+            <td>{FORMAT_LABEL[g.data.physical.format]}</td>
+            <td>{g.data.publisher}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <script>
+    const input = document.getElementById('filter') as HTMLInputElement;
+    const tbody = document.querySelector('#games tbody')!;
+    const rows = () => Array.from(tbody.querySelectorAll('tr')) as HTMLTableRowElement[];
+    input.addEventListener('input', () => {
+      const q = input.value.trim().toLowerCase();
+      for (const r of rows()) r.hidden = q !== '' && !r.dataset.search!.includes(q);
+    });
+    document.querySelectorAll<HTMLTableCellElement>('#games th').forEach((th, col) => {
+      let asc = true;
+      th.style.cursor = 'pointer';
+      th.addEventListener('click', () => {
+        const numeric = th.dataset.sort === 'num';
+        const key = (r: HTMLTableRowElement) => {
+          const cell = r.cells[col];
+          return numeric ? Number(cell.dataset.value) : cell.textContent!.trim().toLowerCase();
+        };
+        const sorted = rows().sort((a, b) => {
+          const x = key(a), y = key(b);
+          return (x < y ? -1 : x > y ? 1 : 0) * (asc ? 1 : -1);
+        });
+        asc = !asc;
+        tbody.append(...sorted);
+      });
+    });
+  </script>
+</Base>

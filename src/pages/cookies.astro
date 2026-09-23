@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../site';
+---
+<Base title="Cookie policy" description={`Which cookies ${SITE.name} uses and how to control them.`}>
+  <article class="prose">
+    <h1>Cookie policy</h1>
+    <p class="small muted">Last updated: September 23, 2026</p>
+    <p>{SITE.name} itself sets no cookies. Cookies only come from Google's advertising services, and only in the ways you allow.</p>
+    <table>
+      <thead><tr><th>Provider</th><th>Purpose</th><th>Consent</th></tr></thead>
+      <tbody>
+        <tr><td>Google AdSense</td><td>Show and measure ads, limit repeats, prevent fraud</td><td>Asked on your first visit in the EEA, UK and Switzerland</td></tr>
+      </tbody>
+    </table>
+    <p>You can change your choice at any time from the privacy settings link in the consent message, or delete cookies in your browser.</p>
+  </article>
+</Base>

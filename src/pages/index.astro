@@ -1,0 +1,41 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../site';
+import { allGames, formatGB, lastChecked } from '../lib/games';
+import { LISTS } from '../lib/lists';
+const games = await allGames();
+const recent = [...games].sort((a, b) => lastChecked(b).localeCompare(lastChecked(a))).slice(0, 12);
+const jsonLd = { '@context': 'https://schema.org', '@type': 'WebSite', name: SITE.name, url: SITE.url };
+---
+<Base title={SITE.name} description={SITE.tagline} jsonLd={jsonLd}>
+  <h1>Switch 2 game specs, with sources</h1>
+  <p class="lead">{SITE.tagline} {games.length} games so far, every number linked to where it came from.</p>
+
+  <form action="/games/" method="get" onsubmit="return false">
+    <input type="search" id="q" placeholder="Search a game…" aria-label="Search a game" list="titles" />
+    <datalist id="titles">{games.map((g) => <option value={g.data.title} data-href={`/games/${g.id}/`} />)}</datalist>
+  </form>
+
+  <h2>Popular lists</h2>
+  <div class="grid">
+    {LISTS.filter((l) => games.some(l.filter)).slice(0, 6).map((l) => <a class="card" href={`/lists/${l.slug}/`}><strong>{l.title}</strong></a>)}
+  </div>
+
+  <h2>Recently checked</h2>
+  <div class="grid">
+    {recent.map((g) => (
+      <a class="card" href={`/games/${g.id}/`}><strong>{g.data.title}</strong><span class="muted small">{formatGB(g.data.fileSize.currentGB)}</span></a>
+    ))}
+  </div>
+
+  <h2>Tools</h2>
+  <p><a href="/tools/storage-calculator/">Storage calculator</a>: see how many games fit on your Switch 2 and microSD Express card.</p>
+
+  <script>
+    const q = document.getElementById('q') as HTMLInputElement;
+    q.addEventListener('change', () => {
+      const opt = Array.from(document.querySelectorAll<HTMLOptionElement>('#titles option')).find((o) => o.value === q.value);
+      if (opt?.dataset.href) location.href = opt.dataset.href;
+    });
+  </script>
+</Base>

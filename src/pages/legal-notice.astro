@@ -1,0 +1,17 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../site';
+---
+<Base title="Legal notice" description={`Identification of the owner of ${SITE.name}.`}>
+  <article class="prose">
+    <h1>Legal notice</h1>
+    <p>In compliance with Spanish Law 34/2002 (LSSI-CE), the owner of this website is:</p>
+    <ul>
+      <li>Name: {SITE.owner}</li>
+      <li>Tax ID (NIF): {SITE.taxId}</li>
+      {SITE.address && <li>Address: {SITE.address}</li>}
+      <li>Email: <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a></li>
+    </ul>
+    <p>{SITE.name} is an independent information site and is not affiliated with Nintendo. Game names and trademarks belong to their owners and are used only to identify the games.</p>
+  </article>
+</Base>

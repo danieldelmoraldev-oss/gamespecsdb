@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../site';
+---
+<Base title="Contact" description={`How to contact ${SITE.name} or report a wrong figure.`}>
+  <article class="prose">
+    <h1>Contact</h1>
+    <p>To report a wrong file size or format, or for any other question, email <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>. Please include the game and, if you can, a link to the source.</p>
+  </article>
+</Base>

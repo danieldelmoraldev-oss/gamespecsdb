@@ -1,0 +1,152 @@
+---
+import Base from '../../layouts/Base.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { SITE } from '../../site';
+import { allGames, FORMAT_LABEL, KIND_LABEL, formatGB, formatDate, lastChecked, type Game } from '../../lib/games';
+import { LISTS } from '../../lib/lists';
+
+export async function getStaticPaths() {
+  const games = await allGames();
+  return games.map((game) => ({ params: { slug: game.id }, props: { game, games } }));
+}
+
+interface Props { game: Game; games: Game[] }
+const { game, games } = Astro.props;
+const d = game.data;
+const INTERNAL_GB = 256;
+const share = Math.round((d.fileSize.currentGB / INTERNAL_GB) * 100);
+const perf = d.performance;
+const checked = lastChecked(game);
+const e = d.eshop;
+const playerBits = e && [
+  e.players.system && `${e.players.system} players on one console`,
+  e.players.local && `${e.players.local} over local wireless`,
+  e.players.online && `${e.players.online} online`,
+].filter(Boolean);
+const hasPerf = Boolean(perf?.docked || perf?.handheld);
+const topics = hasPerf ? 'file size, cartridge and performance' : 'file size and cartridge format';
+const lead = d.summary ?? [
+  `${d.title} is published by ${d.publisher} and came out on ${formatDate(d.releaseDate)}.`,
+  playerBits && playerBits.length > 0 ? `Multiplayer: up to ${playerBits.join(', ')}.` : '',
+  e && e.languages.length > 0 ? `The eShop lists ${e.languages.length} supported languages.` : '',
+].filter(Boolean).join(' ');
+
+const formatAnswer: Record<typeof d.physical.format, string> = {
+  'full-cartridge': `The physical release of ${d.title} has the full game on the cartridge, so you can play it without downloading the game first.`,
+  'game-key-card': `The physical release of ${d.title} is a Game-Key Card: the cartridge only unlocks a ${formatGB(d.fileSize.currentGB)} download, so you need an internet connection and free storage to play it.`,
+  'digital-only': `${d.title} is only sold digitally, so it always needs ${formatGB(d.fileSize.currentGB)} of free storage.`,
+  unknown: `We have not confirmed yet whether the physical release of ${d.title} is a full cartridge or a Game-Key Card.`,
+};
+
+const faqs = [
+  {
+    q: `How big is ${d.title} on Switch 2?`,
+    a: `${d.title} needs ${formatGB(d.fileSize.currentGB)} of storage${d.fileSize.launchGB ? ` (it was ${formatGB(d.fileSize.launchGB)} at launch)` : ''}. That is about ${share}% of the Switch 2's ${INTERNAL_GB} GB internal storage.`,
+  },
+  { q: `Is ${d.title} a Game-Key Card?`, a: formatAnswer[d.physical.format] },
+];
+if (perf?.docked?.fps || perf?.handheld?.fps) {
+  const parts = [
+    perf.docked?.fps && `${perf.docked.fps} FPS in TV mode${perf.docked.resolution ? ` at ${perf.docked.resolution}` : ''}`,
+    perf.handheld?.fps && `${perf.handheld.fps} FPS in handheld mode${perf.handheld.resolution ? ` at ${perf.handheld.resolution}` : ''}`,
+  ].filter(Boolean);
+  faqs.push({ q: `Does ${d.title} run at 60 FPS on Switch 2?`, a: `${d.title} targets ${parts.join(' and ')}.` });
+}
+if (d.upgrade) {
+  faqs.push({
+    q: `How much is the ${d.title} Nintendo Switch 2 Edition upgrade?`,
+    a: d.upgrade.priceUSD === 0 ? 'The upgrade is free.' : `The upgrade costs $${d.upgrade.priceUSD.toFixed(2)} in the US eShop.`,
+  });
+}
+
+const inLists = LISTS.filter((l) => l.filter(game) && !l.sort);
+const samePublisher = games.filter((g) => g.data.publisher === d.publisher && g.id !== game.id).slice(0, 6);
+
+const title = `${d.title} Switch 2 ${hasPerf ? 'file size, Game-Key Card and FPS' : 'file size and Game-Key Card'}`;
+const description = `${d.title} takes ${formatGB(d.fileSize.currentGB)} on Switch 2. ${FORMAT_LABEL[d.physical.format]}. Sourced specs, last checked ${formatDate(checked)}.`;
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'VideoGame',
+    name: d.title,
+    publisher: { '@type': 'Organization', name: d.publisher },
+    datePublished: d.releaseDate,
+    gamePlatform: 'Nintendo Switch 2',
+    genre: d.genres,
+    url: `${SITE.url}/games/${game.id}/`,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Games', item: `${SITE.url}/games/` },
+      { '@type': 'ListItem', position: 2, name: d.title, item: `${SITE.url}/games/${game.id}/` },
+    ],
+  },
+];
+---
+<Base title={title} description={description} jsonLd={jsonLd}>
+  <div class="breadcrumbs"><a href="/games/">Games</a> › {d.title}</div>
+  <h1>{d.title} on Switch 2: {topics}</h1>
+  <p class="lead">{lead}</p>
+
+  <div class="answer">
+    <p><strong>File size:</strong> {formatGB(d.fileSize.currentGB)} ({share}% of the {INTERNAL_GB} GB internal storage).</p>
+    <p><strong>Physical format:</strong> {FORMAT_LABEL[d.physical.format]}.</p>
+    <p class="small muted">Last checked {formatDate(checked)}.</p>
+  </div>
+
+  <h2>Specs</h2>
+  <div class="table-scroll">
+    <table class="specs">
+      <tbody>
+        <tr><th>File size (current)</th><td>{formatGB(d.fileSize.currentGB)} <a class="small" href={d.fileSize.source} rel="nofollow noopener">source</a></td></tr>
+        {d.fileSize.launchGB && <tr><th>File size at launch</th><td>{formatGB(d.fileSize.launchGB)}</td></tr>}
+        <tr><th>Physical format</th><td>{FORMAT_LABEL[d.physical.format]}{d.physical.note && <span class="muted"> — {d.physical.note}</span>} <a class="small" href={d.physical.source} rel="nofollow noopener">source</a></td></tr>
+        <tr><th>Type</th><td>{KIND_LABEL[d.kind]}</td></tr>
+        {perf?.docked && <tr><th>TV mode</th><td>{[perf.docked.resolution, perf.docked.fps && `${perf.docked.fps} FPS`].filter(Boolean).join(' · ')} <a class="small" href={perf.source} rel="nofollow noopener">source</a></td></tr>}
+        {perf?.handheld && <tr><th>Handheld mode</th><td>{[perf.handheld.resolution, perf.handheld.fps && `${perf.handheld.fps} FPS`].filter(Boolean).join(' · ')} <a class="small" href={perf.source} rel="nofollow noopener">source</a></td></tr>}
+        {d.upgrade && <tr><th>Switch 2 Edition upgrade</th><td>{d.upgrade.priceUSD === 0 ? 'Free' : `$${d.upgrade.priceUSD.toFixed(2)}`} <a class="small" href={d.upgrade.source} rel="nofollow noopener">source</a></td></tr>}
+        {e?.switch1SizeGB && <tr><th>Switch 1 version size</th><td>{formatGB(e.switch1SizeGB)}</td></tr>}
+        {e?.priceUSD != null && <tr><th>US eShop price</th><td>${e.priceUSD.toFixed(2)}</td></tr>}
+        {e && e.playModes.length > 0 && <tr><th>Play modes</th><td>{e.playModes.join(', ')}</td></tr>}
+        {playerBits && playerBits.length > 0 && <tr><th>Multiplayer</th><td>Up to {playerBits.join(' · ')}</td></tr>}
+        {e && e.languages.length > 0 && <tr><th>Languages</th><td>{e.languages.join(', ')}</td></tr>}
+        <tr><th>Publisher</th><td>{d.publisher}</td></tr>
+        {e?.developer && e.developer !== d.publisher && <tr><th>Developer</th><td>{e.developer}</td></tr>}
+        <tr><th>Release date</th><td>{formatDate(d.releaseDate)}</td></tr>
+        {d.genres.length > 0 && <tr><th>Genre</th><td>{d.genres.join(', ')}</td></tr>}
+      </tbody>
+    </table>
+  </div>
+
+  <AdSlot />
+
+  <h2>Questions</h2>
+  {faqs.map((f) => (
+    <section>
+      <h3>{f.q}</h3>
+      <p>{f.a}</p>
+    </section>
+  ))}
+
+  {inLists.length > 0 && (
+    <>
+      <h2>Appears in</h2>
+      <ul>{inLists.map((l) => <li><a href={`/lists/${l.slug}/`}>{l.title}</a></li>)}</ul>
+    </>
+  )}
+
+  {samePublisher.length > 0 && (
+    <>
+      <h2>More from {d.publisher}</h2>
+      <div class="grid">
+        {samePublisher.map((g) => (
+          <a class="card" href={`/games/${g.id}/`}><strong>{g.data.title}</strong><span class="muted small">{formatGB(g.data.fileSize.currentGB)}</span></a>
+        ))}
+      </div>
+    </>
+  )}
+
+  <p class="small muted">Sizes change with updates. <a href="/tools/storage-calculator/">Check how many games fit on your Switch 2</a>.</p>
+</Base>
