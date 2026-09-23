@@ -41,3 +41,13 @@ export function lastChecked(game: Game): string {
     .sort()
     .at(-1)!;
 }
+
+// "Kirby and the Forgotten Land – Nintendo Switch 2 Edition + Star-Crossed World"
+// -> "Kirby and the Forgotten Land + Star-Crossed World": what people actually type.
+export function shortTitle(title: string): string {
+  return title.replace(/\s*(?:[–-]|:)?\s*Nintendo Switch 2 Edition/i, '').replace(/\s{2,}/g, ' ').trim();
+}
+
+export function isUpcoming(iso: string): boolean {
+  return iso > new Date().toISOString().slice(0, 10);
+}

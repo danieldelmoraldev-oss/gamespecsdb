@@ -48,5 +48,21 @@
     ],
     "switch1SizeGB": null,
     "developer": "Nintendo"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "1440p",
+        "fps": 60
+      },
+      {
+        "play": "handheld",
+        "resolution": "1080p",
+        "fps": 60
+      }
+    ],
+    "source": "https://www.nintendolife.com/news/2025/06/digital-foundry-delivers-its-mario-kart-world-tech-review-nintendos-artistry-stands-out-the-most-here",
+    "checked": "2026-09-23"
   }
 }

@@ -37,5 +37,26 @@
     ],
     "switch1SizeGB": 7.0,
     "developer": "Supergiant Games"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "1080p",
+        "fps": 120
+      },
+      {
+        "play": "handheld",
+        "resolution": "1080p",
+        "fps": 60
+      }
+    ],
+    "source": "https://www.rpgsite.net/feature/18485-hades-2-switch-2-vs-steam-deck-recommended-settings-120-fps-pc-full-release-1-0",
+    "checked": "2026-09-23"
+  },
+  "upgrade": {
+    "priceUSD": 0,
+    "source": "https://www.nintendo.com/us/store/products/hades-ii-nintendo-switch-2-edition-upgrade-pack-switch-2/",
+    "checked": "2026-09-23"
   }
 }

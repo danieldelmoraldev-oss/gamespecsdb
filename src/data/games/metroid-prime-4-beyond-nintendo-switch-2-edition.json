@@ -40,5 +40,40 @@
     ],
     "switch1SizeGB": 26.3,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "preset": "Quality",
+        "resolution": "4K",
+        "fps": 60
+      },
+      {
+        "play": "tv",
+        "preset": "Performance",
+        "resolution": "1080p",
+        "fps": 120
+      },
+      {
+        "play": "handheld",
+        "preset": "Quality",
+        "resolution": "1080p",
+        "fps": 60
+      },
+      {
+        "play": "handheld",
+        "preset": "Performance",
+        "resolution": "720p",
+        "fps": 120
+      }
+    ],
+    "source": "https://comicbook.com/gaming/news/metroid-prime-4s-quality-performance-modes-on-switch-2-explained/",
+    "checked": "2026-09-23"
+  },
+  "upgrade": {
+    "priceUSD": 9.99,
+    "source": "https://www.nintendo.com/us/store/products/metroid-prime-4-beyond-nintendo-switch-2-edition-upgrade-pack-switch-2/",
+    "checked": "2026-09-23"
   }
 }

@@ -39,5 +39,10 @@
     ],
     "switch1SizeGB": 7.7,
     "developer": ""
+  },
+  "upgrade": {
+    "priceUSD": 2.59,
+    "source": "https://www.nintendo.com/us/store/products/fantasy-life-i-the-girl-who-steals-time-nintendo-switch-2-edition-upgrade-pack-switch-2/",
+    "checked": "2026-09-23"
   }
 }

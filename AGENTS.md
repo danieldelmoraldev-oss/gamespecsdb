@@ -31,5 +31,7 @@ GameSpecsDB (gamespecsdb.com): sourced Switch 2 game specs, monetised with AdSen
 - `scripts/fetch_eshop.py` pulls official facts from the US eShop: `list` refreshes the Switch 2 URL list from
   the store sitemap, `fetch KEY…` caches products, `sync` rewrites eShop-owned fields of existing game files.
   Hand-curated fields (physical format, performance, summary) are never overwritten.
+- Curated facts live in `data/physical.json` and `data/performance.json`; `scripts/apply_curated.py` writes
+  them into the game files (a game is only published once its cartridge format is in `physical.json`).
 - Every fact needs a `source` URL and a `checked` date. Unknown stays `unknown`; never guess.
 - Ads stay off until `SITE.adsenseClient` in `src/site.ts` is set.

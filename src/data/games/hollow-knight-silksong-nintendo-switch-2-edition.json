@@ -36,5 +36,10 @@
     ],
     "switch1SizeGB": 2.9,
     "developer": ""
+  },
+  "upgrade": {
+    "priceUSD": 0,
+    "source": "https://www.nintendo.com/us/store/products/hollow-knight-silksong-nintendo-switch-2-edition-upgrade-pack-switch-2/",
+    "checked": "2026-09-23"
   }
 }

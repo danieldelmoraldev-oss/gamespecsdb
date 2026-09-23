@@ -1,0 +1,39 @@
+{
+  "title": "Trails in the Sky 2nd Chapter: Nintendo Switch 2 Edition",
+  "publisher": "GungHo America",
+  "releaseDate": "2026-09-17",
+  "kind": "edition",
+  "fileSize": {
+    "currentGB": 32.5,
+    "source": "https://www.nintendo.com/us/store/products/trails-in-the-sky-2nd-chapter-nintendo-switch-2-edition-switch-2/",
+    "checked": "2026-09-23"
+  },
+  "physical": {
+    "format": "full-cartridge",
+    "source": "https://www.nintendolife.com/guides/every-nintendo-switch-2-physical-release-with-the-full-game-on-the-cart",
+    "checked": "2026-09-23"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/trails-in-the-sky-2nd-chapter-nintendo-switch-2-edition-switch-2/",
+    "priceUSD": 64.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "French",
+      "German",
+      "Spanish",
+      "American English"
+    ],
+    "switch1SizeGB": 19.7,
+    "developer": "Nihon Falcom"
+  },
+  "upgrade": {
+    "priceUSD": 4.99,
+    "source": "https://www.nintendo.com/us/store/products/trails-in-the-sky-2nd-chapter-nintendo-switch-2-edition-upgrade-pack-switch-2/",
+    "checked": "2026-09-23"
+  }
+}

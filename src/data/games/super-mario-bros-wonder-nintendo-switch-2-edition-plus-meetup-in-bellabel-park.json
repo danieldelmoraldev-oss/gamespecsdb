@@ -48,5 +48,10 @@
     ],
     "switch1SizeGB": 3.7,
     "developer": "Nintendo"
+  },
+  "upgrade": {
+    "priceUSD": 19.99,
+    "source": "https://www.nintendo.com/us/store/products/super-mario-bros-wonder-nintendo-switch-2-edition-plus-meetup-in-bellabel-park-upgrade-pack-switch-2/",
+    "checked": "2026-09-23"
   }
 }

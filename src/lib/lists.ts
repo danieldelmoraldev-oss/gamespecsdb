@@ -10,7 +10,7 @@ export interface ListDef {
 
 const bySizeDesc = (a: Game, b: Game) => b.data.fileSize.currentGB - a.data.fileSize.currentGB;
 const bySizeAsc = (a: Game, b: Game) => a.data.fileSize.currentGB - b.data.fileSize.currentGB;
-const maxFps = (g: Game) => Math.max(g.data.performance?.handheld?.fps ?? 0, g.data.performance?.docked?.fps ?? 0);
+const maxFps = (g: Game) => Math.max(0, ...(g.data.performance?.modes ?? []).map((m) => m.fps ?? 0));
 
 export const LISTS: ListDef[] = [
   {

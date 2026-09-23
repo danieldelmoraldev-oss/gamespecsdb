@@ -1,0 +1,61 @@
+{
+ "donkey-kong-bananza": {
+  "modes": [
+   {"play": "tv", "resolution": "1080p–1200p (dynamic)", "fps": 60},
+   {"play": "handheld", "resolution": "1080p", "fps": 60}
+  ],
+  "note": "60 FPS is the target; Digital Foundry measured drops in some scenes.",
+  "source": "https://nintendoeverything.com/donkey-kong-bananza-frame-rate-and-resolution/",
+  "checked": "2026-09-23"
+ },
+ "hades-ii-nintendo-switch-2-edition": {
+  "modes": [
+   {"play": "tv", "resolution": "1080p", "fps": 120},
+   {"play": "handheld", "resolution": "1080p", "fps": 60}
+  ],
+  "source": "https://www.rpgsite.net/feature/18485-hades-2-switch-2-vs-steam-deck-recommended-settings-120-fps-pc-full-release-1-0",
+  "checked": "2026-09-23"
+ },
+ "mario-kart-world": {
+  "modes": [
+   {"play": "tv", "resolution": "1440p", "fps": 60},
+   {"play": "handheld", "resolution": "1080p", "fps": 60}
+  ],
+  "source": "https://www.nintendolife.com/news/2025/06/digital-foundry-delivers-its-mario-kart-world-tech-review-nintendos-artistry-stands-out-the-most-here",
+  "checked": "2026-09-23"
+ },
+ "metroid-prime-4-beyond-nintendo-switch-2-edition": {
+  "modes": [
+   {"play": "tv", "preset": "Quality", "resolution": "4K", "fps": 60},
+   {"play": "tv", "preset": "Performance", "resolution": "1080p", "fps": 120},
+   {"play": "handheld", "preset": "Quality", "resolution": "1080p", "fps": 60},
+   {"play": "handheld", "preset": "Performance", "resolution": "720p", "fps": 120}
+  ],
+  "source": "https://comicbook.com/gaming/news/metroid-prime-4s-quality-performance-modes-on-switch-2-explained/",
+  "checked": "2026-09-23"
+ },
+ "pokemon-legends-z-a-nintendo-switch-2-edition": {
+  "modes": [
+   {"play": "tv", "resolution": "Up to 4K", "fps": 60},
+   {"play": "handheld", "resolution": "1080p"}
+  ],
+  "source": "https://kotaku.com/pokemon-legends-za-switch-2-comparison-framerate-upgrade-2000635404",
+  "checked": "2026-09-23"
+ },
+ "the-legend-of-zelda-breath-of-the-wild-nintendo-switch-2-edition": {
+  "modes": [
+   {"play": "tv", "resolution": "Up to 1440p (dynamic)", "fps": 60},
+   {"play": "handheld", "resolution": "648p–1080p (dynamic)", "fps": 60}
+  ],
+  "source": "https://nintendoeverything.com/zelda-breath-of-the-wild-and-tears-of-the-kingdom-nintendo-switch-2-frame-rate-resolution/",
+  "checked": "2026-09-23"
+ },
+ "the-legend-of-zelda-tears-of-the-kingdom-nintendo-switch-2-edition": {
+  "modes": [
+   {"play": "tv", "resolution": "Up to 1440p (dynamic)", "fps": 60},
+   {"play": "handheld", "resolution": "648p–1080p (dynamic)", "fps": 60}
+  ],
+  "source": "https://nintendoeverything.com/zelda-breath-of-the-wild-and-tears-of-the-kingdom-nintendo-switch-2-frame-rate-resolution/",
+  "checked": "2026-09-23"
+ }
+}

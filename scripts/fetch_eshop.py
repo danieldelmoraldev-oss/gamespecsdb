@@ -4,6 +4,7 @@
 Usage:
   scripts/fetch_eshop.py list                 # refresh data/eshop-switch2-urls.txt from the store sitemap
   scripts/fetch_eshop.py fetch KEY [KEY ...]  # fetch products by urlKey into data/eshop-cache.json
+  scripts/fetch_eshop.py upgrades             # fetch Switch 2 Edition upgrade pack prices into the cache
   scripts/fetch_eshop.py sync                 # update src/data/games/*.json from the cache
 
 Only eShop-owned fields are overwritten on sync; hand-curated fields
@@ -52,7 +53,11 @@ def parse(key, html):
         return None
     roms = {r['platform']: r for r in (p.get('softwareDetails') or {}).get('romSizes') or []}
     s2 = roms.get('BEE') or {}
-    size = s2.get('totalRomSize') or s2.get('estimatedRomSize')
+    # Before release the eShop only has an estimate; totalRomSize is then a tiny
+    # preload stub (Monster Hunter Wilds: 0.2 GB total vs 39.1 GB estimated).
+    upcoming = 'Coming soon' in (p.get('availability') or []) or (p.get('releaseDate') or '')[:10] > dt.date.today().isoformat()
+    estimate = upcoming or not s2.get('totalRomSize')
+    size = s2.get('estimatedRomSize') if estimate else s2.get('totalRomSize')
     s1 = (roms.get('HAC') or {}).get('totalRomSize')
     price = next((v for k, v in p.items() if k.startswith('prices(')), None) or {}
     players = p.get('numberOfPlayers') or {}
@@ -65,7 +70,7 @@ def parse(key, html):
         'releaseDate': (p.get('releaseDate') or '')[:10],
         'isUpgrade': bool(p.get('isUpgrade')),
         'sizeGB': round(int(size) / GIB, 1) if size else None,
-        'sizeIsEstimate': not s2.get('totalRomSize') and bool(size),
+        'sizeIsEstimate': estimate,
         'switch1SizeGB': round(int(s1) / GIB, 1) if s1 else None,
         'priceUSD': price.get('regularPrice'),
         'playModes': [m['label'] for m in p.get('playModes') or [] if 'mode' in (m.get('label') or '').lower()],
@@ -92,6 +97,28 @@ def cmd_fetch(keys):
         time.sleep(1.0)  # be polite to nintendo.com
 
 
+def cmd_upgrades():
+    cache = json.loads(CACHE.read_text())
+    for key, e in cache.items():
+        if 'nintendo-switch-2-edition' not in key:
+            continue
+        pack = key.removesuffix('-switch-2') + '-upgrade-pack-switch-2'
+        try:
+            html = get(BASE + pack + '/')
+            m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
+            state = json.loads(m.group(1))['props']['pageProps']['initialApolloState']
+            p = next(v for k, v in state.items() if k.startswith('Product:') and v.get('urlKey') == pack)
+            price = next((v for k, v in p.items() if k.startswith('prices(')), None) or {}
+        except Exception as ex:
+            print(f'! {pack}: {ex}')
+            continue
+        if price.get('regularPrice') is not None:
+            e['upgrade'] = {'priceUSD': price['regularPrice'], 'url': BASE + pack + '/', 'checked': dt.date.today().isoformat()}
+            print(f"{e['title']}: upgrade ${price['regularPrice']}")
+        CACHE.write_text(json.dumps(cache, indent=1, ensure_ascii=False))
+        time.sleep(1.0)
+
+
 def slugify(key):
     return re.sub(r'-switch-2$', '', key)
 
@@ -110,7 +137,13 @@ def cmd_sync():
         g['publisher'] = e['publisher'] or g.get('publisher')
         g['releaseDate'] = e['releaseDate'] or g.get('releaseDate')
         g['fileSize'] = {**g.get('fileSize', {}), 'currentGB': e['sizeGB'], 'source': e['url'], 'checked': e['checked']}
+        if e['sizeIsEstimate']:
+            g['fileSize']['estimate'] = True
+        else:
+            g['fileSize'].pop('estimate', None)
         g['eshop'] = {k: e[k] for k in ('url', 'priceUSD', 'playModes', 'players', 'languages', 'switch1SizeGB', 'developer')}
+        if e.get('upgrade'):
+            g['upgrade'] = {'priceUSD': e['upgrade']['priceUSD'], 'source': e['upgrade']['url'], 'checked': e['upgrade']['checked']}
         path.write_text(json.dumps(g, indent=2, ensure_ascii=False) + '\n')
         print(f'synced {path.name}')
 
@@ -121,6 +154,8 @@ if __name__ == '__main__':
         cmd_list()
     elif cmd == 'fetch':
         cmd_fetch(args or URLS.read_text().split())
+    elif cmd == 'upgrades':
+        cmd_upgrades()
     elif cmd == 'sync':
         cmd_sync()
     else:

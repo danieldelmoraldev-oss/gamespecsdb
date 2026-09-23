@@ -37,5 +37,10 @@
     ],
     "switch1SizeGB": 13.5,
     "developer": ""
+  },
+  "upgrade": {
+    "priceUSD": 4.99,
+    "source": "https://www.nintendo.com/us/store/products/xenoblade-chronicles-x-definitive-edition-nintendo-switch-2-edition-upgrade-pack-switch-2/",
+    "checked": "2026-09-23"
   }
 }

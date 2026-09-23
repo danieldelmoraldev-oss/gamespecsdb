@@ -46,5 +46,10 @@
     ],
     "switch1SizeGB": 5.4,
     "developer": ""
+  },
+  "upgrade": {
+    "priceUSD": 19.99,
+    "source": "https://www.nintendo.com/us/store/products/super-mario-party-jamboree-nintendo-switch-2-edition-plus-jamboree-tv-upgrade-pack-switch-2/",
+    "checked": "2026-09-23"
   }
 }

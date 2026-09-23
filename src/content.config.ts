@@ -23,6 +23,8 @@ const games = defineCollection({
     fileSize: z.object({
       currentGB: z.number().positive(),
       launchGB: z.number().positive().optional(),
+      // true while the game is unreleased and the eShop only lists an estimate
+      estimate: z.boolean().optional(),
       ...sourced,
     }),
     physical: z.object({
@@ -32,8 +34,17 @@ const games = defineCollection({
     }),
     performance: z
       .object({
-        handheld: z.object({ resolution: z.string().optional(), fps: z.number().optional() }).optional(),
-        docked: z.object({ resolution: z.string().optional(), fps: z.number().optional() }).optional(),
+        modes: z
+          .array(
+            z.object({
+              play: z.enum(['tv', 'handheld']),
+              preset: z.string().optional(), // e.g. "Quality", "Performance"
+              resolution: z.string().optional(),
+              fps: z.number().optional(),
+            }),
+          )
+          .min(1),
+        note: z.string().optional(),
         ...sourced,
       })
       .optional(),

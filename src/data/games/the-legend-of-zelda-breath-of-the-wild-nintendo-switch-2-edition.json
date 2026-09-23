@@ -42,5 +42,26 @@
     ],
     "switch1SizeGB": 14.4,
     "developer": "Nintendo"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "Up to 1440p (dynamic)",
+        "fps": 60
+      },
+      {
+        "play": "handheld",
+        "resolution": "648p–1080p (dynamic)",
+        "fps": 60
+      }
+    ],
+    "source": "https://nintendoeverything.com/zelda-breath-of-the-wild-and-tears-of-the-kingdom-nintendo-switch-2-frame-rate-resolution/",
+    "checked": "2026-09-23"
+  },
+  "upgrade": {
+    "priceUSD": 9.99,
+    "source": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-nintendo-switch-2-edition-upgrade-pack-switch-2/",
+    "checked": "2026-09-23"
   }
 }

@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import AdSlot from '../../components/AdSlot.astro';
 import { SITE } from '../../site';
-import { allGames, FORMAT_LABEL, KIND_LABEL, formatGB, formatDate, lastChecked, type Game } from '../../lib/games';
+import { allGames, FORMAT_LABEL, KIND_LABEL, formatGB, formatDate, lastChecked, shortTitle, isUpcoming, type Game } from '../../lib/games';
 import { LISTS } from '../../lib/lists';
 
 export async function getStaticPaths() {
@@ -17,44 +17,53 @@ const INTERNAL_GB = 256;
 const share = Math.round((d.fileSize.currentGB / INTERNAL_GB) * 100);
 const perf = d.performance;
 const checked = lastChecked(game);
+const name = shortTitle(d.title);
+const upcoming = isUpcoming(d.releaseDate);
 const e = d.eshop;
 const playerBits = e && [
   e.players.system && `${e.players.system} players on one console`,
   e.players.local && `${e.players.local} over local wireless`,
   e.players.online && `${e.players.online} online`,
 ].filter(Boolean);
-const hasPerf = Boolean(perf?.docked || perf?.handheld);
+const hasPerf = Boolean(perf?.modes.length);
+const PLAY_LABEL = { tv: 'TV mode', handheld: 'Handheld mode' } as const;
+const modeLabel = (m: NonNullable<typeof perf>['modes'][number]) => `${PLAY_LABEL[m.play]}${m.preset ? ` (${m.preset})` : ''}`;
+const modeSpec = (m: NonNullable<typeof perf>['modes'][number]) =>
+  [m.resolution, m.fps && `${m.fps} FPS`].filter(Boolean).join(' · ');
 const topics = hasPerf ? 'file size, cartridge and performance' : 'file size and cartridge format';
 const lead = d.summary ?? [
-  `${d.title} is published by ${d.publisher} and came out on ${formatDate(d.releaseDate)}.`,
+  `${d.title} is published by ${d.publisher} and ${upcoming ? 'is due out on' : 'came out on'} ${formatDate(d.releaseDate)}.`,
   playerBits && playerBits.length > 0 ? `Multiplayer: up to ${playerBits.join(', ')}.` : '',
   e && e.languages.length > 0 ? `The eShop lists ${e.languages.length} supported languages.` : '',
 ].filter(Boolean).join(' ');
 
 const formatAnswer: Record<typeof d.physical.format, string> = {
-  'full-cartridge': `The physical release of ${d.title} has the full game on the cartridge, so you can play it without downloading the game first.`,
-  'game-key-card': `The physical release of ${d.title} is a Game-Key Card: the cartridge only unlocks a ${formatGB(d.fileSize.currentGB)} download, so you need an internet connection and free storage to play it.`,
-  'digital-only': `${d.title} is only sold digitally, so it always needs ${formatGB(d.fileSize.currentGB)} of free storage.`,
-  unknown: `We have not confirmed yet whether the physical release of ${d.title} is a full cartridge or a Game-Key Card.`,
+  'full-cartridge': `The physical release of ${name} has the full game on the cartridge, so you can play it without downloading the game first.`,
+  'game-key-card': `The physical release of ${name} is a Game-Key Card: the cartridge only unlocks a ${formatGB(d.fileSize.currentGB)} download, so you need an internet connection and free storage to play it.`,
+  'digital-only': `${name} is only sold digitally, so it always needs ${formatGB(d.fileSize.currentGB)} of free storage.`,
+  unknown: `We have not confirmed yet whether the physical release of ${name} is a full cartridge or a Game-Key Card.`,
 };
 
 const faqs = [
   {
-    q: `How big is ${d.title} on Switch 2?`,
-    a: `${d.title} needs ${formatGB(d.fileSize.currentGB)} of storage${d.fileSize.launchGB ? ` (it was ${formatGB(d.fileSize.launchGB)} at launch)` : ''}. That is about ${share}% of the Switch 2's ${INTERNAL_GB} GB internal storage.`,
+    q: `How big is ${name} on Switch 2?`,
+    a: `${name} ${d.fileSize.estimate ? 'is expected to need' : 'needs'} ${formatGB(d.fileSize.currentGB)} of storage${d.fileSize.launchGB ? ` (it was ${formatGB(d.fileSize.launchGB)} at launch)` : ''}. That is about ${share}% of the Switch 2's ${INTERNAL_GB} GB internal storage.`,
   },
-  { q: `Is ${d.title} a Game-Key Card?`, a: formatAnswer[d.physical.format] },
+  { q: `Is ${name} a Game-Key Card?`, a: formatAnswer[d.physical.format] },
 ];
-if (perf?.docked?.fps || perf?.handheld?.fps) {
-  const parts = [
-    perf.docked?.fps && `${perf.docked.fps} FPS in TV mode${perf.docked.resolution ? ` at ${perf.docked.resolution}` : ''}`,
-    perf.handheld?.fps && `${perf.handheld.fps} FPS in handheld mode${perf.handheld.resolution ? ` at ${perf.handheld.resolution}` : ''}`,
-  ].filter(Boolean);
-  faqs.push({ q: `Does ${d.title} run at 60 FPS on Switch 2?`, a: `${d.title} targets ${parts.join(' and ')}.` });
+if (perf?.modes.some((m) => m.fps)) {
+  const parts = perf.modes
+    .filter((m) => m.fps)
+    .map((m) => `${m.fps} FPS in ${modeLabel(m).replace('mode (', 'mode, ').replace(')', ' preset')}${m.resolution ? ` at ${m.resolution}` : ''}`);
+  const top = Math.max(...perf.modes.map((m) => m.fps ?? 0));
+  faqs.push({
+    q: `Does ${name} run at ${top >= 120 ? '120' : '60'} FPS on Switch 2?`,
+    a: `${name} targets ${parts.join('; ')}.${perf.note ? ` ${perf.note}` : ''}`,
+  });
 }
 if (d.upgrade) {
   faqs.push({
-    q: `How much is the ${d.title} Nintendo Switch 2 Edition upgrade?`,
+    q: `How much is the ${name} Nintendo Switch 2 Edition upgrade?`,
     a: d.upgrade.priceUSD === 0 ? 'The upgrade is free.' : `The upgrade costs $${d.upgrade.priceUSD.toFixed(2)} in the US eShop.`,
   });
 }
@@ -62,8 +71,8 @@ if (d.upgrade) {
 const inLists = LISTS.filter((l) => l.filter(game) && !l.sort);
 const samePublisher = games.filter((g) => g.data.publisher === d.publisher && g.id !== game.id).slice(0, 6);
 
-const title = `${d.title} Switch 2 ${hasPerf ? 'file size, Game-Key Card and FPS' : 'file size and Game-Key Card'}`;
-const description = `${d.title} takes ${formatGB(d.fileSize.currentGB)} on Switch 2. ${FORMAT_LABEL[d.physical.format]}. Sourced specs, last checked ${formatDate(checked)}.`;
+const title = `${name} ${d.kind === 'edition' ? 'Switch 2 Edition' : 'Switch 2'} ${hasPerf ? 'file size, Game-Key Card and FPS' : 'file size and Game-Key Card'}`;
+const description = `${name} ${d.fileSize.estimate ? "is expected to take" : "takes"} ${formatGB(d.fileSize.currentGB)} on Switch 2. ${FORMAT_LABEL[d.physical.format]}. Sourced specs, last checked ${formatDate(checked)}.`;
 const jsonLd = [
   {
     '@context': 'https://schema.org',
@@ -87,11 +96,11 @@ const jsonLd = [
 ---
 <Base title={title} description={description} jsonLd={jsonLd}>
   <div class="breadcrumbs"><a href="/games/">Games</a> › {d.title}</div>
-  <h1>{d.title} on Switch 2: {topics}</h1>
+  <h1>{name}{d.kind === 'edition' ? ' (Switch 2 Edition)' : ''} on Switch 2: {topics}</h1>
   <p class="lead">{lead}</p>
 
   <div class="answer">
-    <p><strong>File size:</strong> {formatGB(d.fileSize.currentGB)} ({share}% of the {INTERNAL_GB} GB internal storage).</p>
+    <p><strong>File size:</strong> {formatGB(d.fileSize.currentGB)}{d.fileSize.estimate && ' (estimate before release)'} ({share}% of the {INTERNAL_GB} GB internal storage).</p>
     <p><strong>Physical format:</strong> {FORMAT_LABEL[d.physical.format]}.</p>
     <p class="small muted">Last checked {formatDate(checked)}.</p>
   </div>
@@ -100,12 +109,14 @@ const jsonLd = [
   <div class="table-scroll">
     <table class="specs">
       <tbody>
-        <tr><th>File size (current)</th><td>{formatGB(d.fileSize.currentGB)} <a class="small" href={d.fileSize.source} rel="nofollow noopener">source</a></td></tr>
+        <tr><th>{d.fileSize.estimate ? 'File size (estimated)' : 'File size (current)'}</th><td>{formatGB(d.fileSize.currentGB)} <a class="small" href={d.fileSize.source} rel="nofollow noopener">source</a></td></tr>
         {d.fileSize.launchGB && <tr><th>File size at launch</th><td>{formatGB(d.fileSize.launchGB)}</td></tr>}
         <tr><th>Physical format</th><td>{FORMAT_LABEL[d.physical.format]}{d.physical.note && <span class="muted"> — {d.physical.note}</span>} <a class="small" href={d.physical.source} rel="nofollow noopener">source</a></td></tr>
         <tr><th>Type</th><td>{KIND_LABEL[d.kind]}</td></tr>
-        {perf?.docked && <tr><th>TV mode</th><td>{[perf.docked.resolution, perf.docked.fps && `${perf.docked.fps} FPS`].filter(Boolean).join(' · ')} <a class="small" href={perf.source} rel="nofollow noopener">source</a></td></tr>}
-        {perf?.handheld && <tr><th>Handheld mode</th><td>{[perf.handheld.resolution, perf.handheld.fps && `${perf.handheld.fps} FPS`].filter(Boolean).join(' · ')} <a class="small" href={perf.source} rel="nofollow noopener">source</a></td></tr>}
+        {perf?.modes.map((m) => (
+          <tr><th>{modeLabel(m)}</th><td>{modeSpec(m)} <a class="small" href={perf.source} rel="nofollow noopener">source</a></td></tr>
+        ))}
+        {perf?.note && <tr><th>Performance note</th><td>{perf.note}</td></tr>}
         {d.upgrade && <tr><th>Switch 2 Edition upgrade</th><td>{d.upgrade.priceUSD === 0 ? 'Free' : `$${d.upgrade.priceUSD.toFixed(2)}`} <a class="small" href={d.upgrade.source} rel="nofollow noopener">source</a></td></tr>}
         {e?.switch1SizeGB && <tr><th>Switch 1 version size</th><td>{formatGB(e.switch1SizeGB)}</td></tr>}
         {e?.priceUSD != null && <tr><th>US eShop price</th><td>${e.priceUSD.toFixed(2)}</td></tr>}

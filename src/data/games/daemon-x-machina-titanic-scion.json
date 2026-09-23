@@ -1,0 +1,42 @@
+{
+  "title": "Daemon X Machina: Titanic Scion",
+  "publisher": "Marvelous (XSEED)",
+  "releaseDate": "2025-09-05",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 26.4,
+    "source": "https://www.nintendo.com/us/store/products/daemon-x-machina-titanic-scion-switch-2/",
+    "checked": "2026-09-23"
+  },
+  "physical": {
+    "format": "full-cartridge",
+    "source": "https://www.nintendolife.com/guides/every-nintendo-switch-2-physical-release-with-the-full-game-on-the-cart",
+    "checked": "2026-09-23",
+    "note": "Full cartridge in the West; the Japanese release is a Game-Key Card"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/daemon-x-machina-titanic-scion-switch-2/",
+    "priceUSD": 69.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "online": 3
+    },
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Simplified Chinese",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": "Marvelous"
+  }
+}

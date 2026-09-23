@@ -1,0 +1,42 @@
+{
+  "title": "Kunitsu-Gami: Path of the Goddess",
+  "publisher": "CAPCOM",
+  "releaseDate": "2025-06-05",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 10.2,
+    "source": "https://www.nintendo.com/us/store/products/kunitsu-gami-path-of-the-goddess-switch-2/",
+    "checked": "2026-09-23"
+  },
+  "physical": {
+    "format": "game-key-card",
+    "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
+    "checked": "2026-09-23"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/kunitsu-gami-path-of-the-goddess-switch-2/",
+    "priceUSD": 39.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Russian",
+      "Simplified Chinese",
+      "Latin American Spanish",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": "CAPCOM CO., LTD."
+  }
+}

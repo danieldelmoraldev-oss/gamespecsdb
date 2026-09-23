@@ -1,0 +1,40 @@
+{
+  "title": "Godzilla: Destroy All Monsters Melee Remastered",
+  "publisher": "Atari",
+  "releaseDate": "2026-11-03",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 3.9,
+    "source": "https://www.nintendo.com/us/store/products/godzilla-destroy-all-monsters-melee-remastered-switch-2/",
+    "checked": "2026-09-23",
+    "estimate": true
+  },
+  "physical": {
+    "format": "full-cartridge",
+    "source": "https://www.nintendolife.com/guides/every-nintendo-switch-2-physical-release-with-the-full-game-on-the-cart",
+    "checked": "2026-09-23"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/godzilla-destroy-all-monsters-melee-remastered-switch-2/",
+    "priceUSD": 29.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "system": 4,
+      "online": 2
+    },
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": "Pipeworks Studios"
+  }
+}

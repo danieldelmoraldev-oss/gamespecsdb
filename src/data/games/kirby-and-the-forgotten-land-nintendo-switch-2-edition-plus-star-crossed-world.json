@@ -41,5 +41,10 @@
     ],
     "switch1SizeGB": 5.8,
     "developer": ""
+  },
+  "upgrade": {
+    "priceUSD": 19.99,
+    "source": "https://www.nintendo.com/us/store/products/kirby-and-the-forgotten-land-nintendo-switch-2-edition-plus-star-crossed-world-upgrade-pack-switch-2/",
+    "checked": "2026-09-23"
   }
 }
