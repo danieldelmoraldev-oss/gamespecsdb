@@ -6,7 +6,7 @@ export const SITE = {
   contactEmail: 'danieldelmoral.dev@gmail.com',
   // Legal notice (Spanish LSSI-CE). The address line is hidden while empty.
   taxId: '78778057K',
-  address: '',
+  address: 'Romería del Quililay 5, 50500 Tarazona (Zaragoza), Spain',
   // AdSense publisher id (ca-pub-…). Ads stay off while empty.
   adsenseClient: '',
 };
