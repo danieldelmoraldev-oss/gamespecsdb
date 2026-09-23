@@ -8,5 +8,5 @@ export const SITE = {
   taxId: '78778057K',
   address: 'Romería del Quililay 5, 50500 Tarazona (Zaragoza), Spain',
   // AdSense publisher id (ca-pub-…). Ads stay off while empty.
-  adsenseClient: '',
+  adsenseClient: 'ca-pub-1566325603129309',
 };
