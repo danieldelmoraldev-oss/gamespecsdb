@@ -12,7 +12,9 @@ interface Props {
 }
 const { title, description, jsonLd, noindex = false } = Astro.props;
 const canonical = new URL(Astro.url.pathname, SITE.url).href;
-const fullTitle = title === SITE.name ? `${SITE.name}: Switch 2 game sizes, cartridges and FPS` : `${title} | ${SITE.name}`;
+// Google cuts titles at roughly 60 characters: add the brand only when it still fits.
+const branded = `${title} | ${SITE.name}`;
+const fullTitle = title === SITE.name ? `${SITE.name}: Switch 2 game sizes, cartridges and FPS` : branded.length <= 60 ? branded : title;
 const year = new Date().getFullYear();
 const path = Astro.url.pathname;
 const nav = [
