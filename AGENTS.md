@@ -35,3 +35,7 @@ GameSpecsDB (gamespecsdb.com): sourced Switch 2 game specs, monetised with AdSen
   them into the game files (a game is only published once its cartridge format is in `physical.json`).
 - Every fact needs a `source` URL and a `checked` date. Unknown stays `unknown`; never guess.
 - Ads stay off until `SITE.adsenseClient` in `src/site.ts` is set.
+- `scripts/auto_update.py` runs daily in GitHub Actions (`.github/workflows/auto-update.yml`): adds games newly
+  listed in the Game-Key Card / full-cartridge sources when the title matches an eShop page exactly, refreshes
+  upcoming and recent games daily and every game on Mondays, rejects suspicious size drops, and writes anything
+  that needs a human to `data/review.json`. The bot pushes to `main`, so `git pull` before editing.

@@ -25,3 +25,6 @@ pnpm-debug.log*
 
 # scraper logs
 data/*.log
+
+# python
+__pycache__/

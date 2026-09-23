@@ -1,0 +1,148 @@
+{
+ "date": "2026-09-23",
+ "unmatched": [
+  {
+   "title": "007 First Light",
+   "format": "game-key-card",
+   "candidates": []
+  },
+  {
+   "title": "Attack on Titan 3",
+   "format": "game-key-card",
+   "candidates": []
+  },
+  {
+   "title": "Borderlands 4",
+   "format": "game-key-card",
+   "candidates": []
+  },
+  {
+   "title": "Epic Mickey: Rebrushed",
+   "format": "game-key-card",
+   "candidates": [
+    "disney-epic-mickey-rebrushed-switch-2"
+   ]
+  },
+  {
+   "title": "Gothic 3 Classic",
+   "format": "game-key-card",
+   "candidates": []
+  },
+  {
+   "title": "Hela",
+   "format": "game-key-card",
+   "candidates": []
+  },
+  {
+   "title": "Kingdom Come: Deliverance 2",
+   "format": "game-key-card",
+   "candidates": []
+  },
+  {
+   "title": "Madden NFL 26",
+   "format": "game-key-card",
+   "candidates": [
+    "ea-sports-madden-nfl-26-switch-2",
+    "ea-sports-madden-nfl-27-switch-2"
+   ]
+  },
+  {
+   "title": "Madden NFL 27",
+   "format": "game-key-card",
+   "candidates": [
+    "ea-sports-madden-nfl-26-switch-2",
+    "ea-sports-madden-nfl-27-switch-2"
+   ]
+  },
+  {
+   "title": "My Hero Academia: One’s Justice",
+   "format": "game-key-card",
+   "candidates": []
+  },
+  {
+   "title": "Nickelodeon & The Dice of Destiny",
+   "format": "game-key-card",
+   "candidates": []
+  },
+  {
+   "title": "Nogunaga’s Ambition: Awakening Complete Edition",
+   "format": "game-key-card",
+   "candidates": []
+  },
+  {
+   "title": "Octopath Traveler + Octopath Traveler 2",
+   "format": "game-key-card",
+   "candidates": []
+  },
+  {
+   "title": "Romancing SaGa 3: Destinies Untied",
+   "format": "game-key-card",
+   "candidates": [
+    "romancing-saga-3-destinies-united-digital-deluxe-version-switch-2",
+    "romancing-saga-3-destinies-united-switch-2"
+   ]
+  },
+  {
+   "title": "Shnobi: Art of Vengeance",
+   "format": "game-key-card",
+   "candidates": []
+  },
+  {
+   "title": "Teenage Mutant Ninja Turtles Arcade: Wrath of the Mutants",
+   "format": "game-key-card",
+   "candidates": [
+    "teenage-mutant-ninja-turtles-arcade-wrath-of-the-mutants-ninja-edition-switch-2",
+    "teenage-mutant-ninja-turtles-splintered-fate-nintendo-switch-2-edition-switch-2"
+   ]
+  },
+  {
+   "title": "The Crew Motorfest",
+   "format": "game-key-card",
+   "candidates": []
+  },
+  {
+   "title": "Eternal Anima",
+   "format": "full-cartridge",
+   "candidates": []
+  },
+  {
+   "title": "Order Up!!",
+   "format": "full-cartridge",
+   "candidates": [
+    "order-of-the-sinking-star-switch-2",
+    "shuten-order-nintendo-switch-2-edition-switch-2"
+   ]
+  },
+  {
+   "title": "Pastry Panic!",
+   "format": "full-cartridge",
+   "candidates": []
+  },
+  {
+   "title": "Ravenswatch: Nintendo Switch 2 Edition",
+   "format": "full-cartridge",
+   "candidates": []
+  },
+  {
+   "title": "Shenmue III Enhanced",
+   "format": "full-cartridge",
+   "candidates": []
+  },
+  {
+   "title": "Story of Seasons: Grand Bazaar - Nintendo Switch 2 Edition",
+   "format": "full-cartridge",
+   "candidates": []
+  }
+ ],
+ "conflicts": [],
+ "anomalies": [],
+ "errors": [],
+ "regional": [
+  "Daemon X Machina: Titanic Scion",
+  "Full Metal Schoolgirl",
+  "Gobble",
+  "Shine Post: Be Your Idol",
+  "Starbites",
+  "Stray"
+ ]
+}
