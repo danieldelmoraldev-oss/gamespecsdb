@@ -6,5 +6,6 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://gamespecsdb.com',
   trailingSlash: 'always',
-  integrations: [sitemap()],
+  // Keep noindex pages (search, 404) out of the sitemap.
+  integrations: [sitemap({ filter: (page) => !/\/(search|404)\/?$/.test(page) })],
 });
