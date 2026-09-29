@@ -1,0 +1,45 @@
+{
+  "title": "Diablo IV: Age of Hatred Collection",
+  "publisher": "Blizzard Entertainment",
+  "releaseDate": "2026-09-15",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 71.4,
+    "source": "https://www.nintendo.com/us/store/products/diablo-iv-age-of-hatred-collection-switch-2/",
+    "checked": "2026-09-29"
+  },
+  "physical": {
+    "format": "code-in-box",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/diablo-iv-age-of-hatred-collection",
+    "checked": "2026-09-29"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/diablo-iv-age-of-hatred-collection-switch-2/",
+    "priceUSD": 69.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "online": 4
+    },
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Russian",
+      "Simplified Chinese",
+      "Latin American Spanish",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English",
+      "Polish"
+    ],
+    "switch1SizeGB": null,
+    "developer": ""
+  }
+}

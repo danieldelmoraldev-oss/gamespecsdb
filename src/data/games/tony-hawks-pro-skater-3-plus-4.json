@@ -1,0 +1,41 @@
+{
+  "title": "Tony Hawk's Pro Skater 3 + 4",
+  "publisher": "Activision",
+  "releaseDate": "2025-07-11",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 38.2,
+    "source": "https://www.nintendo.com/us/store/products/tony-hawks-pro-skater-3-plus-4-switch-2/",
+    "checked": "2026-09-29"
+  },
+  "physical": {
+    "format": "code-in-box",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/tony-hawks-pro-skater-3-plus-4",
+    "checked": "2026-09-29"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/tony-hawks-pro-skater-3-plus-4-switch-2/",
+    "priceUSD": null,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "system": 8,
+      "online": 8
+    },
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Latin American Spanish",
+      "Brazilian Portuguese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": ""
+  }
+}

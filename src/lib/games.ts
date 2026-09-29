@@ -5,6 +5,7 @@ export type Game = CollectionEntry<'games'>;
 export const FORMAT_LABEL: Record<Game['data']['physical']['format'], string> = {
   'full-cartridge': 'Full game on cartridge',
   'game-key-card': 'Game-Key Card (download required)',
+  'code-in-box': 'Download code in box (no cartridge)',
   'digital-only': 'Digital only',
   'switch-1-cartridge': 'Switch 1 cartridge',
   unknown: 'Unknown',

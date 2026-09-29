@@ -30,7 +30,7 @@ const games = defineCollection({
       ...sourced,
     }),
     physical: z.object({
-      format: z.enum(['full-cartridge', 'game-key-card', 'digital-only', 'switch-1-cartridge', 'unknown']),
+      format: z.enum(['full-cartridge', 'game-key-card', 'code-in-box', 'digital-only', 'switch-1-cartridge', 'unknown']),
       note: z.string().optional(),
       ...sourced,
     }),

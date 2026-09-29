@@ -46,6 +46,7 @@ const lead = d.summary ?? [
 const formatAnswer: Record<typeof d.physical.format, string> = {
   'full-cartridge': `The physical release of ${name} has the full game on the cartridge, so you can play it without downloading the game first.`,
   'game-key-card': `The physical release of ${name} is a Game-Key Card: the cartridge only unlocks a ${formatGB(d.fileSize.currentGB)} download, so you need an internet connection and free storage to play it.`,
+  'code-in-box': `The physical release of ${name} is not a Game-Key Card: the box only holds a download code, with no cartridge. You download the full ${formatGB(d.fileSize.currentGB)} game, and once redeemed it is tied to your Nintendo Account like a digital purchase.`,
   'digital-only': `${name} is only sold digitally, so it always needs ${formatGB(d.fileSize.currentGB)} of free storage.`,
   'switch-1-cartridge': `${name} is a Switch 1 game, so it is sold on a regular Switch 1 cartridge, not a Game-Key Card. The cartridge works in a Switch 2.`,
   unknown: `We have not confirmed yet whether the physical release of ${name} is a full cartridge or a Game-Key Card.`,
@@ -91,6 +92,7 @@ const topFps = maxFps(game);
 const FORMAT_HINT: Record<typeof d.physical.format, string> = {
   'full-cartridge': 'Plays from the cartridge, no full download needed',
   'game-key-card': 'The cartridge only unlocks a download',
+  'code-in-box': 'The box only holds a download code',
   'digital-only': 'No physical release',
   'switch-1-cartridge': 'Switch 1 game card; works in a Switch 2',
   unknown: 'Not confirmed yet',

@@ -1,0 +1,40 @@
+{
+  "title": "Split Fiction",
+  "publisher": "Electronic Arts",
+  "releaseDate": "2025-06-05",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 69.2,
+    "source": "https://www.nintendo.com/us/store/products/split-fiction-switch-2/",
+    "checked": "2026-09-29"
+  },
+  "physical": {
+    "format": "code-in-box",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/split-fiction",
+    "checked": "2026-09-29"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/split-fiction-switch-2/",
+    "priceUSD": 49.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "Japanese",
+      "British English",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Simplified Chinese",
+      "Brazilian Portuguese",
+      "Traditional Chinese"
+    ],
+    "switch1SizeGB": null,
+    "developer": ""
+  }
+}

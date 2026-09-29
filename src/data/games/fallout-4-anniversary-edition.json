@@ -1,0 +1,40 @@
+{
+  "title": "Fallout 4: Anniversary Edition",
+  "publisher": "Bethesda",
+  "releaseDate": "2026-02-24",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 64.2,
+    "source": "https://www.nintendo.com/us/store/products/fallout-4-anniversary-edition-switch-2/",
+    "checked": "2026-09-29"
+  },
+  "physical": {
+    "format": "code-in-box",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/fallout-4-anniversary-edition",
+    "checked": "2026-09-29"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/fallout-4-anniversary-edition-switch-2/",
+    "priceUSD": 59.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Russian",
+      "Latin American Spanish",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": "Bethesda Game Studios"
+  }
+}

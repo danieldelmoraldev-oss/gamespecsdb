@@ -1,0 +1,49 @@
+{
+  "title": "Sid Meier's Civilization VII – Nintendo Switch 2 Edition",
+  "publisher": "2K",
+  "releaseDate": "2025-06-05",
+  "kind": "edition",
+  "fileSize": {
+    "currentGB": 22.6,
+    "source": "https://www.nintendo.com/us/store/products/sid-meiers-civilization-vii-nintendo-switch-2-edition-switch-2/",
+    "checked": "2026-09-29"
+  },
+  "physical": {
+    "format": "code-in-box",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/sid-meiers-civilization-vii-nintendo-switch-2-edition",
+    "checked": "2026-09-29"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/sid-meiers-civilization-vii-nintendo-switch-2-edition-switch-2/",
+    "priceUSD": 69.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "local": 8,
+      "online": 8
+    },
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Russian",
+      "Simplified Chinese",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": 8.7,
+    "developer": "Firaxis Games"
+  },
+  "upgrade": {
+    "priceUSD": 9.99,
+    "source": "https://www.nintendo.com/us/store/products/sid-meiers-civilization-vii-nintendo-switch-2-edition-upgrade-pack-switch-2/",
+    "checked": "2026-09-29"
+  }
+}

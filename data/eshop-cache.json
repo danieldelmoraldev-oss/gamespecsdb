@@ -6350,5 +6350,281 @@
    "American English"
   ],
   "checked": "2026-09-29"
+ },
+ "diablo-iv-age-of-hatred-collection-switch-2": {
+  "key": "diablo-iv-age-of-hatred-collection-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/diablo-iv-age-of-hatred-collection-switch-2/",
+  "title": "Diablo IV: Age of Hatred Collection",
+  "publisher": "Blizzard Entertainment",
+  "developer": "",
+  "releaseDate": "2026-09-15",
+  "isUpgrade": false,
+  "sizeGB": 71.4,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 69.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "online": 4
+  },
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Russian",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English",
+   "Polish"
+  ],
+  "checked": "2026-09-29"
+ },
+ "disney-dreamlight-valley-nintendo-switch-2-edition-switch-2": {
+  "key": "disney-dreamlight-valley-nintendo-switch-2-edition-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/disney-dreamlight-valley-nintendo-switch-2-edition-switch-2/",
+  "title": "Disney Dreamlight Valley - Nintendo Switch 2 Edition",
+  "publisher": "Gameloft",
+  "developer": "Gameloft",
+  "releaseDate": "2026-03-25",
+  "isUpgrade": false,
+  "sizeGB": 24.6,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": 9.9,
+  "priceUSD": 39.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "online": 4
+  },
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Simplified Chinese",
+   "Brazilian Portuguese",
+   "American English"
+  ],
+  "checked": "2026-09-29",
+  "upgrade": {
+   "priceUSD": 0,
+   "url": "https://www.nintendo.com/us/store/products/disney-dreamlight-valley-nintendo-switch-2-edition-upgrade-pack-switch-2/",
+   "checked": "2026-09-29"
+  }
+ },
+ "fallout-4-anniversary-edition-switch-2": {
+  "key": "fallout-4-anniversary-edition-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/fallout-4-anniversary-edition-switch-2/",
+  "title": "Fallout 4: Anniversary Edition",
+  "publisher": "Bethesda",
+  "developer": "Bethesda Game Studios",
+  "releaseDate": "2026-02-24",
+  "isUpgrade": false,
+  "sizeGB": 64.2,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 59.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {},
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Russian",
+   "Latin American Spanish",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-29"
+ },
+ "final-fantasy-tactics-the-ivalice-chronicles-nintendo-switch-2-edition-switch-2": {
+  "key": "final-fantasy-tactics-the-ivalice-chronicles-nintendo-switch-2-edition-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/final-fantasy-tactics-the-ivalice-chronicles-nintendo-switch-2-edition-switch-2/",
+  "title": "FINAL FANTASY TACTICS - The Ivalice Chronicles Nintendo Switch 2 Edition",
+  "publisher": "SQUARE ENIX",
+  "developer": "",
+  "releaseDate": "2025-09-30",
+  "isUpgrade": false,
+  "sizeGB": 10.3,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": 7.2,
+  "priceUSD": 49.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {},
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Korean",
+   "Simplified Chinese",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-29",
+  "upgrade": {
+   "priceUSD": 0,
+   "url": "https://www.nintendo.com/us/store/products/final-fantasy-tactics-the-ivalice-chronicles-nintendo-switch-2-edition-upgrade-pack-switch-2/",
+   "checked": "2026-09-29"
+  }
+ },
+ "sid-meiers-civilization-vii-nintendo-switch-2-edition-switch-2": {
+  "key": "sid-meiers-civilization-vii-nintendo-switch-2-edition-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/sid-meiers-civilization-vii-nintendo-switch-2-edition-switch-2/",
+  "title": "Sid Meier's Civilization VII – Nintendo Switch 2 Edition",
+  "publisher": "2K",
+  "developer": "Firaxis Games",
+  "releaseDate": "2025-06-05",
+  "isUpgrade": false,
+  "sizeGB": 22.6,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": 8.7,
+  "priceUSD": 69.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "local": 8,
+   "online": 8
+  },
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Russian",
+   "Simplified Chinese",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-29",
+  "upgrade": {
+   "priceUSD": 9.99,
+   "url": "https://www.nintendo.com/us/store/products/sid-meiers-civilization-vii-nintendo-switch-2-edition-upgrade-pack-switch-2/",
+   "checked": "2026-09-29"
+  }
+ },
+ "split-fiction-switch-2": {
+  "key": "split-fiction-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/split-fiction-switch-2/",
+  "title": "Split Fiction",
+  "publisher": "Electronic Arts",
+  "developer": "",
+  "releaseDate": "2025-06-05",
+  "isUpgrade": false,
+  "sizeGB": 69.2,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 49.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {},
+  "languages": [
+   "Japanese",
+   "British English",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Simplified Chinese",
+   "Brazilian Portuguese",
+   "Traditional Chinese"
+  ],
+  "checked": "2026-09-29"
+ },
+ "tony-hawks-pro-skater-3-plus-4-switch-2": {
+  "key": "tony-hawks-pro-skater-3-plus-4-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/tony-hawks-pro-skater-3-plus-4-switch-2/",
+  "title": "Tony Hawk's Pro Skater 3 + 4",
+  "publisher": "Activision",
+  "developer": "",
+  "releaseDate": "2025-07-11",
+  "isUpgrade": false,
+  "sizeGB": 38.2,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": null,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 8,
+   "online": 8
+  },
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Latin American Spanish",
+   "Brazilian Portuguese",
+   "American English"
+  ],
+  "checked": "2026-09-29"
+ },
+ "wwe-2k25-standard-edition-switch-2": {
+  "key": "wwe-2k25-standard-edition-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/wwe-2k25-standard-edition-switch-2/",
+  "title": "WWE 2K25 Standard Edition",
+  "publisher": "2K",
+  "developer": "Visual Concepts",
+  "releaseDate": "2025-07-23",
+  "isUpgrade": false,
+  "sizeGB": 77.3,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 69.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 8,
+   "online": 8
+  },
+  "languages": [
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "American English"
+  ],
+  "checked": "2026-09-29"
  }
 }

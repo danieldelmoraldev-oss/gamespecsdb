@@ -2,7 +2,7 @@ import { maxFps, type Game } from './games';
 
 export interface ListDef {
   slug: string;
-  icon: 'key' | 'cart' | 'bolt' | 'up' | 'down' | 'tag' | 'arrow';
+  icon: 'key' | 'cart' | 'storage' | 'bolt' | 'up' | 'down' | 'tag' | 'arrow';
   title: string;
   description: string;
   filter: (g: Game) => boolean;
@@ -26,6 +26,13 @@ export const LISTS: ListDef[] = [
     title: 'Switch 2 games with the full game on the cartridge',
     description: 'Physical releases you can play straight from the cartridge without downloading the game first.',
     filter: (g) => g.data.physical.format === 'full-cartridge',
+  },
+  {
+    slug: 'code-in-box-games',
+    icon: 'storage',
+    title: 'Switch 2 games with only a download code in the box',
+    description: 'Physical releases with no cartridge at all: the box holds a download code, so you download the whole game and it is tied to your Nintendo Account.',
+    filter: (g) => g.data.physical.format === 'code-in-box',
   },
   {
     slug: '60fps-games',

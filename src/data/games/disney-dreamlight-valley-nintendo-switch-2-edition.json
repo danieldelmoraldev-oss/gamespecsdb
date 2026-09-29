@@ -1,0 +1,45 @@
+{
+  "title": "Disney Dreamlight Valley - Nintendo Switch 2 Edition",
+  "publisher": "Gameloft",
+  "releaseDate": "2026-03-25",
+  "kind": "edition",
+  "fileSize": {
+    "currentGB": 24.6,
+    "source": "https://www.nintendo.com/us/store/products/disney-dreamlight-valley-nintendo-switch-2-edition-switch-2/",
+    "checked": "2026-09-29"
+  },
+  "physical": {
+    "format": "code-in-box",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/disney-dreamlight-valley-nintendo-switch-2-edition",
+    "checked": "2026-09-29"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/disney-dreamlight-valley-nintendo-switch-2-edition-switch-2/",
+    "priceUSD": 39.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "online": 4
+    },
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Simplified Chinese",
+      "Brazilian Portuguese",
+      "American English"
+    ],
+    "switch1SizeGB": 9.9,
+    "developer": "Gameloft"
+  },
+  "upgrade": {
+    "priceUSD": 0,
+    "source": "https://www.nintendo.com/us/store/products/disney-dreamlight-valley-nintendo-switch-2-edition-upgrade-pack-switch-2/",
+    "checked": "2026-09-29"
+  }
+}
