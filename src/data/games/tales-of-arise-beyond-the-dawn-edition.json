@@ -39,5 +39,17 @@
     ],
     "switch1SizeGB": null,
     "developer": "Bandai Namco Studios Inc."
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "resolution": "1080p",
+        "fps": 30
+      }
+    ],
+    "note": "Cutscenes run at 60 FPS; gameplay may fluctuate in busy scenes.",
+    "source": "https://nintendoeverything.com/tales-of-arise-details-nintendo-switch-2-frame-rate-and-resolution/",
+    "checked": "2026-09-29"
   }
 }

@@ -1,0 +1,38 @@
+{
+  "title": "Nicktoons & The Dice of Destiny",
+  "publisher": "Game Mill",
+  "releaseDate": "2025-12-05",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 5.9,
+    "source": "https://www.nintendo.com/us/store/products/nicktoons-and-the-dice-of-destiny-switch-2/",
+    "checked": "2026-09-29"
+  },
+  "physical": {
+    "format": "game-key-card",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/nicktoons-and-the-dice-of-destiny",
+    "checked": "2026-09-29"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/nicktoons-and-the-dice-of-destiny-switch-2/",
+    "priceUSD": 49.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "system": 4
+    },
+    "languages": [
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Dutch",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": "Petit Fabrik"
+  }
+}

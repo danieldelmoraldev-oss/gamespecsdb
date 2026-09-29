@@ -1,0 +1,39 @@
+{
+  "title": "Little Nightmares Enhanced Edition Complete Edition",
+  "publisher": "BANDAI NAMCO Entertainment",
+  "releaseDate": "2025-10-10",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 4.5,
+    "source": "https://www.nintendo.com/us/store/products/little-nightmares-enhanced-edition-complete-edition-switch-2/",
+    "checked": "2026-09-29"
+  },
+  "physical": {
+    "format": "game-key-card",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/little-nightmares-enhanced-edition",
+    "checked": "2026-09-29"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/little-nightmares-enhanced-edition-complete-edition-switch-2/",
+    "priceUSD": 29.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Russian",
+      "Latin American Spanish",
+      "Brazilian Portuguese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": ""
+  }
+}

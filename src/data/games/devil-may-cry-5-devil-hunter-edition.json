@@ -1,0 +1,42 @@
+{
+  "title": "Devil May Cry 5 Devil Hunter Edition",
+  "publisher": "CAPCOM",
+  "releaseDate": "2026-06-23",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 27.9,
+    "source": "https://www.nintendo.com/us/store/products/devil-may-cry-5-devil-hunter-edition-switch-2/",
+    "checked": "2026-09-29"
+  },
+  "physical": {
+    "format": "game-key-card",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/devil-may-cry-5-devil-hunter-edition",
+    "checked": "2026-09-29"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/devil-may-cry-5-devil-hunter-edition-switch-2/",
+    "priceUSD": 39.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Russian",
+      "Simplified Chinese",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English",
+      "Polish"
+    ],
+    "switch1SizeGB": null,
+    "developer": ""
+  }
+}

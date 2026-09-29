@@ -60,6 +60,11 @@
   "source": "https://www.nintendolife.com/guides/every-nintendo-switch-2-physical-release-with-the-full-game-on-the-cart",
   "checked": "2026-09-23"
  },
+ "clive-barkers-hellraiser-revival": {
+  "format": "game-key-card",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/clive-barkers-hellraiser-revival",
+  "checked": "2026-09-29"
+ },
  "clubhouse-games-51-worldwide-classics": {
   "format": "switch-1-cartridge",
   "source": "https://www.nintendolife.com/guides/all-nintendo-switch-2-edition-games-upgrade-packs-and-free-performance-updates",
@@ -98,6 +103,11 @@
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
   "checked": "2026-09-23"
  },
+ "devil-may-cry-5-devil-hunter-edition": {
+  "format": "game-key-card",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/devil-may-cry-5-devil-hunter-edition",
+  "checked": "2026-09-29"
+ },
  "digimon-story-time-stranger": {
   "format": "game-key-card",
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
@@ -129,6 +139,11 @@
   "checked": "2026-09-23",
   "eshopKey": "donkey-kong-country-returns-hd-switch",
   "kind": "free-update"
+ },
+ "drag-x-drive": {
+  "format": "digital-only",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/drag-x-drive",
+  "checked": "2026-09-29"
  },
  "dragon-ball-sparking-zero": {
   "format": "game-key-card",
@@ -170,6 +185,11 @@
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
   "checked": "2026-09-23"
  },
+ "ea-sports-fc-27": {
+  "format": "game-key-card",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/ea-sports-fc-27",
+  "checked": "2026-09-29"
+ },
  "ea-sports-madden-nfl-26": {
   "format": "game-key-card",
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
@@ -194,6 +214,11 @@
   "format": "game-key-card",
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
   "checked": "2026-09-23"
+ },
+ "fast-fusion": {
+  "format": "digital-only",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/fast-fusion",
+  "checked": "2026-09-29"
  },
  "final-fantasy-resonance": {
   "format": "game-key-card",
@@ -231,6 +256,11 @@
   "checked": "2026-09-23",
   "eshopKey": "game-builder-garage-switch",
   "kind": "free-update"
+ },
+ "gear-club-unlimited-3": {
+  "format": "game-key-card",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/gear-club-unlimited-3",
+  "checked": "2026-09-29"
  },
  "godzilla-destroy-all-monsters-melee-remastered": {
   "format": "full-cartridge",
@@ -337,10 +367,25 @@
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
   "checked": "2026-09-23"
  },
+ "lego-batman-legacy-of-the-dark-knight": {
+  "format": "game-key-card",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/lego-batman-legacy-of-the-dark-knight",
+  "checked": "2026-09-29"
+ },
  "lego-harry-potter-collection": {
   "format": "game-key-card",
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
   "checked": "2026-09-23"
+ },
+ "lets-sing-2027": {
+  "format": "game-key-card",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/lets-sing-2027",
+  "checked": "2026-09-29"
+ },
+ "little-nightmares-enhanced-edition-complete-edition": {
+  "format": "game-key-card",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/little-nightmares-enhanced-edition",
+  "checked": "2026-09-29"
  },
  "little-nightmares-iii": {
   "format": "game-key-card",
@@ -424,10 +469,20 @@
   "source": "https://www.nintendolife.com/guides/every-nintendo-switch-2-physical-release-with-the-full-game-on-the-cart",
   "checked": "2026-09-23"
  },
+ "my-hero-academia-alls-justice": {
+  "format": "game-key-card",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/my-hero-academia-alls-justice",
+  "checked": "2026-09-29"
+ },
  "nba-2k26": {
   "format": "game-key-card",
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
   "checked": "2026-09-23"
+ },
+ "nba-2k27": {
+  "format": "game-key-card",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/nba-2k27",
+  "checked": "2026-09-29"
  },
  "new-super-mario-bros-u-deluxe": {
   "format": "switch-1-cartridge",
@@ -435,6 +490,16 @@
   "checked": "2026-09-23",
   "eshopKey": "new-super-mario-bros-u-deluxe-switch",
   "kind": "free-update"
+ },
+ "nicktoons-and-the-dice-of-destiny": {
+  "format": "game-key-card",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/nicktoons-and-the-dice-of-destiny",
+  "checked": "2026-09-29"
+ },
+ "nintendo-switch-2-welcome-tour": {
+  "format": "digital-only",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/nintendo-switch-2-welcome-tour",
+  "checked": "2026-09-29"
  },
  "nintendo-switch-sports-resort": {
   "format": "full-cartridge",
@@ -451,10 +516,20 @@
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
   "checked": "2026-09-23"
  },
+ "octopath-traveler": {
+  "format": "game-key-card",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/octopath-traveler",
+  "checked": "2026-09-29"
+ },
  "octopath-traveler-0": {
   "format": "game-key-card",
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
   "checked": "2026-09-23"
+ },
+ "octopath-traveler-ii": {
+  "format": "game-key-card",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/octopath-traveler-ii",
+  "checked": "2026-09-29"
  },
  "onimusha-way-of-the-sword": {
   "format": "game-key-card",
@@ -543,6 +618,16 @@
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
   "checked": "2026-09-23"
  },
+ "reanimal": {
+  "format": "game-key-card",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/reanimal",
+  "checked": "2026-09-29"
+ },
+ "remothered-red-nuns-legacy": {
+  "format": "game-key-card",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/remothered-red-nuns-legacy",
+  "checked": "2026-09-29"
+ },
  "resident-evil-requiem": {
   "format": "game-key-card",
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
@@ -552,6 +637,11 @@
   "format": "game-key-card",
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
   "checked": "2026-09-23"
+ },
+ "rudolph-the-red-nosed-reindeer-holiday-play-edition": {
+  "format": "game-key-card",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/rudolph-the-red-nosed-reindeer-holiday-play-edition",
+  "checked": "2026-09-29"
  },
  "rune-factory-guardians-of-azuma-nintendo-switch-2-edition": {
   "format": "full-cartridge",
@@ -680,6 +770,11 @@
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
   "checked": "2026-09-23"
  },
+ "tales-of-eternia-remastered": {
+  "format": "game-key-card",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/tales-of-eternia-remastered",
+  "checked": "2026-09-29"
+ },
  "teenage-mutant-ninja-turtles-splintered-fate-nintendo-switch-2-edition": {
   "format": "full-cartridge",
   "source": "https://www.nintendolife.com/guides/every-nintendo-switch-2-physical-release-with-the-full-game-on-the-cart",
@@ -769,10 +864,25 @@
   "source": "https://www.nintendolife.com/guides/every-nintendo-switch-2-physical-release-with-the-full-game-on-the-cart",
   "checked": "2026-09-23"
  },
+ "two-point-hospital-full-health-collection": {
+  "format": "game-key-card",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/two-point-hospital-full-health-collection",
+  "checked": "2026-09-29"
+ },
  "village-in-the-shade": {
   "format": "game-key-card",
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
   "checked": "2026-09-23"
+ },
+ "virtua-fighter-5-r-e-v-o-world-stage": {
+  "format": "game-key-card",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/virtua-fighter-5-r-e-v-o-world-stage",
+  "checked": "2026-09-29"
+ },
+ "warframe": {
+  "format": "digital-only",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/warframe",
+  "checked": "2026-09-29"
  },
  "warrior-cats-clans-of-the-forest": {
   "format": "game-key-card",
@@ -788,6 +898,11 @@
   "format": "game-key-card",
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
   "checked": "2026-09-23"
+ },
+ "wwe-2k26-standard-edition": {
+  "format": "game-key-card",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/wwe-2k26",
+  "checked": "2026-09-29"
  },
  "xenoblade-chronicles-2-nintendo-switch-2-edition": {
   "format": "full-cartridge",

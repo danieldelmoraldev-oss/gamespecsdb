@@ -1,0 +1,41 @@
+{
+  "title": "MY HERO ACADEMIA: All’s Justice",
+  "publisher": "Bandai Namco Entertainment",
+  "releaseDate": "2026-09-04",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 16.1,
+    "source": "https://www.nintendo.com/us/store/products/my-hero-academia-alls-justice-switch-2/",
+    "checked": "2026-09-29"
+  },
+  "physical": {
+    "format": "game-key-card",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/my-hero-academia-alls-justice",
+    "checked": "2026-09-29"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/my-hero-academia-alls-justice-switch-2/",
+    "priceUSD": 59.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "system": 2,
+      "online": 8
+    },
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": "Byking Inc."
+  }
+}

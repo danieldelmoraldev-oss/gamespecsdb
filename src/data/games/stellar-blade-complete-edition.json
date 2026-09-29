@@ -3,6 +3,7 @@
   "publisher": "SHIFT UP",
   "releaseDate": "2026-11-05",
   "kind": "native",
+  "seoTitle": "Stellar Blade Switch 2 file size ({size}), cartridge and FPS",
   "fileSize": {
     "currentGB": 25.4,
     "source": "https://www.nintendo.com/us/store/products/stellar-blade-complete-edition-switch-2/",
@@ -44,5 +45,22 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "1080p (DLSS)",
+        "fps": 60
+      },
+      {
+        "play": "handheld",
+        "resolution": "720p",
+        "fps": 60
+      }
+    ],
+    "note": "Renders at 30 FPS and uses FSR 3.1 frame interpolation to reach 60 FPS; frame generation can be turned off for a lower frame rate.",
+    "source": "https://nintendoeverything.com/stellar-blade-dev-confirms-nintendo-switch-2-frame-rate-resolution-explains-how-dlss-is-being-used/",
+    "checked": "2026-09-29"
   }
 }

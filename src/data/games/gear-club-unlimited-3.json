@@ -1,0 +1,41 @@
+{
+  "title": "Gear.Club Unlimited 3",
+  "publisher": "Nacon",
+  "releaseDate": "2026-02-19",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 45.2,
+    "source": "https://www.nintendo.com/us/store/products/gear-club-unlimited-3-switch-2/",
+    "checked": "2026-09-29"
+  },
+  "physical": {
+    "format": "game-key-card",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/gear-club-unlimited-3",
+    "checked": "2026-09-29"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/gear-club-unlimited-3-switch-2/",
+    "priceUSD": 49.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "system": 2
+    },
+    "languages": [
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Russian",
+      "Simplified Chinese",
+      "Brazilian Portuguese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": ""
+  }
+}

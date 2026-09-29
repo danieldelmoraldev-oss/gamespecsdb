@@ -41,5 +41,16 @@
     ],
     "switch1SizeGB": null,
     "developer": "Ubisoft"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "fps": 60
+      }
+    ],
+    "note": "60 FPS is the target Ubisoft gave before launch; resolution has not been announced.",
+    "source": "https://nintendoeverything.com/rayman-legends-retold-targeting-60-fps-on-nintendo-switch-2-will-have-content-parity-with-other-platforms/",
+    "checked": "2026-09-29"
   }
 }

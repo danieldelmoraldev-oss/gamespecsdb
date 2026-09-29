@@ -3,6 +3,7 @@
   "publisher": "Electronic Arts",
   "releaseDate": "2026-08-13",
   "kind": "native",
+  "seoTitle": "How many GB is Madden 27 on Switch 2? {size}, Game-Key Card",
   "fileSize": {
     "currentGB": 57.0,
     "source": "https://www.nintendo.com/us/store/products/ea-sports-madden-nfl-27-switch-2/",
@@ -30,5 +31,17 @@
     ],
     "switch1SizeGB": null,
     "developer": "EA"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "preset": "Performance Pro",
+        "fps": 60
+      }
+    ],
+    "note": "EA has not given the frame rate of the Visual Pro mode, which prioritises image quality.",
+    "source": "https://nintendoeverything.com/madden-nfl-27-to-feature-60-fps-on-nintendo-switch-2-with-performance-mode/",
+    "checked": "2026-09-29"
   }
 }

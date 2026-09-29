@@ -3,6 +3,7 @@
   "publisher": "CAPCOM",
   "releaseDate": "2026-09-04",
   "kind": "native",
+  "seoTitle": "Onimusha Way of the Sword Switch 2 size: {size}, Game-Key Card",
   "fileSize": {
     "currentGB": 32.0,
     "source": "https://www.nintendo.com/us/store/products/onimusha-way-of-the-sword-switch-2/",
@@ -39,5 +40,22 @@
     ],
     "switch1SizeGB": null,
     "developer": "CAPCOM CO., LTD."
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "Up to 1080p (dynamic)",
+        "fps": 30
+      },
+      {
+        "play": "handheld",
+        "resolution": "Up to 900p (dynamic)",
+        "fps": 30
+      }
+    ],
+    "note": "The optional 30 FPS cap holds steady; uncapped, it runs anywhere between 30 and 60 FPS. Docked resolution can drop to about 720p.",
+    "source": "https://nintendoeverything.com/onimusha-way-of-the-sword-tech-analysis-including-frame-rate-and-resolution-nintendo-switch-2-vs-ps5-graphics-comparison-video/",
+    "checked": "2026-09-29"
   }
 }

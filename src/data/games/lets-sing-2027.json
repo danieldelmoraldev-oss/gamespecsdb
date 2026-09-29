@@ -1,0 +1,37 @@
+{
+  "title": "Let's Sing 2027",
+  "publisher": "THQ Nordic",
+  "releaseDate": "2026-11-03",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 3.9,
+    "source": "https://www.nintendo.com/us/store/products/lets-sing-2027-switch-2/",
+    "checked": "2026-09-29",
+    "estimate": true
+  },
+  "physical": {
+    "format": "game-key-card",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/lets-sing-2027",
+    "checked": "2026-09-29"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/lets-sing-2027-switch-2/",
+    "priceUSD": null,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "system": 4
+    },
+    "languages": [
+      "French",
+      "German",
+      "Spanish",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": "Voxler"
+  }
+}

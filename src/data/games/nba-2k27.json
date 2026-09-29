@@ -1,0 +1,54 @@
+{
+  "title": "NBA 2K27",
+  "publisher": "2K",
+  "releaseDate": "2026-09-04",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 81.0,
+    "source": "https://www.nintendo.com/us/store/products/nba-2k27-switch-2/",
+    "checked": "2026-09-29"
+  },
+  "physical": {
+    "format": "game-key-card",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/nba-2k27",
+    "checked": "2026-09-29"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "preset": "Performance",
+        "fps": 60
+      }
+    ],
+    "source": "https://nintendoeverything.com/nba-2k27-confirmed-to-support-60-fps-on-nintendo-switch-2-has-performance-mode/",
+    "checked": "2026-09-29"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/nba-2k27-switch-2/",
+    "priceUSD": 69.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "system": 4,
+      "online": 10
+    },
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Simplified Chinese",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": "Visual Concepts"
+  }
+}

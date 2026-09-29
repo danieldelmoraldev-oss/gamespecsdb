@@ -1,0 +1,44 @@
+{
+  "title": "Nintendo Switch 2 Welcome Tour",
+  "publisher": "Nintendo",
+  "releaseDate": "2025-06-05",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 1.7,
+    "source": "https://www.nintendo.com/us/store/products/nintendo-switch-2-welcome-tour-switch-2/",
+    "checked": "2026-09-29"
+  },
+  "physical": {
+    "format": "digital-only",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/nintendo-switch-2-welcome-tour",
+    "checked": "2026-09-29"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/nintendo-switch-2-welcome-tour-switch-2/",
+    "priceUSD": 9.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "Japanese",
+      "British English",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Dutch",
+      "Simplified Chinese",
+      "Latin American Spanish",
+      "Canadian French",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": ""
+  }
+}

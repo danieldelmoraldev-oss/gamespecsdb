@@ -40,5 +40,16 @@
     ],
     "switch1SizeGB": null,
     "developer": "CAPCOM CO., LTD."
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "fps": 30
+      }
+    ],
+    "note": "Optional frame generation gives visuals equivalent to 60 FPS, with some ghosting.",
+    "source": "https://nintendoeverything.com/dragons-dogma-2-using-frame-generation-on-nintendo-switch-2-first-capcom-game-to-do-so-on-the-console/",
+    "checked": "2026-09-29"
   }
 }

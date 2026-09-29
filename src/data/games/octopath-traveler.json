@@ -1,0 +1,40 @@
+{
+  "title": "Octopath Traveler",
+  "publisher": "SQUARE ENIX",
+  "releaseDate": "2026-10-01",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 3.1,
+    "source": "https://www.nintendo.com/us/store/products/octopath-traveler-switch-2/",
+    "checked": "2026-09-29",
+    "estimate": true
+  },
+  "physical": {
+    "format": "game-key-card",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/octopath-traveler",
+    "checked": "2026-09-29"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/octopath-traveler-switch-2/",
+    "priceUSD": 59.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Simplified Chinese",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": "ACQUIRE Corp."
+  }
+}

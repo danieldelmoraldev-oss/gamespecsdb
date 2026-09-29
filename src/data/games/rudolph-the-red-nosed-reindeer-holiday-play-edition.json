@@ -1,0 +1,40 @@
+{
+  "title": "Rudolph the Red-Nosed Reindeer - Holiday Play Edition",
+  "publisher": "Game Mill",
+  "releaseDate": "2026-10-16",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 6.2,
+    "source": "https://www.nintendo.com/us/store/products/rudolph-the-red-nosed-reindeer-holiday-play-edition-switch-2/",
+    "checked": "2026-09-29",
+    "estimate": true
+  },
+  "physical": {
+    "format": "game-key-card",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/rudolph-the-red-nosed-reindeer-holiday-play-edition",
+    "checked": "2026-09-29"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/rudolph-the-red-nosed-reindeer-holiday-play-edition-switch-2/",
+    "priceUSD": 39.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "system": 2
+    },
+    "languages": [
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Dutch",
+      "Canadian French",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": "Headless Chicken Games"
+  }
+}

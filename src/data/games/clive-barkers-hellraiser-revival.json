@@ -1,0 +1,39 @@
+{
+  "title": "Clive Barker's Hellraiser: Revival",
+  "publisher": "Saber Interactive Incorporated",
+  "releaseDate": "2026-10-08",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 42.0,
+    "source": "https://www.nintendo.com/us/store/products/clive-barkers-hellraiser-revival-switch-2/",
+    "checked": "2026-09-29",
+    "estimate": true
+  },
+  "physical": {
+    "format": "game-key-card",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/clive-barkers-hellraiser-revival",
+    "checked": "2026-09-29"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/clive-barkers-hellraiser-revival-switch-2/",
+    "priceUSD": 39.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Russian",
+      "Simplified Chinese",
+      "Brazilian Portuguese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": "Saber Interactive Inc."
+  }
+}

@@ -20,6 +20,8 @@ const games = defineCollection({
     genres: z.array(z.string()).default([]),
     // Optional hand-written intro; pages fall back to a lead built from the facts.
     summary: z.string().optional(),
+    // Optional hand-written <title> for pages with many impressions; {size} becomes the current file size.
+    seoTitle: z.string().optional(),
     fileSize: z.object({
       currentGB: z.number().positive(),
       launchGB: z.number().positive().optional(),

@@ -1,0 +1,36 @@
+{
+  "title": "Fast Fusion",
+  "publisher": "Shin’en Multimedia",
+  "releaseDate": "2025-06-05",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 3.8,
+    "source": "https://www.nintendo.com/us/store/products/fast-fusion-switch-2/",
+    "checked": "2026-09-29"
+  },
+  "physical": {
+    "format": "digital-only",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/fast-fusion",
+    "checked": "2026-09-29"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/fast-fusion-switch-2/",
+    "priceUSD": 14.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "system": 4
+    },
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": "Shin'en"
+  }
+}

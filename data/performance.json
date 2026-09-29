@@ -32,6 +32,17 @@
   "source": "https://nintendoeverything.com/assassins-creed-shadows-nintendo-switch-2-tech-analysis-including-frame-rate-and-resolution/",
   "checked": "2026-09-23"
  },
+ "cronos-the-new-dawn": {
+  "modes": [
+   {
+    "play": "all",
+    "resolution": "1080p (upscaled)",
+    "fps": 30
+   }
+  ],
+  "source": "https://nintendoeverything.com/cronos-the-new-dawn-nintendo-switch-2-vs-ps5-graphics-comparison/",
+  "checked": "2026-09-29"
+ },
  "cyberpunk-2077-ultimate-edition": {
   "modes": [
    {
@@ -63,6 +74,31 @@
   "source": "https://nintendoeverything.com/cyberpunk-2077-switch-2-frame-rate-resolution/",
   "checked": "2026-09-23"
  },
+ "digimon-story-time-stranger": {
+  "modes": [
+   {
+    "play": "all",
+    "preset": "Performance",
+    "resolution": "1080p",
+    "fps": 60
+   },
+   {
+    "play": "tv",
+    "preset": "Quality",
+    "resolution": "4K",
+    "fps": 30
+   },
+   {
+    "play": "handheld",
+    "preset": "Quality",
+    "resolution": "1080p",
+    "fps": 30
+   }
+  ],
+  "note": "Frame rates are \"up to\" figures from Bandai Namco; HDR works only in Quality mode.",
+  "source": "https://nintendoeverything.com/digimon-story-time-stranger-nintendo-switch-2-vs-switch-comparison-more-frame-rate-and-resolution-details/",
+  "checked": "2026-09-29"
+ },
  "donkey-kong-bananza": {
   "modes": [
    {
@@ -79,6 +115,29 @@
   "note": "60 FPS is the target; Digital Foundry measured drops in some scenes.",
   "source": "https://nintendoeverything.com/donkey-kong-bananza-frame-rate-and-resolution/",
   "checked": "2026-09-23"
+ },
+ "dragons-dogma-2-dark-arisen": {
+  "modes": [
+   {
+    "play": "all",
+    "fps": 30
+   }
+  ],
+  "note": "Optional frame generation gives visuals equivalent to 60 FPS, with some ghosting.",
+  "source": "https://nintendoeverything.com/dragons-dogma-2-using-frame-generation-on-nintendo-switch-2-first-capcom-game-to-do-so-on-the-console/",
+  "checked": "2026-09-29"
+ },
+ "ea-sports-madden-nfl-27": {
+  "modes": [
+   {
+    "play": "all",
+    "preset": "Performance Pro",
+    "fps": 60
+   }
+  ],
+  "note": "EA has not given the frame rate of the Visual Pro mode, which prioritises image quality.",
+  "source": "https://nintendoeverything.com/madden-nfl-27-to-feature-60-fps-on-nintendo-switch-2-with-performance-mode/",
+  "checked": "2026-09-29"
  },
  "elden-ring-tarnished-edition": {
   "modes": [
@@ -128,6 +187,22 @@
   ],
   "source": "https://nintendoeverything.com/final-fantasy-7-remake-intergrade-switch-2-frame-rate-resolution/",
   "checked": "2026-09-23"
+ },
+ "fire-emblem-fortunes-weave": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "720p internal (upscaled to 1440p)",
+    "fps": 30
+   },
+   {
+    "play": "handheld",
+    "resolution": "540p internal (upscaled to 1080p)",
+    "fps": 30
+   }
+  ],
+  "source": "https://nintendoeverything.com/fire-emblem-fortunes-weave-review-for-nintendo-switch-2/",
+  "checked": "2026-09-29"
  },
  "hades-ii-nintendo-switch-2-edition": {
   "modes": [
@@ -281,6 +356,34 @@
   "source": "https://comicbook.com/gaming/news/metroid-prime-4s-quality-performance-modes-on-switch-2-explained/",
   "checked": "2026-09-23"
  },
+ "nba-2k27": {
+  "modes": [
+   {
+    "play": "all",
+    "preset": "Performance",
+    "fps": 60
+   }
+  ],
+  "source": "https://nintendoeverything.com/nba-2k27-confirmed-to-support-60-fps-on-nintendo-switch-2-has-performance-mode/",
+  "checked": "2026-09-29"
+ },
+ "onimusha-way-of-the-sword": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "Up to 1080p (dynamic)",
+    "fps": 30
+   },
+   {
+    "play": "handheld",
+    "resolution": "Up to 900p (dynamic)",
+    "fps": 30
+   }
+  ],
+  "note": "The optional 30 FPS cap holds steady; uncapped, it runs anywhere between 30 and 60 FPS. Docked resolution can drop to about 720p.",
+  "source": "https://nintendoeverything.com/onimusha-way-of-the-sword-tech-analysis-including-frame-rate-and-resolution-nintendo-switch-2-vs-ps5-graphics-comparison-video/",
+  "checked": "2026-09-29"
+ },
  "pokemon-legends-z-a-nintendo-switch-2-edition": {
   "modes": [
    {
@@ -345,6 +448,17 @@
   "source": "https://nintendoeverything.com/?p=911726",
   "checked": "2026-09-23"
  },
+ "rayman-legends-retold": {
+  "modes": [
+   {
+    "play": "all",
+    "fps": 60
+   }
+  ],
+  "note": "60 FPS is the target Ubisoft gave before launch; resolution has not been announced.",
+  "source": "https://nintendoeverything.com/rayman-legends-retold-targeting-60-fps-on-nintendo-switch-2-will-have-content-parity-with-other-platforms/",
+  "checked": "2026-09-29"
+ },
  "resident-evil-requiem": {
   "modes": [
    {
@@ -379,6 +493,23 @@
   "source": "https://nintendoeverything.com/sonic-racing-crossworlds-frame-rate-resolution-switch-2/",
   "checked": "2026-09-23"
  },
+ "stellar-blade-complete-edition": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "1080p (DLSS)",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "720p",
+    "fps": 60
+   }
+  ],
+  "note": "Renders at 30 FPS and uses FSR 3.1 frame interpolation to reach 60 FPS; frame generation can be turned off for a lower frame rate.",
+  "source": "https://nintendoeverything.com/stellar-blade-dev-confirms-nintendo-switch-2-frame-rate-resolution-explains-how-dlss-is-being-used/",
+  "checked": "2026-09-29"
+ },
  "street-fighter-6": {
   "modes": [
    {
@@ -411,6 +542,18 @@
   ],
   "source": "https://nintendoeverything.com/video-super-mario-bros-wonder-nintendo-switch-2-vs-switch-graphics-comparison/",
   "checked": "2026-09-23"
+ },
+ "tales-of-arise-beyond-the-dawn-edition": {
+  "modes": [
+   {
+    "play": "all",
+    "resolution": "1080p",
+    "fps": 30
+   }
+  ],
+  "note": "Cutscenes run at 60 FPS; gameplay may fluctuate in busy scenes.",
+  "source": "https://nintendoeverything.com/tales-of-arise-details-nintendo-switch-2-frame-rate-and-resolution/",
+  "checked": "2026-09-29"
  },
  "the-elder-scrolls-iv-oblivion-remastered": {
   "modes": [
@@ -487,5 +630,33 @@
   ],
   "source": "https://nintendoeverything.com/xenoblade-chronicles-x-definitive-edition-nintendo-switch-2-edition-revealed-60-fps-4k/",
   "checked": "2026-09-23"
+ },
+ "yooka-replaylee": {
+  "modes": [
+   {
+    "play": "all",
+    "preset": "Performance",
+    "fps": 60
+   }
+  ],
+  "note": "Performance Mode (added in an April 2026 update) lowers the resolution; Fidelity Mode keeps the launch visuals at a lower frame rate.",
+  "source": "https://nintendoeverything.com/yooka-replaylee-nintendo-switch-2-update-out-now-includes-60-fps-support-with-performance-mode/",
+  "checked": "2026-09-29"
+ },
+ "ys-x-proud-nordics": {
+  "modes": [
+   {
+    "play": "all",
+    "preset": "Default",
+    "fps": 60
+   },
+   {
+    "play": "all",
+    "preset": "Performance",
+    "fps": 120
+   }
+  ],
+  "source": "https://nintendoeverything.com/ys-x-proud-nordics-will-support-120fps-on-nintendo-switch-2-with-new-mode/",
+  "checked": "2026-09-29"
  }
 }

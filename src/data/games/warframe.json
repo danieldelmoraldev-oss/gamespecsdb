@@ -1,0 +1,46 @@
+{
+  "title": "Warframe",
+  "publisher": "Digital Extremes",
+  "releaseDate": "2026-03-25",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 44.8,
+    "source": "https://www.nintendo.com/us/store/products/warframe-switch-2/",
+    "checked": "2026-09-29"
+  },
+  "physical": {
+    "format": "digital-only",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/warframe",
+    "checked": "2026-09-29"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/warframe-switch-2/",
+    "priceUSD": 0,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "online": 4
+    },
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Korean",
+      "Portuguese",
+      "Russian",
+      "Simplified Chinese",
+      "Latin American Spanish",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English",
+      "Polish",
+      "Thai"
+    ],
+    "switch1SizeGB": null,
+    "developer": "Digital Extremes Ltd"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "title": "LEGO Batman: Legacy of the Dark Knight",
+  "publisher": "WB Games",
+  "releaseDate": "2026-09-18",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 23.7,
+    "source": "https://www.nintendo.com/us/store/products/lego-batman-legacy-of-the-dark-knight-switch-2/",
+    "checked": "2026-09-29"
+  },
+  "physical": {
+    "format": "game-key-card",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/lego-batman-legacy-of-the-dark-knight",
+    "checked": "2026-09-29"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/lego-batman-legacy-of-the-dark-knight-switch-2/",
+    "priceUSD": 69.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "system": 2
+    },
+    "languages": [
+      "Japanese",
+      "British English",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Dutch",
+      "Russian",
+      "Latin American Spanish",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English",
+      "Polish"
+    ],
+    "switch1SizeGB": null,
+    "developer": "TT Games"
+  }
+}

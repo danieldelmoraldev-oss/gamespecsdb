@@ -37,5 +37,17 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "preset": "Performance",
+        "fps": 60
+      }
+    ],
+    "note": "Performance Mode (added in an April 2026 update) lowers the resolution; Fidelity Mode keeps the launch visuals at a lower frame rate.",
+    "source": "https://nintendoeverything.com/yooka-replaylee-nintendo-switch-2-update-out-now-includes-60-fps-support-with-performance-mode/",
+    "checked": "2026-09-29"
   }
 }

@@ -5582,5 +5582,773 @@
    "American English"
   ],
   "checked": "2026-09-29"
+ },
+ "clive-barkers-hellraiser-revival-switch-2": {
+  "key": "clive-barkers-hellraiser-revival-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/clive-barkers-hellraiser-revival-switch-2/",
+  "title": "Clive Barker's Hellraiser: Revival",
+  "publisher": "Saber Interactive Incorporated",
+  "developer": "Saber Interactive Inc.",
+  "releaseDate": "2026-10-08",
+  "isUpgrade": false,
+  "sizeGB": 42.0,
+  "sizeIsEstimate": true,
+  "switch1SizeGB": null,
+  "priceUSD": 39.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {},
+  "languages": [
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Russian",
+   "Simplified Chinese",
+   "Brazilian Portuguese",
+   "American English"
+  ],
+  "checked": "2026-09-29"
+ },
+ "devil-may-cry-5-devil-hunter-edition-switch-2": {
+  "key": "devil-may-cry-5-devil-hunter-edition-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/devil-may-cry-5-devil-hunter-edition-switch-2/",
+  "title": "Devil May Cry 5 Devil Hunter Edition",
+  "publisher": "CAPCOM",
+  "developer": "",
+  "releaseDate": "2026-06-23",
+  "isUpgrade": false,
+  "sizeGB": 27.9,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 39.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {},
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Russian",
+   "Simplified Chinese",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English",
+   "Polish"
+  ],
+  "checked": "2026-09-29"
+ },
+ "ea-sports-fc-27-switch-2": {
+  "key": "ea-sports-fc-27-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/ea-sports-fc-27-switch-2/",
+  "title": "EA SPORTS FC 27",
+  "publisher": "Electronic Arts",
+  "developer": "EA",
+  "releaseDate": "2026-09-25",
+  "isUpgrade": false,
+  "sizeGB": 75.6,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 69.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 4,
+   "online": 100
+  },
+  "languages": [
+   "Japanese",
+   "British English",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Dutch",
+   "Portuguese",
+   "Russian",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "Polish"
+  ],
+  "checked": "2026-09-29"
+ },
+ "gear-club-unlimited-3-switch-2": {
+  "key": "gear-club-unlimited-3-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/gear-club-unlimited-3-switch-2/",
+  "title": "Gear.Club Unlimited 3",
+  "publisher": "Nacon",
+  "developer": "",
+  "releaseDate": "2026-02-19",
+  "isUpgrade": false,
+  "sizeGB": 45.2,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 49.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 2
+  },
+  "languages": [
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Russian",
+   "Simplified Chinese",
+   "Brazilian Portuguese",
+   "American English"
+  ],
+  "checked": "2026-09-29"
+ },
+ "lego-batman-legacy-of-the-dark-knight-switch-2": {
+  "key": "lego-batman-legacy-of-the-dark-knight-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/lego-batman-legacy-of-the-dark-knight-switch-2/",
+  "title": "LEGO Batman: Legacy of the Dark Knight",
+  "publisher": "WB Games",
+  "developer": "TT Games",
+  "releaseDate": "2026-09-18",
+  "isUpgrade": false,
+  "sizeGB": 23.7,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 69.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 2
+  },
+  "languages": [
+   "Japanese",
+   "British English",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Dutch",
+   "Russian",
+   "Latin American Spanish",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English",
+   "Polish"
+  ],
+  "checked": "2026-09-29"
+ },
+ "lets-sing-2027-switch-2": {
+  "key": "lets-sing-2027-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/lets-sing-2027-switch-2/",
+  "title": "Let's Sing 2027",
+  "publisher": "THQ Nordic",
+  "developer": "Voxler",
+  "releaseDate": "2026-11-03",
+  "isUpgrade": false,
+  "sizeGB": 3.9,
+  "sizeIsEstimate": true,
+  "switch1SizeGB": null,
+  "priceUSD": null,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 4
+  },
+  "languages": [
+   "French",
+   "German",
+   "Spanish",
+   "American English"
+  ],
+  "checked": "2026-09-29"
+ },
+ "little-nightmares-enhanced-edition-complete-edition-switch-2": {
+  "key": "little-nightmares-enhanced-edition-complete-edition-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/little-nightmares-enhanced-edition-complete-edition-switch-2/",
+  "title": "Little Nightmares Enhanced Edition Complete Edition",
+  "publisher": "BANDAI NAMCO Entertainment",
+  "developer": "",
+  "releaseDate": "2025-10-10",
+  "isUpgrade": false,
+  "sizeGB": 4.5,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 29.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {},
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Russian",
+   "Latin American Spanish",
+   "Brazilian Portuguese",
+   "American English"
+  ],
+  "checked": "2026-09-29"
+ },
+ "my-hero-academia-alls-justice-switch-2": {
+  "key": "my-hero-academia-alls-justice-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/my-hero-academia-alls-justice-switch-2/",
+  "title": "MY HERO ACADEMIA: All’s Justice",
+  "publisher": "Bandai Namco Entertainment",
+  "developer": "Byking Inc.",
+  "releaseDate": "2026-09-04",
+  "isUpgrade": false,
+  "sizeGB": 16.1,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 59.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 2,
+   "online": 8
+  },
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-29"
+ },
+ "nba-2k27-switch-2": {
+  "key": "nba-2k27-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/nba-2k27-switch-2/",
+  "title": "NBA 2K27",
+  "publisher": "2K",
+  "developer": "Visual Concepts",
+  "releaseDate": "2026-09-04",
+  "isUpgrade": false,
+  "sizeGB": 81.0,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 69.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 4,
+   "online": 10
+  },
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Simplified Chinese",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-29"
+ },
+ "nicktoons-and-the-dice-of-destiny-switch-2": {
+  "key": "nicktoons-and-the-dice-of-destiny-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/nicktoons-and-the-dice-of-destiny-switch-2/",
+  "title": "Nicktoons & The Dice of Destiny",
+  "publisher": "Game Mill",
+  "developer": "Petit Fabrik",
+  "releaseDate": "2025-12-05",
+  "isUpgrade": false,
+  "sizeGB": 5.9,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 49.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 4
+  },
+  "languages": [
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Dutch",
+   "American English"
+  ],
+  "checked": "2026-09-29"
+ },
+ "octopath-traveler-switch-2": {
+  "key": "octopath-traveler-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/octopath-traveler-switch-2/",
+  "title": "Octopath Traveler",
+  "publisher": "SQUARE ENIX",
+  "developer": "ACQUIRE Corp.",
+  "releaseDate": "2026-10-01",
+  "isUpgrade": false,
+  "sizeGB": 3.1,
+  "sizeIsEstimate": true,
+  "switch1SizeGB": null,
+  "priceUSD": 59.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {},
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Simplified Chinese",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-29"
+ },
+ "octopath-traveler-ii-switch-2": {
+  "key": "octopath-traveler-ii-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/octopath-traveler-ii-switch-2/",
+  "title": "OCTOPATH TRAVELER II",
+  "publisher": "SQUARE ENIX",
+  "developer": "ACQUIRE Corp.",
+  "releaseDate": "2026-10-01",
+  "isUpgrade": false,
+  "sizeGB": 6.6,
+  "sizeIsEstimate": true,
+  "switch1SizeGB": null,
+  "priceUSD": 59.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {},
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Simplified Chinese",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-29"
+ },
+ "reanimal-switch-2": {
+  "key": "reanimal-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/reanimal-switch-2/",
+  "title": "REANIMAL",
+  "publisher": "THQ Nordic",
+  "developer": "",
+  "releaseDate": "2026-02-13",
+  "isUpgrade": false,
+  "sizeGB": 9.0,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 39.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 2,
+   "online": 2
+  },
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Russian",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-29"
+ },
+ "remothered-red-nuns-legacy-switch-2": {
+  "key": "remothered-red-nuns-legacy-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/remothered-red-nuns-legacy-switch-2/",
+  "title": "Remothered: Red Nun's Legacy",
+  "publisher": "Stormind Games",
+  "developer": "Stormind Games",
+  "releaseDate": "2026-10-27",
+  "isUpgrade": false,
+  "sizeGB": null,
+  "sizeIsEstimate": true,
+  "switch1SizeGB": null,
+  "priceUSD": 29.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {},
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Russian",
+   "Simplified Chinese",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English",
+   "Polish"
+  ],
+  "checked": "2026-09-29"
+ },
+ "rudolph-the-red-nosed-reindeer-holiday-play-edition-switch-2": {
+  "key": "rudolph-the-red-nosed-reindeer-holiday-play-edition-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/rudolph-the-red-nosed-reindeer-holiday-play-edition-switch-2/",
+  "title": "Rudolph the Red-Nosed Reindeer - Holiday Play Edition",
+  "publisher": "Game Mill",
+  "developer": "Headless Chicken Games",
+  "releaseDate": "2026-10-16",
+  "isUpgrade": false,
+  "sizeGB": 6.2,
+  "sizeIsEstimate": true,
+  "switch1SizeGB": null,
+  "priceUSD": 39.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 2
+  },
+  "languages": [
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Dutch",
+   "Canadian French",
+   "American English"
+  ],
+  "checked": "2026-09-29"
+ },
+ "tales-of-eternia-remastered-switch-2": {
+  "key": "tales-of-eternia-remastered-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/tales-of-eternia-remastered-switch-2/",
+  "title": "Tales of Eternia Remastered",
+  "publisher": "Bandai Namco Entertainment",
+  "developer": "",
+  "releaseDate": "2026-10-16",
+  "isUpgrade": false,
+  "sizeGB": null,
+  "sizeIsEstimate": true,
+  "switch1SizeGB": null,
+  "priceUSD": 29.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {},
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Russian",
+   "Simplified Chinese",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-29"
+ },
+ "two-point-hospital-full-health-collection-switch-2": {
+  "key": "two-point-hospital-full-health-collection-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/two-point-hospital-full-health-collection-switch-2/",
+  "title": "Two Point Hospital: Full Health Collection",
+  "publisher": "SEGA",
+  "developer": "",
+  "releaseDate": "2026-09-16",
+  "isUpgrade": false,
+  "sizeGB": 5.6,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 39.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {},
+  "languages": [
+   "Japanese",
+   "British English",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Russian",
+   "Simplified Chinese",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "Polish"
+  ],
+  "checked": "2026-09-29"
+ },
+ "virtua-fighter-5-r-e-v-o-world-stage-switch-2": {
+  "key": "virtua-fighter-5-r-e-v-o-world-stage-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/virtua-fighter-5-r-e-v-o-world-stage-switch-2/",
+  "title": "Virtua Fighter 5 R.E.V.O. World Stage",
+  "publisher": "SEGA",
+  "developer": "SEGA",
+  "releaseDate": "2026-03-26",
+  "isUpgrade": false,
+  "sizeGB": 25.7,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 19.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 2,
+   "online": 17
+  },
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-29"
+ },
+ "wwe-2k26-standard-edition-switch-2": {
+  "key": "wwe-2k26-standard-edition-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/wwe-2k26-standard-edition-switch-2/",
+  "title": "WWE 2K26 Standard Edition",
+  "publisher": "2K",
+  "developer": "Visual Concepts",
+  "releaseDate": "2026-03-13",
+  "isUpgrade": false,
+  "sizeGB": 89.7,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 69.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 8,
+   "online": 8
+  },
+  "languages": [
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "American English"
+  ],
+  "checked": "2026-09-29"
+ },
+ "drag-x-drive-switch-2": {
+  "key": "drag-x-drive-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/drag-x-drive-switch-2/",
+  "title": "Drag x Drive",
+  "publisher": "Nintendo",
+  "developer": "",
+  "releaseDate": "2025-08-14",
+  "isUpgrade": false,
+  "sizeGB": 1.9,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 19.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode"
+  ],
+  "players": {
+   "local": 8,
+   "online": 12
+  },
+  "languages": [
+   "Japanese",
+   "British English",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Dutch",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Canadian French",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-29"
+ },
+ "nintendo-switch-2-welcome-tour-switch-2": {
+  "key": "nintendo-switch-2-welcome-tour-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/nintendo-switch-2-welcome-tour-switch-2/",
+  "title": "Nintendo Switch 2 Welcome Tour",
+  "publisher": "Nintendo",
+  "developer": "",
+  "releaseDate": "2025-06-05",
+  "isUpgrade": false,
+  "sizeGB": 1.7,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 9.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {},
+  "languages": [
+   "Japanese",
+   "British English",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Dutch",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Canadian French",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-09-29"
+ },
+ "warframe-switch-2": {
+  "key": "warframe-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/warframe-switch-2/",
+  "title": "Warframe",
+  "publisher": "Digital Extremes",
+  "developer": "Digital Extremes Ltd",
+  "releaseDate": "2026-03-25",
+  "isUpgrade": false,
+  "sizeGB": 44.8,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 0,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "online": 4
+  },
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Korean",
+   "Portuguese",
+   "Russian",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English",
+   "Polish",
+   "Thai"
+  ],
+  "checked": "2026-09-29"
+ },
+ "fast-fusion-switch-2": {
+  "key": "fast-fusion-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/fast-fusion-switch-2/",
+  "title": "Fast Fusion",
+  "publisher": "Shin’en Multimedia",
+  "developer": "Shin'en",
+  "releaseDate": "2025-06-05",
+  "isUpgrade": false,
+  "sizeGB": 3.8,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 14.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 4
+  },
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "American English"
+  ],
+  "checked": "2026-09-29"
  }
 }

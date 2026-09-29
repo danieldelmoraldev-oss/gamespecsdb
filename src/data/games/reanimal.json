@@ -1,0 +1,45 @@
+{
+  "title": "REANIMAL",
+  "publisher": "THQ Nordic",
+  "releaseDate": "2026-02-13",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 9.0,
+    "source": "https://www.nintendo.com/us/store/products/reanimal-switch-2/",
+    "checked": "2026-09-29"
+  },
+  "physical": {
+    "format": "game-key-card",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/reanimal",
+    "checked": "2026-09-29"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/reanimal-switch-2/",
+    "priceUSD": 39.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "system": 2,
+      "online": 2
+    },
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Russian",
+      "Simplified Chinese",
+      "Latin American Spanish",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": ""
+  }
+}

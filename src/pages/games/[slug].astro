@@ -61,7 +61,7 @@ const faqs = [
 if (perf?.modes.some((m) => m.fps)) {
   const parts = perf.modes
     .filter((m) => m.fps)
-    .map((m) => `${m.fps} FPS in ${modeLabel(m).replace('mode (', 'mode, ').replace(')', ' preset')}${m.resolution ? ` at ${m.resolution.replace(/^(Up to|About)/, (w) => w.toLowerCase())}` : ''}`);
+    .map((m) => `${m.fps} FPS in ${modeLabel(m).replace(/ \((.+)\)$/, ', $1 preset')}${m.resolution ? ` at ${m.resolution.replace(/^(Up to|About)/, (w) => w.toLowerCase())}` : ''}`);
   const top = Math.max(...perf.modes.map((m) => m.fps ?? 0));
   faqs.push({
     q: `Does ${name} run at ${top >= 120 ? '120' : '60'} FPS on Switch 2?`,
@@ -96,7 +96,8 @@ const FORMAT_HINT: Record<typeof d.physical.format, string> = {
   unknown: 'Not confirmed yet',
 };
 
-const title = d.kind === 'free-update'
+const title = d.seoTitle ? d.seoTitle.replace('{size}', formatGB(d.fileSize.currentGB))
+  : d.kind === 'free-update'
   ? `${name} on Switch 2: ${hasPerf ? 'free upgrade, file size and FPS' : 'free upgrade and file size'}`
   : `${name} ${d.kind === 'edition' ? 'Switch 2 Edition' : 'Switch 2'} ${hasPerf ? 'file size, Game-Key Card and FPS' : 'file size and Game-Key Card'}`;
 const description = `${name} ${d.fileSize.estimate ? "is expected to take" : "takes"} ${formatGB(d.fileSize.currentGB)} on Switch 2. ${FORMAT_LABEL[d.physical.format]}. Sourced specs, last checked ${formatDate(checked)}.`;

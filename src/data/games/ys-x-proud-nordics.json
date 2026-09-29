@@ -30,5 +30,21 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "preset": "Default",
+        "fps": 60
+      },
+      {
+        "play": "all",
+        "preset": "Performance",
+        "fps": 120
+      }
+    ],
+    "source": "https://nintendoeverything.com/ys-x-proud-nordics-will-support-120fps-on-nintendo-switch-2-with-new-mode/",
+    "checked": "2026-09-29"
   }
 }

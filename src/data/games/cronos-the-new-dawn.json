@@ -38,5 +38,16 @@
     ],
     "switch1SizeGB": null,
     "developer": "Bloober Team"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "resolution": "1080p (upscaled)",
+        "fps": 30
+      }
+    ],
+    "source": "https://nintendoeverything.com/cronos-the-new-dawn-nintendo-switch-2-vs-ps5-graphics-comparison/",
+    "checked": "2026-09-29"
   }
 }

@@ -3,6 +3,7 @@
   "publisher": "Bandai Namco Entertainment",
   "releaseDate": "2026-07-10",
   "kind": "native",
+  "seoTitle": "Digimon Time Stranger Switch 2 size: {size}, Game-Key Card",
   "fileSize": {
     "currentGB": 13.8,
     "source": "https://www.nintendo.com/us/store/products/digimon-story-time-stranger-switch-2/",
@@ -37,5 +38,30 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "preset": "Performance",
+        "resolution": "1080p",
+        "fps": 60
+      },
+      {
+        "play": "tv",
+        "preset": "Quality",
+        "resolution": "4K",
+        "fps": 30
+      },
+      {
+        "play": "handheld",
+        "preset": "Quality",
+        "resolution": "1080p",
+        "fps": 30
+      }
+    ],
+    "note": "Frame rates are \"up to\" figures from Bandai Namco; HDR works only in Quality mode.",
+    "source": "https://nintendoeverything.com/digimon-story-time-stranger-nintendo-switch-2-vs-switch-comparison-more-frame-rate-and-resolution-details/",
+    "checked": "2026-09-29"
   }
 }
