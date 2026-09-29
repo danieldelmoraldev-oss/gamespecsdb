@@ -4,10 +4,9 @@
   "releaseDate": "2026-09-29",
   "kind": "native",
   "fileSize": {
-    "currentGB": 6.8,
+    "currentGB": 6.0,
     "source": "https://www.nintendo.com/us/store/products/minecraft-dungeons-ii-switch-2/",
-    "checked": "2026-09-28",
-    "estimate": true
+    "checked": "2026-09-29"
   },
   "physical": {
     "format": "game-key-card",
