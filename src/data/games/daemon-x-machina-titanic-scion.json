@@ -38,5 +38,16 @@
     ],
     "switch1SizeGB": null,
     "developer": "Marvelous"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "fps": 30
+      }
+    ],
+    "note": "Not a locked 30fps: slowdown when entering new areas and in busy fights. Other platforms run at 60fps.",
+    "source": "https://www.nintendolife.com/reviews/nintendo-switch-2/daemon-x-machina-titanic-scion",
+    "checked": "2026-10-02"
   }
 }

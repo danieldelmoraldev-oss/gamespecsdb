@@ -3,6 +3,7 @@
   "publisher": "Nintendo",
   "releaseDate": "2026-07-23",
   "kind": "native",
+  "seoTitle": "Splatoon Raiders Switch 2 size ({size}), cartridge and 60 FPS",
   "fileSize": {
     "currentGB": 13.2,
     "source": "https://www.nintendo.com/us/store/products/splatoon-raiders-switch-2/",
@@ -42,5 +43,22 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "About 1440p",
+        "fps": 60
+      },
+      {
+        "play": "handheld",
+        "resolution": "About 1080p",
+        "fps": 60
+      }
+    ],
+    "note": "Resolutions are the reviewer's estimate by eye; no frame drops were spotted.",
+    "source": "https://www.nintendolife.com/reviews/nintendo-switch-2/splatoon-raiders",
+    "checked": "2026-10-02"
   }
 }

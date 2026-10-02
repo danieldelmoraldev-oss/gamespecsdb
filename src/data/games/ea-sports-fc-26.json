@@ -3,6 +3,7 @@
   "publisher": "Electronic Arts",
   "releaseDate": "2025-09-26",
   "kind": "native",
+  "seoTitle": "EA FC 26 Switch 2 file size ({size}), Game-Key Card, 30 FPS",
   "fileSize": {
     "currentGB": 74.8,
     "source": "https://www.nintendo.com/us/store/products/ea-sports-fc-26-switch-2/",
@@ -43,5 +44,16 @@
     ],
     "switch1SizeGB": null,
     "developer": "EA"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "fps": 30
+      }
+    ],
+    "note": "Capped at 30fps on Switch 2, while the other consoles run at 60fps.",
+    "source": "https://www.nintendolife.com/reviews/nintendo-switch-2/ea-sports-fc-26",
+    "checked": "2026-10-02"
   }
 }

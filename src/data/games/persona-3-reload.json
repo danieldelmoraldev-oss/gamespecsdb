@@ -37,5 +37,29 @@
     ],
     "switch1SizeGB": null,
     "developer": "ATLUS"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "preset": "Performance",
+        "resolution": "1080p",
+        "fps": 60
+      },
+      {
+        "play": "tv",
+        "preset": "Standard",
+        "resolution": "1080p",
+        "fps": 30
+      },
+      {
+        "play": "handheld",
+        "resolution": "1080p",
+        "fps": 30
+      }
+    ],
+    "note": "Performance mode (TV only, added in update 1.03) sometimes dips into the upper 50s.",
+    "source": "https://www.nintendolife.com/news/2025/12/persona-3-reload-switch-2-performance-update-now-live-targets-60fps-in-docked-mode",
+    "checked": "2026-10-02"
   }
 }

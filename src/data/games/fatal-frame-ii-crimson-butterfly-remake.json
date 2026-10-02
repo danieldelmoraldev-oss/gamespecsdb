@@ -1,0 +1,49 @@
+{
+  "title": "FATAL FRAME II: Crimson Butterfly REMAKE",
+  "publisher": "KOEI TECMO AMERICA",
+  "releaseDate": "2026-03-12",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 27.3,
+    "source": "https://www.nintendo.com/us/store/products/fatal-frame-ii-crimson-butterfly-remake-switch-2/",
+    "checked": "2026-10-02"
+  },
+  "physical": {
+    "format": "game-key-card",
+    "source": "https://www.gematsu.com/2025/11/fatal-frame-ii-crimson-butterfly-remake-launches-march-12-2026",
+    "checked": "2026-10-02"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/fatal-frame-ii-crimson-butterfly-remake-switch-2/",
+    "priceUSD": 49.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "resolution": "Dynamic, about 576p–720p (upscaled to 1080p)",
+        "fps": 30
+      }
+    ],
+    "note": "Targets 30fps everywhere but can be unstable.",
+    "source": "https://nintendoeverything.com/video-fatal-frame-2-remake-nintendo-switch-2-vs-ps5-vs-xbox-series-s-x-comparison/",
+    "checked": "2026-10-02"
+  }
+}

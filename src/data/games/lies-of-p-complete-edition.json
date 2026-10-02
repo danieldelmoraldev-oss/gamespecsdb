@@ -1,0 +1,59 @@
+{
+  "title": "Lies of P: Complete Edition",
+  "publisher": "NEOWIZ",
+  "releaseDate": "2026-08-05",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 37.6,
+    "source": "https://www.nintendo.com/us/store/products/lies-of-p-complete-edition-switch-2/",
+    "checked": "2026-10-02"
+  },
+  "physical": {
+    "format": "full-cartridge",
+    "source": "https://www.rpgsite.net/news/20618-lies-of-p-complete-edition-switch-2-physical-release-full-game-cartridge-price",
+    "checked": "2026-10-02"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/lies-of-p-complete-edition-switch-2/",
+    "priceUSD": 69.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Russian",
+      "Simplified Chinese",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English",
+      "Polish"
+    ],
+    "switch1SizeGB": null,
+    "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "preset": "Performance",
+        "fps": 60
+      },
+      {
+        "play": "handheld",
+        "preset": "Performance",
+        "fps": 60
+      }
+    ],
+    "note": "Docked also has Balanced and Quality modes, handheld a Quality mode. Performance mode doesn't always hold 60fps, especially in handheld.",
+    "source": "https://www.nintendolife.com/reviews/nintendo-switch-2/lies-of-p-complete-edition",
+    "checked": "2026-10-02"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": "The Legend of Heroes: Trails to Azure",
+  "publisher": "NIS America",
+  "releaseDate": "2026-09-10",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 6.1,
+    "source": "https://www.nintendo.com/us/store/products/the-legend-of-heroes-trails-to-azure-switch-2/",
+    "checked": "2026-10-02"
+  },
+  "physical": {
+    "format": "game-key-card",
+    "source": "https://www.nintendolife.com/guides/every-nintendo-switch-2-game-key-card-release",
+    "checked": "2026-10-02"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/the-legend-of-heroes-trails-to-azure-switch-2/",
+    "priceUSD": 39.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": ""
+  }
+}

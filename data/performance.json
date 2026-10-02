@@ -74,6 +74,34 @@
   "source": "https://nintendoeverything.com/cyberpunk-2077-switch-2-frame-rate-resolution/",
   "checked": "2026-09-23"
  },
+ "daemon-x-machina-titanic-scion": {
+  "modes": [
+   {
+    "play": "all",
+    "fps": 30
+   }
+  ],
+  "note": "Not a locked 30fps: slowdown when entering new areas and in busy fights. Other platforms run at 60fps.",
+  "source": "https://www.nintendolife.com/reviews/nintendo-switch-2/daemon-x-machina-titanic-scion",
+  "checked": "2026-10-02"
+ },
+ "devil-may-cry-5-devil-hunter-edition": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "540p (upscaled to 1080p)",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "About 360p (upscaled to about 720p)",
+    "fps": 60
+   }
+  ],
+  "note": "Cutscenes run at 50–60fps. Docked also has an unlocked 120Hz option that mostly runs at 80–90fps.",
+  "source": "https://nintendoeverything.com/devil-may-cry-5-frame-rate-resolution/",
+  "checked": "2026-10-02"
+ },
  "digimon-story-time-stranger": {
   "modes": [
    {
@@ -127,6 +155,17 @@
   "source": "https://nintendoeverything.com/dragons-dogma-2-using-frame-generation-on-nintendo-switch-2-first-capcom-game-to-do-so-on-the-console/",
   "checked": "2026-09-29"
  },
+ "ea-sports-fc-26": {
+  "modes": [
+   {
+    "play": "all",
+    "fps": 30
+   }
+  ],
+  "note": "Capped at 30fps on Switch 2, while the other consoles run at 60fps.",
+  "source": "https://www.nintendolife.com/reviews/nintendo-switch-2/ea-sports-fc-26",
+  "checked": "2026-10-02"
+ },
  "ea-sports-madden-nfl-27": {
   "modes": [
    {
@@ -155,6 +194,18 @@
   "note": "Capped at 40 FPS but usually runs at 30–35 FPS, with dips to 25 more often in handheld.",
   "source": "https://nintendoeverything.com/elden-ring-nintendo-switch-2-tech-analysis-including-frame-rate-and-resolution/",
   "checked": "2026-09-23"
+ },
+ "fatal-frame-ii-crimson-butterfly-remake": {
+  "modes": [
+   {
+    "play": "all",
+    "resolution": "Dynamic, about 576p–720p (upscaled to 1080p)",
+    "fps": 30
+   }
+  ],
+  "note": "Targets 30fps everywhere but can be unstable.",
+  "source": "https://nintendoeverything.com/video-fatal-frame-2-remake-nintendo-switch-2-vs-ps5-vs-xbox-series-s-x-comparison/",
+  "checked": "2026-10-02"
  },
  "final-fantasy-vii-rebirth": {
   "modes": [
@@ -310,6 +361,23 @@
   "source": "https://nintendoeverything.com/video-kirby-and-the-forgotten-land-nintendo-switch-2-vs-switch-comparison/",
   "checked": "2026-09-23"
  },
+ "lies-of-p-complete-edition": {
+  "modes": [
+   {
+    "play": "tv",
+    "preset": "Performance",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "preset": "Performance",
+    "fps": 60
+   }
+  ],
+  "note": "Docked also has Balanced and Quality modes, handheld a Quality mode. Performance mode doesn't always hold 60fps, especially in handheld.",
+  "source": "https://www.nintendolife.com/reviews/nintendo-switch-2/lies-of-p-complete-edition",
+  "checked": "2026-10-02"
+ },
  "mario-kart-world": {
   "modes": [
    {
@@ -383,6 +451,30 @@
   "note": "The optional 30 FPS cap holds steady; uncapped, it runs anywhere between 30 and 60 FPS. Docked resolution can drop to about 720p.",
   "source": "https://nintendoeverything.com/onimusha-way-of-the-sword-tech-analysis-including-frame-rate-and-resolution-nintendo-switch-2-vs-ps5-graphics-comparison-video/",
   "checked": "2026-09-29"
+ },
+ "persona-3-reload": {
+  "modes": [
+   {
+    "play": "tv",
+    "preset": "Performance",
+    "resolution": "1080p",
+    "fps": 60
+   },
+   {
+    "play": "tv",
+    "preset": "Standard",
+    "resolution": "1080p",
+    "fps": 30
+   },
+   {
+    "play": "handheld",
+    "resolution": "1080p",
+    "fps": 30
+   }
+  ],
+  "note": "Performance mode (TV only, added in update 1.03) sometimes dips into the upper 50s.",
+  "source": "https://www.nintendolife.com/news/2025/12/persona-3-reload-switch-2-performance-update-now-live-targets-60fps-in-docked-mode",
+  "checked": "2026-10-02"
  },
  "pokemon-legends-z-a-nintendo-switch-2-edition": {
   "modes": [
@@ -476,6 +568,22 @@
   "source": "https://nintendoeverything.com/resident-evil-requiem-frame-rate-resolution/",
   "checked": "2026-09-23"
  },
+ "shinobi-art-of-vengeance": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "4K",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "1080p",
+    "fps": 60
+   }
+  ],
+  "source": "https://lordsofgaming.net/2026/09/ninja-strikes-shinobi-art-of-vengeance-on-nintendo-switch-2-impressions/",
+  "checked": "2026-10-02"
+ },
  "sonic-racing-crossworlds-nintendo-switch-2-edition": {
   "modes": [
    {
@@ -492,6 +600,23 @@
   "note": "4-player split-screen runs at 30 FPS.",
   "source": "https://nintendoeverything.com/sonic-racing-crossworlds-frame-rate-resolution-switch-2/",
   "checked": "2026-09-23"
+ },
+ "splatoon-raiders": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "About 1440p",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "About 1080p",
+    "fps": 60
+   }
+  ],
+  "note": "Resolutions are the reviewer's estimate by eye; no frame drops were spotted.",
+  "source": "https://www.nintendolife.com/reviews/nintendo-switch-2/splatoon-raiders",
+  "checked": "2026-10-02"
  },
  "stellar-blade-complete-edition": {
   "modes": [
@@ -554,6 +679,22 @@
   "note": "Cutscenes run at 60 FPS; gameplay may fluctuate in busy scenes.",
   "source": "https://nintendoeverything.com/tales-of-arise-details-nintendo-switch-2-frame-rate-and-resolution/",
   "checked": "2026-09-29"
+ },
+ "teenage-mutant-ninja-turtles-arcade-wrath-of-the-mutants-ninja-edition": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "4K",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "1080p",
+    "fps": 60
+   }
+  ],
+  "source": "https://nintendoeverything.com/tmnt-arcade-wrath-of-the-mutants-ninja-edition-announced-for-nintendo-switch-2/",
+  "checked": "2026-10-02"
  },
  "the-elder-scrolls-iv-oblivion-remastered": {
   "modes": [

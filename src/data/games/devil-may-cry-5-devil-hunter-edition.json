@@ -38,5 +38,22 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "540p (upscaled to 1080p)",
+        "fps": 60
+      },
+      {
+        "play": "handheld",
+        "resolution": "About 360p (upscaled to about 720p)",
+        "fps": 60
+      }
+    ],
+    "note": "Cutscenes run at 50–60fps. Docked also has an unlocked 120Hz option that mostly runs at 80–90fps.",
+    "source": "https://nintendoeverything.com/devil-may-cry-5-frame-rate-resolution/",
+    "checked": "2026-10-02"
   }
 }
