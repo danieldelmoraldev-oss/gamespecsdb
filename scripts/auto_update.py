@@ -2,7 +2,7 @@
 """Daily automatic update, run by .github/workflows/auto-update.yml (or by hand).
 
 1. Refresh the list of Switch 2 games from the eShop sitemap.
-2. Read the two cartridge-format sources and add newly listed games whose title
+2. Read the three cartridge-format sources and add newly listed games whose title
    matches an eShop page exactly. Anything ambiguous goes to data/review.json.
 3. Fetch eShop facts: upcoming, recently released and pending games every day,
    every published game on Mondays (or with --full).
@@ -13,6 +13,7 @@
 Usage: scripts/auto_update.py [--full] [--dry-run]
 """
 import datetime as dt
+import difflib
 import html
 import json
 import os
@@ -32,10 +33,13 @@ REVIEW = ROOT / 'data' / 'review.json'
 GAMES = ROOT / 'src' / 'data' / 'games'
 TODAY = dt.date.today()
 
-SOURCES = {
-    'game-key-card': 'https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/',
-    'full-cartridge': 'https://www.nintendolife.com/guides/every-nintendo-switch-2-physical-release-with-the-full-game-on-the-cart',
-}
+# Nintendo Life goes first: it spells titles right, so Nintendo Everything's typos ("Shnobi") then
+# look like games that are already published instead of new games to review.
+SOURCES = [
+    ('game-key-card', 'https://www.nintendolife.com/guides/every-nintendo-switch-2-game-key-card-release'),
+    ('game-key-card', 'https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/'),
+    ('full-cartridge', 'https://www.nintendolife.com/guides/every-nintendo-switch-2-physical-release-with-the-full-game-on-the-cart'),
+]
 # Notes in the lists that mean the Western physical release is not what the list says.
 REGIONAL = re.compile(r'japan|digital-only|digital only|cancel', re.I)
 ROMAN = re.compile(r'^(x{0,3})(ix|iv|v?i{0,3})$')
@@ -70,7 +74,7 @@ def norm_key(key):
 def list_items(url, fmt):
     """Titles from a source page, without bracketed notes; regional exceptions skipped."""
     page = eshop.get(url)
-    if fmt == 'full-cartridge':
+    if 'nintendolife.com' in url:
         m = re.search(r'<ul class="games games-style-list">(.*?)</ul>', page, re.S)
         raw = re.findall(r'<li[^>]*>\s*<a[^>]*>(.*?)</a>', m.group(1), re.S) if m else []
     else:
@@ -94,8 +98,8 @@ def match_lists(keys, physical, review):
     for k in keys:
         by_norm.setdefault(norm_key(k), k)
     published = {norm_key(s + '-switch-2') for s in physical}
-    added = []
-    for fmt, url in SOURCES.items():
+    added, reported = [], set()
+    for fmt, url in SOURCES:
         try:
             titles, skipped = list_items(url, fmt)
         except Exception as e:
@@ -112,9 +116,13 @@ def match_lists(keys, physical, review):
                 if slug not in physical:
                     physical[slug] = {'format': fmt, 'source': url, 'checked': TODAY.isoformat()}
                     added.append((slug, fmt))
+                    published.add(norm_key(key))
                 elif physical[slug]['format'] != fmt:
                     review['conflicts'].append(f'{title}: listed as {fmt}, published as {physical[slug]["format"]}')
-            elif not any(n in p or p.startswith(n) or n.startswith(p) for p in published):
+            elif not any(
+                    n in p or p.startswith(n) or n.startswith(p) or difflib.SequenceMatcher(None, n, p).ratio() >= 0.9
+                    for p in published | reported):  # also skips typos and games another list already reported
+                reported.add(n)
                 words = [w for w in n.split('-') if len(w) > 2][:3]
                 hints = [k for k in keys if words and all(w in norm_key(k) for w in words)][:3]
                 review['unmatched'].append({'title': title, 'format': fmt, 'candidates': hints})
