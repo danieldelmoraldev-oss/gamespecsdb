@@ -1,5 +1,5 @@
 {
- "date": "2026-10-01",
+ "date": "2026-10-02",
  "unmatched": [
   {
    "title": "007 First Light",
@@ -24,7 +24,9 @@
   {
    "title": "Hela",
    "format": "game-key-card",
-   "candidates": []
+   "candidates": [
+    "hela-of-mice-and-magic-switch-2"
+   ]
   },
   {
    "title": "Kingdom Come: Deliverance 2",

@@ -1,11 +1,11 @@
 {
-  "title": "DRAGON QUEST XI S: Echoes of an Elusive Age - Definitive Edition",
-  "publisher": "SQUARE ENIX",
-  "releaseDate": "2026-09-24",
+  "title": "PAW Patrol: Dino World",
+  "publisher": "Outright Games",
+  "releaseDate": "2026-10-02",
   "kind": "native",
   "fileSize": {
-    "currentGB": 23.2,
-    "source": "https://www.nintendo.com/us/store/products/dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-edition-switch-2/",
+    "currentGB": 3.4,
+    "source": "https://www.nintendo.com/us/store/products/paw-patrol-dino-world-switch-2/",
     "checked": "2026-10-02"
   },
   "physical": {
@@ -14,25 +14,32 @@
     "checked": "2026-09-23"
   },
   "eshop": {
-    "url": "https://www.nintendo.com/us/store/products/dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-edition-switch-2/",
+    "url": "https://www.nintendo.com/us/store/products/paw-patrol-dino-world-switch-2/",
     "priceUSD": 39.99,
     "playModes": [
       "TV mode",
       "Tabletop mode",
       "Handheld mode"
     ],
-    "players": {},
+    "players": {
+      "system": 2
+    },
     "languages": [
-      "British English",
+      "Japanese",
       "French",
       "German",
       "Italian",
       "Spanish",
       "Korean",
+      "Dutch",
       "Simplified Chinese",
-      "Traditional Chinese"
+      "Latin American Spanish",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English",
+      "Polish"
     ],
     "switch1SizeGB": null,
-    "developer": "SQUARE ENIX"
+    "developer": "3DClouds"
   }
 }
