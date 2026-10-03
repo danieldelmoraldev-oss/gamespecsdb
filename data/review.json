@@ -1,5 +1,5 @@
 {
- "date": "2026-10-02",
+ "date": "2026-10-03",
  "unmatched": [
   {
    "title": "007 First Light",
@@ -17,60 +17,42 @@
    "candidates": []
   },
   {
-   "title": "Gothic 3 Classic",
+   "title": "Danganronpa 2x2",
    "format": "game-key-card",
    "candidates": []
   },
   {
-   "title": "Hela",
+   "title": "Gothic III Classic",
    "format": "game-key-card",
-   "candidates": [
-    "hela-of-mice-and-magic-switch-2"
-   ]
+   "candidates": []
   },
   {
-   "title": "Kingdom Come: Deliverance 2",
+   "title": "Kingdom Come Deliverance II: Royal Edition",
+   "format": "game-key-card",
+   "candidates": []
+  },
+  {
+   "title": "Let's Sing ABBA",
+   "format": "game-key-card",
+   "candidates": []
+  },
+  {
+   "title": "Muramasa: Revenant Blades",
+   "format": "game-key-card",
+   "candidates": []
+  },
+  {
+   "title": "Resident Evil Generation Pack",
+   "format": "game-key-card",
+   "candidates": []
+  },
+  {
+   "title": "The Crew Motorfest",
    "format": "game-key-card",
    "candidates": []
   },
   {
    "title": "My Hero Academia: One’s Justice",
-   "format": "game-key-card",
-   "candidates": []
-  },
-  {
-   "title": "Nickelodeon & The Dice of Destiny",
-   "format": "game-key-card",
-   "candidates": []
-  },
-  {
-   "title": "Nogunaga’s Ambition: Awakening Complete Edition",
-   "format": "game-key-card",
-   "candidates": []
-  },
-  {
-   "title": "Romancing SaGa 3: Destinies Untied",
-   "format": "game-key-card",
-   "candidates": [
-    "romancing-saga-3-destinies-united-digital-deluxe-version-switch-2",
-    "romancing-saga-3-destinies-united-switch-2"
-   ]
-  },
-  {
-   "title": "Shnobi: Art of Vengeance",
-   "format": "game-key-card",
-   "candidates": []
-  },
-  {
-   "title": "Teenage Mutant Ninja Turtles Arcade: Wrath of the Mutants",
-   "format": "game-key-card",
-   "candidates": [
-    "teenage-mutant-ninja-turtles-arcade-wrath-of-the-mutants-ninja-edition-switch-2",
-    "teenage-mutant-ninja-turtles-splintered-fate-nintendo-switch-2-edition-switch-2"
-   ]
-  },
-  {
-   "title": "The Crew Motorfest",
    "format": "game-key-card",
    "candidates": []
   },
