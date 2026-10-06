@@ -55,5 +55,7 @@ jobs:
             echo "No changes"
           else
             git commit -m "${{ steps.update.outputs.summary }}"
+            # Someone may have pushed while the update ran (e.g. the Tuesday/Friday review)
+            git pull --rebase origin main
             git push
           fi
