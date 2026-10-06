@@ -3,6 +3,7 @@
   "publisher": "SQUARE ENIX",
   "releaseDate": "2025-06-05",
   "kind": "native",
+  "seoTitle": "Bravely Default HD Remaster Switch 2 size ({size}), Game-Key Card, 60 FPS",
   "fileSize": {
     "currentGB": 9.3,
     "source": "https://www.nintendo.com/us/store/products/bravely-default-flying-fairy-hd-remaster-switch-2/",
@@ -32,5 +33,22 @@
     ],
     "switch1SizeGB": null,
     "developer": "Cattle Call Inc."
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "About 1080p",
+        "fps": 60
+      },
+      {
+        "play": "handheld",
+        "resolution": "About 1080p",
+        "fps": 60
+      }
+    ],
+    "note": "Twice the 30 FPS of the 3DS original, with no real performance issues.",
+    "source": "https://www.rpgsite.net/feature/19872-bravely-default-switch-2-vs-steam-deck-xbox-pc-3ds-frame-rate-graphics",
+    "checked": "2026-10-06"
   }
 }

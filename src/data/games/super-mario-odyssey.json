@@ -47,5 +47,22 @@
     ],
     "switch1SizeGB": null,
     "developer": "Nintendo"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "1800p",
+        "fps": 60
+      },
+      {
+        "play": "handheld",
+        "resolution": "1080p",
+        "fps": 60
+      }
+    ],
+    "note": "Resolution figures measured by Digital Foundry after the free Switch 2 update.",
+    "source": "https://press-start.com.au/news/nintendo/2025/06/30/the-free-nintendo-switch-2-game-updates-are-a-bigger-improvement-than-expected/",
+    "checked": "2026-10-06"
   }
 }

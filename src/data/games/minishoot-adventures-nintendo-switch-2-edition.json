@@ -1,0 +1,43 @@
+{
+  "title": "Minishoot' Adventures - Nintendo Switch 2 Edition",
+  "publisher": "Seaven Studio",
+  "releaseDate": "2026-03-03",
+  "kind": "edition",
+  "fileSize": {
+    "currentGB": 1.5,
+    "source": "https://www.nintendo.com/us/store/products/minishoot-adventures-nintendo-switch-2-edition-switch-2/",
+    "checked": "2026-10-06"
+  },
+  "physical": {
+    "format": "digital-only",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/minishoot-adventures-nintendo-switch-2-edition",
+    "checked": "2026-10-06"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/minishoot-adventures-nintendo-switch-2-edition-switch-2/",
+    "priceUSD": 15.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Russian",
+      "Simplified Chinese",
+      "Latin American Spanish",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English",
+      "Polish"
+    ],
+    "switch1SizeGB": 0.4,
+    "developer": "SoulGame Studio, Seaven Studio"
+  }
+}

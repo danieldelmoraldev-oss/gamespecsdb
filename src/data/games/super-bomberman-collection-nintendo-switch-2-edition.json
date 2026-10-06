@@ -1,0 +1,42 @@
+{
+  "title": "SUPER BOMBERMAN COLLECTION - Nintendo Switch 2 Edition",
+  "publisher": "KONAMI",
+  "releaseDate": "2026-02-05",
+  "kind": "edition",
+  "fileSize": {
+    "currentGB": 3.0,
+    "source": "https://www.nintendo.com/us/store/products/super-bomberman-collection-nintendo-switch-2-edition-switch-2/",
+    "checked": "2026-10-06"
+  },
+  "physical": {
+    "format": "digital-only",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/super-bomberman-collection-nintendo-switch-2-edition",
+    "checked": "2026-10-06"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/super-bomberman-collection-nintendo-switch-2-edition-switch-2/",
+    "priceUSD": 24.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "system": 5
+    },
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Simplified Chinese",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": 2.7,
+    "developer": "Red Art Games"
+  }
+}

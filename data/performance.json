@@ -32,6 +32,34 @@
   "source": "https://nintendoeverything.com/assassins-creed-shadows-nintendo-switch-2-tech-analysis-including-frame-rate-and-resolution/",
   "checked": "2026-09-23"
  },
+ "bravely-default-flying-fairy-hd-remaster": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "About 1080p",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "About 1080p",
+    "fps": 60
+   }
+  ],
+  "note": "Twice the 30 FPS of the 3DS original, with no real performance issues.",
+  "source": "https://www.rpgsite.net/feature/19872-bravely-default-switch-2-vs-steam-deck-xbox-pc-3ds-frame-rate-graphics",
+  "checked": "2026-10-06"
+ },
+ "brigandine-abyss": {
+  "modes": [
+   {
+    "play": "all",
+    "fps": 30
+   }
+  ],
+  "note": "Not a locked 30 FPS: docked mode slows down when the camera and cursor move quickly; handheld holds up better. Happinet chose not to target 60 FPS on Switch 2.",
+  "source": "https://rpgsite.net/feature/21147-brigandine-abyss-switch-2-vs-ps5-pro-pc-steam-deck-xbox-series-ayn-thor-best-version",
+  "checked": "2026-10-06"
+ },
  "cronos-the-new-dawn": {
   "modes": [
    {
@@ -424,6 +452,17 @@
   "source": "https://comicbook.com/gaming/news/metroid-prime-4s-quality-performance-modes-on-switch-2-explained/",
   "checked": "2026-09-23"
  },
+ "monster-hunter-stories-3-twisted-reflection": {
+  "modes": [
+   {
+    "play": "all",
+    "fps": 30
+   }
+  ],
+  "note": "Uncapped frame rate that hovers just above 30 FPS and rarely goes past 35, with uneven frame pacing and some hitching. No graphics modes on Switch 2.",
+  "source": "https://www.rpgsite.net/feature/19802-monster-hunter-stories-3-switch-2-vs-ps5-pc-xbox-full-game-performance-best-version",
+  "checked": "2026-10-06"
+ },
  "nba-2k27": {
   "modes": [
    {
@@ -652,6 +691,22 @@
   "source": "https://nintendoeverything.com/street-fighter-6-frame-rate-resolution/",
   "checked": "2026-09-23"
  },
+ "suikoden-i-and-ii-hd-remaster-for-nintendo-switch-2-gate-rune-and-dunan-unification-wars": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "1440p",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "1080p",
+    "fps": 60
+   }
+  ],
+  "source": "https://www.rpgsite.net/feature/17739-suikoden-1-and-2-hd-remaster-switch-vs-switch-2-save-transfer-upgrade-performance",
+  "checked": "2026-10-06"
+ },
  "super-mario-bros-wonder-nintendo-switch-2-edition-plus-meetup-in-bellabel-park": {
   "modes": [
    {
@@ -667,6 +722,38 @@
   ],
   "source": "https://nintendoeverything.com/video-super-mario-bros-wonder-nintendo-switch-2-vs-switch-graphics-comparison/",
   "checked": "2026-09-23"
+ },
+ "super-mario-odyssey": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "1800p",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "1080p",
+    "fps": 60
+   }
+  ],
+  "note": "Resolution figures measured by Digital Foundry after the free Switch 2 update.",
+  "source": "https://press-start.com.au/news/nintendo/2025/06/30/the-free-nintendo-switch-2-game-updates-are-a-bigger-improvement-than-expected/",
+  "checked": "2026-10-06"
+ },
+ "super-mario-party-jamboree-nintendo-switch-2-edition-plus-jamboree-tv": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "Up to 1440p"
+   },
+   {
+    "play": "handheld",
+    "resolution": "1080p"
+   }
+  ],
+  "note": "Nintendo has not given a frame rate for the Switch 2 Edition.",
+  "source": "https://www.nintendo.com/my/games/switch2/a7hla/index.html",
+  "checked": "2026-10-06"
  },
  "tales-of-arise-beyond-the-dawn-edition": {
   "modes": [
@@ -727,6 +814,23 @@
   ],
   "source": "https://nintendoeverything.com/zelda-breath-of-the-wild-and-tears-of-the-kingdom-nintendo-switch-2-frame-rate-resolution/",
   "checked": "2026-09-23"
+ },
+ "the-legend-of-zelda-links-awakening": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "1620p",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "1080p",
+    "fps": 60
+   }
+  ],
+  "note": "Locked 60 FPS on Switch 2 (Digital Foundry), up from 720p docked and an unstable 60 FPS on Switch 1.",
+  "source": "https://press-start.com.au/news/nintendo/2025/06/30/the-free-nintendo-switch-2-game-updates-are-a-bigger-improvement-than-expected/",
+  "checked": "2026-10-06"
  },
  "the-legend-of-zelda-tears-of-the-kingdom-nintendo-switch-2-edition": {
   "modes": [

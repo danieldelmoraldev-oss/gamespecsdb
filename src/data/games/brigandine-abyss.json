@@ -32,5 +32,16 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "fps": 30
+      }
+    ],
+    "note": "Not a locked 30 FPS: docked mode slows down when the camera and cursor move quickly; handheld holds up better. Happinet chose not to target 60 FPS on Switch 2.",
+    "source": "https://rpgsite.net/feature/21147-brigandine-abyss-switch-2-vs-ps5-pro-pc-steam-deck-xbox-series-ayn-thor-best-version",
+    "checked": "2026-10-06"
   }
 }

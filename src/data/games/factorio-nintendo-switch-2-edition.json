@@ -1,0 +1,45 @@
+{
+  "title": "Factorio – Nintendo Switch 2 Edition",
+  "publisher": "Wube Software",
+  "releaseDate": "2025-12-22",
+  "kind": "edition",
+  "fileSize": {
+    "currentGB": 2.6,
+    "source": "https://www.nintendo.com/us/store/products/factorio-nintendo-switch-2-edition-switch-2/",
+    "checked": "2026-10-06"
+  },
+  "physical": {
+    "format": "digital-only",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/factorio-nintendo-switch-2-edition",
+    "checked": "2026-10-06"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/factorio-nintendo-switch-2-edition-switch-2/",
+    "priceUSD": 35,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "online": 64
+    },
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Spanish",
+      "Korean",
+      "Dutch",
+      "Russian",
+      "Simplified Chinese",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English",
+      "Polish",
+      "Thai"
+    ],
+    "switch1SizeGB": 2.6,
+    "developer": ""
+  }
+}

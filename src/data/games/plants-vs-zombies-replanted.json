@@ -1,0 +1,40 @@
+{
+  "title": "Plants vs. Zombies: Replanted",
+  "publisher": "Electronic Arts",
+  "releaseDate": "2025-10-23",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 3.2,
+    "source": "https://www.nintendo.com/us/store/products/plants-vs-zombies-replanted-switch-2/",
+    "checked": "2026-10-06"
+  },
+  "physical": {
+    "format": "digital-only",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/plants-vs-zombies-replanted",
+    "checked": "2026-10-06"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/plants-vs-zombies-replanted-switch-2/",
+    "priceUSD": 19.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "system": 2
+    },
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Spanish",
+      "Simplified Chinese",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": "EA"
+  }
+}

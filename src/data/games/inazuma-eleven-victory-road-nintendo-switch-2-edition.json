@@ -1,0 +1,41 @@
+{
+  "title": "INAZUMA ELEVEN: Victory Road Nintendo Switch 2 Edition",
+  "publisher": "LEVEL5",
+  "releaseDate": "2025-11-13",
+  "kind": "edition",
+  "fileSize": {
+    "currentGB": 29.3,
+    "source": "https://www.nintendo.com/us/store/products/inazuma-eleven-victory-road-nintendo-switch-2-edition-switch-2/",
+    "checked": "2026-10-06"
+  },
+  "physical": {
+    "format": "digital-only",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/inazuma-eleven-victory-road-nintendo-switch-2-edition",
+    "checked": "2026-10-06"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/inazuma-eleven-victory-road-nintendo-switch-2-edition-switch-2/",
+    "priceUSD": 72.58,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "online": 8
+    },
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Simplified Chinese",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": 29.2,
+    "developer": ""
+  }
+}

@@ -52,5 +52,20 @@
     "priceUSD": 19.99,
     "source": "https://www.nintendo.com/us/store/products/super-mario-party-jamboree-nintendo-switch-2-edition-plus-jamboree-tv-upgrade-pack-switch-2/",
     "checked": "2026-10-05"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "Up to 1440p"
+      },
+      {
+        "play": "handheld",
+        "resolution": "1080p"
+      }
+    ],
+    "note": "Nintendo has not given a frame rate for the Switch 2 Edition.",
+    "source": "https://www.nintendo.com/my/games/switch2/a7hla/index.html",
+    "checked": "2026-10-06"
   }
 }

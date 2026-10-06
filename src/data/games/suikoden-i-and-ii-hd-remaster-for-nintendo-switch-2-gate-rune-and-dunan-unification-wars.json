@@ -3,6 +3,7 @@
   "publisher": "KONAMI",
   "releaseDate": "2025-06-05",
   "kind": "native",
+  "seoTitle": "Suikoden I & II HD Remaster Switch 2 size ({size}), Game-Key Card, 60 FPS",
   "fileSize": {
     "currentGB": 10.9,
     "source": "https://www.nintendo.com/us/store/products/suikoden-i-and-ii-hd-remaster-for-nintendo-switch-2-gate-rune-and-dunan-unification-wars-switch-2/",
@@ -35,5 +36,21 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "1440p",
+        "fps": 60
+      },
+      {
+        "play": "handheld",
+        "resolution": "1080p",
+        "fps": 60
+      }
+    ],
+    "source": "https://www.rpgsite.net/feature/17739-suikoden-1-and-2-hd-remaster-switch-vs-switch-2-save-transfer-upgrade-performance",
+    "checked": "2026-10-06"
   }
 }

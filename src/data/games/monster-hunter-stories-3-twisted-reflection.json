@@ -3,6 +3,7 @@
   "publisher": "CAPCOM",
   "releaseDate": "2026-03-13",
   "kind": "native",
+  "seoTitle": "Monster Hunter Stories 3 Switch 2 size ({size}), Game-Key Card, FPS",
   "fileSize": {
     "currentGB": 27.7,
     "source": "https://www.nintendo.com/us/store/products/monster-hunter-stories-3-twisted-reflection-switch-2/",
@@ -39,5 +40,16 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "fps": 30
+      }
+    ],
+    "note": "Uncapped frame rate that hovers just above 30 FPS and rarely goes past 35, with uneven frame pacing and some hitching. No graphics modes on Switch 2.",
+    "source": "https://www.rpgsite.net/feature/19802-monster-hunter-stories-3-switch-2-vs-ps5-pc-xbox-full-game-performance-best-version",
+    "checked": "2026-10-06"
   }
 }

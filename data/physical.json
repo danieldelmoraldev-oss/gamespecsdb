@@ -33,6 +33,11 @@
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
   "checked": "2026-09-23"
  },
+ "bokura-planet": {
+  "format": "digital-only",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/bokura-planet",
+  "checked": "2026-10-06"
+ },
  "bravely-default-flying-fairy-hd-remaster": {
   "format": "game-key-card",
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
@@ -54,6 +59,16 @@
   "checked": "2026-09-23",
   "eshopKey": "captain-toad-treasure-tracker-switch",
   "kind": "free-update"
+ },
+ "card-en-ciel-nintendo-switch-2-edition": {
+  "format": "digital-only",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/card-en-ciel-nintendo-switch-2-edition",
+  "checked": "2026-10-06"
+ },
+ "chillin-by-the-fire": {
+  "format": "digital-only",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/chillin-by-the-fire",
+  "checked": "2026-10-06"
  },
  "chromagun-2-dye-hard": {
   "format": "full-cartridge",
@@ -92,6 +107,11 @@
   "source": "https://www.nintendolife.com/guides/every-nintendo-switch-2-physical-release-with-the-full-game-on-the-cart",
   "checked": "2026-09-23",
   "note": "Full cartridge in the West; the Japanese release is a Game-Key Card"
+ },
+ "deltarune": {
+  "format": "digital-only",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/deltarune",
+  "checked": "2026-10-06"
  },
  "destroy-all-humans": {
   "format": "game-key-card",
@@ -215,6 +235,11 @@
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
   "checked": "2026-09-23"
  },
+ "factorio-nintendo-switch-2-edition": {
+  "format": "digital-only",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/factorio-nintendo-switch-2-edition",
+  "checked": "2026-10-06"
+ },
  "fallout-4-anniversary-edition": {
   "format": "code-in-box",
   "source": "https://www.nintendolife.com/games/nintendo-switch-2/fallout-4-anniversary-edition",
@@ -307,6 +332,11 @@
   "source": "https://www.nintendolife.com/guides/every-nintendo-switch-2-physical-release-with-the-full-game-on-the-cart",
   "checked": "2026-09-23"
  },
+ "handy-hockey": {
+  "format": "digital-only",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/handy-hockey",
+  "checked": "2026-10-06"
+ },
  "harvest-moon-echoes-of-teradea-nintendo-switch-2-edition": {
   "format": "full-cartridge",
   "source": "https://www.nintendolife.com/guides/every-nintendo-switch-2-physical-release-with-the-full-game-on-the-cart",
@@ -372,6 +402,11 @@
   "source": "https://www.nintendolife.com/guides/every-nintendo-switch-2-physical-release-with-the-full-game-on-the-cart",
   "checked": "2026-09-23"
  },
+ "inazuma-eleven-victory-road-nintendo-switch-2-edition": {
+  "format": "digital-only",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/inazuma-eleven-victory-road-nintendo-switch-2-edition",
+  "checked": "2026-10-06"
+ },
  "indiana-jones-and-the-great-circle": {
   "format": "full-cartridge",
   "source": "https://www.nintendolife.com/guides/every-nintendo-switch-2-physical-release-with-the-full-game-on-the-cart",
@@ -406,6 +441,11 @@
   "format": "game-key-card",
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
   "checked": "2026-09-23"
+ },
+ "lego-party-nintendo-switch-2-edition": {
+  "format": "digital-only",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/lego-party-nintendo-switch-2-edition",
+  "checked": "2026-10-06"
  },
  "lets-sing-2027": {
   "format": "game-key-card",
@@ -478,6 +518,11 @@
   "format": "game-key-card",
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
   "checked": "2026-09-23"
+ },
+ "minishoot-adventures-nintendo-switch-2-edition": {
+  "format": "digital-only",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/minishoot-adventures-nintendo-switch-2-edition",
+  "checked": "2026-10-06"
  },
  "mio-memories-in-orbit": {
   "format": "full-cartridge",
@@ -571,6 +616,11 @@
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
   "checked": "2026-09-23"
  },
+ "opus-prism-peak": {
+  "format": "digital-only",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/opus-prism-peak",
+  "checked": "2026-10-06"
+ },
  "outbound": {
   "format": "full-cartridge",
   "source": "https://www.nintendolife.com/guides/every-nintendo-switch-2-physical-release-with-the-full-game-on-the-cart",
@@ -602,6 +652,11 @@
   "checked": "2026-09-23",
   "eshopKey": "pikmin-3-deluxe-switch",
   "kind": "free-update"
+ },
+ "plants-vs-zombies-replanted": {
+  "format": "digital-only",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/plants-vs-zombies-replanted",
+  "checked": "2026-10-06"
  },
  "pokemon-legends-z-a-nintendo-switch-2-edition": {
   "format": "full-cartridge",
@@ -786,6 +841,11 @@
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
   "checked": "2026-09-23"
  },
+ "super-bomberman-collection-nintendo-switch-2-edition": {
+  "format": "digital-only",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/super-bomberman-collection-nintendo-switch-2-edition",
+  "checked": "2026-10-06"
+ },
  "super-mario-3d-world-plus-bowsers-fury": {
   "format": "switch-1-cartridge",
   "source": "https://www.nintendolife.com/guides/all-nintendo-switch-2-edition-games-upgrade-packs-and-free-performance-updates",
@@ -923,6 +983,11 @@
   "format": "game-key-card",
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
   "checked": "2026-09-23"
+ },
+ "trails-in-the-sky-1st-chapter-nintendo-switch-2-edition": {
+  "format": "digital-only",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/trails-in-the-sky-1st-chapter-nintendo-switch-2-edition",
+  "checked": "2026-10-06"
  },
  "trails-in-the-sky-2nd-chapter-nintendo-switch-2-edition": {
   "format": "full-cartridge",

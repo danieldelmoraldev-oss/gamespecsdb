@@ -1,0 +1,40 @@
+{
+  "title": "OPUS: Prism Peak",
+  "publisher": "SHUEISHA GAMES",
+  "releaseDate": "2026-04-16",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 7.5,
+    "source": "https://www.nintendo.com/us/store/products/opus-prism-peak-switch-2/",
+    "checked": "2026-10-06"
+  },
+  "physical": {
+    "format": "digital-only",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/opus-prism-peak",
+    "checked": "2026-10-06"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/opus-prism-peak-switch-2/",
+    "priceUSD": 24.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Spanish",
+      "Korean",
+      "Simplified Chinese",
+      "Latin American Spanish",
+      "Canadian French",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": "SIGONO INC."
+  }
+}

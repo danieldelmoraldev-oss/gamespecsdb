@@ -46,5 +46,22 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "1620p",
+        "fps": 60
+      },
+      {
+        "play": "handheld",
+        "resolution": "1080p",
+        "fps": 60
+      }
+    ],
+    "note": "Locked 60 FPS on Switch 2 (Digital Foundry), up from 720p docked and an unstable 60 FPS on Switch 1.",
+    "source": "https://press-start.com.au/news/nintendo/2025/06/30/the-free-nintendo-switch-2-game-updates-are-a-bigger-improvement-than-expected/",
+    "checked": "2026-10-06"
   }
 }

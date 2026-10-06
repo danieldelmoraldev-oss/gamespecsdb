@@ -7288,7 +7288,7 @@
    "Traditional Chinese",
    "American English"
   ],
-  "checked": "2026-10-02"
+  "checked": "2026-10-06"
  },
  "powerwash-simulator-2-switch-2": {
   "key": "powerwash-simulator-2-switch-2",
@@ -7549,12 +7549,7 @@
    "Traditional Chinese",
    "American English"
   ],
-  "checked": "2026-10-02",
-  "upgrade": {
-   "priceUSD": 2.59,
-   "url": "https://www.nintendo.com/us/store/products/inazuma-eleven-victory-road-nintendo-switch-2-edition-upgrade-pack-switch-2/",
-   "checked": "2026-10-05"
-  }
+  "checked": "2026-10-06"
  },
  "kingdom-hearts-hd-1-5-plus-2-5-remix-switch-2": {
   "key": "kingdom-hearts-hd-1-5-plus-2-5-remix-switch-2",
@@ -7725,7 +7720,7 @@
    "Japanese",
    "American English"
   ],
-  "checked": "2026-10-02"
+  "checked": "2026-10-06"
  },
  "the-legend-of-heroes-trails-from-zero-switch-2": {
   "key": "the-legend-of-heroes-trails-from-zero-switch-2",
@@ -7789,5 +7784,337 @@
   "players": {},
   "languages": [],
   "checked": "2026-10-02"
+ },
+ "bokura-planet-switch-2": {
+  "key": "bokura-planet-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/bokura-planet-switch-2/",
+  "title": "BOKURA: planet",
+  "publisher": "KODANSHA",
+  "developer": "",
+  "releaseDate": "2025-08-07",
+  "isUpgrade": false,
+  "sizeGB": 0.4,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 5.49,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "online": 2
+  },
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Dutch",
+   "Portuguese",
+   "Russian",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-10-06"
+ },
+ "card-en-ciel-nintendo-switch-2-edition-switch-2": {
+  "key": "card-en-ciel-nintendo-switch-2-edition-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/card-en-ciel-nintendo-switch-2-edition-switch-2/",
+  "title": "Card-en-Ciel Nintendo Switch 2 Edition",
+  "publisher": "Inti Creates",
+  "developer": "INTI CREATES",
+  "releaseDate": "2026-01-29",
+  "isUpgrade": false,
+  "sizeGB": 4.7,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": 3.5,
+  "priceUSD": 29.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {},
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Simplified Chinese",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-10-06"
+ },
+ "chillin-by-the-fire-switch-2": {
+  "key": "chillin-by-the-fire-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/chillin-by-the-fire-switch-2/",
+  "title": "Chillin' by the Fire",
+  "publisher": "Oink Games",
+  "developer": "",
+  "releaseDate": "2025-07-31",
+  "isUpgrade": false,
+  "sizeGB": 0.5,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 14.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "online": 4
+  },
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Simplified Chinese",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-10-06"
+ },
+ "factorio-nintendo-switch-2-edition-switch-2": {
+  "key": "factorio-nintendo-switch-2-edition-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/factorio-nintendo-switch-2-edition-switch-2/",
+  "title": "Factorio – Nintendo Switch 2 Edition",
+  "publisher": "Wube Software",
+  "developer": "",
+  "releaseDate": "2025-12-22",
+  "isUpgrade": false,
+  "sizeGB": 2.6,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": 2.6,
+  "priceUSD": 35,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "online": 64
+  },
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Spanish",
+   "Korean",
+   "Dutch",
+   "Russian",
+   "Simplified Chinese",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English",
+   "Polish",
+   "Thai"
+  ],
+  "checked": "2026-10-06"
+ },
+ "handy-hockey-switch-2": {
+  "key": "handy-hockey-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/handy-hockey-switch-2/",
+  "title": "Handy Hockey",
+  "publisher": "ITL",
+  "developer": "",
+  "releaseDate": "2025-07-31",
+  "isUpgrade": false,
+  "sizeGB": 0.1,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 7,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 4
+  },
+  "languages": [
+   "Japanese",
+   "American English"
+  ],
+  "checked": "2026-10-06"
+ },
+ "lego-party-nintendo-switch-2-edition-switch-2": {
+  "key": "lego-party-nintendo-switch-2-edition-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/lego-party-nintendo-switch-2-edition-switch-2/",
+  "title": "LEGO Party! - Nintendo Switch 2 Edition",
+  "publisher": "Fictions",
+  "developer": "",
+  "releaseDate": "2026-07-30",
+  "isUpgrade": false,
+  "sizeGB": 14.5,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": 6.8,
+  "priceUSD": 39.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 4,
+   "online": 4
+  },
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Dutch",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English",
+   "Polish"
+  ],
+  "checked": "2026-10-06"
+ },
+ "minishoot-adventures-nintendo-switch-2-edition-switch-2": {
+  "key": "minishoot-adventures-nintendo-switch-2-edition-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/minishoot-adventures-nintendo-switch-2-edition-switch-2/",
+  "title": "Minishoot' Adventures - Nintendo Switch 2 Edition",
+  "publisher": "Seaven Studio",
+  "developer": "SoulGame Studio, Seaven Studio",
+  "releaseDate": "2026-03-03",
+  "isUpgrade": false,
+  "sizeGB": 1.5,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": 0.4,
+  "priceUSD": 15.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {},
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Russian",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English",
+   "Polish"
+  ],
+  "checked": "2026-10-06"
+ },
+ "opus-prism-peak-switch-2": {
+  "key": "opus-prism-peak-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/opus-prism-peak-switch-2/",
+  "title": "OPUS: Prism Peak",
+  "publisher": "SHUEISHA GAMES",
+  "developer": "SIGONO INC.",
+  "releaseDate": "2026-04-16",
+  "isUpgrade": false,
+  "sizeGB": 7.5,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 24.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {},
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Spanish",
+   "Korean",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Canadian French",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-10-06"
+ },
+ "super-bomberman-collection-nintendo-switch-2-edition-switch-2": {
+  "key": "super-bomberman-collection-nintendo-switch-2-edition-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/super-bomberman-collection-nintendo-switch-2-edition-switch-2/",
+  "title": "SUPER BOMBERMAN COLLECTION - Nintendo Switch 2 Edition",
+  "publisher": "KONAMI",
+  "developer": "Red Art Games",
+  "releaseDate": "2026-02-05",
+  "isUpgrade": false,
+  "sizeGB": 3.0,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": 2.7,
+  "priceUSD": 24.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "system": 5
+  },
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Simplified Chinese",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-10-06"
+ },
+ "trails-in-the-sky-1st-chapter-nintendo-switch-2-edition-switch-2": {
+  "key": "trails-in-the-sky-1st-chapter-nintendo-switch-2-edition-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/trails-in-the-sky-1st-chapter-nintendo-switch-2-edition-switch-2/",
+  "title": "Trails in the Sky 1st Chapter: Nintendo Switch 2 Edition",
+  "publisher": "GungHo America",
+  "developer": "Nihon Falcom",
+  "releaseDate": "2025-09-19",
+  "isUpgrade": false,
+  "sizeGB": 17.4,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": 9.7,
+  "priceUSD": 60.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {},
+  "languages": [
+   "French",
+   "German",
+   "Spanish",
+   "American English"
+  ],
+  "checked": "2026-10-06"
  }
 }

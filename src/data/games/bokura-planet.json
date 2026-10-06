@@ -1,0 +1,46 @@
+{
+  "title": "BOKURA: planet",
+  "publisher": "KODANSHA",
+  "releaseDate": "2025-08-07",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 0.4,
+    "source": "https://www.nintendo.com/us/store/products/bokura-planet-switch-2/",
+    "checked": "2026-10-06"
+  },
+  "physical": {
+    "format": "digital-only",
+    "source": "https://www.nintendolife.com/games/nintendo-switch-2/bokura-planet",
+    "checked": "2026-10-06"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/bokura-planet-switch-2/",
+    "priceUSD": 5.49,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "online": 2
+    },
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Dutch",
+      "Portuguese",
+      "Russian",
+      "Simplified Chinese",
+      "Latin American Spanish",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": ""
+  }
+}
