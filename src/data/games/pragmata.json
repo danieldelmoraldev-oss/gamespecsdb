@@ -3,6 +3,7 @@
   "publisher": "CAPCOM",
   "releaseDate": "2026-04-17",
   "kind": "native",
+  "summary": "PRAGMATA is CAPCOM's sci-fi action game, released on Switch 2 on April 17, 2026. The install is a reasonable 13.2 GB, but the physical version is a Game-Key Card, so you still need to download it. The Switch 2 version is a demanding port: it outputs 1080p on the TV from about 540p internally, and renders at about 360p in handheld mode. The frame rate is unlocked, which means it varies: testers saw 30 to 40 FPS in busy outdoor areas and mostly the 50s indoors. If you are sensitive to uneven frame rates, another platform will give a steadier result.",
   "seoTitle": "Pragmata Switch 2 file size ({size}), Game-Key Card and FPS",
   "fileSize": {
     "currentGB": 13.2,

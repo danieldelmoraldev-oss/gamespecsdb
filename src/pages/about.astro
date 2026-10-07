@@ -2,19 +2,36 @@
 import Base from '../layouts/Base.astro';
 import { SITE } from '../site';
 ---
-<Base title="About" description={`Who runs ${SITE.name} and how the data is collected and checked.`}>
+<Base title="About" description={`Who runs ${SITE.name}, where every number comes from, how often it is checked and how corrections work.`}>
   <article class="prose">
     <h1>About {SITE.name}</h1>
-    <p>{SITE.name} is an independent reference for Nintendo Switch 2 owners who want quick, sourced answers: how much space a game needs, whether the box has the full game on the cartridge, and how it runs.</p>
-    <h2>How the data is collected</h2>
-    <ul>
-      <li>File sizes and prices come from the official Nintendo eShop listing of each game.</li>
-      <li>Cartridge formats come from publisher announcements and the box itself, cross-checked with major Nintendo news sites.</li>
-      <li>Performance figures come from official announcements and independent technical analyses.</li>
-    </ul>
-    <p>Every figure links to its source and shows when it was last checked. When a fact is not confirmed, the page says "Unknown" instead of guessing.</p>
+    <p>{SITE.name} is an independent reference for Nintendo Switch 2 owners who want quick, sourced answers before they buy or download a game: how much space it needs, whether the box has the full game on the cartridge or only a Game-Key Card, and how it runs on the TV and in handheld mode.</p>
+    <p>The site started from a simple problem. The Switch 2 has 256 GB of internal storage, many physical releases do not contain the game, and the answers were spread across store pages, press releases and forum threads. {SITE.name} puts them on one page per game, with the source next to each figure.</p>
+
     <h2>Who runs it</h2>
-    <p>{SITE.name} is run by {SITE.owner}. Found a wrong number? Write to <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a> and it will be fixed.</p>
+    <p>{SITE.name} is built and maintained by {SITE.owner}, a software developer based in Tarazona, Spain. He is responsible for the code and the content, and every fact the update scripts cannot confirm on their own goes to a review list instead of being published automatically.</p>
+
+    <h2>Where the data comes from</h2>
+    <ul>
+      <li><strong>File sizes, prices, languages and player counts</strong> come from the official US Nintendo eShop listing of each game.</li>
+      <li><strong>Cartridge formats</strong> (full cartridge, Game-Key Card, code in a box or digital only) come from publisher announcements and the box art, cross-checked with Nintendo Life and Nintendo Everything.</li>
+      <li><strong>Performance</strong> (resolution and frame rate) comes from official announcements and independent technical analyses such as Digital Foundry. When a figure is a reviewer's estimate rather than a measurement, the page says so.</li>
+    </ul>
+    <p>Every figure links to its source and shows the date it was last checked. When a fact is not confirmed, the page says "Unknown" instead of guessing.</p>
+
+    <h2>How often it is updated</h2>
+    <ul>
+      <li>Every day, an update script checks the eShop for upcoming and recently released games and for new Switch 2 listings.</li>
+      <li>Every Monday, it re-checks every game in the database, because patches change file sizes after launch.</li>
+      <li>Twice a week, a fuller review adds new cartridge formats and performance tests and goes through anything the script flagged.</li>
+    </ul>
+    <p>Sizes for games that are not out yet come from the pre-release store listing. They are marked as estimates, because the final size often changes with the day-one patch.</p>
+
+    <h2>Corrections</h2>
+    <p>Found a wrong number or a newer source? Write to <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a> with the game and, if you can, a link. Confirmed corrections are published within a few days, and the page's "checked" date is updated so you can see when it changed.</p>
+
+    <h2>Independence and advertising</h2>
+    <p>{SITE.name} is free to use and is funded by advertising. Publishers do not pay to be listed, and ads never change what a page says about a game.</p>
     <p class="small muted">{SITE.name} is not affiliated with, endorsed or sponsored by Nintendo. Nintendo Switch 2 is a trademark of Nintendo.</p>
   </article>
 </Base>
