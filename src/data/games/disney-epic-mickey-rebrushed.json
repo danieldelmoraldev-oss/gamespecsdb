@@ -6,10 +6,9 @@
   "summary": "Disney Epic Mickey: Rebrushed is THQ Nordic's remake of the 2010 Wii platformer, with a Switch 2 version dated October 6, 2026 and priced at $39.99. The 14.6 GB size is from the pre-release listing, so it may shift slightly at launch, but it is a modest install either way. The physical release is a Game-Key Card: the cartridge unlocks the download rather than holding the game, so you need an internet connection and the free space to start playing. No resolution or frame rate figures have been published for Switch 2 yet. It supports 13 languages, including Spanish.",
   "seoTitle": "Epic Mickey Rebrushed Switch 2 size ({size}), Game-Key Card",
   "fileSize": {
-    "currentGB": 14.6,
+    "currentGB": 14.3,
     "source": "https://www.nintendo.com/us/store/products/disney-epic-mickey-rebrushed-switch-2/",
-    "checked": "2026-10-05",
-    "estimate": true
+    "checked": "2026-10-07"
   },
   "physical": {
     "format": "game-key-card",
