@@ -6,7 +6,7 @@
   "fileSize": {
     "currentGB": 16.0,
     "source": "https://www.nintendo.com/us/store/products/nintendo-switch-sports-resort-switch-2/",
-    "checked": "2026-10-08",
+    "checked": "2026-10-09",
     "estimate": true
   },
   "physical": {
@@ -22,7 +22,8 @@
       "Tabletop mode"
     ],
     "players": {
-      "system": 4
+      "system": 4,
+      "online": 16
     },
     "languages": [
       "Japanese",

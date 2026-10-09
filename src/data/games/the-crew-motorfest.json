@@ -1,31 +1,28 @@
 {
-  "title": "Minecraft",
-  "publisher": "Mojang",
-  "releaseDate": "2026-10-27",
+  "title": "The Crew Motorfest",
+  "publisher": "Ubisoft",
+  "releaseDate": "2026-10-08",
   "kind": "native",
   "fileSize": {
-    "currentGB": 1.2,
-    "source": "https://www.nintendo.com/us/store/products/minecraft-switch-2/",
-    "checked": "2026-10-09",
-    "estimate": true
+    "currentGB": 58.5,
+    "source": "https://www.nintendo.com/us/store/products/the-crew-motorfest-switch-2/",
+    "checked": "2026-10-09"
   },
   "physical": {
     "format": "game-key-card",
     "source": "https://www.nintendolife.com/guides/every-nintendo-switch-2-game-key-card-release",
-    "checked": "2026-10-08"
+    "checked": "2026-10-09"
   },
   "eshop": {
-    "url": "https://www.nintendo.com/us/store/products/minecraft-switch-2/",
-    "priceUSD": 29.99,
+    "url": "https://www.nintendo.com/us/store/products/the-crew-motorfest-switch-2/",
+    "priceUSD": 49.99,
     "playModes": [
       "TV mode",
       "Tabletop mode",
       "Handheld mode"
     ],
     "players": {
-      "system": 4,
-      "local": 8,
-      "online": 8
+      "online": 32
     },
     "languages": [
       "Japanese",
@@ -35,15 +32,10 @@
       "Italian",
       "Spanish",
       "Korean",
-      "Dutch",
-      "Portuguese",
       "Russian",
       "Simplified Chinese",
-      "Latin American Spanish",
-      "Canadian French",
       "Brazilian Portuguese",
       "Traditional Chinese",
-      "American English",
       "Polish"
     ],
     "switch1SizeGB": null,

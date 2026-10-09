@@ -6,10 +6,9 @@
   "summary": "Dragon's Dogma 2: Dark Arisen is CAPCOM's Switch 2 version of its open-world action RPG, with a release date of October 9, 2026 and a price of $49.99. The 54 GB size is taken from the pre-release eShop listing, so it may change at launch, but it is already one of the biggest downloads on the system. The physical edition is a Game-Key Card: the cartridge does not hold the game, it only unlocks the download, so you need the full 54 GB free either way. Expect 30 FPS. CAPCOM includes an optional frame generation setting that makes motion look closer to 60 FPS, at the cost of some ghosting around moving objects, so it is worth trying both and keeping whichever bothers you less.",
   "seoTitle": "Dragon's Dogma 2 Switch 2 size ({size}), Game-Key Card, 30 FPS",
   "fileSize": {
-    "currentGB": 54.0,
+    "currentGB": 49.6,
     "source": "https://www.nintendo.com/us/store/products/dragons-dogma-2-dark-arisen-switch-2/",
-    "checked": "2026-10-08",
-    "estimate": true
+    "checked": "2026-10-09"
   },
   "physical": {
     "format": "game-key-card",
