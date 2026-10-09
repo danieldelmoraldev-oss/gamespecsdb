@@ -37,5 +37,29 @@
     ],
     "switch1SizeGB": null,
     "developer": "SONIC TEAM"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "preset": "Sonic Generations",
+        "fps": 60
+      },
+      {
+        "play": "all",
+        "preset": "Shadow Generations: Quality",
+        "resolution": "1080p",
+        "fps": 30
+      },
+      {
+        "play": "all",
+        "preset": "Shadow Generations: Performance",
+        "resolution": "720p",
+        "fps": 60
+      }
+    ],
+    "note": "Some cutscenes and the title screen still run at 30 FPS in handheld.",
+    "source": "https://nintendoeverything.com/sonic-x-shadow-generations-switch-2-review/",
+    "checked": "2026-10-09"
   }
 }

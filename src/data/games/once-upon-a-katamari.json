@@ -1,0 +1,42 @@
+{
+  "title": "Once Upon A KATAMARI",
+  "publisher": "Bandai Namco Entertainment",
+  "releaseDate": "2026-10-08",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 4.2,
+    "source": "https://www.nintendo.com/us/store/products/once-upon-a-katamari-switch-2/",
+    "checked": "2026-10-09"
+  },
+  "physical": {
+    "format": "game-key-card",
+    "note": "The physical edition is a bundle that also includes the Rolling LIVE Highlights DLC.",
+    "source": "https://www.gematsu.com/2026/07/once-upon-a-katamari-coming-to-switch-2-on-october-8-alongside-dlc-rolling-live-highlights",
+    "checked": "2026-10-09"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/once-upon-a-katamari-switch-2/",
+    "priceUSD": 39.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "online": 4
+    },
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Simplified Chinese",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": ""
+  }
+}

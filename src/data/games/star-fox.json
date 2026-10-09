@@ -42,5 +42,17 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "About 1080p",
+        "fps": 60
+      }
+    ],
+    "note": "Figures from Digital Foundry's analysis of the docked version.",
+    "source": "https://twistedvoxel.com/star-fox-remake-resolution-and-performance-detailed-on-switch-2/",
+    "checked": "2026-10-09"
   }
 }

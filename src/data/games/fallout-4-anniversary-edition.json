@@ -36,5 +36,27 @@
     ],
     "switch1SizeGB": null,
     "developer": "Bethesda Game Studios"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "preset": "30 FPS target",
+        "fps": 30
+      },
+      {
+        "play": "all",
+        "preset": "40 FPS target",
+        "fps": 40
+      },
+      {
+        "play": "all",
+        "preset": "60 FPS target",
+        "fps": 60
+      }
+    ],
+    "note": "Higher frame-rate targets lower the resolution and some detail; RPG Site found the 40 FPS mode the best balance.",
+    "source": "https://www.rpgsite.net/feature/19710-fallout-4-anniversary-edition-switch-2-impressions-all-3-modes-tested-handheld-and-docked",
+    "checked": "2026-10-09"
   }
 }

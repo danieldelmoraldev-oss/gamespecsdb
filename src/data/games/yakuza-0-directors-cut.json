@@ -3,6 +3,7 @@
   "publisher": "SEGA",
   "releaseDate": "2025-06-05",
   "kind": "native",
+  "seoTitle": "Yakuza 0 Director's Cut Switch 2 size ({size}), Game-Key Card, 60 FPS",
   "fileSize": {
     "currentGB": 46.6,
     "source": "https://www.nintendo.com/us/store/products/yakuza-0-directors-cut-switch-2/",
@@ -37,5 +38,16 @@
     ],
     "switch1SizeGB": null,
     "developer": "Ryu Ga Gotoku Studio"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "fps": 60
+      }
+    ],
+    "note": "SEGA says TV mode outputs at 4K; the reviewer found aliasing more noticeable in handheld than docked.",
+    "source": "https://www.thesixthaxis.com/2025/07/01/yakuza-0-directors-cut-review-switch-2/",
+    "checked": "2026-10-09"
   }
 }

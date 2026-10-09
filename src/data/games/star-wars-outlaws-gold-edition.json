@@ -37,5 +37,22 @@
     ],
     "switch1SizeGB": null,
     "developer": "Ubisoft"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "720p internal, 1440p output (DLSS)",
+        "fps": 30
+      },
+      {
+        "play": "handheld",
+        "resolution": "540p internal, 1080p output (DLSS)",
+        "fps": 30
+      }
+    ],
+    "note": "Digital Foundry found it pretty stable with no frame-pacing problems; some cutscenes drop slightly.",
+    "source": "https://nintendoeverything.com/star-wars-outlaws-frame-rate-resolution-switch-2/",
+    "checked": "2026-10-09"
   }
 }

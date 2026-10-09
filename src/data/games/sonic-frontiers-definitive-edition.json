@@ -38,5 +38,35 @@
     ],
     "switch1SizeGB": null,
     "developer": "SONIC TEAM"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "preset": "Graphics",
+        "resolution": "1080p",
+        "fps": 30
+      },
+      {
+        "play": "tv",
+        "preset": "Performance",
+        "fps": 60
+      },
+      {
+        "play": "handheld",
+        "preset": "Graphics",
+        "resolution": "720p-1080p",
+        "fps": 30
+      },
+      {
+        "play": "handheld",
+        "preset": "Performance",
+        "resolution": "480p-720p",
+        "fps": 60
+      }
+    ],
+    "note": "Performance mode dips during intense boss fights, and more often in the open world in handheld; cutscenes stay at 30 FPS.",
+    "source": "https://nintendoeverything.com/sonic-frontiers-definitive-edition-nintendo-switch-2-tech-analysis-including-frame-rate-and-resolution/",
+    "checked": "2026-10-09"
   }
 }

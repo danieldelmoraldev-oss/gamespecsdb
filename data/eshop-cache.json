@@ -2252,7 +2252,7 @@
    "American English",
    "Polish"
   ],
-  "checked": "2026-10-08"
+  "checked": "2026-10-09"
  },
  "kunitsu-gami-path-of-the-goddess-switch-2": {
   "key": "kunitsu-gami-path-of-the-goddess-switch-2",
@@ -8159,5 +8159,38 @@
    "Polish"
   ],
   "checked": "2026-10-08"
+ },
+ "once-upon-a-katamari-switch-2": {
+  "key": "once-upon-a-katamari-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/once-upon-a-katamari-switch-2/",
+  "title": "Once Upon A KATAMARI",
+  "publisher": "Bandai Namco Entertainment",
+  "developer": "",
+  "releaseDate": "2026-10-08",
+  "isUpgrade": false,
+  "sizeGB": 4.2,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 39.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "online": 4
+  },
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Simplified Chinese",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-10-09"
  }
 }

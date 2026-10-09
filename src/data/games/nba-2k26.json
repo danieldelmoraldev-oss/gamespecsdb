@@ -3,6 +3,7 @@
   "publisher": "2K",
   "releaseDate": "2025-09-05",
   "kind": "native",
+  "seoTitle": "NBA 2K26 Switch 2 size ({size}), Game-Key Card, 30 FPS",
   "fileSize": {
     "currentGB": 71.2,
     "source": "https://www.nintendo.com/us/store/products/nba-2k26-switch-2/",
@@ -39,5 +40,17 @@
     ],
     "switch1SizeGB": null,
     "developer": "Visual Concepts"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "resolution": "About 1080p",
+        "fps": 30
+      }
+    ],
+    "note": "Capped at 30 FPS, with brief 2-3 frame hitches on camera cuts.",
+    "source": "https://www.nintendoworldreport.com/review/72538/nba-2k26-switch-2-review",
+    "checked": "2026-10-09"
   }
 }

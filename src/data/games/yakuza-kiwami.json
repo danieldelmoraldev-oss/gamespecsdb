@@ -38,5 +38,16 @@
     ],
     "switch1SizeGB": null,
     "developer": "Ryu Ga Gotoku Studio"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "1080p",
+        "fps": 60
+      }
+    ],
+    "source": "https://www.nintendoworldreport.com/review/73271",
+    "checked": "2026-10-09"
   }
 }

@@ -38,5 +38,17 @@
     ],
     "switch1SizeGB": null,
     "developer": "Ryu Ga Gotoku Studio"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "1080p",
+        "fps": 30
+      }
+    ],
+    "note": "Does not hold a locked 30 FPS: drops in busy parts of Kamurocho and Sotenbori, more in handheld.",
+    "source": "https://www.rpgsite.net/review/18909-yakuza-kiwami-2-nintendo-switch-2-review",
+    "checked": "2026-10-09"
   }
 }

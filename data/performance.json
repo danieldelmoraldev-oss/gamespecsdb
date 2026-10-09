@@ -223,6 +223,28 @@
   "source": "https://nintendoeverything.com/elden-ring-nintendo-switch-2-tech-analysis-including-frame-rate-and-resolution/",
   "checked": "2026-09-23"
  },
+ "fallout-4-anniversary-edition": {
+  "modes": [
+   {
+    "play": "all",
+    "preset": "30 FPS target",
+    "fps": 30
+   },
+   {
+    "play": "all",
+    "preset": "40 FPS target",
+    "fps": 40
+   },
+   {
+    "play": "all",
+    "preset": "60 FPS target",
+    "fps": 60
+   }
+  ],
+  "note": "Higher frame-rate targets lower the resolution and some detail; RPG Site found the 40 FPS mode the best balance.",
+  "source": "https://www.rpgsite.net/feature/19710-fallout-4-anniversary-edition-switch-2-impressions-all-3-modes-tested-handheld-and-docked",
+  "checked": "2026-10-09"
+ },
  "fatal-frame-ii-crimson-butterfly-remake": {
   "modes": [
    {
@@ -463,6 +485,18 @@
   "source": "https://www.rpgsite.net/feature/19802-monster-hunter-stories-3-switch-2-vs-ps5-pc-xbox-full-game-performance-best-version",
   "checked": "2026-10-06"
  },
+ "nba-2k26": {
+  "modes": [
+   {
+    "play": "all",
+    "resolution": "About 1080p",
+    "fps": 30
+   }
+  ],
+  "note": "Capped at 30 FPS, with brief 2-3 frame hitches on camera cuts.",
+  "source": "https://www.nintendoworldreport.com/review/72538/nba-2k26-switch-2-review",
+  "checked": "2026-10-09"
+ },
  "nba-2k27": {
   "modes": [
    {
@@ -623,6 +657,36 @@
   "source": "https://lordsofgaming.net/2026/09/ninja-strikes-shinobi-art-of-vengeance-on-nintendo-switch-2-impressions/",
   "checked": "2026-10-02"
  },
+ "sonic-frontiers-definitive-edition": {
+  "modes": [
+   {
+    "play": "tv",
+    "preset": "Graphics",
+    "resolution": "1080p",
+    "fps": 30
+   },
+   {
+    "play": "tv",
+    "preset": "Performance",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "preset": "Graphics",
+    "resolution": "720p-1080p",
+    "fps": 30
+   },
+   {
+    "play": "handheld",
+    "preset": "Performance",
+    "resolution": "480p-720p",
+    "fps": 60
+   }
+  ],
+  "note": "Performance mode dips during intense boss fights, and more often in the open world in handheld; cutscenes stay at 30 FPS.",
+  "source": "https://nintendoeverything.com/sonic-frontiers-definitive-edition-nintendo-switch-2-tech-analysis-including-frame-rate-and-resolution/",
+  "checked": "2026-10-09"
+ },
  "sonic-racing-crossworlds-nintendo-switch-2-edition": {
   "modes": [
    {
@@ -640,6 +704,30 @@
   "source": "https://nintendoeverything.com/sonic-racing-crossworlds-frame-rate-resolution-switch-2/",
   "checked": "2026-09-23"
  },
+ "sonic-x-shadow-generations": {
+  "modes": [
+   {
+    "play": "all",
+    "preset": "Sonic Generations",
+    "fps": 60
+   },
+   {
+    "play": "all",
+    "preset": "Shadow Generations: Quality",
+    "resolution": "1080p",
+    "fps": 30
+   },
+   {
+    "play": "all",
+    "preset": "Shadow Generations: Performance",
+    "resolution": "720p",
+    "fps": 60
+   }
+  ],
+  "note": "Some cutscenes and the title screen still run at 30 FPS in handheld.",
+  "source": "https://nintendoeverything.com/sonic-x-shadow-generations-switch-2-review/",
+  "checked": "2026-10-09"
+ },
  "splatoon-raiders": {
   "modes": [
    {
@@ -656,6 +744,47 @@
   "note": "Resolutions are the reviewer's estimate by eye; no frame drops were spotted.",
   "source": "https://www.nintendolife.com/reviews/nintendo-switch-2/splatoon-raiders",
   "checked": "2026-10-02"
+ },
+ "split-fiction": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "1440p",
+    "fps": 30
+   }
+  ],
+  "note": "Handheld also looks good but has the odd frame-rate jitter.",
+  "source": "https://www.thesixthaxis.com/2025/06/05/split-fiction-switch-2-review/",
+  "checked": "2026-10-09"
+ },
+ "star-fox": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "About 1080p",
+    "fps": 60
+   }
+  ],
+  "note": "Figures from Digital Foundry's analysis of the docked version.",
+  "source": "https://twistedvoxel.com/star-fox-remake-resolution-and-performance-detailed-on-switch-2/",
+  "checked": "2026-10-09"
+ },
+ "star-wars-outlaws-gold-edition": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "720p internal, 1440p output (DLSS)",
+    "fps": 30
+   },
+   {
+    "play": "handheld",
+    "resolution": "540p internal, 1080p output (DLSS)",
+    "fps": 30
+   }
+  ],
+  "note": "Digital Foundry found it pretty stable with no frame-pacing problems; some cutscenes drop slightly.",
+  "source": "https://nintendoeverything.com/star-wars-outlaws-frame-rate-resolution-switch-2/",
+  "checked": "2026-10-09"
  },
  "stellar-blade-complete-edition": {
   "modes": [
@@ -875,6 +1004,40 @@
   ],
   "source": "https://nintendoeverything.com/xenoblade-chronicles-x-definitive-edition-nintendo-switch-2-edition-revealed-60-fps-4k/",
   "checked": "2026-09-23"
+ },
+ "yakuza-0-directors-cut": {
+  "modes": [
+   {
+    "play": "all",
+    "fps": 60
+   }
+  ],
+  "note": "SEGA says TV mode outputs at 4K; the reviewer found aliasing more noticeable in handheld than docked.",
+  "source": "https://www.thesixthaxis.com/2025/07/01/yakuza-0-directors-cut-review-switch-2/",
+  "checked": "2026-10-09"
+ },
+ "yakuza-kiwami": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "1080p",
+    "fps": 60
+   }
+  ],
+  "source": "https://www.nintendoworldreport.com/review/73271",
+  "checked": "2026-10-09"
+ },
+ "yakuza-kiwami-2": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "1080p",
+    "fps": 30
+   }
+  ],
+  "note": "Does not hold a locked 30 FPS: drops in busy parts of Kamurocho and Sotenbori, more in handheld.",
+  "source": "https://www.rpgsite.net/review/18909-yakuza-kiwami-2-nintendo-switch-2-review",
+  "checked": "2026-10-09"
  },
  "yooka-replaylee": {
   "modes": [

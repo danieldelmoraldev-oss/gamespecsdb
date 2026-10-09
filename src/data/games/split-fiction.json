@@ -3,6 +3,7 @@
   "publisher": "Electronic Arts",
   "releaseDate": "2025-06-05",
   "kind": "native",
+  "seoTitle": "Split Fiction Switch 2 size ({size}), code in box, 30 FPS",
   "fileSize": {
     "currentGB": 69.2,
     "source": "https://www.nintendo.com/us/store/products/split-fiction-switch-2/",
@@ -36,5 +37,17 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "1440p",
+        "fps": 30
+      }
+    ],
+    "note": "Handheld also looks good but has the odd frame-rate jitter.",
+    "source": "https://www.thesixthaxis.com/2025/06/05/split-fiction-switch-2-review/",
+    "checked": "2026-10-09"
   }
 }
