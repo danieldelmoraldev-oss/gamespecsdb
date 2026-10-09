@@ -14,6 +14,15 @@ const games = defineCollection({
     title: z.string(),
     publisher: z.string(),
     releaseDate: z.iso.date(),
+    // Optional hand-set release date for when the eShop lags behind an announced delay.
+    // scripts/fetch_eshop.py sync never touches it; pages use it instead of releaseDate.
+    releaseOverride: z
+      .object({
+        date: z.iso.date(),
+        note: z.string().optional(),
+        ...sourced,
+      })
+      .optional(),
     // native: built for Switch 2; edition: paid Switch 2 Edition of a Switch 1 game;
     // free-update: Switch 1 game improved on Switch 2 by a free patch
     kind: z.enum(['native', 'edition', 'free-update']),

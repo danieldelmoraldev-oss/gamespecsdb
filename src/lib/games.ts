@@ -38,7 +38,7 @@ export function formatDate(iso: string): string {
 // The newest "checked" date across all sourced facts of a game.
 export function lastChecked(game: Game): string {
   const d = game.data;
-  return [d.fileSize.checked, d.physical.checked, d.performance?.checked, d.upgrade?.checked]
+  return [d.fileSize.checked, d.physical.checked, d.performance?.checked, d.upgrade?.checked, d.releaseOverride?.checked]
     .filter((x): x is string => Boolean(x))
     .sort()
     .at(-1)!;
@@ -48,6 +48,11 @@ export function lastChecked(game: Game): string {
 // -> "Kirby and the Forgotten Land + Star-Crossed World": what people actually type.
 export function shortTitle(title: string): string {
   return title.replace(/\s*(?:[–-]|:)?\s*Nintendo Switch 2 Edition/i, '').replace(/\s{2,}/g, ' ').trim();
+}
+
+// The release date pages should show: a sourced hand-set override wins over the eShop date.
+export function releaseOf(game: Game): string {
+  return game.data.releaseOverride?.date ?? game.data.releaseDate;
 }
 
 export function isUpcoming(iso: string): boolean {

@@ -186,7 +186,7 @@ def main():
     todo = []
     for slug, entry in physical.items():
         g = game_file(slug)
-        if full or g is None or g['releaseDate'] >= soon or g['fileSize'].get('estimate'):
+        if full or g is None or (g.get('releaseOverride') or {}).get('date', g['releaseDate']) >= soon or g['fileSize'].get('estimate'):
             todo.append(entry.get('eshopKey', slug + '-switch-2'))
     changed = fetch(sorted(set(todo)), cache, review)
     if not dry:

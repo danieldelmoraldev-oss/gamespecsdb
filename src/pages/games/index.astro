@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import FormatBadge from '../../components/FormatBadge.astro';
 import SizeMeter from '../../components/SizeMeter.astro';
-import { allGames, formatGB, isUpcoming, maxFps, shortTitle } from '../../lib/games';
+import { allGames, formatGB, isUpcoming, maxFps, releaseOf, shortTitle } from '../../lib/games';
 const games = await allGames();
 const filters = [
   { id: 'all', label: 'All' },
@@ -38,7 +38,7 @@ const filters = [
       <tbody>
         {games.map((g) => {
           const fps = maxFps(g);
-          const tags = [g.data.physical.format, g.data.kind === 'edition' ? 'edition' : '', isUpcoming(g.data.releaseDate) ? 'upcoming' : ''].join(' ');
+          const tags = [g.data.physical.format, g.data.kind === 'edition' ? 'edition' : '', isUpcoming(releaseOf(g)) ? 'upcoming' : ''].join(' ');
           return (
             <tr data-search={`${shortTitle(g.data.title)} ${g.data.publisher}`.toLowerCase()} data-tags={tags}>
               <td data-value={shortTitle(g.data.title).toLowerCase()}><a href={`/games/${g.id}/`}>{shortTitle(g.data.title)}</a><div class="small muted">{g.data.publisher}</div></td>

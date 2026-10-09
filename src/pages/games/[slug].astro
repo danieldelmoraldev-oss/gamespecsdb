@@ -6,7 +6,7 @@ import FormatBadge from '../../components/FormatBadge.astro';
 import SizeMeter from '../../components/SizeMeter.astro';
 import Icon from '../../components/Icon.astro';
 import { SITE } from '../../site';
-import { allGames, FORMAT_LABEL, KIND_LABEL, formatGB, formatDate, lastChecked, shortTitle, isUpcoming, maxFps, type Game } from '../../lib/games';
+import { allGames, FORMAT_LABEL, KIND_LABEL, formatGB, formatDate, lastChecked, releaseOf, shortTitle, isUpcoming, maxFps, type Game } from '../../lib/games';
 import { LISTS } from '../../lib/lists';
 
 export async function getStaticPaths() {
@@ -17,12 +17,13 @@ export async function getStaticPaths() {
 interface Props { game: Game; games: Game[] }
 const { game, games } = Astro.props;
 const d = game.data;
+const release = releaseOf(game);
 const INTERNAL_GB = 256;
 const share = Math.round((d.fileSize.currentGB / INTERNAL_GB) * 100);
 const perf = d.performance;
 const checked = lastChecked(game);
 const name = shortTitle(d.title);
-const upcoming = isUpcoming(d.releaseDate);
+const upcoming = isUpcoming(release);
 const e = d.eshop;
 const playerBits = e && [
   e.players.system && `${e.players.system} players on one console`,
@@ -38,7 +39,7 @@ const topics = d.kind === 'free-update'
   ? (hasPerf ? 'free upgrade, file size and performance' : 'free upgrade and file size')
   : hasPerf ? 'file size, cartridge and performance' : 'file size and cartridge format';
 const lead = d.summary ?? [
-  `${d.title} is published by ${d.publisher} and ${upcoming ? 'is due out on' : 'came out on'} ${formatDate(d.releaseDate)}.`,
+  `${d.title} is published by ${d.publisher} and ${upcoming ? 'is due out on' : 'came out on'} ${formatDate(release)}.`,
   playerBits && playerBits.length > 0 ? `Multiplayer: up to ${playerBits.join(', ')}.` : '',
   e && e.languages.length > 0 ? `The eShop lists ${e.languages.length} supported languages.` : '',
 ].filter(Boolean).join(' ');
@@ -109,7 +110,7 @@ const jsonLd = [
     '@type': 'VideoGame',
     name: d.title,
     publisher: { '@type': 'Organization', name: d.publisher },
-    datePublished: d.releaseDate,
+    datePublished: release,
     gamePlatform: 'Nintendo Switch 2',
     genre: d.genres,
     url: `${SITE.url}/games/${game.id}/`,
@@ -132,7 +133,7 @@ const jsonLd = [
       <FormatBadge format={d.physical.format} />
       {topFps > 0 && <span class="badge brand">Up to {topFps} FPS</span>}
       {d.kind === 'edition' && <span class="badge">Switch 2 Edition</span>}
-      {upcoming && <span class="badge digital">Coming {formatDate(d.releaseDate)}</span>}
+      {upcoming && <span class="badge digital">Coming {formatDate(release)}</span>}
     </div>
   </div>
   <p class="lead">{lead}</p>
@@ -188,7 +189,7 @@ const jsonLd = [
             {e && e.languages.length > 0 && <tr><th>Languages ({e.languages.length})</th><td>{e.languages.join(', ')}</td></tr>}
             <tr><th>Publisher</th><td>{d.publisher}</td></tr>
             {e?.developer && e.developer !== d.publisher && <tr><th>Developer</th><td>{e.developer}</td></tr>}
-            <tr><th>Release date</th><td>{formatDate(d.releaseDate)}</td></tr>
+            <tr><th>Release date</th><td>{formatDate(release)}{d.releaseOverride && <><span class="muted"> ({d.releaseOverride.note ?? 'the eShop still lists ' + formatDate(d.releaseDate)})</span><a class="src" href={d.releaseOverride.source} rel="nofollow noopener">source</a></>}</td></tr>
             {d.genres.length > 0 && <tr><th>Genre</th><td>{d.genres.join(', ')}</td></tr>}
           </tbody>
         </table>

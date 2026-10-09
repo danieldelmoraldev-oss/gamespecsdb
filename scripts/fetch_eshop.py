@@ -138,6 +138,7 @@ def cmd_sync():
             continue  # only curated games are published; add a stub file to publish one
         g['title'] = g.get('title') or e['title']
         g['publisher'] = e['publisher'] or g.get('publisher')
+        # releaseOverride (hand-set, sourced date when the eShop lags behind a delay) is left alone
         g['releaseDate'] = e['releaseDate'] or g.get('releaseDate')
         g['fileSize'] = {**g.get('fileSize', {}), 'currentGB': e['sizeGB'], 'source': e['url'], 'checked': e['checked']}
         if e['sizeIsEstimate']:
