@@ -1,5 +1,5 @@
 {
- "date": "2026-10-11",
+ "date": "2026-10-12",
  "unmatched": [
   {
    "title": "007 First Light",
@@ -86,7 +86,9 @@
   }
  ],
  "conflicts": [],
- "anomalies": [],
+ "anomalies": [
+  "Handy Hockey: size 0.1 GB -> 0.1 GB, kept 0.1 GB"
+ ],
  "errors": [],
  "regional": [
   "Daemon X Machina: Titanic Scion",

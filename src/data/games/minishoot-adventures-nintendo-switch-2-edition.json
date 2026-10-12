@@ -6,7 +6,7 @@
   "fileSize": {
     "currentGB": 1.5,
     "source": "https://www.nintendo.com/us/store/products/minishoot-adventures-nintendo-switch-2-edition-switch-2/",
-    "checked": "2026-10-06"
+    "checked": "2026-10-12"
   },
   "physical": {
     "format": "digital-only",
@@ -39,5 +39,10 @@
     ],
     "switch1SizeGB": 0.4,
     "developer": "SoulGame Studio, Seaven Studio"
+  },
+  "upgrade": {
+    "priceUSD": 0,
+    "source": "https://www.nintendo.com/us/store/products/minishoot-adventures-nintendo-switch-2-edition-upgrade-pack-switch-2/",
+    "checked": "2026-10-12"
   }
 }

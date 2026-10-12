@@ -6,7 +6,7 @@
   "fileSize": {
     "currentGB": 26.9,
     "source": "https://www.nintendo.com/us/store/products/sonic-racing-crossworlds-nintendo-switch-2-edition-switch-2/",
-    "checked": "2026-10-05"
+    "checked": "2026-10-12"
   },
   "physical": {
     "format": "full-cartridge",
@@ -15,7 +15,7 @@
   },
   "eshop": {
     "url": "https://www.nintendo.com/us/store/products/sonic-racing-crossworlds-nintendo-switch-2-edition-switch-2/",
-    "priceUSD": 69.99,
+    "priceUSD": 39.99,
     "playModes": [
       "TV mode",
       "Tabletop mode",
@@ -46,7 +46,7 @@
   "upgrade": {
     "priceUSD": 10,
     "source": "https://www.nintendo.com/us/store/products/sonic-racing-crossworlds-nintendo-switch-2-edition-upgrade-pack-switch-2/",
-    "checked": "2026-10-05"
+    "checked": "2026-10-12"
   },
   "performance": {
     "modes": [

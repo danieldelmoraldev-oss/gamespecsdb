@@ -4,9 +4,9 @@
   "releaseDate": "2025-11-13",
   "kind": "edition",
   "fileSize": {
-    "currentGB": 5.0,
+    "currentGB": 5.3,
     "source": "https://www.nintendo.com/us/store/products/hello-kitty-island-adventure-nintendo-switch-2-edition-switch-2/",
-    "checked": "2026-10-05"
+    "checked": "2026-10-12"
   },
   "physical": {
     "format": "full-cartridge",
@@ -40,12 +40,12 @@
       "Traditional Chinese",
       "American English"
     ],
-    "switch1SizeGB": 4.4,
+    "switch1SizeGB": 4.7,
     "developer": "Sunblink"
   },
   "upgrade": {
     "priceUSD": 9.99,
     "source": "https://www.nintendo.com/us/store/products/hello-kitty-island-adventure-nintendo-switch-2-edition-upgrade-pack-switch-2/",
-    "checked": "2026-10-05"
+    "checked": "2026-10-12"
   }
 }

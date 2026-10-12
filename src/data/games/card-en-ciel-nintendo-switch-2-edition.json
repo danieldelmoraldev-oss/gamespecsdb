@@ -6,7 +6,7 @@
   "fileSize": {
     "currentGB": 4.7,
     "source": "https://www.nintendo.com/us/store/products/card-en-ciel-nintendo-switch-2-edition-switch-2/",
-    "checked": "2026-10-06"
+    "checked": "2026-10-12"
   },
   "physical": {
     "format": "digital-only",
@@ -36,5 +36,10 @@
     ],
     "switch1SizeGB": 3.5,
     "developer": "INTI CREATES"
+  },
+  "upgrade": {
+    "priceUSD": 4.99,
+    "source": "https://www.nintendo.com/us/store/products/card-en-ciel-nintendo-switch-2-edition-upgrade-pack-switch-2/",
+    "checked": "2026-10-12"
   }
 }
