@@ -1,5 +1,5 @@
 {
- "date": "2026-10-12",
+ "date": "2026-10-13",
  "unmatched": [
   {
    "title": "007 First Light",
@@ -80,15 +80,18 @@
    "candidates": []
   },
   {
+   "title": "Shin chan: Me and the Professor on Summer Vacation - The Endless Seven-Day Journey and Shin chan: Shiro and the Coal Town Double Pack",
+   "format": "full-cartridge",
+   "candidates": []
+  },
+  {
    "title": "Story of Seasons: Grand Bazaar - Nintendo Switch 2 Edition",
    "format": "full-cartridge",
    "candidates": []
   }
  ],
  "conflicts": [],
- "anomalies": [
-  "Handy Hockey: size 0.1 GB -> 0.1 GB, kept 0.1 GB"
- ],
+ "anomalies": [],
  "errors": [],
  "regional": [
   "Daemon X Machina: Titanic Scion",
