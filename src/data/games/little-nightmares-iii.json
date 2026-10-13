@@ -40,5 +40,22 @@
     ],
     "switch1SizeGB": null,
     "developer": "Bandai Namco Entertainment of America Inc"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "Dynamic 1189p-2016p",
+        "fps": 30
+      },
+      {
+        "play": "handheld",
+        "resolution": "Dynamic 1080p",
+        "fps": 30
+      }
+    ],
+    "note": "Only one graphics mode on Switch 2 (PS5 and Xbox also have a 60 FPS mode).",
+    "source": "https://twistedvoxel.com/little-nightmares-3-runs-sharper-on-nintendo-switch-2-compared-to-original-switch/",
+    "checked": "2026-10-13"
   }
 }

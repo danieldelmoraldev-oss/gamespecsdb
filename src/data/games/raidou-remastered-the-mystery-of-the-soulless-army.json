@@ -31,5 +31,17 @@
     ],
     "switch1SizeGB": null,
     "developer": "ATLUS"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "resolution": "1080p",
+        "fps": 60
+      }
+    ],
+    "note": "Official figures from Atlus.",
+    "source": "https://nintendoeverything.com/atlus-details-raidou-remastered-frame-rate-and-resolution-nintendo-switch-1-and-2-much-more/",
+    "checked": "2026-10-13"
   }
 }

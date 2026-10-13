@@ -1,0 +1,43 @@
+{
+  "title": "Ratatan",
+  "publisher": "Game Source Entertainment",
+  "releaseDate": "2026-10-14",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 1.7,
+    "source": "https://www.nintendo.com/us/store/products/ratatan-switch-2/",
+    "checked": "2026-10-13",
+    "estimate": true
+  },
+  "physical": {
+    "format": "full-cartridge",
+    "source": "https://www.nintendolife.com/guides/every-nintendo-switch-2-physical-release-with-the-full-game-on-the-cart",
+    "checked": "2026-10-13"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/ratatan-switch-2/",
+    "priceUSD": 34.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {
+      "online": 4
+    },
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Korean",
+      "Portuguese",
+      "Simplified Chinese",
+      "Latin American Spanish",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": ""
+  }
+}

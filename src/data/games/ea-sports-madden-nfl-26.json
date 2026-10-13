@@ -31,5 +31,16 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "fps": 40
+      }
+    ],
+    "note": "Nintendo Life's reviewer estimates about 40 FPS in both modes (no official figure); the lower resolution is most visible on a TV.",
+    "source": "https://www.nintendolife.com/reviews/nintendo-switch-2/ea-sports-madden-nfl-26",
+    "checked": "2026-10-13"
   }
 }

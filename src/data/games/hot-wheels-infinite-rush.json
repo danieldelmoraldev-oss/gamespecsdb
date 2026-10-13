@@ -40,5 +40,17 @@
     ],
     "switch1SizeGB": null,
     "developer": "Milestone Srl"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "resolution": "1080p",
+        "fps": 30
+      }
+    ],
+    "note": "Target figures reported by GamingBolt; PS5 and Xbox Series X run at 4K and 60 FPS.",
+    "source": "https://gamingbolt.com/hot-wheels-infinite-rush-runs-at-4k-60-fps-on-ps5-and-xbox-series-x-4k-120-fps-on-ps5-pro",
+    "checked": "2026-10-13"
   }
 }

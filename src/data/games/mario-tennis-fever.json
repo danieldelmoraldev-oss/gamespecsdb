@@ -44,5 +44,17 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "4K output (upscaled)",
+        "fps": 60
+      }
+    ],
+    "note": "The frame rate can dip to about 40 FPS when Fever racket particle effects fill the screen.",
+    "source": "https://www.senses.se/en/review-mario-tennis-fever/",
+    "checked": "2026-10-13"
   }
 }

@@ -28,5 +28,16 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "fps": 60
+      }
+    ],
+    "note": "Not a locked 60 FPS: RPG Site found frame-pacing hitches while exploring and dips in combat, and a soft image in handheld mode.",
+    "source": "https://www.rpgsite.net/feature/19051-octopath-traveler-0-switch-2-vs-ps5-pc-steam-deck-rog-ally-xbox-ps4-comparison-best-version",
+    "checked": "2026-10-13"
   }
 }

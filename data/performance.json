@@ -194,6 +194,17 @@
   "source": "https://www.nintendolife.com/reviews/nintendo-switch-2/ea-sports-fc-26",
   "checked": "2026-10-02"
  },
+ "ea-sports-madden-nfl-26": {
+  "modes": [
+   {
+    "play": "all",
+    "fps": 40
+   }
+  ],
+  "note": "Nintendo Life's reviewer estimates about 40 FPS in both modes (no official figure); the lower resolution is most visible on a TV.",
+  "source": "https://www.nintendolife.com/reviews/nintendo-switch-2/ea-sports-madden-nfl-26",
+  "checked": "2026-10-13"
+ },
  "ea-sports-madden-nfl-27": {
   "modes": [
    {
@@ -289,6 +300,22 @@
   "source": "https://nintendoeverything.com/final-fantasy-7-remake-intergrade-switch-2-frame-rate-resolution/",
   "checked": "2026-09-23"
  },
+ "final-fantasy-x-x-2-hd-remaster": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "About 1440p",
+    "fps": 30
+   },
+   {
+    "play": "handheld",
+    "fps": 30
+   }
+  ],
+  "note": "Every version of the game is capped at 30 FPS.",
+  "source": "https://www.rpgsite.net/feature/20941-final-fantasy-x-x-2-hd-remaster-switch-2-vs-ps5-pc-steam-deck-xbox-ps-vita-ps4-pro-best-version-comparison",
+  "checked": "2026-10-13"
+ },
  "fire-emblem-fortunes-weave": {
   "modes": [
    {
@@ -304,6 +331,22 @@
   ],
   "source": "https://nintendoeverything.com/fire-emblem-fortunes-weave-review-for-nintendo-switch-2/",
   "checked": "2026-09-29"
+ },
+ "granblue-fantasy-relink-endless-ragnarok-standard-edition": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "Up to 1080p",
+    "fps": 30
+   },
+   {
+    "play": "handheld",
+    "fps": 30
+   }
+  ],
+  "note": "Locked at 30 FPS and steady almost all the time, but frame pacing is uneven; resolution drops in busy fights, especially in handheld mode.",
+  "source": "https://www.gamewatcher.com/granblue-fantasy-relink-endless-ragnarok-on-nintendo-switch-2-performance-graphics-and-features-analysis",
+  "checked": "2026-10-13"
  },
  "hades-ii-nintendo-switch-2-edition": {
   "modes": [
@@ -349,6 +392,18 @@
   "note": "Needs a 120 Hz TV; resolution is reduced in this mode.",
   "source": "https://www.nintendolife.com/news/2025/08/hollow-knight-silksong-offers-buttery-smooth-performance-on-switch-2",
   "checked": "2026-09-23"
+ },
+ "hot-wheels-infinite-rush": {
+  "modes": [
+   {
+    "play": "all",
+    "resolution": "1080p",
+    "fps": 30
+   }
+  ],
+  "note": "Target figures reported by GamingBolt; PS5 and Xbox Series X run at 4K and 60 FPS.",
+  "source": "https://gamingbolt.com/hot-wheels-infinite-rush-runs-at-4k-60-fps-on-ps5-and-xbox-series-x-4k-120-fps-on-ps5-pro",
+  "checked": "2026-10-13"
  },
  "hyrule-warriors-age-of-imprisonment": {
   "modes": [
@@ -411,6 +466,18 @@
   "source": "https://nintendoeverything.com/video-kirby-and-the-forgotten-land-nintendo-switch-2-vs-switch-comparison/",
   "checked": "2026-09-23"
  },
+ "lego-batman-legacy-of-the-dark-knight": {
+  "modes": [
+   {
+    "play": "all",
+    "resolution": "Dynamic 1080p",
+    "fps": 30
+   }
+  ],
+  "note": "No 60 FPS mode on Switch 2 (PS5 has one).",
+  "source": "https://nintendoeverything.com/video-lego-batman-legacy-of-the-dark-knight-nintendo-switch-2-vs-ps5-graphics-comparison/",
+  "checked": "2026-10-13"
+ },
  "lies-of-p-complete-edition": {
   "modes": [
    {
@@ -428,6 +495,23 @@
   "source": "https://www.nintendolife.com/reviews/nintendo-switch-2/lies-of-p-complete-edition",
   "checked": "2026-10-02"
  },
+ "little-nightmares-iii": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "Dynamic 1189p-2016p",
+    "fps": 30
+   },
+   {
+    "play": "handheld",
+    "resolution": "Dynamic 1080p",
+    "fps": 30
+   }
+  ],
+  "note": "Only one graphics mode on Switch 2 (PS5 and Xbox also have a 60 FPS mode).",
+  "source": "https://twistedvoxel.com/little-nightmares-3-runs-sharper-on-nintendo-switch-2-compared-to-original-switch/",
+  "checked": "2026-10-13"
+ },
  "mario-kart-world": {
   "modes": [
    {
@@ -443,6 +527,18 @@
   ],
   "source": "https://www.nintendolife.com/news/2025/06/digital-foundry-delivers-its-mario-kart-world-tech-review-nintendos-artistry-stands-out-the-most-here",
   "checked": "2026-09-23"
+ },
+ "mario-tennis-fever": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "4K output (upscaled)",
+    "fps": 60
+   }
+  ],
+  "note": "The frame rate can dip to about 40 FPS when Fever racket particle effects fill the screen.",
+  "source": "https://www.senses.se/en/review-mario-tennis-fever/",
+  "checked": "2026-10-13"
  },
  "metroid-prime-4-beyond-nintendo-switch-2-edition": {
   "modes": [
@@ -507,6 +603,17 @@
   ],
   "source": "https://nintendoeverything.com/nba-2k27-confirmed-to-support-60-fps-on-nintendo-switch-2-has-performance-mode/",
   "checked": "2026-09-29"
+ },
+ "octopath-traveler-0": {
+  "modes": [
+   {
+    "play": "all",
+    "fps": 60
+   }
+  ],
+  "note": "Not a locked 60 FPS: RPG Site found frame-pacing hitches while exploring and dips in combat, and a soft image in handheld mode.",
+  "source": "https://www.rpgsite.net/feature/19051-octopath-traveler-0-switch-2-vs-ps5-pc-steam-deck-rog-ally-xbox-ps4-comparison-best-version",
+  "checked": "2026-10-13"
  },
  "onimusha-way-of-the-sword": {
   "modes": [
@@ -612,6 +719,18 @@
   "note": "Unlocked frame rate: 30–40 FPS in dense exteriors, mostly in the 50s indoors.",
   "source": "https://nintendoeverything.com/?p=911726",
   "checked": "2026-09-23"
+ },
+ "raidou-remastered-the-mystery-of-the-soulless-army": {
+  "modes": [
+   {
+    "play": "all",
+    "resolution": "1080p",
+    "fps": 60
+   }
+  ],
+  "note": "Official figures from Atlus.",
+  "source": "https://nintendoeverything.com/atlus-details-raidou-remastered-frame-rate-and-resolution-nintendo-switch-1-and-2-much-more/",
+  "checked": "2026-10-13"
  },
  "rayman-legends-retold": {
   "modes": [

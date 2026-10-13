@@ -714,6 +714,11 @@
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
   "checked": "2026-09-23"
  },
+ "ratatan": {
+  "format": "full-cartridge",
+  "source": "https://www.nintendolife.com/guides/every-nintendo-switch-2-physical-release-with-the-full-game-on-the-cart",
+  "checked": "2026-10-13"
+ },
  "rayman-legends-retold": {
   "format": "game-key-card",
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
@@ -729,10 +734,22 @@
   "source": "https://www.nintendolife.com/games/nintendo-switch-2/remothered-red-nuns-legacy",
   "checked": "2026-09-29"
  },
+ "resident-evil-7-biohazard-gold-edition": {
+  "format": "game-key-card",
+  "note": "Sold physically in the Resident Evil Generation Pack (with Resident Evil Requiem), which holds a separate Game-Key Card for each game.",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/resident-evil-generation-pack",
+  "checked": "2026-10-13"
+ },
  "resident-evil-requiem": {
   "format": "game-key-card",
   "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
   "checked": "2026-09-23"
+ },
+ "resident-evil-village-gold-edition": {
+  "format": "game-key-card",
+  "note": "Sold physically in the Resident Evil Generation Pack (with Resident Evil Requiem), which holds a separate Game-Key Card for each game.",
+  "source": "https://www.nintendolife.com/games/nintendo-switch-2/resident-evil-generation-pack",
+  "checked": "2026-10-13"
  },
  "romancing-saga-3-destinies-united": {
   "format": "game-key-card",
@@ -1019,6 +1036,12 @@
   "format": "game-key-card",
   "source": "https://www.nintendolife.com/games/nintendo-switch-2/two-point-hospital-full-health-collection",
   "checked": "2026-09-29"
+ },
+ "two-point-museum": {
+  "format": "game-key-card",
+  "note": "The physical release is the Explorer Edition.",
+  "source": "https://www.inet.se/produkt/6337523/two-point-museum-explorer-edition-switch-2",
+  "checked": "2026-10-13"
  },
  "village-in-the-shade": {
   "format": "game-key-card",

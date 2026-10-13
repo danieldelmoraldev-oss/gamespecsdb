@@ -7257,7 +7257,7 @@
    "Brazilian Portuguese",
    "Traditional Chinese"
   ],
-  "checked": "2026-10-02"
+  "checked": "2026-10-13"
  },
  "plants-vs-zombies-replanted-switch-2": {
   "key": "plants-vs-zombies-replanted-switch-2",
@@ -8264,5 +8264,111 @@
    "Polish"
   ],
   "checked": "2026-10-12"
+ },
+ "ratatan-switch-2": {
+  "key": "ratatan-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/ratatan-switch-2/",
+  "title": "Ratatan",
+  "publisher": "Game Source Entertainment",
+  "developer": "",
+  "releaseDate": "2026-10-14",
+  "isUpgrade": false,
+  "sizeGB": 1.7,
+  "sizeIsEstimate": true,
+  "switch1SizeGB": null,
+  "priceUSD": 34.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {
+   "online": 4
+  },
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Korean",
+   "Portuguese",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Traditional Chinese",
+   "American English"
+  ],
+  "checked": "2026-10-13"
+ },
+ "resident-evil-7-biohazard-gold-edition-switch-2": {
+  "key": "resident-evil-7-biohazard-gold-edition-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/resident-evil-7-biohazard-gold-edition-switch-2/",
+  "title": "Resident Evil 7 biohazard Gold Edition",
+  "publisher": "CAPCOM",
+  "developer": "",
+  "releaseDate": "2026-02-27",
+  "isUpgrade": false,
+  "sizeGB": 20.9,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 39.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {},
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Russian",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English",
+   "Polish",
+   "Thai"
+  ],
+  "checked": "2026-10-13"
+ },
+ "resident-evil-village-gold-edition-switch-2": {
+  "key": "resident-evil-village-gold-edition-switch-2",
+  "url": "https://www.nintendo.com/us/store/products/resident-evil-village-gold-edition-switch-2/",
+  "title": "Resident Evil Village Gold Edition",
+  "publisher": "CAPCOM",
+  "developer": "",
+  "releaseDate": "2026-02-27",
+  "isUpgrade": false,
+  "sizeGB": 24.5,
+  "sizeIsEstimate": false,
+  "switch1SizeGB": null,
+  "priceUSD": 49.99,
+  "playModes": [
+   "TV mode",
+   "Tabletop mode",
+   "Handheld mode"
+  ],
+  "players": {},
+  "languages": [
+   "Japanese",
+   "French",
+   "German",
+   "Italian",
+   "Spanish",
+   "Korean",
+   "Russian",
+   "Simplified Chinese",
+   "Latin American Spanish",
+   "Brazilian Portuguese",
+   "Traditional Chinese",
+   "American English",
+   "Polish",
+   "Thai"
+  ],
+  "checked": "2026-10-13"
  }
 }

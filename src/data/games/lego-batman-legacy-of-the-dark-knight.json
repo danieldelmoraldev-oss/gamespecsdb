@@ -42,5 +42,17 @@
     ],
     "switch1SizeGB": null,
     "developer": "TT Games"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "resolution": "Dynamic 1080p",
+        "fps": 30
+      }
+    ],
+    "note": "No 60 FPS mode on Switch 2 (PS5 has one).",
+    "source": "https://nintendoeverything.com/video-lego-batman-legacy-of-the-dark-knight-nintendo-switch-2-vs-ps5-graphics-comparison/",
+    "checked": "2026-10-13"
   }
 }

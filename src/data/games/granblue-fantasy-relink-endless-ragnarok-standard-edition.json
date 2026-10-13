@@ -39,5 +39,21 @@
     ],
     "switch1SizeGB": null,
     "developer": "Cygames"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "Up to 1080p",
+        "fps": 30
+      },
+      {
+        "play": "handheld",
+        "fps": 30
+      }
+    ],
+    "note": "Locked at 30 FPS and steady almost all the time, but frame pacing is uneven; resolution drops in busy fights, especially in handheld mode.",
+    "source": "https://www.gamewatcher.com/granblue-fantasy-relink-endless-ragnarok-on-nintendo-switch-2-performance-graphics-and-features-analysis",
+    "checked": "2026-10-13"
   }
 }

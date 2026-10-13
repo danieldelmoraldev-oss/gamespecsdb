@@ -1,0 +1,43 @@
+{
+  "title": "Two Point Museum",
+  "publisher": "SEGA",
+  "releaseDate": "2025-10-28",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 4.6,
+    "source": "https://www.nintendo.com/us/store/products/two-point-museum-switch-2/",
+    "checked": "2026-10-13"
+  },
+  "physical": {
+    "format": "game-key-card",
+    "note": "The physical release is the Explorer Edition.",
+    "source": "https://www.inet.se/produkt/6337523/two-point-museum-explorer-edition-switch-2",
+    "checked": "2026-10-13"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/two-point-museum-switch-2/",
+    "priceUSD": 29.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "Japanese",
+      "British English",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Russian",
+      "Simplified Chinese",
+      "Latin American Spanish",
+      "Brazilian Portuguese",
+      "Traditional Chinese"
+    ],
+    "switch1SizeGB": null,
+    "developer": ""
+  }
+}

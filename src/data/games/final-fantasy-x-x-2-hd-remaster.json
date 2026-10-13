@@ -35,5 +35,21 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "About 1440p",
+        "fps": 30
+      },
+      {
+        "play": "handheld",
+        "fps": 30
+      }
+    ],
+    "note": "Every version of the game is capped at 30 FPS.",
+    "source": "https://www.rpgsite.net/feature/20941-final-fantasy-x-x-2-hd-remaster-switch-2-vs-ps5-pc-steam-deck-xbox-ps-vita-ps4-pro-best-version-comparison",
+    "checked": "2026-10-13"
   }
 }
