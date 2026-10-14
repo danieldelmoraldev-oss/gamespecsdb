@@ -4,10 +4,9 @@
   "releaseDate": "2026-10-14",
   "kind": "native",
   "fileSize": {
-    "currentGB": 2.0,
+    "currentGB": 3.0,
     "source": "https://www.nintendo.com/us/store/products/the-witchs-bakery-switch-2/",
-    "checked": "2026-10-13",
-    "estimate": true
+    "checked": "2026-10-14"
   },
   "physical": {
     "format": "game-key-card",
