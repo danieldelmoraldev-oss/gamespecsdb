@@ -4,10 +4,9 @@
   "releaseDate": "2026-10-15",
   "kind": "native",
   "fileSize": {
-    "currentGB": 29.3,
+    "currentGB": 24.6,
     "source": "https://www.nintendo.com/us/store/products/tormented-souls-2-switch-2/",
-    "checked": "2026-10-14",
-    "estimate": true
+    "checked": "2026-10-15"
   },
   "physical": {
     "format": "game-key-card",
