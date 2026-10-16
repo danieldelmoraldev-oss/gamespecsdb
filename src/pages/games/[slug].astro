@@ -6,7 +6,7 @@ import FormatBadge from '../../components/FormatBadge.astro';
 import SizeMeter from '../../components/SizeMeter.astro';
 import Icon from '../../components/Icon.astro';
 import { SITE } from '../../site';
-import { allGames, FORMAT_LABEL, KIND_LABEL, formatGB, formatDate, lastChecked, releaseOf, shortTitle, isUpcoming, maxFps, type Game } from '../../lib/games';
+import { allGames, FORMAT_LABEL, KIND_LABEL, formatGB, formatDate, isThin, lastChecked, releaseOf, shortTitle, isUpcoming, maxFps, type Game } from '../../lib/games';
 import { LISTS } from '../../lib/lists';
 
 export async function getStaticPaths() {
@@ -125,7 +125,7 @@ const jsonLd = [
   },
 ];
 ---
-<Base title={title} description={description} jsonLd={jsonLd}>
+<Base title={title} description={description} jsonLd={jsonLd} noindex={isThin(game)}>
   <div class="breadcrumbs"><a href="/games/">Games</a> › {name}</div>
   <div class="game-head">
     <h1>{name}{d.kind === 'edition' ? ' (Switch 2 Edition)' : ''} on Switch 2: {topics}</h1>

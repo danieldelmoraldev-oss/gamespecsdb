@@ -36,6 +36,12 @@ export function formatDate(iso: string): string {
 }
 
 // The newest "checked" date across all sourced facts of a game.
+// Template-only pages (no own summary, no performance data) stay out of Google until they get real content.
+// Recovery plan after the 11-12/10/2026 ranking drop; astro.config.mjs mirrors this rule for the sitemap.
+export function isThin(game: Game): boolean {
+  return !game.data.summary && !game.data.performance?.modes.length;
+}
+
 export function lastChecked(game: Game): string {
   const d = game.data;
   return [d.fileSize.checked, d.physical.checked, d.performance?.checked, d.upgrade?.checked, d.releaseOverride?.checked]
