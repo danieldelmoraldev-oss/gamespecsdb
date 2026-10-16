@@ -41,5 +41,16 @@
     ],
     "switch1SizeGB": null,
     "developer": "Purple Lamp"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "fps": 60
+      }
+    ],
+    "note": "Targets 60 FPS (30 FPS on Switch 1) with a higher resolution; no exact resolution has been published and there is no quality/performance toggle.",
+    "source": "https://nintendoeverything.com/video-epic-mickey-rebrushed-nintendo-switch-2-vs-switch-1-graphics-comparison/",
+    "checked": "2026-10-16"
   }
 }

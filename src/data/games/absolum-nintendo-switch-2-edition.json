@@ -3,6 +3,7 @@
   "publisher": "Dotemu",
   "releaseDate": "2026-09-17",
   "kind": "edition",
+  "summary": "Absolum - Nintendo Switch 2 Edition is Dotemu's beat 'em up, released for Switch 2 on September 17, 2026. If you already own the Switch 1 version, the upgrade pack is free on the US eShop. Nintendo says the Switch 2 Edition runs at 60 FPS with a higher resolution than the original, though it doesn't give an exact figure. The install is 5.8 GB, up from 2.6 GB on Switch 1, which is still small next to most Switch 2 games. The physical release is a full cartridge, so the boxed game plays without a download. It supports two players on one system or online.",
   "fileSize": {
     "currentGB": 5.8,
     "source": "https://www.nintendo.com/us/store/products/absolum-nintendo-switch-2-edition-switch-2/",
@@ -45,5 +46,16 @@
     "priceUSD": 0,
     "source": "https://www.nintendo.com/us/store/products/absolum-nintendo-switch-2-edition-upgrade-pack-switch-2/",
     "checked": "2026-10-12"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "fps": 60
+      }
+    ],
+    "note": "Nintendo lists 60 FPS and an improved resolution over the Switch 1 version, without an exact figure.",
+    "source": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Game-3200683.html",
+    "checked": "2026-10-16"
   }
 }

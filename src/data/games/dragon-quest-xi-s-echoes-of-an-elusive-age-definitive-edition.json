@@ -3,6 +3,7 @@
   "publisher": "SQUARE ENIX",
   "releaseDate": "2026-09-24",
   "kind": "native",
+  "summary": "DRAGON QUEST XI S: Echoes of an Elusive Age - Definitive Edition arrived as a native Switch 2 version on September 24, 2026. Square Enix's official figures give it two modes, picked from the system menu: Performance at 1080p and 60 FPS, or Quality at 1440p and 30 FPS. The install is 23.2 GB, and the physical version is a Game-Key Card, so the cartridge only unlocks a download. For a long turn-based RPG, the 60 FPS mode makes exploring smoother, while Quality mode is the one to choose for a sharper image on a big TV.",
   "fileSize": {
     "currentGB": 23.2,
     "source": "https://www.nintendo.com/us/store/products/dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-edition-switch-2/",
@@ -34,5 +35,24 @@
     ],
     "switch1SizeGB": null,
     "developer": "SQUARE ENIX"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "preset": "Performance",
+        "resolution": "1080p",
+        "fps": 60
+      },
+      {
+        "play": "all",
+        "preset": "Quality",
+        "resolution": "1440p",
+        "fps": 30
+      }
+    ],
+    "note": "Official figures from Square Enix; the mode is chosen in the system menu. Separate handheld figures were not published.",
+    "source": "https://www.nintendolife.com/news/2026/07/dragon-quest-xi-s-switch-2-version-performance-and-resolution-revealed",
+    "checked": "2026-10-16"
   }
 }

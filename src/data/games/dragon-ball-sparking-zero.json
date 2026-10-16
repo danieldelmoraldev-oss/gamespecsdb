@@ -45,5 +45,17 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "resolution": "Up to 810p (dynamic)",
+        "fps": 30
+      }
+    ],
+    "note": "Official Bandai Namco figures, the same in TV and handheld mode (Switch 1: 720p docked, 480p handheld).",
+    "source": "https://finalweapon.net/2025/08/16/dragon-ball-sparking-zero-nintendo-switch-2-frame-rate-resolution/",
+    "checked": "2026-10-16"
   }
 }

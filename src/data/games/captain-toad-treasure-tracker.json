@@ -43,5 +43,22 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "1440p",
+        "fps": 60
+      },
+      {
+        "play": "handheld",
+        "resolution": "1080p",
+        "fps": 60
+      }
+    ],
+    "note": "Free Switch 2 update, measured by Digital Foundry (Switch 1: 1080p docked).",
+    "source": "https://www.nintendolife.com/news/2025/06/video-digital-foundry-tests-out-switch-2s-free-switch-game-upgrades",
+    "checked": "2026-10-16"
   }
 }

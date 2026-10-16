@@ -1,4 +1,15 @@
 {
+ "absolum-nintendo-switch-2-edition": {
+  "modes": [
+   {
+    "play": "all",
+    "fps": 60
+   }
+  ],
+  "note": "Nintendo lists 60 FPS and an improved resolution over the Switch 1 version, without an exact figure.",
+  "source": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/Game-3200683.html",
+  "checked": "2026-10-16"
+ },
  "animal-crossing-new-horizons-nintendo-switch-2-edition": {
   "modes": [
    {
@@ -59,6 +70,23 @@
   "note": "Not a locked 30 FPS: docked mode slows down when the camera and cursor move quickly; handheld holds up better. Happinet chose not to target 60 FPS on Switch 2.",
   "source": "https://rpgsite.net/feature/21147-brigandine-abyss-switch-2-vs-ps5-pro-pc-steam-deck-xbox-series-ayn-thor-best-version",
   "checked": "2026-10-06"
+ },
+ "captain-toad-treasure-tracker": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "1440p",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "1080p",
+    "fps": 60
+   }
+  ],
+  "note": "Free Switch 2 update, measured by Digital Foundry (Switch 1: 1080p docked).",
+  "source": "https://www.nintendolife.com/news/2025/06/video-digital-foundry-tests-out-switch-2s-free-switch-game-upgrades",
+  "checked": "2026-10-16"
  },
  "cronos-the-new-dawn": {
   "modes": [
@@ -155,6 +183,17 @@
   "source": "https://nintendoeverything.com/digimon-story-time-stranger-nintendo-switch-2-vs-switch-comparison-more-frame-rate-and-resolution-details/",
   "checked": "2026-09-29"
  },
+ "disney-epic-mickey-rebrushed": {
+  "modes": [
+   {
+    "play": "all",
+    "fps": 60
+   }
+  ],
+  "note": "Targets 60 FPS (30 FPS on Switch 1) with a higher resolution; no exact resolution has been published and there is no quality/performance toggle.",
+  "source": "https://nintendoeverything.com/video-epic-mickey-rebrushed-nintendo-switch-2-vs-switch-1-graphics-comparison/",
+  "checked": "2026-10-16"
+ },
  "donkey-kong-bananza": {
   "modes": [
    {
@@ -171,6 +210,37 @@
   "note": "60 FPS is the target; Digital Foundry measured drops in some scenes.",
   "source": "https://nintendoeverything.com/donkey-kong-bananza-frame-rate-and-resolution/",
   "checked": "2026-09-23"
+ },
+ "dragon-ball-sparking-zero": {
+  "modes": [
+   {
+    "play": "all",
+    "resolution": "Up to 810p (dynamic)",
+    "fps": 30
+   }
+  ],
+  "note": "Official Bandai Namco figures, the same in TV and handheld mode (Switch 1: 720p docked, 480p handheld).",
+  "source": "https://finalweapon.net/2025/08/16/dragon-ball-sparking-zero-nintendo-switch-2-frame-rate-resolution/",
+  "checked": "2026-10-16"
+ },
+ "dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-edition": {
+  "modes": [
+   {
+    "play": "all",
+    "preset": "Performance",
+    "resolution": "1080p",
+    "fps": 60
+   },
+   {
+    "play": "all",
+    "preset": "Quality",
+    "resolution": "1440p",
+    "fps": 30
+   }
+  ],
+  "note": "Official figures from Square Enix; the mode is chosen in the system menu. Separate handheld figures were not published.",
+  "source": "https://www.nintendolife.com/news/2026/07/dragon-quest-xi-s-switch-2-version-performance-and-resolution-revealed",
+  "checked": "2026-10-16"
  },
  "dragons-dogma-2-dark-arisen": {
   "modes": [
@@ -604,6 +674,23 @@
   "source": "https://nintendoeverything.com/nba-2k27-confirmed-to-support-60-fps-on-nintendo-switch-2-has-performance-mode/",
   "checked": "2026-09-29"
  },
+ "new-super-mario-bros-u-deluxe": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "4K",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "1080p",
+    "fps": 60
+   }
+  ],
+  "note": "Free Switch 2 update; Digital Foundry found 60 FPS \"all around\" (Switch 1: 1080p docked).",
+  "source": "https://www.nintendolife.com/news/2025/06/video-digital-foundry-tests-out-switch-2s-free-switch-game-upgrades",
+  "checked": "2026-10-16"
+ },
  "octopath-traveler-0": {
   "modes": [
    {
@@ -847,6 +934,23 @@
   "source": "https://nintendoeverything.com/sonic-x-shadow-generations-switch-2-review/",
   "checked": "2026-10-09"
  },
+ "splatoon-3": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "4K",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "1080p",
+    "fps": 60
+   }
+  ],
+  "note": "Free Switch 2 update; Digital Foundry measured 60 FPS throughout, including the city hub (Switch 1: dynamic 1080p docked).",
+  "source": "https://www.nintendolife.com/news/2025/06/video-digital-foundry-tests-out-switch-2s-free-switch-game-upgrades",
+  "checked": "2026-10-16"
+ },
  "splatoon-raiders": {
   "modes": [
    {
@@ -955,6 +1059,23 @@
   "source": "https://www.rpgsite.net/feature/17739-suikoden-1-and-2-hd-remaster-switch-vs-switch-2-save-transfer-upgrade-performance",
   "checked": "2026-10-06"
  },
+ "super-mario-3d-world-plus-bowsers-fury": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "Dynamic 1800p",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "1080p",
+    "fps": 60
+   }
+  ],
+  "note": "Free Switch 2 update, measured by Digital Foundry.",
+  "source": "https://www.nintendolife.com/news/2025/06/video-digital-foundry-tests-out-switch-2s-free-switch-game-upgrades",
+  "checked": "2026-10-16"
+ },
  "super-mario-bros-wonder-nintendo-switch-2-edition-plus-meetup-in-bellabel-park": {
   "modes": [
    {
@@ -1062,6 +1183,23 @@
   ],
   "source": "https://nintendoeverything.com/zelda-breath-of-the-wild-and-tears-of-the-kingdom-nintendo-switch-2-frame-rate-resolution/",
   "checked": "2026-09-23"
+ },
+ "the-legend-of-zelda-echoes-of-wisdom": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "1620p",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "1080p",
+    "fps": 60
+   }
+  ],
+  "note": "Free Switch 2 update, measured by Digital Foundry: locked 60 FPS, while the Switch 1 version swings between 30 and 60 FPS (720p docked, about 600p handheld).",
+  "source": "https://press-start.com.au/news/nintendo/2025/06/30/the-free-nintendo-switch-2-game-updates-are-a-bigger-improvement-than-expected/",
+  "checked": "2026-10-16"
  },
  "the-legend-of-zelda-links-awakening": {
   "modes": [
