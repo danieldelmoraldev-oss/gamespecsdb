@@ -1,3 +1,4 @@
+007-first-light-deluxe-edition-switch-2
 1000xresist-nintendo-switch-2-edition-switch-2
 4pgp-nintendo-switch-2-edition-switch-2
 a-train-all-aboard-tourism-nintendo-switch-2-edition-switch-2
@@ -66,11 +67,13 @@ arcade-archives-2-space-cyclone-switch-2
 arcade-archives-2-space-invaders-part-ii-switch-2
 arcade-archives-2-space-invaders-switch-2
 arcade-archives-2-steel-worker-switch-2
+arcade-archives-2-stinger-switch-2
 arcade-archives-2-syvalion-switch-2
 arcade-archives-2-tag-team-wrestling-switch-2
 arcade-archives-2-tatakae-big-fighter-switch-2
 arcade-archives-2-tekken-switch-2
 arcade-archives-2-the-outfoxies-switch-2
+arcade-archives-2-thundercade-switch-2
 arcade-archives-2-tokyo-wars-switch-2
 arcade-archives-2-top-speed-switch-2
 arcade-archives-2-tx-1-switch-2
@@ -176,6 +179,7 @@ console-archives-t-r-a-g-tactical-rescue-assault-group-mission-of-mercy-switch-2
 console-archives-terra-cresta-switch-2
 console-archives-the-conveni-2-switch-2
 console-archives-the-conveni-switch-2
+console-archives-the-drug-store-switch-2
 console-archives-the-legend-of-kage-switch-2
 console-archives-toujinmakyouden-hercules-no-eikou-switch-2
 console-archives-touki-denshou-angel-eyes-switch-2
@@ -320,6 +324,7 @@ game-dev-story-nintendo-switch-2-edition-switch-2
 gear-club-unlimited-3-deluxe-edition-switch-2
 gear-club-unlimited-3-switch-2
 gecko-gods-switch-2
+glow-box-switch-2
 go-go-town-nintendo-switch-2-edition-switch-2
 goat-simulator-3-switch-2
 gobliiins-collection-switch-2
@@ -352,6 +357,7 @@ hogwarts-legacy-digital-deluxe-edition-switch-2
 hogwarts-legacy-switch-2
 hollow-knight-nintendo-switch-2-edition-switch-2
 hollow-knight-silksong-nintendo-switch-2-edition-switch-2
+holovillage-our-cozy-days-switch-2
 hot-wheels-infinite-rush-deluxe-edition-switch-2
 hot-wheels-infinite-rush-switch-2
 hot-wheels-infinite-rush-ultimate-edition-switch-2
@@ -559,6 +565,7 @@ resident-evil-requiem-deluxe-edition-switch-2
 resident-evil-requiem-switch-2
 resident-evil-veronica-switch-2
 resident-evil-village-gold-edition-switch-2
+reverie-in-the-moonlight-nintendo-switch-2-edition-switch-2
 riichi-mahjong-switch-2
 rippleisland-kyle-and-cals-restaurant-switch-2
 rise-of-the-tomb-raider-20-year-celebration-switch-2
@@ -624,6 +631,7 @@ spongebob-squarepants-titans-of-the-tide-switch-2
 spooky-spirit-shooting-gallery-for-nintendo-switch-2-switch-2
 sports-camp-a-35-game-adventure-switch-2
 sprawl-zero-switch-2
+spyder-agent-8-switch-2
 spyro-a-realm-beyond-switch-2
 squirrel-with-a-gun-switch-2
 star-fox-switch-2
@@ -660,6 +668,7 @@ system-shock-2-25th-anniversary-remaster-nintendo-switch-2-edition-switch-2
 system-shock-switch-2
 tales-of-arise-beyond-the-dawn-edition-switch-2
 tales-of-arise-beyond-the-dawn-premium-edition-switch-2
+tales-of-eternia-remastered-deluxe-edition-switch-2
 tales-of-eternia-remastered-switch-2
 tales-of-the-shire-a-the-lord-of-the-rings-game-nintendo-switch-2-edition-switch-2
 tamagotchi-plaza-nintendo-switch-2-edition-switch-2
