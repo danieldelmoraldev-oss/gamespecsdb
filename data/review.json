@@ -1,5 +1,5 @@
 {
- "date": "2026-10-16",
+ "date": "2026-10-17",
  "unmatched": [
   {
    "title": "007 First Light",
@@ -93,7 +93,9 @@
   }
  ],
  "conflicts": [],
- "anomalies": [],
+ "anomalies": [
+  "Rudolph the Red-Nosed Reindeer - Holiday Play Edition: size 0.1 GB -> 0.1 GB, kept 0.1 GB"
+ ],
  "errors": [],
  "regional": [
   "Daemon X Machina: Titanic Scion",
