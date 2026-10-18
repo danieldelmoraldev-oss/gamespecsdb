@@ -1,5 +1,5 @@
 {
- "date": "2026-10-17",
+ "date": "2026-10-18",
  "unmatched": [
   {
    "title": "007 First Light",
@@ -45,6 +45,11 @@
   },
   {
    "title": "Resident Evil Generation Pack",
+   "format": "game-key-card",
+   "candidates": []
+  },
+  {
+   "title": "Kitaria Fables 2",
    "format": "game-key-card",
    "candidates": []
   },
