@@ -6,7 +6,7 @@
   "fileSize": {
     "currentGB": 5.3,
     "source": "https://www.nintendo.com/us/store/products/hello-kitty-island-adventure-nintendo-switch-2-edition-switch-2/",
-    "checked": "2026-10-12"
+    "checked": "2026-10-19"
   },
   "physical": {
     "format": "full-cartridge",
@@ -46,6 +46,6 @@
   "upgrade": {
     "priceUSD": 9.99,
     "source": "https://www.nintendo.com/us/store/products/hello-kitty-island-adventure-nintendo-switch-2-edition-upgrade-pack-switch-2/",
-    "checked": "2026-10-12"
+    "checked": "2026-10-19"
   }
 }
