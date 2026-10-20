@@ -27,5 +27,16 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "fps": 30
+      }
+    ],
+    "note": "30 FPS is the default cap. An optional variable mode (with 120 Hz support in handheld) feels smoother but does not hold a locked 60 FPS outside some areas. No exact resolution published.",
+    "source": "https://www.rpgsite.net/feature/19253-trails-beyond-the-horizon-on-console-for-ps5-switch-2-ps4-and-switch-compared-across-visuals-performance",
+    "checked": "2026-10-20"
   }
 }

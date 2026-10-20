@@ -33,5 +33,16 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "fps": 30
+      }
+    ],
+    "note": "30 FPS is the default (the director told Famitsu the team chose a stable 30 FPS over 60 to keep thousands of soldiers on screen). An optional variable mode removes the cap; RPG Site found it better in handheld than docked. No exact resolution published.",
+    "source": "https://www.rpgsite.net/review/19331-dynasty-warriors-origins-nintendo-switch-2-review",
+    "checked": "2026-10-20"
   }
 }

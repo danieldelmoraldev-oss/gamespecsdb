@@ -35,5 +35,16 @@
     ],
     "switch1SizeGB": null,
     "developer": "ACQUIRE Corp."
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "fps": 60
+      }
+    ],
+    "note": "Targets 60 FPS docked and handheld (30 FPS on Switch 1); RPG Site noticed some dips when docked. No exact resolution published.",
+    "source": "https://www.rpgsite.net/feature/20905-octopath-traveler-i-and-ii-for-switch-2-deliver-solid-improvements-over-the-switch-1-versions",
+    "checked": "2026-10-20"
   }
 }

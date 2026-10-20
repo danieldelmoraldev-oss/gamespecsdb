@@ -36,5 +36,22 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "preset": "Graphics",
+        "fps": 30
+      },
+      {
+        "play": "all",
+        "preset": "Performance",
+        "fps": 60
+      }
+    ],
+    "note": "Both modes are available docked and handheld; the 60 FPS mode runs at a lower, sub-native resolution. No exact resolution published.",
+    "source": "https://www.rpgsite.net/feature/18873-which-is-the-best-version-of-dragon-quest-i-ii-hd-2d-remake-ps5-switch-2-xbox-switch-and-pc-tested",
+    "checked": "2026-10-20"
   }
 }

@@ -3,6 +3,7 @@
   "publisher": "Nintendo",
   "releaseDate": "2021-06-11",
   "kind": "free-update",
+  "summary": "Game Builder Garage is Nintendo's 2021 programming game, and its free Switch 2 update (version 1.1.0, June 2025) adds Joy-Con 2 mouse controls for up to eight Joy-Con 2 controllers, which makes placing and wiring Nodons much quicker than with sticks. A single USB mouse still works too. Nintendo also optimized the visuals for the Switch 2 screen and high-resolution TVs. One caveat from Nintendo's patch notes: because Switch 2 processes faster, some games made on the original Switch may behave differently. At 1.0 GB it is tiny to install, and the Switch 1 cartridge holds the full game and works in a Switch 2.",
   "fileSize": {
     "currentGB": 1.0,
     "source": "https://www.nintendo.com/us/store/products/game-builder-garage-switch/",

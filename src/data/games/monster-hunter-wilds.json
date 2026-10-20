@@ -45,5 +45,29 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "preset": "Prioritize Resolution",
+        "resolution": "1260p output (dynamic)",
+        "fps": 30
+      },
+      {
+        "play": "tv",
+        "preset": "Prioritize Framerate",
+        "resolution": "1080p output (dynamic)",
+        "fps": 30
+      },
+      {
+        "play": "handheld",
+        "resolution": "864p output (dynamic)",
+        "fps": 30
+      }
+    ],
+    "note": "Capcom's pre-release targets: render resolution scales with load and the frame rate may drop in heavy scenes. The game is out December 4, 2026.",
+    "source": "https://nintendoeverything.com/capcom-details-performance-for-monster-hunter-wilds-on-nintendo-switch-2/",
+    "checked": "2026-10-20"
   }
 }

@@ -40,5 +40,21 @@
     "priceUSD": 9.99,
     "source": "https://www.nintendo.com/us/store/products/xenoblade-chronicles-definitive-edition-nintendo-switch-2-edition-upgrade-pack-switch-2/",
     "checked": "2026-10-19"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "4K",
+        "fps": 60
+      },
+      {
+        "play": "handheld",
+        "resolution": "1080p",
+        "fps": 60
+      }
+    ],
+    "source": "https://www.nintendo.com/sg/news/article/383ACrTcQizYZdC07E6YJ",
+    "checked": "2026-10-20"
   }
 }

@@ -38,5 +38,22 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "720p–1080p (dynamic, DLSS)",
+        "fps": 30
+      },
+      {
+        "play": "handheld",
+        "resolution": "540p–720p (dynamic, DLSS)",
+        "fps": 30
+      }
+    ],
+    "note": "Nintendo World Report found 30 FPS very consistent outside big fights in crowded areas.",
+    "source": "https://www.nintendoworldreport.com/review/74255",
+    "checked": "2026-10-20"
   }
 }

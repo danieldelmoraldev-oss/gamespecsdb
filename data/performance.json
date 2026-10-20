@@ -223,6 +223,34 @@
   "source": "https://finalweapon.net/2025/08/16/dragon-ball-sparking-zero-nintendo-switch-2-frame-rate-resolution/",
   "checked": "2026-10-16"
  },
+ "dragon-quest-i-and-ii-hd-2d-remake": {
+  "modes": [
+   {
+    "play": "all",
+    "preset": "Graphics",
+    "fps": 30
+   },
+   {
+    "play": "all",
+    "preset": "Performance",
+    "fps": 60
+   }
+  ],
+  "note": "Both modes are available docked and handheld; the 60 FPS mode runs at a lower, sub-native resolution. No exact resolution published.",
+  "source": "https://www.rpgsite.net/feature/18873-which-is-the-best-version-of-dragon-quest-i-ii-hd-2d-remake-ps5-switch-2-xbox-switch-and-pc-tested",
+  "checked": "2026-10-20"
+ },
+ "dragon-quest-vii-reimagined": {
+  "modes": [
+   {
+    "play": "all",
+    "fps": 60
+   }
+  ],
+  "note": "One mode in TV and handheld with a 60 FPS target; RPG Site saw minor frame pacing hitches while exploring. No exact resolution published.",
+  "source": "https://www.rpgsite.net/feature/19484-which-is-the-best-portable-version-of-dragon-quest-vii-reimagined-steam-deck-switch-2-switch-and-rog-ally",
+  "checked": "2026-10-20"
+ },
  "dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-edition": {
   "modes": [
    {
@@ -252,6 +280,17 @@
   "note": "Optional frame generation gives visuals equivalent to 60 FPS, with some ghosting.",
   "source": "https://nintendoeverything.com/dragons-dogma-2-using-frame-generation-on-nintendo-switch-2-first-capcom-game-to-do-so-on-the-console/",
   "checked": "2026-09-29"
+ },
+ "dynasty-warriors-origins": {
+  "modes": [
+   {
+    "play": "all",
+    "fps": 30
+   }
+  ],
+  "note": "30 FPS is the default (the director told Famitsu the team chose a stable 30 FPS over 60 to keep thousands of soldiers on screen). An optional variable mode removes the cap; RPG Site found it better in handheld than docked. No exact resolution published.",
+  "source": "https://www.rpgsite.net/review/19331-dynasty-warriors-origins-nintendo-switch-2-review",
+  "checked": "2026-10-20"
  },
  "ea-sports-fc-26": {
   "modes": [
@@ -651,6 +690,30 @@
   "source": "https://www.rpgsite.net/feature/19802-monster-hunter-stories-3-switch-2-vs-ps5-pc-xbox-full-game-performance-best-version",
   "checked": "2026-10-06"
  },
+ "monster-hunter-wilds": {
+  "modes": [
+   {
+    "play": "tv",
+    "preset": "Prioritize Resolution",
+    "resolution": "1260p output (dynamic)",
+    "fps": 30
+   },
+   {
+    "play": "tv",
+    "preset": "Prioritize Framerate",
+    "resolution": "1080p output (dynamic)",
+    "fps": 30
+   },
+   {
+    "play": "handheld",
+    "resolution": "864p output (dynamic)",
+    "fps": 30
+   }
+  ],
+  "note": "Capcom's pre-release targets: render resolution scales with load and the frame rate may drop in heavy scenes. The game is out December 4, 2026.",
+  "source": "https://nintendoeverything.com/capcom-details-performance-for-monster-hunter-wilds-on-nintendo-switch-2/",
+  "checked": "2026-10-20"
+ },
  "nba-2k26": {
   "modes": [
    {
@@ -691,6 +754,17 @@
   "source": "https://www.nintendolife.com/news/2025/06/video-digital-foundry-tests-out-switch-2s-free-switch-game-upgrades",
   "checked": "2026-10-16"
  },
+ "octopath-traveler": {
+  "modes": [
+   {
+    "play": "all",
+    "fps": 60
+   }
+  ],
+  "note": "Targets 60 FPS docked and handheld (30 FPS on Switch 1); RPG Site noticed some dips when docked. No exact resolution published.",
+  "source": "https://www.rpgsite.net/feature/20905-octopath-traveler-i-and-ii-for-switch-2-deliver-solid-improvements-over-the-switch-1-versions",
+  "checked": "2026-10-20"
+ },
  "octopath-traveler-0": {
   "modes": [
    {
@@ -701,6 +775,17 @@
   "note": "Not a locked 60 FPS: RPG Site found frame-pacing hitches while exploring and dips in combat, and a soft image in handheld mode.",
   "source": "https://www.rpgsite.net/feature/19051-octopath-traveler-0-switch-2-vs-ps5-pc-steam-deck-rog-ally-xbox-ps4-comparison-best-version",
   "checked": "2026-10-13"
+ },
+ "octopath-traveler-ii": {
+  "modes": [
+   {
+    "play": "all",
+    "fps": 60
+   }
+  ],
+  "note": "Targets 60 FPS docked and handheld (30 FPS on Switch 1); RPG Site noticed some dips when docked. No exact resolution published.",
+  "source": "https://www.rpgsite.net/feature/20905-octopath-traveler-i-and-ii-for-switch-2-deliver-solid-improvements-over-the-switch-1-versions",
+  "checked": "2026-10-20"
  },
  "onimusha-way-of-the-sword": {
   "modes": [
@@ -862,6 +947,25 @@
   ],
   "source": "https://lordsofgaming.net/2026/09/ninja-strikes-shinobi-art-of-vengeance-on-nintendo-switch-2-impressions/",
   "checked": "2026-10-02"
+ },
+ "sid-meiers-civilization-vii-nintendo-switch-2-edition": {
+  "modes": [
+   {
+    "play": "tv",
+    "preset": "Quality",
+    "resolution": "Up to 4K",
+    "fps": 30
+   },
+   {
+    "play": "tv",
+    "preset": "Performance",
+    "resolution": "1080p",
+    "fps": 60
+   }
+  ],
+  "note": "Official figures for TV mode; Nintendo's store page gives none for handheld.",
+  "source": "https://www.nintendo.com/us/store/products/sid-meiers-civilization-vii-nintendo-switch-2-edition-switch-2/",
+  "checked": "2026-10-20"
  },
  "sonic-frontiers-definitive-edition": {
   "modes": [
@@ -1168,6 +1272,17 @@
   "source": "https://nintendoeverything.com/the-elder-scrolls-4-oblivion-remastered-details-frame-rate-and-resolution-for-nintendo-switch-2-dlss-support-mouse-controls-more/",
   "checked": "2026-09-23"
  },
+ "the-legend-of-heroes-trails-beyond-the-horizon": {
+  "modes": [
+   {
+    "play": "all",
+    "fps": 30
+   }
+  ],
+  "note": "30 FPS is the default cap. An optional variable mode (with 120 Hz support in handheld) feels smoother but does not hold a locked 60 FPS outside some areas. No exact resolution published.",
+  "source": "https://www.rpgsite.net/feature/19253-trails-beyond-the-horizon-on-console-for-ps5-switch-2-ps4-and-switch-compared-across-visuals-performance",
+  "checked": "2026-10-20"
+ },
  "the-legend-of-zelda-breath-of-the-wild-nintendo-switch-2-edition": {
   "modes": [
    {
@@ -1251,6 +1366,22 @@
   "source": "https://nintendoeverything.com/xenoblade-chronicles-2-nintendo-switch-2-tech-analysis-including-frame-rate-and-resolution-switch-1-comparison/",
   "checked": "2026-09-23"
  },
+ "xenoblade-chronicles-definitive-edition-nintendo-switch-2-edition": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "4K",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "1080p",
+    "fps": 60
+   }
+  ],
+  "source": "https://www.nintendo.com/sg/news/article/383ACrTcQizYZdC07E6YJ",
+  "checked": "2026-10-20"
+ },
  "xenoblade-chronicles-x-definitive-edition-nintendo-switch-2-edition": {
   "modes": [
    {
@@ -1295,6 +1426,23 @@
   "note": "Does not hold a locked 30 FPS: drops in busy parts of Kamurocho and Sotenbori, more in handheld.",
   "source": "https://www.rpgsite.net/review/18909-yakuza-kiwami-2-nintendo-switch-2-review",
   "checked": "2026-10-09"
+ },
+ "yakuza-kiwami-3-and-dark-ties": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "720p–1080p (dynamic, DLSS)",
+    "fps": 30
+   },
+   {
+    "play": "handheld",
+    "resolution": "540p–720p (dynamic, DLSS)",
+    "fps": 30
+   }
+  ],
+  "note": "Nintendo World Report found 30 FPS very consistent outside big fights in crowded areas.",
+  "source": "https://www.nintendoworldreport.com/review/74255",
+  "checked": "2026-10-20"
  },
  "yooka-replaylee": {
   "modes": [

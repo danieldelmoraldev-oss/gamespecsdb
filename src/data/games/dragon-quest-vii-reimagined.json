@@ -33,5 +33,16 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "fps": 60
+      }
+    ],
+    "note": "One mode in TV and handheld with a 60 FPS target; RPG Site saw minor frame pacing hitches while exploring. No exact resolution published.",
+    "source": "https://www.rpgsite.net/feature/19484-which-is-the-best-portable-version-of-dragon-quest-vii-reimagined-steam-deck-switch-2-switch-and-rog-ally",
+    "checked": "2026-10-20"
   }
 }

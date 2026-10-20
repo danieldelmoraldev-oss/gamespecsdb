@@ -3,6 +3,7 @@
   "publisher": "Nintendo",
   "releaseDate": "2020-10-30",
   "kind": "free-update",
+  "summary": "Pikmin 3 Deluxe got a free Switch 2 update (version 1.2.0) at the end of August 2026; there is no paid Switch 2 Edition. Nintendo says the update improves image quality on the Switch 2 screen and on high-resolution TVs, but it has not given an exact resolution, and it did not announce a frame rate change. The update also adds GameShare to Bingo Battle, so two people can play it from one copy, nearby or online through GameChat (GameChat needs a paid Nintendo Switch Online membership). The free demo stays on the older version without these changes. The install is 6.5 GB, and the Switch 1 cartridge holds the full game and works in a Switch 2.",
   "fileSize": {
     "currentGB": 6.5,
     "source": "https://www.nintendo.com/us/store/products/pikmin-3-deluxe-switch/",

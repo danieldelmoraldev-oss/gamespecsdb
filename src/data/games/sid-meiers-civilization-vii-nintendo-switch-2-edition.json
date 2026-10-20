@@ -45,5 +45,24 @@
     "priceUSD": 9.99,
     "source": "https://www.nintendo.com/us/store/products/sid-meiers-civilization-vii-nintendo-switch-2-edition-upgrade-pack-switch-2/",
     "checked": "2026-10-19"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "preset": "Quality",
+        "resolution": "Up to 4K",
+        "fps": 30
+      },
+      {
+        "play": "tv",
+        "preset": "Performance",
+        "resolution": "1080p",
+        "fps": 60
+      }
+    ],
+    "note": "Official figures for TV mode; Nintendo's store page gives none for handheld.",
+    "source": "https://www.nintendo.com/us/store/products/sid-meiers-civilization-vii-nintendo-switch-2-edition-switch-2/",
+    "checked": "2026-10-20"
   }
 }
