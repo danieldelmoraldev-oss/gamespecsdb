@@ -1,0 +1,35 @@
+{
+  "title": "STEINS;GATE RE:BOOT",
+  "publisher": "Spike Chunsoft US",
+  "releaseDate": "2026-10-29",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 8.0,
+    "source": "https://www.nintendo.com/us/store/products/steins-gate-re-boot-switch-2/",
+    "checked": "2026-10-21",
+    "estimate": true
+  },
+  "physical": {
+    "format": "full-cartridge",
+    "source": "https://www.nintendolife.com/guides/every-nintendo-switch-2-physical-release-with-the-full-game-on-the-cart",
+    "checked": "2026-10-21"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/steins-gate-re-boot-switch-2/",
+    "priceUSD": 59.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "Japanese",
+      "Simplified Chinese",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": ""
+  }
+}
