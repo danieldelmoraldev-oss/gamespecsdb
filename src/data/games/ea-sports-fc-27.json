@@ -44,5 +44,16 @@
     ],
     "switch1SizeGB": null,
     "developer": "EA"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "fps": 30
+      }
+    ],
+    "note": "Nintendo Life: still 30 FPS with no performance mode, like FC 26.",
+    "source": "https://www.nintendolife.com/reviews/nintendo-switch-2/ea-sports-fc-27",
+    "checked": "2026-10-23"
   }
 }

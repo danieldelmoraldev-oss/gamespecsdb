@@ -41,5 +41,16 @@
     "priceUSD": 0,
     "source": "https://www.nintendo.com/us/store/products/disney-dreamlight-valley-nintendo-switch-2-edition-upgrade-pack-switch-2/",
     "checked": "2026-10-19"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "fps": 60
+      }
+    ],
+    "note": "Nintendo lists \"up to 60 FPS\", enhanced resolution and faster loading, without exact figures.",
+    "source": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-Edition/Disney-Dreamlight-Valley-Nintendo-Switch-2-Edition-3059211.html",
+    "checked": "2026-10-23"
   }
 }

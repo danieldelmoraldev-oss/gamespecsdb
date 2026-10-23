@@ -35,5 +35,17 @@
     "priceUSD": 4.99,
     "source": "https://www.nintendo.com/us/store/products/trails-in-the-sky-2nd-chapter-nintendo-switch-2-edition-upgrade-pack-switch-2/",
     "checked": "2026-10-19"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "preset": "Performance",
+        "fps": 60
+      }
+    ],
+    "note": "RPG Site found the Performance mode holds its 60 FPS target; the Quality mode (no published target) runs poorly, and the resolution is a clear step down from PS5.",
+    "source": "https://www.rpgsite.net/feature/21378-which-is-the-best-version-of-trails-in-the-sky-2nd-chapter-ps5-nintendo-switch-2-switch-1-pc-covered",
+    "checked": "2026-10-23"
   }
 }

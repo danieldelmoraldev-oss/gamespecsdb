@@ -41,5 +41,22 @@
     "priceUSD": 9.99,
     "source": "https://www.nintendo.com/us/store/products/xenoblade-chronicles-3-nintendo-switch-2-edition-upgrade-pack-switch-2/",
     "checked": "2026-10-19"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "resolution": "4K",
+        "fps": 60
+      },
+      {
+        "play": "handheld",
+        "resolution": "1080p",
+        "fps": 60
+      }
+    ],
+    "note": "Nintendo's official targets; the Switch 2 Edition is out December 3, 2026.",
+    "source": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-Edition/Xenoblade-Chronicles-3-Nintendo-Switch-2-Edition-3116255.html",
+    "checked": "2026-10-23"
   }
 }

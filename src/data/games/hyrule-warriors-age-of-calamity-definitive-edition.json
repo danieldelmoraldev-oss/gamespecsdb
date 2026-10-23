@@ -42,5 +42,16 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "fps": 60
+      }
+    ],
+    "note": "Nintendo announced 60 FPS at higher resolutions with more enemies on screen, but no exact resolution. The game is out February 25, 2027.",
+    "source": "https://gamingbolt.com/hyrule-warriors-age-of-calamity-definitive-edition-coming-to-nintendo-switch-2-on-february-25th",
+    "checked": "2026-10-23"
   }
 }

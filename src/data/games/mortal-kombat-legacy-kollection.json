@@ -3,6 +3,7 @@
   "publisher": "Digital Eclipse",
   "releaseDate": "2025-10-30",
   "kind": "native",
+  "summary": "Mortal Kombat: Legacy Kollection is Digital Eclipse's compilation of classic Mortal Kombat games, released on Switch 2 on October 30, 2025. The boxed Switch 2 version is a full cartridge and the install is 12.9 GB. Digital Eclipse's April 28, 2026 update added cross-platform online play with PlayStation, Xbox, Switch and PC (off by default; turn it on in Online Options), online 2-on-2 in Ultimate MK3, MK Trilogy and MK4, and an optional Variable Refresh Rate setting. On Switch 2, VRR only works in handheld mode; with it on, the arcade games run at their original refresh rate of about 53 Hz instead of being forced to 60 Hz. On the original Switch, MK Trilogy is left out of crossplay.",
   "fileSize": {
     "currentGB": 12.9,
     "source": "https://www.nintendo.com/us/store/products/mortal-kombat-legacy-kollection-switch-2/",

@@ -37,5 +37,22 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "preset": "Quality",
+        "fps": 30
+      },
+      {
+        "play": "all",
+        "preset": "Performance",
+        "fps": 60
+      }
+    ],
+    "note": "Performance mode lowers the detail. HDR is supported.",
+    "source": "https://traxion.gg/gear-club-unlimited-3s-switch-2-graphics-modes-confirmed/",
+    "checked": "2026-10-23"
   }
 }

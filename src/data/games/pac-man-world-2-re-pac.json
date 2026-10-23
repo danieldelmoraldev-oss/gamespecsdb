@@ -40,5 +40,30 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "tv",
+        "preset": "Quality",
+        "resolution": "4K",
+        "fps": 30
+      },
+      {
+        "play": "handheld",
+        "preset": "Quality",
+        "resolution": "1080p",
+        "fps": 30
+      },
+      {
+        "play": "all",
+        "preset": "Frame rate",
+        "resolution": "1080p",
+        "fps": 60
+      }
+    ],
+    "note": "Bandai Namco's official specs.",
+    "source": "https://gonintendo.com/contents/53100-pac-man-world-2-re-pac-resolution-and-framerate-detailed-for-switch-switch-2",
+    "checked": "2026-10-23"
   }
 }

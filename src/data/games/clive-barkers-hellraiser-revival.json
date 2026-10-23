@@ -34,5 +34,16 @@
     ],
     "switch1SizeGB": null,
     "developer": "Saber Interactive Inc."
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "fps": 30
+      }
+    ],
+    "note": "Nintendo Life (4/10) reports frequent drops below the 30 FPS target in busier moments, plus visual bugs.",
+    "source": "https://www.nintendolife.com/reviews/nintendo-switch-2/clive-barkers-hellraiser-revival",
+    "checked": "2026-10-23"
   }
 }

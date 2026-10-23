@@ -39,5 +39,16 @@
     ],
     "switch1SizeGB": null,
     "developer": "HB Studios"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "fps": 30
+      }
+    ],
+    "note": "Nintendo Insider found uneven frame pacing with some hitching, a softer image docked (it appears to use FSR rather than DLSS), input lag in menus and loads of 45+ seconds.",
+    "source": "https://www.nintendo-insider.com/pga-tour-2k25-switch-2-port-review/",
+    "checked": "2026-10-23"
   }
 }

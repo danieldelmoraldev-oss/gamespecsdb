@@ -88,6 +88,17 @@
   "source": "https://www.nintendolife.com/news/2025/06/video-digital-foundry-tests-out-switch-2s-free-switch-game-upgrades",
   "checked": "2026-10-16"
  },
+ "clive-barkers-hellraiser-revival": {
+  "modes": [
+   {
+    "play": "all",
+    "fps": 30
+   }
+  ],
+  "note": "Nintendo Life (4/10) reports frequent drops below the 30 FPS target in busier moments, plus visual bugs.",
+  "source": "https://www.nintendolife.com/reviews/nintendo-switch-2/clive-barkers-hellraiser-revival",
+  "checked": "2026-10-23"
+ },
  "cronos-the-new-dawn": {
   "modes": [
    {
@@ -182,6 +193,17 @@
   "note": "Frame rates are \"up to\" figures from Bandai Namco; HDR works only in Quality mode.",
   "source": "https://nintendoeverything.com/digimon-story-time-stranger-nintendo-switch-2-vs-switch-comparison-more-frame-rate-and-resolution-details/",
   "checked": "2026-09-29"
+ },
+ "disney-dreamlight-valley-nintendo-switch-2-edition": {
+  "modes": [
+   {
+    "play": "all",
+    "fps": 60
+   }
+  ],
+  "note": "Nintendo lists \"up to 60 FPS\", enhanced resolution and faster loading, without exact figures.",
+  "source": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-Edition/Disney-Dreamlight-Valley-Nintendo-Switch-2-Edition-3059211.html",
+  "checked": "2026-10-23"
  },
  "disney-epic-mickey-rebrushed": {
   "modes": [
@@ -302,6 +324,17 @@
   "note": "Capped at 30fps on Switch 2, while the other consoles run at 60fps.",
   "source": "https://www.nintendolife.com/reviews/nintendo-switch-2/ea-sports-fc-26",
   "checked": "2026-10-02"
+ },
+ "ea-sports-fc-27": {
+  "modes": [
+   {
+    "play": "all",
+    "fps": 30
+   }
+  ],
+  "note": "Nintendo Life: still 30 FPS with no performance mode, like FC 26.",
+  "source": "https://www.nintendolife.com/reviews/nintendo-switch-2/ea-sports-fc-27",
+  "checked": "2026-10-23"
  },
  "ea-sports-madden-nfl-26": {
   "modes": [
@@ -441,6 +474,23 @@
   "source": "https://nintendoeverything.com/fire-emblem-fortunes-weave-review-for-nintendo-switch-2/",
   "checked": "2026-09-29"
  },
+ "gear-club-unlimited-3": {
+  "modes": [
+   {
+    "play": "all",
+    "preset": "Quality",
+    "fps": 30
+   },
+   {
+    "play": "all",
+    "preset": "Performance",
+    "fps": 60
+   }
+  ],
+  "note": "Performance mode lowers the detail. HDR is supported.",
+  "source": "https://traxion.gg/gear-club-unlimited-3s-switch-2-graphics-modes-confirmed/",
+  "checked": "2026-10-23"
+ },
  "granblue-fantasy-relink-endless-ragnarok-standard-edition": {
   "modes": [
    {
@@ -513,6 +563,17 @@
   "note": "Target figures reported by GamingBolt; PS5 and Xbox Series X run at 4K and 60 FPS.",
   "source": "https://gamingbolt.com/hot-wheels-infinite-rush-runs-at-4k-60-fps-on-ps5-and-xbox-series-x-4k-120-fps-on-ps5-pro",
   "checked": "2026-10-13"
+ },
+ "hyrule-warriors-age-of-calamity-definitive-edition": {
+  "modes": [
+   {
+    "play": "all",
+    "fps": 60
+   }
+  ],
+  "note": "Nintendo announced 60 FPS at higher resolutions with more enemies on screen, but no exact resolution. The game is out February 25, 2027.",
+  "source": "https://gamingbolt.com/hyrule-warriors-age-of-calamity-definitive-edition-coming-to-nintendo-switch-2-on-february-25th",
+  "checked": "2026-10-23"
  },
  "hyrule-warriors-age-of-imprisonment": {
   "modes": [
@@ -804,6 +865,31 @@
   "source": "https://nintendoeverything.com/onimusha-way-of-the-sword-tech-analysis-including-frame-rate-and-resolution-nintendo-switch-2-vs-ps5-graphics-comparison-video/",
   "checked": "2026-09-29"
  },
+ "pac-man-world-2-re-pac": {
+  "modes": [
+   {
+    "play": "tv",
+    "preset": "Quality",
+    "resolution": "4K",
+    "fps": 30
+   },
+   {
+    "play": "handheld",
+    "preset": "Quality",
+    "resolution": "1080p",
+    "fps": 30
+   },
+   {
+    "play": "all",
+    "preset": "Frame rate",
+    "resolution": "1080p",
+    "fps": 60
+   }
+  ],
+  "note": "Bandai Namco's official specs.",
+  "source": "https://gonintendo.com/contents/53100-pac-man-world-2-re-pac-resolution-and-framerate-detailed-for-switch-switch-2",
+  "checked": "2026-10-23"
+ },
  "persona-3-reload": {
   "modes": [
    {
@@ -827,6 +913,17 @@
   "note": "Performance mode (TV only, added in update 1.03) sometimes dips into the upper 50s.",
   "source": "https://www.nintendolife.com/news/2025/12/persona-3-reload-switch-2-performance-update-now-live-targets-60fps-in-docked-mode",
   "checked": "2026-10-02"
+ },
+ "pga-tour-2k25": {
+  "modes": [
+   {
+    "play": "all",
+    "fps": 30
+   }
+  ],
+  "note": "Nintendo Insider found uneven frame pacing with some hitching, a softer image docked (it appears to use FSR rather than DLSS), input lag in menus and loads of 45+ seconds.",
+  "source": "https://www.nintendo-insider.com/pga-tour-2k25-switch-2-port-review/",
+  "checked": "2026-10-23"
  },
  "pokemon-legends-z-a-nintendo-switch-2-edition": {
   "modes": [
@@ -1349,6 +1446,18 @@
   "source": "https://nintendoeverything.com/zelda-breath-of-the-wild-and-tears-of-the-kingdom-nintendo-switch-2-frame-rate-resolution/",
   "checked": "2026-09-23"
  },
+ "trails-in-the-sky-2nd-chapter-nintendo-switch-2-edition": {
+  "modes": [
+   {
+    "play": "all",
+    "preset": "Performance",
+    "fps": 60
+   }
+  ],
+  "note": "RPG Site found the Performance mode holds its 60 FPS target; the Quality mode (no published target) runs poorly, and the resolution is a clear step down from PS5.",
+  "source": "https://www.rpgsite.net/feature/21378-which-is-the-best-version-of-trails-in-the-sky-2nd-chapter-ps5-nintendo-switch-2-switch-1-pc-covered",
+  "checked": "2026-10-23"
+ },
  "xenoblade-chronicles-2-nintendo-switch-2-edition": {
   "modes": [
    {
@@ -1365,6 +1474,23 @@
   "note": "Mostly 60 FPS, with dropped frames in traversal, effects-heavy moments and cutscenes.",
   "source": "https://nintendoeverything.com/xenoblade-chronicles-2-nintendo-switch-2-tech-analysis-including-frame-rate-and-resolution-switch-1-comparison/",
   "checked": "2026-09-23"
+ },
+ "xenoblade-chronicles-3-nintendo-switch-2-edition": {
+  "modes": [
+   {
+    "play": "tv",
+    "resolution": "4K",
+    "fps": 60
+   },
+   {
+    "play": "handheld",
+    "resolution": "1080p",
+    "fps": 60
+   }
+  ],
+  "note": "Nintendo's official targets; the Switch 2 Edition is out December 3, 2026.",
+  "source": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-Edition/Xenoblade-Chronicles-3-Nintendo-Switch-2-Edition-3116255.html",
+  "checked": "2026-10-23"
  },
  "xenoblade-chronicles-definitive-edition-nintendo-switch-2-edition": {
   "modes": [
