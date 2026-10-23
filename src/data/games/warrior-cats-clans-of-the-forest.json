@@ -4,10 +4,9 @@
   "releaseDate": "2026-10-23",
   "kind": "native",
   "fileSize": {
-    "currentGB": 2.6,
+    "currentGB": 2.8,
     "source": "https://www.nintendo.com/us/store/products/warrior-cats-clans-of-the-forest-switch-2/",
-    "checked": "2026-10-22",
-    "estimate": true
+    "checked": "2026-10-23"
   },
   "physical": {
     "format": "game-key-card",
