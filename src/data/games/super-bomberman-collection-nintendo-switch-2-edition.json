@@ -6,7 +6,7 @@
   "fileSize": {
     "currentGB": 3.0,
     "source": "https://www.nintendo.com/us/store/products/super-bomberman-collection-nintendo-switch-2-edition-switch-2/",
-    "checked": "2026-10-19"
+    "checked": "2026-10-26"
   },
   "physical": {
     "format": "digital-only",
@@ -42,6 +42,6 @@
   "upgrade": {
     "priceUSD": 5,
     "source": "https://www.nintendo.com/us/store/products/super-bomberman-collection-nintendo-switch-2-edition-upgrade-pack-switch-2/",
-    "checked": "2026-10-19"
+    "checked": "2026-10-26"
   }
 }

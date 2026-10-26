@@ -4,9 +4,9 @@
   "releaseDate": "2025-09-25",
   "kind": "edition",
   "fileSize": {
-    "currentGB": 10.8,
+    "currentGB": 13.1,
     "source": "https://www.nintendo.com/us/store/products/hades-ii-nintendo-switch-2-edition-switch-2/",
-    "checked": "2026-10-19"
+    "checked": "2026-10-26"
   },
   "physical": {
     "format": "full-cartridge",
@@ -57,6 +57,6 @@
   "upgrade": {
     "priceUSD": 0,
     "source": "https://www.nintendo.com/us/store/products/hades-ii-nintendo-switch-2-edition-upgrade-pack-switch-2/",
-    "checked": "2026-10-19"
+    "checked": "2026-10-26"
   }
 }
