@@ -42,5 +42,17 @@
     ],
     "switch1SizeGB": null,
     "developer": "Digital Extremes Ltd"
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "resolution": "1080p target (DLSS)",
+        "fps": 60
+      }
+    ],
+    "note": "Official targets from Digital Extremes (the Switch 1 version runs at 720p and 30 FPS). Docked mode adds sun shadows and enhanced decals.",
+    "source": "https://www.warframe.com/en/news/switch-2-warframe",
+    "checked": "2026-10-27"
   }
 }

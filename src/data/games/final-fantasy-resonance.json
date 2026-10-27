@@ -3,7 +3,7 @@
   "publisher": "SQUARE ENIX",
   "releaseDate": "2026-10-22",
   "kind": "native",
-  "summary": "FINAL FANTASY RESONANCE is a Square Enix game coming to Switch 2 on October 22, 2026. The US eShop currently lists a 12.7 GB download; that is an estimate before release, and the final size often changes on launch day, so we will update it once the game is out. The physical edition is a Game-Key Card, so the cartridge only holds a key and the game itself downloads. Square Enix has not published resolution or frame-rate figures for the Switch 2 version yet. The eShop lists it at $49.99 with five languages, including Spanish.",
+  "summary": "FINAL FANTASY RESONANCE is a Square Enix HD-2D RPG released on Switch 2 on October 22, 2026, at $49.99. The US eShop lists an 11.9 GB download, down from the 12.7 GB shown before launch. The physical edition is a Game-Key Card, so the cartridge only holds a key and the game itself downloads. There is also a separate Switch 1 version, but no upgrade path between the two. In RPG Site's demo tests the Switch 2 version targets 60 FPS and loads faster, while the Switch 1 version targets 30 FPS with drops, even when played on a Switch 2. The eShop lists five languages, including Spanish.",
   "fileSize": {
     "currentGB": 11.9,
     "source": "https://www.nintendo.com/us/store/products/final-fantasy-resonance-switch-2/",
@@ -32,5 +32,16 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "handheld",
+        "fps": 60
+      }
+    ],
+    "note": "Measured on the pre-release demo in handheld mode with no major slowdowns; the Switch 1 version targets 30 FPS. No resolution figure published, and very visible dithering in some areas.",
+    "source": "https://www.rpgsite.net/feature/21299-final-fantasy-resonance-is-shaping-up-to-be-a-solid-experience-on-switch-2-ps5-steam-deck-and-rog-ally",
+    "checked": "2026-10-27"
   }
 }

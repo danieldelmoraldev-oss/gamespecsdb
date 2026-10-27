@@ -37,5 +37,16 @@
     ],
     "switch1SizeGB": null,
     "developer": ""
+  },
+  "performance": {
+    "modes": [
+      {
+        "play": "all",
+        "resolution": "Full HD, up to 1440p"
+      }
+    ],
+    "note": "Resolution from THQ Nordic; no official frame-rate target. Tech-Gaming's Switch 2 review saw an unlocked 30-60 FPS that dips toward 30 in big fights and saucer sections.",
+    "source": "https://thqnordic.com/news/destroy-all-humans-out-now-on-nintendo-switch-2",
+    "checked": "2026-10-27"
   }
 }
