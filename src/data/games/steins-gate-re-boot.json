@@ -4,10 +4,9 @@
   "releaseDate": "2026-10-29",
   "kind": "native",
   "fileSize": {
-    "currentGB": 8.0,
+    "currentGB": 10.3,
     "source": "https://www.nintendo.com/us/store/products/steins-gate-re-boot-switch-2/",
-    "checked": "2026-10-28",
-    "estimate": true
+    "checked": "2026-10-29"
   },
   "physical": {
     "format": "full-cartridge",
