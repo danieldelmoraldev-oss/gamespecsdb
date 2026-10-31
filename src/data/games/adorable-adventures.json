@@ -1,0 +1,45 @@
+{
+  "title": "Adorable Adventures",
+  "publisher": "PQube",
+  "releaseDate": "2026-11-12",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 2.9,
+    "source": "https://www.nintendo.com/us/store/products/adorable-adventures-switch-2/",
+    "checked": "2026-10-31",
+    "estimate": true
+  },
+  "physical": {
+    "format": "game-key-card",
+    "source": "https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-with-a-game-key-card-release/",
+    "checked": "2026-10-31"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/adorable-adventures-switch-2/",
+    "priceUSD": 19.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Dutch",
+      "Russian",
+      "Simplified Chinese",
+      "Brazilian Portuguese",
+      "Traditional Chinese",
+      "American English",
+      "Polish",
+      "Thai"
+    ],
+    "switch1SizeGB": null,
+    "developer": ""
+  }
+}

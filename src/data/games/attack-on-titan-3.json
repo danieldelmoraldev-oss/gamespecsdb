@@ -1,0 +1,40 @@
+{
+  "title": "Attack on Titan 3",
+  "publisher": "KOEI TECMO AMERICA",
+  "releaseDate": "2026-12-10",
+  "kind": "native",
+  "fileSize": {
+    "currentGB": 104.5,
+    "source": "https://www.nintendo.com/us/store/products/attack-on-titan-3-switch-2/",
+    "checked": "2026-10-31",
+    "estimate": true
+  },
+  "physical": {
+    "format": "game-key-card",
+    "source": "https://www.nintendolife.com/guides/every-nintendo-switch-2-game-key-card-release",
+    "checked": "2026-10-31"
+  },
+  "eshop": {
+    "url": "https://www.nintendo.com/us/store/products/attack-on-titan-3-switch-2/",
+    "priceUSD": 69.99,
+    "playModes": [
+      "TV mode",
+      "Tabletop mode",
+      "Handheld mode"
+    ],
+    "players": {},
+    "languages": [
+      "Japanese",
+      "French",
+      "German",
+      "Italian",
+      "Spanish",
+      "Korean",
+      "Simplified Chinese",
+      "Traditional Chinese",
+      "American English"
+    ],
+    "switch1SizeGB": null,
+    "developer": ""
+  }
+}

@@ -1,5 +1,5 @@
 {
- "date": "2026-10-30",
+ "date": "2026-10-31",
  "unmatched": [
   {
    "title": "007 First Light",
@@ -7,11 +7,6 @@
    "candidates": [
     "007-first-light-deluxe-edition-switch-2"
    ]
-  },
-  {
-   "title": "Attack on Titan 3",
-   "format": "game-key-card",
-   "candidates": []
   },
   {
    "title": "Borderlands 4",
@@ -54,9 +49,28 @@
    "candidates": []
   },
   {
+   "title": "Middle Earth: The Shadow Bundle",
+   "format": "game-key-card",
+   "candidates": [
+    "middle-earth-shadow-of-mordor-game-of-the-year-edition-switch-2"
+   ]
+  },
+  {
    "title": "My Hero Academia: One’s Justice",
    "format": "game-key-card",
    "candidates": []
+  },
+  {
+   "title": "The Apothecary Diaries: The False Imperial Brother",
+   "format": "game-key-card",
+   "candidates": []
+  },
+  {
+   "title": "Wo Long 2",
+   "format": "game-key-card",
+   "candidates": [
+    "wo-long-fallen-dynasty-complete-edition-switch-2"
+   ]
   },
   {
    "title": "Eternal Anima",
