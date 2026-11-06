@@ -4,10 +4,9 @@
   "releaseDate": "2026-11-06",
   "kind": "native",
   "fileSize": {
-    "currentGB": 1.0,
+    "currentGB": 1.2,
     "source": "https://www.nintendo.com/us/store/products/hasbro-games-junior-collection-switch-2/",
-    "checked": "2026-11-05",
-    "estimate": true
+    "checked": "2026-11-06"
   },
   "physical": {
     "format": "game-key-card",
