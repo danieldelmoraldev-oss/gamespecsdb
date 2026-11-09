@@ -4,9 +4,9 @@
   "releaseDate": "2025-12-03",
   "kind": "edition",
   "fileSize": {
-    "currentGB": 26.9,
+    "currentGB": 30.5,
     "source": "https://www.nintendo.com/us/store/products/sonic-racing-crossworlds-nintendo-switch-2-edition-switch-2/",
-    "checked": "2026-11-02"
+    "checked": "2026-11-09"
   },
   "physical": {
     "format": "full-cartridge",
@@ -40,13 +40,13 @@
       "Traditional Chinese",
       "American English"
     ],
-    "switch1SizeGB": 11.6,
+    "switch1SizeGB": 12.9,
     "developer": "SONIC TEAM"
   },
   "upgrade": {
-    "priceUSD": 10,
+    "priceUSD": 1,
     "source": "https://www.nintendo.com/us/store/products/sonic-racing-crossworlds-nintendo-switch-2-edition-upgrade-pack-switch-2/",
-    "checked": "2026-11-02"
+    "checked": "2026-11-09"
   },
   "performance": {
     "modes": [
