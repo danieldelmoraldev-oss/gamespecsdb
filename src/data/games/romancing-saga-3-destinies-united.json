@@ -1,12 +1,12 @@
 {
   "title": "Romancing SaGa 3: Destinies United",
   "publisher": "SQUARE ENIX",
-  "releaseDate": "2027-02-16",
+  "releaseDate": "2027-02-04",
   "kind": "native",
   "fileSize": {
     "currentGB": 17.2,
     "source": "https://www.nintendo.com/us/store/products/romancing-saga-3-destinies-united-switch-2/",
-    "checked": "2026-11-11",
+    "checked": "2026-11-12",
     "estimate": true
   },
   "physical": {
@@ -16,7 +16,7 @@
   },
   "eshop": {
     "url": "https://www.nintendo.com/us/store/products/romancing-saga-3-destinies-united-switch-2/",
-    "priceUSD": null,
+    "priceUSD": 59.99,
     "playModes": [
       "TV mode",
       "Tabletop mode",
