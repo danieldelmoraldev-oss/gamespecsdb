@@ -66,10 +66,12 @@ arcade-archives-2-polaris-switch-2
 arcade-archives-2-quester-switch-2
 arcade-archives-2-rackem-up-switch-2
 arcade-archives-2-rave-racer-switch-2
+arcade-archives-2-rezon-switch-2
 arcade-archives-2-ridge-racer-switch-2
 arcade-archives-2-rocn-rope-switch-2
 arcade-archives-2-scion-switch-2
 arcade-archives-2-scrambled-egg-switch-2
+arcade-archives-2-shot-rider-switch-2
 arcade-archives-2-space-cyclone-switch-2
 arcade-archives-2-space-invaders-part-ii-switch-2
 arcade-archives-2-space-invaders-switch-2
@@ -109,6 +111,7 @@ ball-x-pit-nintendo-switch-2-edition-switch-2
 banchou-tactics-lion-heart-switch-2
 bandit-trap-switch-2
 bang-bang-bandits-nintendo-switch-2-edition-switch-2
+barbie-rewind-switch-2
 battle-spirits-crossover-digital-deluxe-switch-2
 battle-spirits-crossover-switch-2
 battle-spirits-crossover-ultimate-edition-switch-2
@@ -183,6 +186,7 @@ console-archives-master-of-monsters-disciples-of-gaia-switch-2
 console-archives-ninja-gaiden-ii-the-dark-sword-of-chaos-switch-2
 console-archives-ninja-gaiden-iii-the-ancient-ship-of-doom-switch-2
 console-archives-ninja-kid-ii-switch-2
+console-archives-nobunaga-oda-den-switch-2
 console-archives-nobunagas-ambition-ii-switch-2
 console-archives-nobunagas-ambition-switch-2
 console-archives-raiden-project-switch-2
@@ -215,6 +219,7 @@ crymelight-deluxe-edition-switch-2
 crymelight-switch-2
 culdcept-begins-nintendo-switch-2-edition-switch-2
 cult-of-the-lamb-nintendo-switch-2-edition-switch-2
+curse-of-resthaven-switch-2
 cyberpunk-2077-ultimate-edition-switch-2
 d-topia-switch-2
 daemon-x-machina-titanic-scion-digital-deluxe-edition-switch-2
@@ -364,6 +369,7 @@ granblue-fantasy-versus-rising-legendary-edition-switch-2
 graveyard-keeper-2-switch-2
 grid-legends-deluxe-edition-switch-2
 grim-trials-switch-2
+grime-ii-switch-2
 ground-zero-hero-switch-2
 gunvolt-chronicles-luminous-avenger-ix-1-plus-2-dual-collection-nintendo-switch-2-edition-switch-2
 hades-ii-nintendo-switch-2-edition-switch-2
@@ -380,6 +386,7 @@ hell-is-us-deluxe-edition-switch-2
 hell-is-us-switch-2
 hello-kitty-island-adventure-nintendo-switch-2-edition-switch-2
 hello-kitty-party-land-switch-2
+herdling-nintendo-switch-2-edition-switch-2
 high-on-life-2-switch-2
 high-on-life-nintendo-switch-2-edition-switch-2
 hitman-absolution-nintendo-switch-2-edition-switch-2
@@ -560,6 +567,7 @@ overrogue-nintendo-switch-2-edition-switch-2
 overwatch-switch-2
 pac-man-world-2-re-pac-deluxe-edition-switch-2
 pac-man-world-2-re-pac-switch-2
+parasocial-switch-2
 parkasaurus-dinoluxe-edition-switch-2
 party-party-time-3-nintendo-switch-2-edition-switch-2
 paw-patrol-dino-world-switch-2
@@ -654,6 +662,7 @@ shadow-tactics-blades-of-the-shogun-switch-2
 shape-of-dreams-switch-2
 shapehero-factory-switch-2
 shelterra-the-skyworld-nintendo-switch-2-edition-switch-2
+shikhondo-blue-pieta-switch-2
 shinobi-art-of-vengeance-digital-deluxe-edition-switch-2
 shinobi-art-of-vengeance-switch-2
 shrek-2-remastered-switch-2
@@ -710,6 +719,8 @@ starsand-island-switch-2
 starseeker-astroneer-expeditions-founders-edition-switch-2
 starseeker-astroneer-expeditions-switch-2
 starship-troopers-ultimate-bug-war-switch-2
+station-manager-nintendo-switch-2-edition-switch-2
+station-to-station-switch-2
 steins-gate-re-boot-digital-deluxe-edition-switch-2
 steins-gate-re-boot-switch-2
 stellar-blade-complete-edition-switch-2
