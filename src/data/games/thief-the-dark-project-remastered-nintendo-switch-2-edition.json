@@ -6,7 +6,7 @@
   "fileSize": {
     "currentGB": 17.2,
     "source": "https://www.nintendo.com/us/store/products/thief-the-dark-project-remastered-nintendo-switch-2-edition-switch-2/",
-    "checked": "2026-11-15",
+    "checked": "2026-11-16",
     "estimate": true
   },
   "physical": {
@@ -39,6 +39,6 @@
   "upgrade": {
     "priceUSD": 0,
     "source": "https://www.nintendo.com/us/store/products/thief-the-dark-project-remastered-nintendo-switch-2-edition-upgrade-pack-switch-2/",
-    "checked": "2026-11-09"
+    "checked": "2026-11-16"
   }
 }

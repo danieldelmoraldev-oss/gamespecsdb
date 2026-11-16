@@ -4,9 +4,9 @@
   "releaseDate": "2025-12-16",
   "kind": "edition",
   "fileSize": {
-    "currentGB": 3.0,
+    "currentGB": 2.9,
     "source": "https://www.nintendo.com/us/store/products/teenage-mutant-ninja-turtles-splintered-fate-nintendo-switch-2-edition-switch-2/",
-    "checked": "2026-11-09"
+    "checked": "2026-11-16"
   },
   "physical": {
     "format": "full-cartridge",
@@ -45,6 +45,6 @@
   "upgrade": {
     "priceUSD": 2.49,
     "source": "https://www.nintendo.com/us/store/products/teenage-mutant-ninja-turtles-splintered-fate-nintendo-switch-2-edition-upgrade-pack-switch-2/",
-    "checked": "2026-11-09"
+    "checked": "2026-11-16"
   }
 }

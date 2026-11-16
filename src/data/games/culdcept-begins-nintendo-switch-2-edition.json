@@ -4,9 +4,9 @@
   "releaseDate": "2026-07-16",
   "kind": "edition",
   "fileSize": {
-    "currentGB": 3.3,
+    "currentGB": 3.4,
     "source": "https://www.nintendo.com/us/store/products/culdcept-begins-nintendo-switch-2-edition-switch-2/",
-    "checked": "2026-11-09"
+    "checked": "2026-11-16"
   },
   "physical": {
     "format": "full-cartridge",
@@ -32,7 +32,7 @@
       "Traditional Chinese",
       "American English"
     ],
-    "switch1SizeGB": 1.6,
+    "switch1SizeGB": 1.7,
     "developer": "ネオス株式会社"
   }
 }
