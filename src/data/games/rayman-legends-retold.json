@@ -7,7 +7,7 @@
   "fileSize": {
     "currentGB": 23.4,
     "source": "https://www.nintendo.com/us/store/products/rayman-legends-retold-switch-2/",
-    "checked": "2026-11-16",
+    "checked": "2026-11-17",
     "estimate": true
   },
   "physical": {
@@ -17,7 +17,7 @@
   },
   "eshop": {
     "url": "https://www.nintendo.com/us/store/products/rayman-legends-retold-switch-2/",
-    "priceUSD": null,
+    "priceUSD": 39.99,
     "playModes": [
       "TV mode",
       "Tabletop mode",
