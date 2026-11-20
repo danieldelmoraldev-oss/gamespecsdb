@@ -12,6 +12,7 @@ akiba-lost-switch-2
 alien-rogue-incursion-evolved-edition-deluxe-switch-2
 alien-rogue-incursion-evolved-edition-switch-2
 alphadia-i-and-ii-nintendo-switch-2-edition-switch-2
+alphadia-iii-nintendo-switch-2-edition-switch-2
 amanda-the-adventurer-3-switch-2
 amnesia-rebirth-switch-2
 ancestors-the-humankind-odyssey-switch-2
@@ -71,6 +72,7 @@ arcade-archives-2-ridge-racer-switch-2
 arcade-archives-2-rocn-rope-switch-2
 arcade-archives-2-scion-switch-2
 arcade-archives-2-scrambled-egg-switch-2
+arcade-archives-2-seicross-switch-2
 arcade-archives-2-shot-rider-switch-2
 arcade-archives-2-space-cyclone-switch-2
 arcade-archives-2-space-invaders-part-ii-switch-2
@@ -87,6 +89,7 @@ arcade-archives-2-thundercade-switch-2
 arcade-archives-2-tokyo-wars-switch-2
 arcade-archives-2-top-speed-switch-2
 arcade-archives-2-tx-1-switch-2
+arcade-archives-2-tx-1-v-8-switch-2
 arcade-archives-2-vball-switch-2
 arcade-archives-2-video-hustler-switch-2
 arcade-archives-2-wiz-switch-2
@@ -149,6 +152,7 @@ call-of-the-elder-gods-switch-2
 card-and-casino-switch-2
 card-en-ciel-nintendo-switch-2-edition-switch-2
 carmageddon-rogue-shift-switch-2
+carpet-cleaning-simulator-switch-2
 cast-n-chill-nintendo-switch-2-edition-switch-2
 castlebound-switch-2
 chillin-by-the-fire-switch-2
@@ -202,6 +206,7 @@ console-archives-terra-cresta-switch-2
 console-archives-the-conveni-2-switch-2
 console-archives-the-conveni-switch-2
 console-archives-the-drug-store-switch-2
+console-archives-the-firemen-2-pete-and-danny-switch-2
 console-archives-the-legend-of-kage-switch-2
 console-archives-toujinmakyouden-hercules-no-eikou-switch-2
 console-archives-touki-denshou-angel-eyes-switch-2
@@ -304,6 +309,7 @@ earth-defense-force5-for-nintendo-switch-2-switch-2
 echo-weaver-switch-2
 efootball-kick-off-switch-2
 elden-ring-tarnished-edition-switch-2
+eriksholm-the-stolen-dream-switch-2
 escape-the-backrooms-switch-2
 everspace-2-galactic-edition-switch-2
 exit-lab-15-rooms-switch-2
@@ -749,12 +755,14 @@ super-bomberman-collection-nintendo-switch-2-edition-switch-2
 super-mario-bros-wonder-nintendo-switch-2-edition-plus-meetup-in-bellabel-park-switch-2
 super-mario-party-jamboree-nintendo-switch-2-edition-plus-jamboree-tv-switch-2
 super-meat-boy-3d-switch-2
+supermarket-simulator-fully-stocked-edition-switch-2
 supermarket-simulator-switch-2
 survival-kids-switch-2
 sushi-bar-moebius-for-nintendo-switch-2-switch-2
 sword-of-the-sea-switch-2
 system-shock-2-25th-anniversary-remaster-nintendo-switch-2-edition-switch-2
 system-shock-switch-2
+talaka-switch-2
 tales-from-toyotoki-arrival-of-the-witch-switch-2
 tales-of-arise-beyond-the-dawn-edition-switch-2
 tales-of-arise-beyond-the-dawn-premium-edition-switch-2
@@ -786,6 +794,7 @@ the-foxs-way-home-nintendo-switch-2-edition-switch-2
 the-great-villainess-strategy-of-lily-digital-deluxe-edition-switch-2
 the-great-villainess-strategy-of-lily-switch-2
 the-immortal-john-triptych-switch-2
+the-james-pond-legacy-the-pond-is-not-enough-switch-2
 the-last-salvage-squad-switch-2
 the-legend-of-heroes-trails-beyond-the-horizon-digital-deluxe-edition-switch-2
 the-legend-of-heroes-trails-beyond-the-horizon-digital-deluxe-plus-edition-switch-2
