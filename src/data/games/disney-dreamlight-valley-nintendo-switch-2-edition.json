@@ -4,9 +4,9 @@
   "releaseDate": "2026-03-25",
   "kind": "edition",
   "fileSize": {
-    "currentGB": 24.6,
+    "currentGB": 25.6,
     "source": "https://www.nintendo.com/us/store/products/disney-dreamlight-valley-nintendo-switch-2-edition-switch-2/",
-    "checked": "2026-11-16"
+    "checked": "2026-11-23"
   },
   "physical": {
     "format": "code-in-box",
@@ -34,13 +34,13 @@
       "Brazilian Portuguese",
       "American English"
     ],
-    "switch1SizeGB": 9.9,
+    "switch1SizeGB": 10.3,
     "developer": "Gameloft"
   },
   "upgrade": {
     "priceUSD": 0,
     "source": "https://www.nintendo.com/us/store/products/disney-dreamlight-valley-nintendo-switch-2-edition-upgrade-pack-switch-2/",
-    "checked": "2026-11-16"
+    "checked": "2026-11-23"
   },
   "performance": {
     "modes": [
