@@ -1,12 +1,12 @@
 {
   "title": "The Witch's Bakery",
-  "publisher": "Silver Lining",
+  "publisher": "Silver Lining Interactive",
   "releaseDate": "2026-10-14",
   "kind": "native",
   "fileSize": {
     "currentGB": 2.9,
     "source": "https://www.nintendo.com/us/store/products/the-witchs-bakery-switch-2/",
-    "checked": "2026-11-23"
+    "checked": "2026-11-24"
   },
   "physical": {
     "format": "game-key-card",
