@@ -233,6 +233,9 @@ d-topia-switch-2
 daemon-x-machina-titanic-scion-digital-deluxe-edition-switch-2
 daemon-x-machina-titanic-scion-super-digital-deluxe-edition-switch-2
 daemon-x-machina-titanic-scion-switch-2
+daisenryaku-ssb-2-power-up-edition-switch-2
+daisenryaku-ssb-2-switch-2
+daisenryaku-ssb-2-ultimate-ex-edition-switch-2
 dark-auction-nintendo-switch-2-edition-switch-2
 darkest-dungeon-ii-nintendo-switch-2-edition-switch-2
 darwins-paradox-switch-2
@@ -643,6 +646,7 @@ resident-evil-requiem-switch-2
 resident-evil-veronica-switch-2
 resident-evil-village-gold-edition-switch-2
 reverie-in-the-moonlight-nintendo-switch-2-edition-switch-2
+riders-republic-premium-edition-switch-2
 riders-republic-switch-2
 riichi-mahjong-switch-2
 rippleisland-kyle-and-cals-restaurant-switch-2
