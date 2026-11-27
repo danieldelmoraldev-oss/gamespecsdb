@@ -44,6 +44,7 @@ arcade-archives-2-cyber-commando-switch-2
 arcade-archives-2-cyber-cycles-switch-2
 arcade-archives-2-dacholer-switch-2
 arcade-archives-2-devastators-switch-2
+arcade-archives-2-dirt-dash-switch-2
 arcade-archives-2-elevator-action-switch-2
 arcade-archives-2-exzisus-switch-2
 arcade-archives-2-final-lap-switch-2
@@ -67,6 +68,7 @@ arcade-archives-2-plump-pop-switch-2
 arcade-archives-2-polaris-switch-2
 arcade-archives-2-quester-switch-2
 arcade-archives-2-rackem-up-switch-2
+arcade-archives-2-rainbow-islands-switch-2
 arcade-archives-2-rave-racer-switch-2
 arcade-archives-2-rezon-switch-2
 arcade-archives-2-ridge-racer-switch-2
@@ -189,6 +191,7 @@ console-archives-lempereur-switch-2
 console-archives-magmax-switch-2
 console-archives-marl-jong-switch-2
 console-archives-master-of-monsters-disciples-of-gaia-switch-2
+console-archives-mezase-senkyu-oh-switch-2
 console-archives-ninja-gaiden-ii-the-dark-sword-of-chaos-switch-2
 console-archives-ninja-gaiden-iii-the-ancient-ship-of-doom-switch-2
 console-archives-ninja-kid-ii-switch-2
@@ -595,6 +598,7 @@ petal-runner-switch-2
 pga-tour-2k25-legend-edition-year-2-switch-2
 pga-tour-2k25-pro-edition-switch-2
 pga-tour-2k25-switch-2
+picross-s-climax-switch-2
 pikmin-4-nintendo-switch-2-edition-plus-dandori-academy-switch-2
 pipistrello-and-the-cursed-yoyo-nintendo-switch-2-edition-switch-2
 pit-panic-switch-2
